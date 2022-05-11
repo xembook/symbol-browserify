@@ -29471,7 +29471,7 @@ function base (ALPHABET) {
 }
 module.exports = base
 
-},{"safe-buffer":338}],199:[function(require,module,exports){
+},{"safe-buffer":509}],199:[function(require,module,exports){
 arguments[4][20][0].apply(exports,arguments)
 },{"dup":20}],200:[function(require,module,exports){
 'use strict';
@@ -31489,7 +31489,7 @@ module.exports = {
   checkAux,
 };
 
-},{"bigi":203,"ecurve":281,"safe-buffer":338}],206:[function(require,module,exports){
+},{"bigi":203,"ecurve":454,"safe-buffer":509}],206:[function(require,module,exports){
 const BigInteger = require('bigi');
 const Buffer = require('safe-buffer').Buffer;
 const sha256 = require('js-sha256');
@@ -31512,7 +31512,7 @@ module.exports = {
   hash,
 };
 
-},{"bigi":203,"js-sha256":316,"safe-buffer":338}],207:[function(require,module,exports){
+},{"bigi":203,"js-sha256":"/node_modules/js-sha256","safe-buffer":509}],207:[function(require,module,exports){
 const schnorr = require('./schnorr');
 schnorr.check = require('./check');
 schnorr.convert = require('./convert');
@@ -31619,7 +31619,7 @@ module.exports = {
   randomA,
 };
 
-},{"./check":205,"./convert":206,"bigi":203,"ecurve":281,"randombytes":321,"safe-buffer":338}],209:[function(require,module,exports){
+},{"./check":205,"./convert":206,"bigi":203,"ecurve":454,"randombytes":492,"safe-buffer":509}],209:[function(require,module,exports){
 const Buffer = require('safe-buffer').Buffer;
 const ecurve = require('ecurve');
 const curve = ecurve.getCurveByName('secp256k1');
@@ -31753,7 +31753,7 @@ module.exports = {
   partialSigCombine,
 };
 
-},{"./check":205,"./convert":206,"./math":208,"ecurve":281,"safe-buffer":338}],210:[function(require,module,exports){
+},{"./check":205,"./convert":206,"./math":208,"ecurve":454,"safe-buffer":509}],210:[function(require,module,exports){
 const BigInteger = require('bigi');
 const Buffer = require('safe-buffer').Buffer;
 const ecurve = require('ecurve');
@@ -31853,7 +31853,7 @@ module.exports = {
   batchVerify,
 };
 
-},{"./check":205,"./convert":206,"./math":208,"bigi":203,"ecurve":281,"safe-buffer":338}],211:[function(require,module,exports){
+},{"./check":205,"./convert":206,"./math":208,"bigi":203,"ecurve":454,"safe-buffer":509}],211:[function(require,module,exports){
 const Buffer = require('safe-buffer').Buffer;
 const ecurve = require('ecurve');
 const curve = ecurve.getCurveByName('secp256k1');
@@ -31893,7 +31893,7 @@ module.exports = {
   taprootConstruct,
 };
 
-},{"./convert":206,"./math":208,"ecurve":281,"safe-buffer":338}],212:[function(require,module,exports){
+},{"./convert":206,"./math":208,"ecurve":454,"safe-buffer":509}],212:[function(require,module,exports){
 (function (global,Buffer){(function (){
 'use strict';
 
@@ -31967,7 +31967,7 @@ bitcore.deps._ = require('lodash');
 bitcore.Transaction.sighash = require('./lib/transaction/sighash');
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer)
-},{"./lib/address":213,"./lib/block":216,"./lib/block/blockheader":215,"./lib/block/merkleblock":217,"./lib/crypto/bn":218,"./lib/crypto/ecdsa":219,"./lib/crypto/hash":220,"./lib/crypto/point":221,"./lib/crypto/random":222,"./lib/crypto/signature":223,"./lib/encoding/base58":224,"./lib/encoding/base58check":225,"./lib/encoding/bufferreader":227,"./lib/encoding/bufferwriter":228,"./lib/encoding/varint":229,"./lib/errors":230,"./lib/hdprivatekey.js":232,"./lib/hdpublickey.js":233,"./lib/message":234,"./lib/networks":235,"./lib/opcode":236,"./lib/privatekey":237,"./lib/publickey":238,"./lib/script":239,"./lib/transaction":242,"./lib/transaction/sighash":250,"./lib/unit":255,"./lib/uri":256,"./lib/util/buffer":257,"./lib/util/js":258,"./lib/util/preconditions":259,"./package.json":262,"bn.js":260,"bs58":277,"buffer":67,"elliptic":284,"lodash":318}],213:[function(require,module,exports){
+},{"./lib/address":213,"./lib/block":216,"./lib/block/blockheader":215,"./lib/block/merkleblock":217,"./lib/crypto/bn":218,"./lib/crypto/ecdsa":219,"./lib/crypto/hash":220,"./lib/crypto/point":221,"./lib/crypto/random":222,"./lib/crypto/signature":223,"./lib/encoding/base58":224,"./lib/encoding/base58check":225,"./lib/encoding/bufferreader":227,"./lib/encoding/bufferwriter":228,"./lib/encoding/varint":229,"./lib/errors":230,"./lib/hdprivatekey.js":232,"./lib/hdpublickey.js":233,"./lib/message":234,"./lib/networks":235,"./lib/opcode":236,"./lib/privatekey":237,"./lib/publickey":238,"./lib/script":239,"./lib/transaction":242,"./lib/transaction/sighash":250,"./lib/unit":255,"./lib/uri":256,"./lib/util/buffer":257,"./lib/util/js":258,"./lib/util/preconditions":259,"./package.json":262,"bn.js":260,"bs58":277,"buffer":67,"elliptic":457,"lodash":489}],213:[function(require,module,exports){
 (function (Buffer){(function (){
 'use strict';
 
@@ -32623,7 +32623,7 @@ module.exports = Address;
 var Script = require('./script');
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"./crypto/hash":220,"./encoding/base58check":225,"./encoding/bech32":226,"./errors":230,"./networks":235,"./publickey":238,"./script":239,"./util/js":258,"./util/preconditions":259,"buffer":67,"lodash":318}],214:[function(require,module,exports){
+},{"./crypto/hash":220,"./encoding/base58check":225,"./encoding/bech32":226,"./errors":230,"./networks":235,"./publickey":238,"./script":239,"./util/js":258,"./util/preconditions":259,"buffer":67,"lodash":489}],214:[function(require,module,exports){
 (function (Buffer){(function (){
 'use strict';
 
@@ -32908,7 +32908,7 @@ Block.Values = {
 module.exports = Block;
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"../crypto/bn":218,"../crypto/hash":220,"../encoding/bufferreader":227,"../encoding/bufferwriter":228,"../transaction":242,"../util/buffer":257,"../util/preconditions":259,"./blockheader":215,"buffer":67,"lodash":318}],215:[function(require,module,exports){
+},{"../crypto/bn":218,"../crypto/hash":220,"../encoding/bufferreader":227,"../encoding/bufferwriter":228,"../transaction":242,"../util/buffer":257,"../util/preconditions":259,"./blockheader":215,"buffer":67,"lodash":489}],215:[function(require,module,exports){
 (function (Buffer){(function (){
 'use strict';
 
@@ -33208,7 +33208,7 @@ BlockHeader.Constants = {
 module.exports = BlockHeader;
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"../crypto/bn":218,"../crypto/hash":220,"../encoding/bufferreader":227,"../encoding/bufferwriter":228,"../util/buffer":257,"../util/js":258,"../util/preconditions":259,"buffer":67,"lodash":318}],216:[function(require,module,exports){
+},{"../crypto/bn":218,"../crypto/hash":220,"../encoding/bufferreader":227,"../encoding/bufferwriter":228,"../util/buffer":257,"../util/js":258,"../util/preconditions":259,"buffer":67,"lodash":489}],216:[function(require,module,exports){
 module.exports = require('./block');
 
 module.exports.BlockHeader = require('./blockheader');
@@ -33531,7 +33531,7 @@ MerkleBlock.fromObject = function fromObject(obj) {
 module.exports = MerkleBlock;
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"../crypto/hash":220,"../encoding/bufferreader":227,"../encoding/bufferwriter":228,"../errors":230,"../transaction":242,"../util/buffer":257,"../util/js":258,"../util/preconditions":259,"./blockheader":215,"buffer":67,"lodash":318}],218:[function(require,module,exports){
+},{"../crypto/hash":220,"../encoding/bufferreader":227,"../encoding/bufferwriter":228,"../errors":230,"../transaction":242,"../util/buffer":257,"../util/js":258,"../util/preconditions":259,"./blockheader":215,"buffer":67,"lodash":489}],218:[function(require,module,exports){
 (function (Buffer){(function (){
 'use strict';
 
@@ -33725,7 +33725,7 @@ BN.pad = function(buf, natlen, size) {
 module.exports = BN;
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"../util/preconditions":259,"bn.js":260,"buffer":67,"lodash":318}],219:[function(require,module,exports){
+},{"../util/preconditions":259,"bn.js":260,"buffer":67,"lodash":489}],219:[function(require,module,exports){
 (function (Buffer){(function (){
 'use strict';
 
@@ -34025,7 +34025,7 @@ ECDSA.verify = function(hashbuf, sig, pubkey, endian) {
 module.exports = ECDSA;
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"../publickey":238,"../util/buffer":257,"../util/preconditions":259,"./bn":218,"./hash":220,"./point":221,"./random":222,"./signature":223,"buffer":67,"lodash":318}],220:[function(require,module,exports){
+},{"../publickey":238,"../util/buffer":257,"../util/preconditions":259,"./bn":218,"./hash":220,"./point":221,"./random":222,"./signature":223,"buffer":67,"lodash":489}],220:[function(require,module,exports){
 (function (Buffer){(function (){
 'use strict';
 
@@ -34268,7 +34268,7 @@ Point.pointToCompressed = function pointToCompressed(point) {
 module.exports = Point;
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"../util/buffer":257,"./bn":218,"buffer":67,"elliptic":284}],222:[function(require,module,exports){
+},{"../util/buffer":257,"./bn":218,"buffer":67,"elliptic":457}],222:[function(require,module,exports){
 (function (process,Buffer){(function (){
 'use strict';
 
@@ -34646,7 +34646,7 @@ Signature.SIGHASH_ANYONECANPAY = 0x80;
 module.exports = Signature;
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"../util/buffer":257,"../util/js":258,"../util/preconditions":259,"./bn":218,"buffer":67,"lodash":318}],224:[function(require,module,exports){
+},{"../util/buffer":257,"../util/js":258,"../util/preconditions":259,"./bn":218,"buffer":67,"lodash":489}],224:[function(require,module,exports){
 (function (Buffer){(function (){
 'use strict';
 
@@ -34720,7 +34720,7 @@ Base58.prototype.toString = function() {
 module.exports = Base58;
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"bs58":277,"buffer":67,"lodash":318}],225:[function(require,module,exports){
+},{"bs58":277,"buffer":67,"lodash":489}],225:[function(require,module,exports){
 (function (Buffer){(function (){
 'use strict';
 
@@ -34819,7 +34819,7 @@ Base58Check.prototype.toString = function() {
 module.exports = Base58Check;
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"../crypto/hash":220,"./base58":224,"buffer":67,"lodash":318}],226:[function(require,module,exports){
+},{"../crypto/hash":220,"./base58":224,"buffer":67,"lodash":489}],226:[function(require,module,exports){
 (function (Buffer){(function (){
 'use strict';
 
@@ -35106,7 +35106,7 @@ BufferReader.prototype.readReverse = function(len) {
 module.exports = BufferReader;
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"../crypto/bn":218,"../util/buffer":257,"../util/preconditions":259,"buffer":67,"lodash":318}],228:[function(require,module,exports){
+},{"../crypto/bn":218,"../util/buffer":257,"../util/preconditions":259,"buffer":67,"lodash":489}],228:[function(require,module,exports){
 (function (Buffer){(function (){
 'use strict';
 
@@ -35404,7 +35404,7 @@ module.exports.extend = function(spec) {
   return traverseNode(bitcore.Error, spec);
 };
 
-},{"./spec":231,"lodash":318}],231:[function(require,module,exports){
+},{"./spec":231,"lodash":489}],231:[function(require,module,exports){
 'use strict';
 
 var docsURL = 'http://bitcore.io/';
@@ -36247,7 +36247,7 @@ assert(HDPrivateKey.ChecksumEnd === HDPrivateKey.SerializedByteSize);
 module.exports = HDPrivateKey;
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"./crypto/bn":218,"./crypto/hash":220,"./crypto/point":221,"./crypto/random":222,"./encoding/base58":224,"./encoding/base58check":225,"./errors":230,"./hdpublickey":233,"./networks":235,"./privatekey":237,"./util/buffer":257,"./util/js":258,"./util/preconditions":259,"assert":16,"buffer":67,"lodash":318}],233:[function(require,module,exports){
+},{"./crypto/bn":218,"./crypto/hash":220,"./crypto/point":221,"./crypto/random":222,"./encoding/base58":224,"./encoding/base58check":225,"./errors":230,"./hdpublickey":233,"./networks":235,"./privatekey":237,"./util/buffer":257,"./util/js":258,"./util/preconditions":259,"assert":16,"buffer":67,"lodash":489}],233:[function(require,module,exports){
 (function (Buffer){(function (){
 'use strict';
 
@@ -36747,7 +36747,7 @@ assert(HDPublicKey.ChecksumEnd === HDPublicKey.SerializedByteSize);
 module.exports = HDPublicKey;
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"./crypto/bn":218,"./crypto/hash":220,"./crypto/point":221,"./encoding/base58":224,"./encoding/base58check":225,"./errors":230,"./hdprivatekey":232,"./networks":235,"./publickey":238,"./util/buffer":257,"./util/js":258,"./util/preconditions":259,"assert":16,"buffer":67,"lodash":318}],234:[function(require,module,exports){
+},{"./crypto/bn":218,"./crypto/hash":220,"./crypto/point":221,"./encoding/base58":224,"./encoding/base58check":225,"./errors":230,"./hdprivatekey":232,"./networks":235,"./publickey":238,"./util/buffer":257,"./util/js":258,"./util/preconditions":259,"assert":16,"buffer":67,"lodash":489}],234:[function(require,module,exports){
 (function (Buffer){(function (){
 'use strict';
 
@@ -36946,7 +36946,7 @@ module.exports = Message;
 var Script = require('./script');
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"./address":213,"./crypto/ecdsa":219,"./crypto/hash":220,"./crypto/signature":223,"./encoding/bufferwriter":228,"./privatekey":237,"./publickey":238,"./script":239,"./util/js":258,"./util/preconditions":259,"buffer":67,"lodash":318}],235:[function(require,module,exports){
+},{"./address":213,"./crypto/ecdsa":219,"./crypto/hash":220,"./crypto/signature":223,"./encoding/bufferwriter":228,"./privatekey":237,"./publickey":238,"./script":239,"./util/js":258,"./util/preconditions":259,"buffer":67,"lodash":489}],235:[function(require,module,exports){
 'use strict';
 var _ = require('lodash');
 
@@ -37193,7 +37193,7 @@ module.exports = {
   disableRegtest: disableRegtest
 };
 
-},{"./util/buffer":257,"./util/js":258,"lodash":318}],236:[function(require,module,exports){
+},{"./util/buffer":257,"./util/js":258,"lodash":489}],236:[function(require,module,exports){
 (function (Buffer){(function (){
 'use strict';
 
@@ -37446,7 +37446,7 @@ Opcode.prototype.inspect = function() {
 module.exports = Opcode;
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"./util/buffer":257,"./util/js":258,"./util/preconditions":259,"buffer":67,"lodash":318}],237:[function(require,module,exports){
+},{"./util/buffer":257,"./util/js":258,"./util/preconditions":259,"buffer":67,"lodash":489}],237:[function(require,module,exports){
 (function (Buffer){(function (){
 'use strict';
 
@@ -37850,7 +37850,7 @@ PrivateKey.prototype.inspect = function() {
 module.exports = PrivateKey;
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"./address":213,"./crypto/bn":218,"./crypto/point":221,"./crypto/random":222,"./encoding/base58check":225,"./networks":235,"./publickey":238,"./util/js":258,"./util/preconditions":259,"buffer":67,"lodash":318}],238:[function(require,module,exports){
+},{"./address":213,"./crypto/bn":218,"./crypto/point":221,"./crypto/random":222,"./encoding/base58check":225,"./networks":235,"./publickey":238,"./util/js":258,"./util/preconditions":259,"buffer":67,"lodash":489}],238:[function(require,module,exports){
 (function (Buffer){(function (){
 'use strict';
 
@@ -38248,7 +38248,7 @@ PublicKey.prototype.inspect = function() {
 module.exports = PublicKey;
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"./address":213,"./crypto/bn":218,"./crypto/hash":220,"./crypto/point":221,"./networks":235,"./privatekey":237,"./util/js":258,"./util/preconditions":259,"buffer":67,"lodash":318}],239:[function(require,module,exports){
+},{"./address":213,"./crypto/bn":218,"./crypto/hash":220,"./crypto/point":221,"./networks":235,"./privatekey":237,"./util/js":258,"./util/preconditions":259,"buffer":67,"lodash":489}],239:[function(require,module,exports){
 module.exports = require('./script');
 
 module.exports.Interpreter = require('./interpreter');
@@ -39904,7 +39904,7 @@ Interpreter.prototype.step = function() {
 
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"../crypto/bn":218,"../crypto/hash":220,"../crypto/signature":223,"../opcode":236,"../publickey":238,"../transaction":242,"./script":241,"buffer":67,"lodash":318}],241:[function(require,module,exports){
+},{"../crypto/bn":218,"../crypto/hash":220,"../crypto/signature":223,"../opcode":236,"../publickey":238,"../transaction":242,"./script":241,"buffer":67,"lodash":489}],241:[function(require,module,exports){
 (function (Buffer){(function (){
 'use strict';
 
@@ -41120,7 +41120,7 @@ Script.prototype.getSignatureOperationsCount = function(accurate) {
 module.exports = Script;
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"../address":213,"../crypto/hash":220,"../crypto/signature":223,"../encoding/bufferreader":227,"../encoding/bufferwriter":228,"../errors":230,"../networks":235,"../opcode":236,"../publickey":238,"../util/buffer":257,"../util/js":258,"../util/preconditions":259,"buffer":67,"lodash":318}],242:[function(require,module,exports){
+},{"../address":213,"../crypto/hash":220,"../crypto/signature":223,"../encoding/bufferreader":227,"../encoding/bufferwriter":228,"../errors":230,"../networks":235,"../opcode":236,"../publickey":238,"../util/buffer":257,"../util/js":258,"../util/preconditions":259,"buffer":67,"lodash":489}],242:[function(require,module,exports){
 module.exports = require('./transaction');
 
 module.exports.Input = require('./input');
@@ -41432,7 +41432,7 @@ Input.prototype.getLockTime = function() {
 module.exports = Input;
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"../../encoding/bufferwriter":228,"../../errors":230,"../../script":239,"../../util/buffer":257,"../../util/js":258,"../../util/preconditions":259,"../output":249,"../sighash":250,"buffer":67,"lodash":318}],245:[function(require,module,exports){
+},{"../../encoding/bufferwriter":228,"../../errors":230,"../../script":239,"../../util/buffer":257,"../../util/js":258,"../../util/preconditions":259,"../output":249,"../sighash":250,"buffer":67,"lodash":489}],245:[function(require,module,exports){
 'use strict';
 
 var _ = require('lodash');
@@ -41655,7 +41655,7 @@ MultiSigInput.prototype._estimateSize = function() {
 
 module.exports = MultiSigInput;
 
-},{"../../crypto/signature":223,"../../publickey":238,"../../script":239,"../../util/buffer":257,"../../util/preconditions":259,"../output":249,"../sighash":250,"../signature":252,"../transaction":253,"./input":244,"inherits":261,"lodash":318}],246:[function(require,module,exports){
+},{"../../crypto/signature":223,"../../publickey":238,"../../script":239,"../../util/buffer":257,"../../util/preconditions":259,"../output":249,"../sighash":250,"../signature":252,"../transaction":253,"./input":244,"inherits":261,"lodash":489}],246:[function(require,module,exports){
 (function (Buffer){(function (){
 'use strict';
 
@@ -41926,7 +41926,7 @@ MultiSigScriptHashInput.prototype._estimateSize = function() {
 module.exports = MultiSigScriptHashInput;
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"../../address":213,"../../crypto/signature":223,"../../encoding/bufferwriter":228,"../../script":239,"../../util/buffer":257,"../../util/preconditions":259,"../output":249,"../sighash":250,"../sighashwitness":251,"../signature":252,"./input":244,"buffer":67,"inherits":261,"lodash":318}],247:[function(require,module,exports){
+},{"../../address":213,"../../crypto/signature":223,"../../encoding/bufferwriter":228,"../../script":239,"../../util/buffer":257,"../../util/preconditions":259,"../output":249,"../sighash":250,"../sighashwitness":251,"../signature":252,"./input":244,"buffer":67,"inherits":261,"lodash":489}],247:[function(require,module,exports){
 'use strict';
 
 var inherits = require('inherits');
@@ -42393,7 +42393,7 @@ Output.prototype.toBufferWriter = function(writer) {
 module.exports = Output;
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"../crypto/bn":218,"../encoding/bufferwriter":228,"../errors":230,"../script":239,"../util/buffer":257,"../util/js":258,"../util/preconditions":259,"buffer":67,"lodash":318}],250:[function(require,module,exports){
+},{"../crypto/bn":218,"../encoding/bufferwriter":228,"../errors":230,"../script":239,"../util/buffer":257,"../util/js":258,"../util/preconditions":259,"buffer":67,"lodash":489}],250:[function(require,module,exports){
 (function (Buffer){(function (){
 'use strict';
 
@@ -42558,7 +42558,7 @@ module.exports = {
 };
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"../crypto/bn":218,"../crypto/ecdsa":219,"../crypto/hash":220,"../crypto/signature":223,"../encoding/bufferreader":227,"../encoding/bufferwriter":228,"../script":239,"../util/preconditions":259,"./input":243,"./output":249,"./transaction":253,"bip-schnorr":207,"buffer":67,"lodash":318}],251:[function(require,module,exports){
+},{"../crypto/bn":218,"../crypto/ecdsa":219,"../crypto/hash":220,"../crypto/signature":223,"../encoding/bufferreader":227,"../encoding/bufferwriter":228,"../script":239,"../util/preconditions":259,"./input":243,"./output":249,"./transaction":253,"bip-schnorr":207,"buffer":67,"lodash":489}],251:[function(require,module,exports){
 (function (Buffer){(function (){
 'use strict';
 
@@ -42724,7 +42724,7 @@ module.exports = {
 };
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"../crypto/bn":218,"../crypto/ecdsa":219,"../crypto/hash":220,"../crypto/signature":223,"../encoding/bufferreader":227,"../encoding/bufferwriter":228,"../script":239,"../util/preconditions":259,"./output":249,"buffer":67,"lodash":318}],252:[function(require,module,exports){
+},{"../crypto/bn":218,"../crypto/ecdsa":219,"../crypto/hash":220,"../crypto/signature":223,"../encoding/bufferreader":227,"../encoding/bufferwriter":228,"../script":239,"../util/preconditions":259,"./output":249,"buffer":67,"lodash":489}],252:[function(require,module,exports){
 (function (Buffer){(function (){
 'use strict';
 
@@ -42817,7 +42817,7 @@ TransactionSignature.fromObject = function(object) {
 module.exports = TransactionSignature;
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"../crypto/signature":223,"../errors":230,"../publickey":238,"../util/buffer":257,"../util/js":258,"../util/preconditions":259,"buffer":67,"inherits":261,"lodash":318}],253:[function(require,module,exports){
+},{"../crypto/signature":223,"../errors":230,"../publickey":238,"../util/buffer":257,"../util/js":258,"../util/preconditions":259,"buffer":67,"inherits":261,"lodash":489}],253:[function(require,module,exports){
 (function (Buffer){(function (){
 'use strict';
 
@@ -44220,7 +44220,7 @@ Transaction.prototype.setVersion = function(version) {
 module.exports = Transaction;
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"../address":213,"../crypto/bn":218,"../crypto/hash":220,"../crypto/signature":223,"../encoding/bufferreader":227,"../encoding/bufferwriter":228,"../errors":230,"../privatekey":237,"../script":239,"../util/buffer":257,"../util/js":258,"../util/preconditions":259,"./input":243,"./output":249,"./sighash":250,"./sighashwitness":251,"./unspentoutput":254,"buffer":67,"buffer-compare":278,"lodash":318}],254:[function(require,module,exports){
+},{"../address":213,"../crypto/bn":218,"../crypto/hash":220,"../crypto/signature":223,"../encoding/bufferreader":227,"../encoding/bufferwriter":228,"../errors":230,"../privatekey":237,"../script":239,"../util/buffer":257,"../util/js":258,"../util/preconditions":259,"./input":243,"./output":249,"./sighash":250,"./sighashwitness":251,"./unspentoutput":254,"buffer":67,"buffer-compare":278,"lodash":489}],254:[function(require,module,exports){
 'use strict';
 
 var _ = require('lodash');
@@ -44322,7 +44322,7 @@ UnspentOutput.prototype.toObject = UnspentOutput.prototype.toJSON = function toO
 
 module.exports = UnspentOutput;
 
-},{"../address":213,"../script":239,"../unit":255,"../util/js":258,"../util/preconditions":259,"lodash":318}],255:[function(require,module,exports){
+},{"../address":213,"../script":239,"../unit":255,"../util/js":258,"../util/preconditions":259,"lodash":489}],255:[function(require,module,exports){
 'use strict';
 
 var _ = require('lodash');
@@ -44562,7 +44562,7 @@ Unit.prototype.inspect = function() {
 
 module.exports = Unit;
 
-},{"./errors":230,"./util/preconditions":259,"lodash":318}],256:[function(require,module,exports){
+},{"./errors":230,"./util/preconditions":259,"lodash":489}],256:[function(require,module,exports){
 'use strict';
 
 var _ = require('lodash');
@@ -44787,7 +44787,7 @@ URI.prototype.inspect = function() {
 
 module.exports = URI;
 
-},{"./address":213,"./unit":255,"lodash":318,"url":195}],257:[function(require,module,exports){
+},{"./address":213,"./unit":255,"lodash":489,"url":195}],257:[function(require,module,exports){
 (function (Buffer){(function (){
 'use strict';
 
@@ -45037,7 +45037,7 @@ module.exports = {
   }
 };
 
-},{"lodash":318}],259:[function(require,module,exports){
+},{"lodash":489}],259:[function(require,module,exports){
 'use strict';
 
 var errors = require('../errors');
@@ -45073,7 +45073,7 @@ module.exports = {
   }
 };
 
-},{"../errors":230,"buffer":67,"lodash":318}],260:[function(require,module,exports){
+},{"../errors":230,"buffer":67,"lodash":489}],260:[function(require,module,exports){
 (function (module, exports) {
   'use strict';
 
@@ -48918,7 +48918,7 @@ Mnemonic.bitcore = bitcore;
 module.exports = Mnemonic;
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"./errors":264,"./pbkdf2":266,"./words":270,"bitcore-lib":212,"buffer":67,"unorm":370}],266:[function(require,module,exports){
+},{"./errors":264,"./pbkdf2":266,"./words":270,"bitcore-lib":212,"buffer":67,"unorm":541}],266:[function(require,module,exports){
 (function (Buffer){(function (){
 'use strict';
 
@@ -49088,6 +49088,9060 @@ module.exports = function(a, b) {
 
 
 },{}],279:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AccountAddressRestrictionTransactionBodyBuilder = void 0;
+const AccountRestrictionFlagsDto_1 = require("./AccountRestrictionFlagsDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const UnresolvedAddressDto_1 = require("./UnresolvedAddressDto");
+class AccountAddressRestrictionTransactionBodyBuilder {
+    constructor(restrictionFlags, restrictionAdditions, restrictionDeletions) {
+        GeneratorUtils_1.GeneratorUtils.notNull(restrictionFlags, 'restrictionFlags is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(restrictionAdditions, 'restrictionAdditions is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(restrictionDeletions, 'restrictionDeletions is null or undefined');
+        this.restrictionFlags = restrictionFlags;
+        this.restrictionAdditions = restrictionAdditions;
+        this.restrictionDeletions = restrictionDeletions;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const restrictionFlags = GeneratorUtils_1.GeneratorUtils.toFlags(AccountRestrictionFlagsDto_1.AccountRestrictionFlagsDto, GeneratorUtils_1.GeneratorUtils.bufferToUint16(Uint8Array.from(byteArray)));
+        byteArray.splice(0, 2);
+        const restrictionAdditionsCount = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const restrictionDeletionsCount = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        const restrictionAdditions = GeneratorUtils_1.GeneratorUtils.loadFromBinary(UnresolvedAddressDto_1.UnresolvedAddressDto.loadFromBinary, Uint8Array.from(byteArray), restrictionAdditionsCount);
+        byteArray.splice(0, restrictionAdditions.reduce((sum, c) => sum + c.getSize(), 0));
+        const restrictionDeletions = GeneratorUtils_1.GeneratorUtils.loadFromBinary(UnresolvedAddressDto_1.UnresolvedAddressDto.loadFromBinary, Uint8Array.from(byteArray), restrictionDeletionsCount);
+        byteArray.splice(0, restrictionDeletions.reduce((sum, c) => sum + c.getSize(), 0));
+        return new AccountAddressRestrictionTransactionBodyBuilder(restrictionFlags, restrictionAdditions, restrictionDeletions);
+    }
+    static createAccountAddressRestrictionTransactionBodyBuilder(restrictionFlags, restrictionAdditions, restrictionDeletions) {
+        return new AccountAddressRestrictionTransactionBodyBuilder(restrictionFlags, restrictionAdditions, restrictionDeletions);
+    }
+    getRestrictionFlags() {
+        return this.restrictionFlags;
+    }
+    getRestrictionAdditions() {
+        return this.restrictionAdditions;
+    }
+    getRestrictionDeletions() {
+        return this.restrictionDeletions;
+    }
+    getSize() {
+        let size = 0;
+        size += 2;
+        size += 1;
+        size += 1;
+        size += 4;
+        size += this.restrictionAdditions.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0);
+        size += this.restrictionDeletions.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0);
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const restrictionFlagsBytes = GeneratorUtils_1.GeneratorUtils.uint16ToBuffer(GeneratorUtils_1.GeneratorUtils.fromFlags(AccountRestrictionFlagsDto_1.AccountRestrictionFlagsDto, this.restrictionFlags));
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionFlagsBytes);
+        const restrictionAdditionsCountBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.restrictionAdditions.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionAdditionsCountBytes);
+        const restrictionDeletionsCountBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.restrictionDeletions.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionDeletionsCountBytes);
+        const accountRestrictionTransactionBody_Reserved1Bytes = GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, accountRestrictionTransactionBody_Reserved1Bytes);
+        const restrictionAdditionsBytes = GeneratorUtils_1.GeneratorUtils.writeList(this.restrictionAdditions, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionAdditionsBytes);
+        const restrictionDeletionsBytes = GeneratorUtils_1.GeneratorUtils.writeList(this.restrictionDeletions, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionDeletionsBytes);
+        return newArray;
+    }
+}
+exports.AccountAddressRestrictionTransactionBodyBuilder = AccountAddressRestrictionTransactionBodyBuilder;
+
+},{"./AccountRestrictionFlagsDto":291,"./GeneratorUtils":348,"./UnresolvedAddressDto":443}],280:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AccountAddressRestrictionTransactionBuilder = void 0;
+const AccountAddressRestrictionTransactionBodyBuilder_1 = require("./AccountAddressRestrictionTransactionBodyBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+class AccountAddressRestrictionTransactionBuilder extends TransactionBuilder_1.TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline, restrictionFlags, restrictionAdditions, restrictionDeletions) {
+        super(signature, signerPublicKey, version, network, type, fee, deadline);
+        this.accountAddressRestrictionTransactionBody = new AccountAddressRestrictionTransactionBodyBuilder_1.AccountAddressRestrictionTransactionBodyBuilder(restrictionFlags, restrictionAdditions, restrictionDeletions);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const accountAddressRestrictionTransactionBody = AccountAddressRestrictionTransactionBodyBuilder_1.AccountAddressRestrictionTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, accountAddressRestrictionTransactionBody.getSize());
+        return new AccountAddressRestrictionTransactionBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.fee, superObject.deadline, accountAddressRestrictionTransactionBody.restrictionFlags, accountAddressRestrictionTransactionBody.restrictionAdditions, accountAddressRestrictionTransactionBody.restrictionDeletions);
+    }
+    static createAccountAddressRestrictionTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, restrictionFlags, restrictionAdditions, restrictionDeletions) {
+        return new AccountAddressRestrictionTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, restrictionFlags, restrictionAdditions, restrictionDeletions);
+    }
+    getRestrictionFlags() {
+        return this.accountAddressRestrictionTransactionBody.getRestrictionFlags();
+    }
+    getRestrictionAdditions() {
+        return this.accountAddressRestrictionTransactionBody.getRestrictionAdditions();
+    }
+    getRestrictionDeletions() {
+        return this.accountAddressRestrictionTransactionBody.getRestrictionDeletions();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.accountAddressRestrictionTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.accountAddressRestrictionTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const accountAddressRestrictionTransactionBodyBytes = this.accountAddressRestrictionTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, accountAddressRestrictionTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.AccountAddressRestrictionTransactionBuilder = AccountAddressRestrictionTransactionBuilder;
+
+},{"./AccountAddressRestrictionTransactionBodyBuilder":279,"./GeneratorUtils":348,"./TransactionBuilder":439}],281:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AccountKeyLinkTransactionBodyBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const KeyDto_1 = require("./KeyDto");
+class AccountKeyLinkTransactionBodyBuilder {
+    constructor(linkedPublicKey, linkAction) {
+        GeneratorUtils_1.GeneratorUtils.notNull(linkedPublicKey, 'linkedPublicKey is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(linkAction, 'linkAction is null or undefined');
+        this.linkedPublicKey = linkedPublicKey;
+        this.linkAction = linkAction;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const linkedPublicKey = KeyDto_1.KeyDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, linkedPublicKey.getSize());
+        const linkAction = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        return new AccountKeyLinkTransactionBodyBuilder(linkedPublicKey, linkAction);
+    }
+    static createAccountKeyLinkTransactionBodyBuilder(linkedPublicKey, linkAction) {
+        return new AccountKeyLinkTransactionBodyBuilder(linkedPublicKey, linkAction);
+    }
+    getLinkedPublicKey() {
+        return this.linkedPublicKey;
+    }
+    getLinkAction() {
+        return this.linkAction;
+    }
+    getSize() {
+        let size = 0;
+        size += this.linkedPublicKey.getSize();
+        size += 1;
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const linkedPublicKeyBytes = this.linkedPublicKey.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, linkedPublicKeyBytes);
+        const linkActionBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.linkAction);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, linkActionBytes);
+        return newArray;
+    }
+}
+exports.AccountKeyLinkTransactionBodyBuilder = AccountKeyLinkTransactionBodyBuilder;
+
+},{"./GeneratorUtils":348,"./KeyDto":365}],282:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AccountKeyLinkTransactionBuilder = void 0;
+const AccountKeyLinkTransactionBodyBuilder_1 = require("./AccountKeyLinkTransactionBodyBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+class AccountKeyLinkTransactionBuilder extends TransactionBuilder_1.TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline, linkedPublicKey, linkAction) {
+        super(signature, signerPublicKey, version, network, type, fee, deadline);
+        this.accountKeyLinkTransactionBody = new AccountKeyLinkTransactionBodyBuilder_1.AccountKeyLinkTransactionBodyBuilder(linkedPublicKey, linkAction);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const accountKeyLinkTransactionBody = AccountKeyLinkTransactionBodyBuilder_1.AccountKeyLinkTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, accountKeyLinkTransactionBody.getSize());
+        return new AccountKeyLinkTransactionBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.fee, superObject.deadline, accountKeyLinkTransactionBody.linkedPublicKey, accountKeyLinkTransactionBody.linkAction);
+    }
+    static createAccountKeyLinkTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, linkedPublicKey, linkAction) {
+        return new AccountKeyLinkTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, linkedPublicKey, linkAction);
+    }
+    getLinkedPublicKey() {
+        return this.accountKeyLinkTransactionBody.getLinkedPublicKey();
+    }
+    getLinkAction() {
+        return this.accountKeyLinkTransactionBody.getLinkAction();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.accountKeyLinkTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.accountKeyLinkTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const accountKeyLinkTransactionBodyBytes = this.accountKeyLinkTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, accountKeyLinkTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.AccountKeyLinkTransactionBuilder = AccountKeyLinkTransactionBuilder;
+
+},{"./AccountKeyLinkTransactionBodyBuilder":281,"./GeneratorUtils":348,"./TransactionBuilder":439}],283:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AccountKeyTypeFlagsDto = void 0;
+var AccountKeyTypeFlagsDto;
+(function (AccountKeyTypeFlagsDto) {
+    AccountKeyTypeFlagsDto[AccountKeyTypeFlagsDto["UNSET"] = 0] = "UNSET";
+    AccountKeyTypeFlagsDto[AccountKeyTypeFlagsDto["LINKED"] = 1] = "LINKED";
+    AccountKeyTypeFlagsDto[AccountKeyTypeFlagsDto["NODE"] = 2] = "NODE";
+    AccountKeyTypeFlagsDto[AccountKeyTypeFlagsDto["VRF"] = 4] = "VRF";
+})(AccountKeyTypeFlagsDto = exports.AccountKeyTypeFlagsDto || (exports.AccountKeyTypeFlagsDto = {}));
+
+},{}],284:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AccountMetadataTransactionBodyBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const UnresolvedAddressDto_1 = require("./UnresolvedAddressDto");
+class AccountMetadataTransactionBodyBuilder {
+    constructor(targetAddress, scopedMetadataKey, valueSizeDelta, value) {
+        GeneratorUtils_1.GeneratorUtils.notNull(targetAddress, 'targetAddress is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(scopedMetadataKey, 'scopedMetadataKey is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(valueSizeDelta, 'valueSizeDelta is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(value, 'value is null or undefined');
+        this.targetAddress = targetAddress;
+        this.scopedMetadataKey = scopedMetadataKey;
+        this.valueSizeDelta = valueSizeDelta;
+        this.value = value;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const targetAddress = UnresolvedAddressDto_1.UnresolvedAddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, targetAddress.getSize());
+        const scopedMetadataKey = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(byteArray));
+        byteArray.splice(0, 8);
+        const valueSizeDelta = GeneratorUtils_1.GeneratorUtils.bufferToUint16(Uint8Array.from(byteArray));
+        byteArray.splice(0, 2);
+        const valueSize = GeneratorUtils_1.GeneratorUtils.bufferToUint16(Uint8Array.from(byteArray));
+        byteArray.splice(0, 2);
+        const value = GeneratorUtils_1.GeneratorUtils.getBytes(Uint8Array.from(byteArray), valueSize);
+        byteArray.splice(0, valueSize);
+        return new AccountMetadataTransactionBodyBuilder(targetAddress, scopedMetadataKey, valueSizeDelta, value);
+    }
+    static createAccountMetadataTransactionBodyBuilder(targetAddress, scopedMetadataKey, valueSizeDelta, value) {
+        return new AccountMetadataTransactionBodyBuilder(targetAddress, scopedMetadataKey, valueSizeDelta, value);
+    }
+    getTargetAddress() {
+        return this.targetAddress;
+    }
+    getScopedMetadataKey() {
+        return this.scopedMetadataKey;
+    }
+    getValueSizeDelta() {
+        return this.valueSizeDelta;
+    }
+    getValue() {
+        return this.value;
+    }
+    getSize() {
+        let size = 0;
+        size += this.targetAddress.getSize();
+        size += 8;
+        size += 2;
+        size += 2;
+        size += this.value.length;
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const targetAddressBytes = this.targetAddress.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, targetAddressBytes);
+        const scopedMetadataKeyBytes = GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getScopedMetadataKey());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, scopedMetadataKeyBytes);
+        const valueSizeDeltaBytes = GeneratorUtils_1.GeneratorUtils.uint16ToBuffer(this.getValueSizeDelta());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, valueSizeDeltaBytes);
+        const valueSizeBytes = GeneratorUtils_1.GeneratorUtils.uint16ToBuffer(this.value.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, valueSizeBytes);
+        const valueBytes = this.value;
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, valueBytes);
+        return newArray;
+    }
+}
+exports.AccountMetadataTransactionBodyBuilder = AccountMetadataTransactionBodyBuilder;
+
+},{"./GeneratorUtils":348,"./UnresolvedAddressDto":443}],285:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AccountMetadataTransactionBuilder = void 0;
+const AccountMetadataTransactionBodyBuilder_1 = require("./AccountMetadataTransactionBodyBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+class AccountMetadataTransactionBuilder extends TransactionBuilder_1.TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline, targetAddress, scopedMetadataKey, valueSizeDelta, value) {
+        super(signature, signerPublicKey, version, network, type, fee, deadline);
+        this.accountMetadataTransactionBody = new AccountMetadataTransactionBodyBuilder_1.AccountMetadataTransactionBodyBuilder(targetAddress, scopedMetadataKey, valueSizeDelta, value);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const accountMetadataTransactionBody = AccountMetadataTransactionBodyBuilder_1.AccountMetadataTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, accountMetadataTransactionBody.getSize());
+        return new AccountMetadataTransactionBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.fee, superObject.deadline, accountMetadataTransactionBody.targetAddress, accountMetadataTransactionBody.scopedMetadataKey, accountMetadataTransactionBody.valueSizeDelta, accountMetadataTransactionBody.value);
+    }
+    static createAccountMetadataTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, targetAddress, scopedMetadataKey, valueSizeDelta, value) {
+        return new AccountMetadataTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, targetAddress, scopedMetadataKey, valueSizeDelta, value);
+    }
+    getTargetAddress() {
+        return this.accountMetadataTransactionBody.getTargetAddress();
+    }
+    getScopedMetadataKey() {
+        return this.accountMetadataTransactionBody.getScopedMetadataKey();
+    }
+    getValueSizeDelta() {
+        return this.accountMetadataTransactionBody.getValueSizeDelta();
+    }
+    getValue() {
+        return this.accountMetadataTransactionBody.getValue();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.accountMetadataTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.accountMetadataTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const accountMetadataTransactionBodyBytes = this.accountMetadataTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, accountMetadataTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.AccountMetadataTransactionBuilder = AccountMetadataTransactionBuilder;
+
+},{"./AccountMetadataTransactionBodyBuilder":284,"./GeneratorUtils":348,"./TransactionBuilder":439}],286:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AccountMosaicRestrictionTransactionBodyBuilder = void 0;
+const AccountRestrictionFlagsDto_1 = require("./AccountRestrictionFlagsDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const UnresolvedMosaicIdDto_1 = require("./UnresolvedMosaicIdDto");
+class AccountMosaicRestrictionTransactionBodyBuilder {
+    constructor(restrictionFlags, restrictionAdditions, restrictionDeletions) {
+        GeneratorUtils_1.GeneratorUtils.notNull(restrictionFlags, 'restrictionFlags is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(restrictionAdditions, 'restrictionAdditions is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(restrictionDeletions, 'restrictionDeletions is null or undefined');
+        this.restrictionFlags = restrictionFlags;
+        this.restrictionAdditions = restrictionAdditions;
+        this.restrictionDeletions = restrictionDeletions;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const restrictionFlags = GeneratorUtils_1.GeneratorUtils.toFlags(AccountRestrictionFlagsDto_1.AccountRestrictionFlagsDto, GeneratorUtils_1.GeneratorUtils.bufferToUint16(Uint8Array.from(byteArray)));
+        byteArray.splice(0, 2);
+        const restrictionAdditionsCount = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const restrictionDeletionsCount = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        const restrictionAdditions = GeneratorUtils_1.GeneratorUtils.loadFromBinary(UnresolvedMosaicIdDto_1.UnresolvedMosaicIdDto.loadFromBinary, Uint8Array.from(byteArray), restrictionAdditionsCount);
+        byteArray.splice(0, restrictionAdditions.reduce((sum, c) => sum + c.getSize(), 0));
+        const restrictionDeletions = GeneratorUtils_1.GeneratorUtils.loadFromBinary(UnresolvedMosaicIdDto_1.UnresolvedMosaicIdDto.loadFromBinary, Uint8Array.from(byteArray), restrictionDeletionsCount);
+        byteArray.splice(0, restrictionDeletions.reduce((sum, c) => sum + c.getSize(), 0));
+        return new AccountMosaicRestrictionTransactionBodyBuilder(restrictionFlags, restrictionAdditions, restrictionDeletions);
+    }
+    static createAccountMosaicRestrictionTransactionBodyBuilder(restrictionFlags, restrictionAdditions, restrictionDeletions) {
+        return new AccountMosaicRestrictionTransactionBodyBuilder(restrictionFlags, restrictionAdditions, restrictionDeletions);
+    }
+    getRestrictionFlags() {
+        return this.restrictionFlags;
+    }
+    getRestrictionAdditions() {
+        return this.restrictionAdditions;
+    }
+    getRestrictionDeletions() {
+        return this.restrictionDeletions;
+    }
+    getSize() {
+        let size = 0;
+        size += 2;
+        size += 1;
+        size += 1;
+        size += 4;
+        size += this.restrictionAdditions.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0);
+        size += this.restrictionDeletions.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0);
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const restrictionFlagsBytes = GeneratorUtils_1.GeneratorUtils.uint16ToBuffer(GeneratorUtils_1.GeneratorUtils.fromFlags(AccountRestrictionFlagsDto_1.AccountRestrictionFlagsDto, this.restrictionFlags));
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionFlagsBytes);
+        const restrictionAdditionsCountBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.restrictionAdditions.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionAdditionsCountBytes);
+        const restrictionDeletionsCountBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.restrictionDeletions.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionDeletionsCountBytes);
+        const accountRestrictionTransactionBody_Reserved1Bytes = GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, accountRestrictionTransactionBody_Reserved1Bytes);
+        const restrictionAdditionsBytes = GeneratorUtils_1.GeneratorUtils.writeList(this.restrictionAdditions, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionAdditionsBytes);
+        const restrictionDeletionsBytes = GeneratorUtils_1.GeneratorUtils.writeList(this.restrictionDeletions, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionDeletionsBytes);
+        return newArray;
+    }
+}
+exports.AccountMosaicRestrictionTransactionBodyBuilder = AccountMosaicRestrictionTransactionBodyBuilder;
+
+},{"./AccountRestrictionFlagsDto":291,"./GeneratorUtils":348,"./UnresolvedMosaicIdDto":445}],287:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AccountMosaicRestrictionTransactionBuilder = void 0;
+const AccountMosaicRestrictionTransactionBodyBuilder_1 = require("./AccountMosaicRestrictionTransactionBodyBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+class AccountMosaicRestrictionTransactionBuilder extends TransactionBuilder_1.TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline, restrictionFlags, restrictionAdditions, restrictionDeletions) {
+        super(signature, signerPublicKey, version, network, type, fee, deadline);
+        this.accountMosaicRestrictionTransactionBody = new AccountMosaicRestrictionTransactionBodyBuilder_1.AccountMosaicRestrictionTransactionBodyBuilder(restrictionFlags, restrictionAdditions, restrictionDeletions);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const accountMosaicRestrictionTransactionBody = AccountMosaicRestrictionTransactionBodyBuilder_1.AccountMosaicRestrictionTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, accountMosaicRestrictionTransactionBody.getSize());
+        return new AccountMosaicRestrictionTransactionBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.fee, superObject.deadline, accountMosaicRestrictionTransactionBody.restrictionFlags, accountMosaicRestrictionTransactionBody.restrictionAdditions, accountMosaicRestrictionTransactionBody.restrictionDeletions);
+    }
+    static createAccountMosaicRestrictionTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, restrictionFlags, restrictionAdditions, restrictionDeletions) {
+        return new AccountMosaicRestrictionTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, restrictionFlags, restrictionAdditions, restrictionDeletions);
+    }
+    getRestrictionFlags() {
+        return this.accountMosaicRestrictionTransactionBody.getRestrictionFlags();
+    }
+    getRestrictionAdditions() {
+        return this.accountMosaicRestrictionTransactionBody.getRestrictionAdditions();
+    }
+    getRestrictionDeletions() {
+        return this.accountMosaicRestrictionTransactionBody.getRestrictionDeletions();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.accountMosaicRestrictionTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.accountMosaicRestrictionTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const accountMosaicRestrictionTransactionBodyBytes = this.accountMosaicRestrictionTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, accountMosaicRestrictionTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.AccountMosaicRestrictionTransactionBuilder = AccountMosaicRestrictionTransactionBuilder;
+
+},{"./AccountMosaicRestrictionTransactionBodyBuilder":286,"./GeneratorUtils":348,"./TransactionBuilder":439}],288:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AccountOperationRestrictionTransactionBodyBuilder = void 0;
+const AccountRestrictionFlagsDto_1 = require("./AccountRestrictionFlagsDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class AccountOperationRestrictionTransactionBodyBuilder {
+    constructor(restrictionFlags, restrictionAdditions, restrictionDeletions) {
+        GeneratorUtils_1.GeneratorUtils.notNull(restrictionFlags, 'restrictionFlags is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(restrictionAdditions, 'restrictionAdditions is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(restrictionDeletions, 'restrictionDeletions is null or undefined');
+        this.restrictionFlags = restrictionFlags;
+        this.restrictionAdditions = restrictionAdditions;
+        this.restrictionDeletions = restrictionDeletions;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const restrictionFlags = GeneratorUtils_1.GeneratorUtils.toFlags(AccountRestrictionFlagsDto_1.AccountRestrictionFlagsDto, GeneratorUtils_1.GeneratorUtils.bufferToUint16(Uint8Array.from(byteArray)));
+        byteArray.splice(0, 2);
+        const restrictionAdditionsCount = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const restrictionDeletionsCount = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        const restrictionAdditions = GeneratorUtils_1.GeneratorUtils.loadFromBinaryEnums(Uint8Array.from(byteArray), restrictionAdditionsCount, 2);
+        byteArray.splice(0, restrictionAdditions.reduce((sum) => sum + 2, 0));
+        const restrictionDeletions = GeneratorUtils_1.GeneratorUtils.loadFromBinaryEnums(Uint8Array.from(byteArray), restrictionDeletionsCount, 2);
+        byteArray.splice(0, restrictionDeletions.reduce((sum) => sum + 2, 0));
+        return new AccountOperationRestrictionTransactionBodyBuilder(restrictionFlags, restrictionAdditions, restrictionDeletions);
+    }
+    static createAccountOperationRestrictionTransactionBodyBuilder(restrictionFlags, restrictionAdditions, restrictionDeletions) {
+        return new AccountOperationRestrictionTransactionBodyBuilder(restrictionFlags, restrictionAdditions, restrictionDeletions);
+    }
+    getRestrictionFlags() {
+        return this.restrictionFlags;
+    }
+    getRestrictionAdditions() {
+        return this.restrictionAdditions;
+    }
+    getRestrictionDeletions() {
+        return this.restrictionDeletions;
+    }
+    getSize() {
+        let size = 0;
+        size += 2;
+        size += 1;
+        size += 1;
+        size += 4;
+        size += this.restrictionAdditions.reduce((sum) => sum + 2, 0);
+        size += this.restrictionDeletions.reduce((sum) => sum + 2, 0);
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const restrictionFlagsBytes = GeneratorUtils_1.GeneratorUtils.uint16ToBuffer(GeneratorUtils_1.GeneratorUtils.fromFlags(AccountRestrictionFlagsDto_1.AccountRestrictionFlagsDto, this.restrictionFlags));
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionFlagsBytes);
+        const restrictionAdditionsCountBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.restrictionAdditions.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionAdditionsCountBytes);
+        const restrictionDeletionsCountBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.restrictionDeletions.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionDeletionsCountBytes);
+        const accountRestrictionTransactionBody_Reserved1Bytes = GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, accountRestrictionTransactionBody_Reserved1Bytes);
+        const restrictionAdditionsBytes = GeneratorUtils_1.GeneratorUtils.writeListEnum(this.restrictionAdditions, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionAdditionsBytes);
+        const restrictionDeletionsBytes = GeneratorUtils_1.GeneratorUtils.writeListEnum(this.restrictionDeletions, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionDeletionsBytes);
+        return newArray;
+    }
+}
+exports.AccountOperationRestrictionTransactionBodyBuilder = AccountOperationRestrictionTransactionBodyBuilder;
+
+},{"./AccountRestrictionFlagsDto":291,"./GeneratorUtils":348}],289:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AccountOperationRestrictionTransactionBuilder = void 0;
+const AccountOperationRestrictionTransactionBodyBuilder_1 = require("./AccountOperationRestrictionTransactionBodyBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+class AccountOperationRestrictionTransactionBuilder extends TransactionBuilder_1.TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline, restrictionFlags, restrictionAdditions, restrictionDeletions) {
+        super(signature, signerPublicKey, version, network, type, fee, deadline);
+        this.accountOperationRestrictionTransactionBody = new AccountOperationRestrictionTransactionBodyBuilder_1.AccountOperationRestrictionTransactionBodyBuilder(restrictionFlags, restrictionAdditions, restrictionDeletions);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const accountOperationRestrictionTransactionBody = AccountOperationRestrictionTransactionBodyBuilder_1.AccountOperationRestrictionTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, accountOperationRestrictionTransactionBody.getSize());
+        return new AccountOperationRestrictionTransactionBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.fee, superObject.deadline, accountOperationRestrictionTransactionBody.restrictionFlags, accountOperationRestrictionTransactionBody.restrictionAdditions, accountOperationRestrictionTransactionBody.restrictionDeletions);
+    }
+    static createAccountOperationRestrictionTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, restrictionFlags, restrictionAdditions, restrictionDeletions) {
+        return new AccountOperationRestrictionTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, restrictionFlags, restrictionAdditions, restrictionDeletions);
+    }
+    getRestrictionFlags() {
+        return this.accountOperationRestrictionTransactionBody.getRestrictionFlags();
+    }
+    getRestrictionAdditions() {
+        return this.accountOperationRestrictionTransactionBody.getRestrictionAdditions();
+    }
+    getRestrictionDeletions() {
+        return this.accountOperationRestrictionTransactionBody.getRestrictionDeletions();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.accountOperationRestrictionTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.accountOperationRestrictionTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const accountOperationRestrictionTransactionBodyBytes = this.accountOperationRestrictionTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, accountOperationRestrictionTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.AccountOperationRestrictionTransactionBuilder = AccountOperationRestrictionTransactionBuilder;
+
+},{"./AccountOperationRestrictionTransactionBodyBuilder":288,"./GeneratorUtils":348,"./TransactionBuilder":439}],290:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AccountRestrictionAddressValueBuilder = void 0;
+const AddressDto_1 = require("./AddressDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class AccountRestrictionAddressValueBuilder {
+    constructor(restrictionValues) {
+        GeneratorUtils_1.GeneratorUtils.notNull(restrictionValues, 'restrictionValues is null or undefined');
+        this.restrictionValues = restrictionValues;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const restrictionValuesCount = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(byteArray));
+        byteArray.splice(0, 8);
+        const restrictionValues = GeneratorUtils_1.GeneratorUtils.loadFromBinary(AddressDto_1.AddressDto.loadFromBinary, Uint8Array.from(byteArray), restrictionValuesCount);
+        byteArray.splice(0, restrictionValues.reduce((sum, c) => sum + c.getSize(), 0));
+        return new AccountRestrictionAddressValueBuilder(restrictionValues);
+    }
+    static createAccountRestrictionAddressValueBuilder(restrictionValues) {
+        return new AccountRestrictionAddressValueBuilder(restrictionValues);
+    }
+    getRestrictionValues() {
+        return this.restrictionValues;
+    }
+    getSize() {
+        let size = 0;
+        size += 8;
+        size += this.restrictionValues.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0);
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const restrictionValuesCountBytes = GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.restrictionValues.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionValuesCountBytes);
+        const restrictionValuesBytes = GeneratorUtils_1.GeneratorUtils.writeList(this.restrictionValues, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionValuesBytes);
+        return newArray;
+    }
+}
+exports.AccountRestrictionAddressValueBuilder = AccountRestrictionAddressValueBuilder;
+
+},{"./AddressDto":301,"./GeneratorUtils":348}],291:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AccountRestrictionFlagsDto = void 0;
+var AccountRestrictionFlagsDto;
+(function (AccountRestrictionFlagsDto) {
+    AccountRestrictionFlagsDto[AccountRestrictionFlagsDto["ADDRESS"] = 1] = "ADDRESS";
+    AccountRestrictionFlagsDto[AccountRestrictionFlagsDto["MOSAIC_ID"] = 2] = "MOSAIC_ID";
+    AccountRestrictionFlagsDto[AccountRestrictionFlagsDto["TRANSACTION_TYPE"] = 4] = "TRANSACTION_TYPE";
+    AccountRestrictionFlagsDto[AccountRestrictionFlagsDto["OUTGOING"] = 16384] = "OUTGOING";
+    AccountRestrictionFlagsDto[AccountRestrictionFlagsDto["BLOCK"] = 32768] = "BLOCK";
+})(AccountRestrictionFlagsDto = exports.AccountRestrictionFlagsDto || (exports.AccountRestrictionFlagsDto = {}));
+
+},{}],292:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AccountRestrictionMosaicValueBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicIdDto_1 = require("./MosaicIdDto");
+class AccountRestrictionMosaicValueBuilder {
+    constructor(restrictionValues) {
+        GeneratorUtils_1.GeneratorUtils.notNull(restrictionValues, 'restrictionValues is null or undefined');
+        this.restrictionValues = restrictionValues;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const restrictionValuesCount = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(byteArray));
+        byteArray.splice(0, 8);
+        const restrictionValues = GeneratorUtils_1.GeneratorUtils.loadFromBinary(MosaicIdDto_1.MosaicIdDto.loadFromBinary, Uint8Array.from(byteArray), restrictionValuesCount);
+        byteArray.splice(0, restrictionValues.reduce((sum, c) => sum + c.getSize(), 0));
+        return new AccountRestrictionMosaicValueBuilder(restrictionValues);
+    }
+    static createAccountRestrictionMosaicValueBuilder(restrictionValues) {
+        return new AccountRestrictionMosaicValueBuilder(restrictionValues);
+    }
+    getRestrictionValues() {
+        return this.restrictionValues;
+    }
+    getSize() {
+        let size = 0;
+        size += 8;
+        size += this.restrictionValues.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0);
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const restrictionValuesCountBytes = GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.restrictionValues.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionValuesCountBytes);
+        const restrictionValuesBytes = GeneratorUtils_1.GeneratorUtils.writeList(this.restrictionValues, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionValuesBytes);
+        return newArray;
+    }
+}
+exports.AccountRestrictionMosaicValueBuilder = AccountRestrictionMosaicValueBuilder;
+
+},{"./GeneratorUtils":348,"./MosaicIdDto":387}],293:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AccountRestrictionTransactionTypeValueBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class AccountRestrictionTransactionTypeValueBuilder {
+    constructor(restrictionValues) {
+        GeneratorUtils_1.GeneratorUtils.notNull(restrictionValues, 'restrictionValues is null or undefined');
+        this.restrictionValues = restrictionValues;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const restrictionValuesCount = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(byteArray));
+        byteArray.splice(0, 8);
+        const restrictionValues = GeneratorUtils_1.GeneratorUtils.loadFromBinaryEnums(Uint8Array.from(byteArray), restrictionValuesCount, 2);
+        byteArray.splice(0, restrictionValues.reduce((sum) => sum + 2, 0));
+        return new AccountRestrictionTransactionTypeValueBuilder(restrictionValues);
+    }
+    static createAccountRestrictionTransactionTypeValueBuilder(restrictionValues) {
+        return new AccountRestrictionTransactionTypeValueBuilder(restrictionValues);
+    }
+    getRestrictionValues() {
+        return this.restrictionValues;
+    }
+    getSize() {
+        let size = 0;
+        size += 8;
+        size += this.restrictionValues.reduce((sum) => sum + 2, 0);
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const restrictionValuesCountBytes = GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.restrictionValues.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionValuesCountBytes);
+        const restrictionValuesBytes = GeneratorUtils_1.GeneratorUtils.writeListEnum(this.restrictionValues, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionValuesBytes);
+        return newArray;
+    }
+}
+exports.AccountRestrictionTransactionTypeValueBuilder = AccountRestrictionTransactionTypeValueBuilder;
+
+},{"./GeneratorUtils":348}],294:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AccountRestrictionsBuilder = void 0;
+const AccountRestrictionsInfoBuilder_1 = require("./AccountRestrictionsInfoBuilder");
+const AddressDto_1 = require("./AddressDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const StateHeaderBuilder_1 = require("./StateHeaderBuilder");
+class AccountRestrictionsBuilder extends StateHeaderBuilder_1.StateHeaderBuilder {
+    constructor(version, address, restrictions) {
+        super(version);
+        GeneratorUtils_1.GeneratorUtils.notNull(address, 'address is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(restrictions, 'restrictions is null or undefined');
+        this.address = address;
+        this.restrictions = restrictions;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = StateHeaderBuilder_1.StateHeaderBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const address = AddressDto_1.AddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, address.getSize());
+        const restrictionsCount = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(byteArray));
+        byteArray.splice(0, 8);
+        const restrictions = GeneratorUtils_1.GeneratorUtils.loadFromBinary(AccountRestrictionsInfoBuilder_1.AccountRestrictionsInfoBuilder.loadFromBinary, Uint8Array.from(byteArray), restrictionsCount);
+        byteArray.splice(0, restrictions.reduce((sum, c) => sum + c.getSize(), 0));
+        return new AccountRestrictionsBuilder(superObject.version, address, restrictions);
+    }
+    static createAccountRestrictionsBuilder(version, address, restrictions) {
+        return new AccountRestrictionsBuilder(version, address, restrictions);
+    }
+    getAddress() {
+        return this.address;
+    }
+    getRestrictions() {
+        return this.restrictions;
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.address.getSize();
+        size += 8;
+        size += this.restrictions.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0);
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const addressBytes = this.address.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, addressBytes);
+        const restrictionsCountBytes = GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.restrictions.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionsCountBytes);
+        const restrictionsBytes = GeneratorUtils_1.GeneratorUtils.writeList(this.restrictions, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionsBytes);
+        return newArray;
+    }
+}
+exports.AccountRestrictionsBuilder = AccountRestrictionsBuilder;
+
+},{"./AccountRestrictionsInfoBuilder":295,"./AddressDto":301,"./GeneratorUtils":348,"./StateHeaderBuilder":437}],295:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AccountRestrictionsInfoBuilder = void 0;
+const AccountRestrictionAddressValueBuilder_1 = require("./AccountRestrictionAddressValueBuilder");
+const AccountRestrictionFlagsDto_1 = require("./AccountRestrictionFlagsDto");
+const AccountRestrictionMosaicValueBuilder_1 = require("./AccountRestrictionMosaicValueBuilder");
+const AccountRestrictionTransactionTypeValueBuilder_1 = require("./AccountRestrictionTransactionTypeValueBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class AccountRestrictionsInfoBuilder {
+    constructor(restrictionFlags, addressRestrictions, mosaicIdRestrictions, transactionTypeRestrictions) {
+        GeneratorUtils_1.GeneratorUtils.notNull(restrictionFlags, 'restrictionFlags is null or undefined');
+        if (restrictionFlags.indexOf(AccountRestrictionFlagsDto_1.AccountRestrictionFlagsDto.ADDRESS) > -1) {
+            GeneratorUtils_1.GeneratorUtils.notNull(addressRestrictions, 'addressRestrictions is null or undefined');
+        }
+        if (restrictionFlags.indexOf(AccountRestrictionFlagsDto_1.AccountRestrictionFlagsDto.MOSAIC_ID) > -1) {
+            GeneratorUtils_1.GeneratorUtils.notNull(mosaicIdRestrictions, 'mosaicIdRestrictions is null or undefined');
+        }
+        if (restrictionFlags.indexOf(AccountRestrictionFlagsDto_1.AccountRestrictionFlagsDto.TRANSACTION_TYPE) > -1) {
+            GeneratorUtils_1.GeneratorUtils.notNull(transactionTypeRestrictions, 'transactionTypeRestrictions is null or undefined');
+        }
+        this.restrictionFlags = restrictionFlags;
+        this.addressRestrictions = addressRestrictions;
+        this.mosaicIdRestrictions = mosaicIdRestrictions;
+        this.transactionTypeRestrictions = transactionTypeRestrictions;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const restrictionFlags = GeneratorUtils_1.GeneratorUtils.toFlags(AccountRestrictionFlagsDto_1.AccountRestrictionFlagsDto, GeneratorUtils_1.GeneratorUtils.bufferToUint16(Uint8Array.from(byteArray)));
+        byteArray.splice(0, 2);
+        let addressRestrictions = undefined;
+        if (restrictionFlags.indexOf(AccountRestrictionFlagsDto_1.AccountRestrictionFlagsDto.ADDRESS) > -1) {
+            addressRestrictions = AccountRestrictionAddressValueBuilder_1.AccountRestrictionAddressValueBuilder.loadFromBinary(Uint8Array.from(byteArray));
+            byteArray.splice(0, addressRestrictions.getSize());
+        }
+        let mosaicIdRestrictions = undefined;
+        if (restrictionFlags.indexOf(AccountRestrictionFlagsDto_1.AccountRestrictionFlagsDto.MOSAIC_ID) > -1) {
+            mosaicIdRestrictions = AccountRestrictionMosaicValueBuilder_1.AccountRestrictionMosaicValueBuilder.loadFromBinary(Uint8Array.from(byteArray));
+            byteArray.splice(0, mosaicIdRestrictions.getSize());
+        }
+        let transactionTypeRestrictions = undefined;
+        if (restrictionFlags.indexOf(AccountRestrictionFlagsDto_1.AccountRestrictionFlagsDto.TRANSACTION_TYPE) > -1) {
+            transactionTypeRestrictions = AccountRestrictionTransactionTypeValueBuilder_1.AccountRestrictionTransactionTypeValueBuilder.loadFromBinary(Uint8Array.from(byteArray));
+            byteArray.splice(0, transactionTypeRestrictions.getSize());
+        }
+        return new AccountRestrictionsInfoBuilder(restrictionFlags, addressRestrictions, mosaicIdRestrictions, transactionTypeRestrictions);
+    }
+    static createAccountRestrictionsInfoBuilder(restrictionFlags, addressRestrictions, mosaicIdRestrictions, transactionTypeRestrictions) {
+        return new AccountRestrictionsInfoBuilder(restrictionFlags, addressRestrictions, mosaicIdRestrictions, transactionTypeRestrictions);
+    }
+    getRestrictionFlags() {
+        return this.restrictionFlags;
+    }
+    getAddressRestrictions() {
+        if (!(this.restrictionFlags.indexOf(AccountRestrictionFlagsDto_1.AccountRestrictionFlagsDto.ADDRESS) > -1 && this.addressRestrictions)) {
+            throw new Error('restrictionFlags is not set to ADDRESS.');
+        }
+        return this.addressRestrictions;
+    }
+    getMosaicIdRestrictions() {
+        if (!(this.restrictionFlags.indexOf(AccountRestrictionFlagsDto_1.AccountRestrictionFlagsDto.MOSAIC_ID) > -1 && this.mosaicIdRestrictions)) {
+            throw new Error('restrictionFlags is not set to MOSAIC_ID.');
+        }
+        return this.mosaicIdRestrictions;
+    }
+    getTransactionTypeRestrictions() {
+        if (!(this.restrictionFlags.indexOf(AccountRestrictionFlagsDto_1.AccountRestrictionFlagsDto.TRANSACTION_TYPE) > -1 && this.transactionTypeRestrictions)) {
+            throw new Error('restrictionFlags is not set to TRANSACTION_TYPE.');
+        }
+        return this.transactionTypeRestrictions;
+    }
+    getSize() {
+        let size = 0;
+        size += 2;
+        if (this.restrictionFlags.indexOf(AccountRestrictionFlagsDto_1.AccountRestrictionFlagsDto.ADDRESS) > -1) {
+            size += this.addressRestrictions.getSize();
+        }
+        if (this.restrictionFlags.indexOf(AccountRestrictionFlagsDto_1.AccountRestrictionFlagsDto.MOSAIC_ID) > -1) {
+            size += this.mosaicIdRestrictions.getSize();
+        }
+        if (this.restrictionFlags.indexOf(AccountRestrictionFlagsDto_1.AccountRestrictionFlagsDto.TRANSACTION_TYPE) > -1) {
+            size += this.transactionTypeRestrictions.getSize();
+        }
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const restrictionFlagsBytes = GeneratorUtils_1.GeneratorUtils.uint16ToBuffer(GeneratorUtils_1.GeneratorUtils.fromFlags(AccountRestrictionFlagsDto_1.AccountRestrictionFlagsDto, this.restrictionFlags));
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionFlagsBytes);
+        if (this.restrictionFlags.indexOf(AccountRestrictionFlagsDto_1.AccountRestrictionFlagsDto.ADDRESS) > -1) {
+            const addressRestrictionsBytes = this.addressRestrictions.serialize();
+            newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, addressRestrictionsBytes);
+        }
+        if (this.restrictionFlags.indexOf(AccountRestrictionFlagsDto_1.AccountRestrictionFlagsDto.MOSAIC_ID) > -1) {
+            const mosaicIdRestrictionsBytes = this.mosaicIdRestrictions.serialize();
+            newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicIdRestrictionsBytes);
+        }
+        if (this.restrictionFlags.indexOf(AccountRestrictionFlagsDto_1.AccountRestrictionFlagsDto.TRANSACTION_TYPE) > -1) {
+            const transactionTypeRestrictionsBytes = this.transactionTypeRestrictions.serialize();
+            newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, transactionTypeRestrictionsBytes);
+        }
+        return newArray;
+    }
+}
+exports.AccountRestrictionsInfoBuilder = AccountRestrictionsInfoBuilder;
+
+},{"./AccountRestrictionAddressValueBuilder":290,"./AccountRestrictionFlagsDto":291,"./AccountRestrictionMosaicValueBuilder":292,"./AccountRestrictionTransactionTypeValueBuilder":293,"./GeneratorUtils":348}],296:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AccountStateBuilder = void 0;
+const AccountKeyTypeFlagsDto_1 = require("./AccountKeyTypeFlagsDto");
+const AccountStateFormatDto_1 = require("./AccountStateFormatDto");
+const AddressDto_1 = require("./AddressDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const HeightActivityBucketsBuilder_1 = require("./HeightActivityBucketsBuilder");
+const HeightDto_1 = require("./HeightDto");
+const ImportanceSnapshotBuilder_1 = require("./ImportanceSnapshotBuilder");
+const KeyDto_1 = require("./KeyDto");
+const MosaicBuilder_1 = require("./MosaicBuilder");
+const PinnedVotingKeyBuilder_1 = require("./PinnedVotingKeyBuilder");
+const StateHeaderBuilder_1 = require("./StateHeaderBuilder");
+class AccountStateBuilder extends StateHeaderBuilder_1.StateHeaderBuilder {
+    constructor(version, address, addressHeight, publicKey, publicKeyHeight, accountType, format, supplementalPublicKeysMask, linkedPublicKey, nodePublicKey, vrfPublicKey, votingPublicKeys, importanceSnapshots, activityBuckets, balances) {
+        super(version);
+        GeneratorUtils_1.GeneratorUtils.notNull(address, 'address is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(addressHeight, 'addressHeight is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(publicKey, 'publicKey is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(publicKeyHeight, 'publicKeyHeight is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(accountType, 'accountType is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(format, 'format is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(supplementalPublicKeysMask, 'supplementalPublicKeysMask is null or undefined');
+        if (supplementalPublicKeysMask.indexOf(AccountKeyTypeFlagsDto_1.AccountKeyTypeFlagsDto.LINKED) > -1) {
+            GeneratorUtils_1.GeneratorUtils.notNull(linkedPublicKey, 'linkedPublicKey is null or undefined');
+        }
+        if (supplementalPublicKeysMask.indexOf(AccountKeyTypeFlagsDto_1.AccountKeyTypeFlagsDto.NODE) > -1) {
+            GeneratorUtils_1.GeneratorUtils.notNull(nodePublicKey, 'nodePublicKey is null or undefined');
+        }
+        if (supplementalPublicKeysMask.indexOf(AccountKeyTypeFlagsDto_1.AccountKeyTypeFlagsDto.VRF) > -1) {
+            GeneratorUtils_1.GeneratorUtils.notNull(vrfPublicKey, 'vrfPublicKey is null or undefined');
+        }
+        GeneratorUtils_1.GeneratorUtils.notNull(votingPublicKeys, 'votingPublicKeys is null or undefined');
+        if (format === AccountStateFormatDto_1.AccountStateFormatDto.HIGH_VALUE) {
+            GeneratorUtils_1.GeneratorUtils.notNull(importanceSnapshots, 'importanceSnapshots is null or undefined');
+        }
+        if (format === AccountStateFormatDto_1.AccountStateFormatDto.HIGH_VALUE) {
+            GeneratorUtils_1.GeneratorUtils.notNull(activityBuckets, 'activityBuckets is null or undefined');
+        }
+        GeneratorUtils_1.GeneratorUtils.notNull(balances, 'balances is null or undefined');
+        this.address = address;
+        this.addressHeight = addressHeight;
+        this.publicKey = publicKey;
+        this.publicKeyHeight = publicKeyHeight;
+        this.accountType = accountType;
+        this.format = format;
+        this.supplementalPublicKeysMask = supplementalPublicKeysMask;
+        this.linkedPublicKey = linkedPublicKey;
+        this.nodePublicKey = nodePublicKey;
+        this.vrfPublicKey = vrfPublicKey;
+        this.votingPublicKeys = votingPublicKeys;
+        this.importanceSnapshots = importanceSnapshots;
+        this.activityBuckets = activityBuckets;
+        this.balances = balances;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = StateHeaderBuilder_1.StateHeaderBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const address = AddressDto_1.AddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, address.getSize());
+        const addressHeight = HeightDto_1.HeightDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, addressHeight.getSize());
+        const publicKey = KeyDto_1.KeyDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, publicKey.getSize());
+        const publicKeyHeight = HeightDto_1.HeightDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, publicKeyHeight.getSize());
+        const accountType = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const format = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const supplementalPublicKeysMask = GeneratorUtils_1.GeneratorUtils.toFlags(AccountKeyTypeFlagsDto_1.AccountKeyTypeFlagsDto, GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray)));
+        byteArray.splice(0, 1);
+        const votingPublicKeysCount = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        let linkedPublicKey = undefined;
+        if (supplementalPublicKeysMask.indexOf(AccountKeyTypeFlagsDto_1.AccountKeyTypeFlagsDto.LINKED) > -1) {
+            linkedPublicKey = KeyDto_1.KeyDto.loadFromBinary(Uint8Array.from(byteArray));
+            byteArray.splice(0, linkedPublicKey.getSize());
+        }
+        let nodePublicKey = undefined;
+        if (supplementalPublicKeysMask.indexOf(AccountKeyTypeFlagsDto_1.AccountKeyTypeFlagsDto.NODE) > -1) {
+            nodePublicKey = KeyDto_1.KeyDto.loadFromBinary(Uint8Array.from(byteArray));
+            byteArray.splice(0, nodePublicKey.getSize());
+        }
+        let vrfPublicKey = undefined;
+        if (supplementalPublicKeysMask.indexOf(AccountKeyTypeFlagsDto_1.AccountKeyTypeFlagsDto.VRF) > -1) {
+            vrfPublicKey = KeyDto_1.KeyDto.loadFromBinary(Uint8Array.from(byteArray));
+            byteArray.splice(0, vrfPublicKey.getSize());
+        }
+        const votingPublicKeys = GeneratorUtils_1.GeneratorUtils.loadFromBinary(PinnedVotingKeyBuilder_1.PinnedVotingKeyBuilder.loadFromBinary, Uint8Array.from(byteArray), votingPublicKeysCount);
+        byteArray.splice(0, votingPublicKeys.reduce((sum, c) => sum + c.getSize(), 0));
+        let importanceSnapshots = undefined;
+        if (format === AccountStateFormatDto_1.AccountStateFormatDto.HIGH_VALUE) {
+            importanceSnapshots = ImportanceSnapshotBuilder_1.ImportanceSnapshotBuilder.loadFromBinary(Uint8Array.from(byteArray));
+            byteArray.splice(0, importanceSnapshots.getSize());
+        }
+        let activityBuckets = undefined;
+        if (format === AccountStateFormatDto_1.AccountStateFormatDto.HIGH_VALUE) {
+            activityBuckets = HeightActivityBucketsBuilder_1.HeightActivityBucketsBuilder.loadFromBinary(Uint8Array.from(byteArray));
+            byteArray.splice(0, activityBuckets.getSize());
+        }
+        const balancesCount = GeneratorUtils_1.GeneratorUtils.bufferToUint16(Uint8Array.from(byteArray));
+        byteArray.splice(0, 2);
+        const balances = GeneratorUtils_1.GeneratorUtils.loadFromBinary(MosaicBuilder_1.MosaicBuilder.loadFromBinary, Uint8Array.from(byteArray), balancesCount);
+        byteArray.splice(0, balances.reduce((sum, c) => sum + c.getSize(), 0));
+        return new AccountStateBuilder(superObject.version, address, addressHeight, publicKey, publicKeyHeight, accountType, format, supplementalPublicKeysMask, linkedPublicKey, nodePublicKey, vrfPublicKey, votingPublicKeys, importanceSnapshots, activityBuckets, balances);
+    }
+    static createAccountStateBuilderHighValue(version, address, addressHeight, publicKey, publicKeyHeight, accountType, supplementalPublicKeysMask, linkedPublicKey, nodePublicKey, vrfPublicKey, votingPublicKeys, importanceSnapshots, activityBuckets, balances) {
+        const format = AccountStateFormatDto_1.AccountStateFormatDto.HIGH_VALUE;
+        return new AccountStateBuilder(version, address, addressHeight, publicKey, publicKeyHeight, accountType, format, supplementalPublicKeysMask, linkedPublicKey, nodePublicKey, vrfPublicKey, votingPublicKeys, importanceSnapshots, activityBuckets, balances);
+    }
+    static createAccountStateBuilderRegular(version, address, addressHeight, publicKey, publicKeyHeight, accountType, supplementalPublicKeysMask, linkedPublicKey, nodePublicKey, vrfPublicKey, votingPublicKeys, balances) {
+        const format = AccountStateFormatDto_1.AccountStateFormatDto.REGULAR;
+        return new AccountStateBuilder(version, address, addressHeight, publicKey, publicKeyHeight, accountType, format, supplementalPublicKeysMask, linkedPublicKey, nodePublicKey, vrfPublicKey, votingPublicKeys, undefined, undefined, balances);
+    }
+    getAddress() {
+        return this.address;
+    }
+    getAddressHeight() {
+        return this.addressHeight;
+    }
+    getPublicKey() {
+        return this.publicKey;
+    }
+    getPublicKeyHeight() {
+        return this.publicKeyHeight;
+    }
+    getAccountType() {
+        return this.accountType;
+    }
+    getFormat() {
+        return this.format;
+    }
+    getSupplementalPublicKeysMask() {
+        return this.supplementalPublicKeysMask;
+    }
+    getLinkedPublicKey() {
+        if (!(this.supplementalPublicKeysMask.indexOf(AccountKeyTypeFlagsDto_1.AccountKeyTypeFlagsDto.LINKED) > -1 && this.linkedPublicKey)) {
+            throw new Error('supplementalPublicKeysMask is not set to LINKED.');
+        }
+        return this.linkedPublicKey;
+    }
+    getNodePublicKey() {
+        if (!(this.supplementalPublicKeysMask.indexOf(AccountKeyTypeFlagsDto_1.AccountKeyTypeFlagsDto.NODE) > -1 && this.nodePublicKey)) {
+            throw new Error('supplementalPublicKeysMask is not set to NODE.');
+        }
+        return this.nodePublicKey;
+    }
+    getVrfPublicKey() {
+        if (!(this.supplementalPublicKeysMask.indexOf(AccountKeyTypeFlagsDto_1.AccountKeyTypeFlagsDto.VRF) > -1 && this.vrfPublicKey)) {
+            throw new Error('supplementalPublicKeysMask is not set to VRF.');
+        }
+        return this.vrfPublicKey;
+    }
+    getVotingPublicKeys() {
+        return this.votingPublicKeys;
+    }
+    getImportanceSnapshots() {
+        if (!(this.format === AccountStateFormatDto_1.AccountStateFormatDto.HIGH_VALUE && this.importanceSnapshots)) {
+            throw new Error('format is not set to HIGH_VALUE.');
+        }
+        return this.importanceSnapshots;
+    }
+    getActivityBuckets() {
+        if (!(this.format === AccountStateFormatDto_1.AccountStateFormatDto.HIGH_VALUE && this.activityBuckets)) {
+            throw new Error('format is not set to HIGH_VALUE.');
+        }
+        return this.activityBuckets;
+    }
+    getBalances() {
+        return this.balances;
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.address.getSize();
+        size += this.addressHeight.getSize();
+        size += this.publicKey.getSize();
+        size += this.publicKeyHeight.getSize();
+        size += 1;
+        size += 1;
+        size += 1;
+        size += 1;
+        if (this.supplementalPublicKeysMask.indexOf(AccountKeyTypeFlagsDto_1.AccountKeyTypeFlagsDto.LINKED) > -1) {
+            size += this.linkedPublicKey.getSize();
+        }
+        if (this.supplementalPublicKeysMask.indexOf(AccountKeyTypeFlagsDto_1.AccountKeyTypeFlagsDto.NODE) > -1) {
+            size += this.nodePublicKey.getSize();
+        }
+        if (this.supplementalPublicKeysMask.indexOf(AccountKeyTypeFlagsDto_1.AccountKeyTypeFlagsDto.VRF) > -1) {
+            size += this.vrfPublicKey.getSize();
+        }
+        size += this.votingPublicKeys.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0);
+        if (this.format === AccountStateFormatDto_1.AccountStateFormatDto.HIGH_VALUE) {
+            size += this.importanceSnapshots.getSize();
+        }
+        if (this.format === AccountStateFormatDto_1.AccountStateFormatDto.HIGH_VALUE) {
+            size += this.activityBuckets.getSize();
+        }
+        size += 2;
+        size += this.balances.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0);
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const addressBytes = this.address.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, addressBytes);
+        const addressHeightBytes = this.addressHeight.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, addressHeightBytes);
+        const publicKeyBytes = this.publicKey.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, publicKeyBytes);
+        const publicKeyHeightBytes = this.publicKeyHeight.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, publicKeyHeightBytes);
+        const accountTypeBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.accountType);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, accountTypeBytes);
+        const formatBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.format);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, formatBytes);
+        const supplementalPublicKeysMaskBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(GeneratorUtils_1.GeneratorUtils.fromFlags(AccountKeyTypeFlagsDto_1.AccountKeyTypeFlagsDto, this.supplementalPublicKeysMask));
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, supplementalPublicKeysMaskBytes);
+        const votingPublicKeysCountBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.votingPublicKeys.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, votingPublicKeysCountBytes);
+        if (this.supplementalPublicKeysMask.indexOf(AccountKeyTypeFlagsDto_1.AccountKeyTypeFlagsDto.LINKED) > -1) {
+            const linkedPublicKeyBytes = this.linkedPublicKey.serialize();
+            newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, linkedPublicKeyBytes);
+        }
+        if (this.supplementalPublicKeysMask.indexOf(AccountKeyTypeFlagsDto_1.AccountKeyTypeFlagsDto.NODE) > -1) {
+            const nodePublicKeyBytes = this.nodePublicKey.serialize();
+            newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, nodePublicKeyBytes);
+        }
+        if (this.supplementalPublicKeysMask.indexOf(AccountKeyTypeFlagsDto_1.AccountKeyTypeFlagsDto.VRF) > -1) {
+            const vrfPublicKeyBytes = this.vrfPublicKey.serialize();
+            newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, vrfPublicKeyBytes);
+        }
+        const votingPublicKeysBytes = GeneratorUtils_1.GeneratorUtils.writeList(this.votingPublicKeys, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, votingPublicKeysBytes);
+        if (this.format === AccountStateFormatDto_1.AccountStateFormatDto.HIGH_VALUE) {
+            const importanceSnapshotsBytes = this.importanceSnapshots.serialize();
+            newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, importanceSnapshotsBytes);
+        }
+        if (this.format === AccountStateFormatDto_1.AccountStateFormatDto.HIGH_VALUE) {
+            const activityBucketsBytes = this.activityBuckets.serialize();
+            newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, activityBucketsBytes);
+        }
+        const balancesCountBytes = GeneratorUtils_1.GeneratorUtils.uint16ToBuffer(this.balances.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, balancesCountBytes);
+        const balancesBytes = GeneratorUtils_1.GeneratorUtils.writeList(this.balances, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, balancesBytes);
+        return newArray;
+    }
+}
+exports.AccountStateBuilder = AccountStateBuilder;
+
+},{"./AccountKeyTypeFlagsDto":283,"./AccountStateFormatDto":297,"./AddressDto":301,"./GeneratorUtils":348,"./HeightActivityBucketsBuilder":357,"./HeightDto":358,"./ImportanceSnapshotBuilder":363,"./KeyDto":365,"./MosaicBuilder":377,"./PinnedVotingKeyBuilder":420,"./StateHeaderBuilder":437}],297:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AccountStateFormatDto = void 0;
+var AccountStateFormatDto;
+(function (AccountStateFormatDto) {
+    AccountStateFormatDto[AccountStateFormatDto["REGULAR"] = 0] = "REGULAR";
+    AccountStateFormatDto[AccountStateFormatDto["HIGH_VALUE"] = 1] = "HIGH_VALUE";
+})(AccountStateFormatDto = exports.AccountStateFormatDto || (exports.AccountStateFormatDto = {}));
+
+},{}],298:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AccountTypeDto = void 0;
+var AccountTypeDto;
+(function (AccountTypeDto) {
+    AccountTypeDto[AccountTypeDto["UNLINKED"] = 0] = "UNLINKED";
+    AccountTypeDto[AccountTypeDto["MAIN"] = 1] = "MAIN";
+    AccountTypeDto[AccountTypeDto["REMOTE"] = 2] = "REMOTE";
+    AccountTypeDto[AccountTypeDto["REMOTE_UNLINKED"] = 3] = "REMOTE_UNLINKED";
+})(AccountTypeDto = exports.AccountTypeDto || (exports.AccountTypeDto = {}));
+
+},{}],299:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AddressAliasTransactionBodyBuilder = void 0;
+const AddressDto_1 = require("./AddressDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const NamespaceIdDto_1 = require("./NamespaceIdDto");
+class AddressAliasTransactionBodyBuilder {
+    constructor(namespaceId, address, aliasAction) {
+        GeneratorUtils_1.GeneratorUtils.notNull(namespaceId, 'namespaceId is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(address, 'address is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(aliasAction, 'aliasAction is null or undefined');
+        this.namespaceId = namespaceId;
+        this.address = address;
+        this.aliasAction = aliasAction;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const namespaceId = NamespaceIdDto_1.NamespaceIdDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, namespaceId.getSize());
+        const address = AddressDto_1.AddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, address.getSize());
+        const aliasAction = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        return new AddressAliasTransactionBodyBuilder(namespaceId, address, aliasAction);
+    }
+    static createAddressAliasTransactionBodyBuilder(namespaceId, address, aliasAction) {
+        return new AddressAliasTransactionBodyBuilder(namespaceId, address, aliasAction);
+    }
+    getNamespaceId() {
+        return this.namespaceId;
+    }
+    getAddress() {
+        return this.address;
+    }
+    getAliasAction() {
+        return this.aliasAction;
+    }
+    getSize() {
+        let size = 0;
+        size += this.namespaceId.getSize();
+        size += this.address.getSize();
+        size += 1;
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const namespaceIdBytes = this.namespaceId.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, namespaceIdBytes);
+        const addressBytes = this.address.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, addressBytes);
+        const aliasActionBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.aliasAction);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, aliasActionBytes);
+        return newArray;
+    }
+}
+exports.AddressAliasTransactionBodyBuilder = AddressAliasTransactionBodyBuilder;
+
+},{"./AddressDto":301,"./GeneratorUtils":348,"./NamespaceIdDto":407}],300:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AddressAliasTransactionBuilder = void 0;
+const AddressAliasTransactionBodyBuilder_1 = require("./AddressAliasTransactionBodyBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+class AddressAliasTransactionBuilder extends TransactionBuilder_1.TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline, namespaceId, address, aliasAction) {
+        super(signature, signerPublicKey, version, network, type, fee, deadline);
+        this.addressAliasTransactionBody = new AddressAliasTransactionBodyBuilder_1.AddressAliasTransactionBodyBuilder(namespaceId, address, aliasAction);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const addressAliasTransactionBody = AddressAliasTransactionBodyBuilder_1.AddressAliasTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, addressAliasTransactionBody.getSize());
+        return new AddressAliasTransactionBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.fee, superObject.deadline, addressAliasTransactionBody.namespaceId, addressAliasTransactionBody.address, addressAliasTransactionBody.aliasAction);
+    }
+    static createAddressAliasTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, namespaceId, address, aliasAction) {
+        return new AddressAliasTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, namespaceId, address, aliasAction);
+    }
+    getNamespaceId() {
+        return this.addressAliasTransactionBody.getNamespaceId();
+    }
+    getAddress() {
+        return this.addressAliasTransactionBody.getAddress();
+    }
+    getAliasAction() {
+        return this.addressAliasTransactionBody.getAliasAction();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.addressAliasTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.addressAliasTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const addressAliasTransactionBodyBytes = this.addressAliasTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, addressAliasTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.AddressAliasTransactionBuilder = AddressAliasTransactionBuilder;
+
+},{"./AddressAliasTransactionBodyBuilder":299,"./GeneratorUtils":348,"./TransactionBuilder":439}],301:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AddressDto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class AddressDto {
+    constructor(address) {
+        this.address = address;
+    }
+    static loadFromBinary(payload) {
+        const address = GeneratorUtils_1.GeneratorUtils.getBytes(Uint8Array.from(payload), 24);
+        return new AddressDto(address);
+    }
+    getAddress() {
+        return this.address;
+    }
+    getSize() {
+        return 24;
+    }
+    serialize() {
+        return this.getAddress();
+    }
+}
+exports.AddressDto = AddressDto;
+
+},{"./GeneratorUtils":348}],302:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AddressKeyValueBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicRestrictionKeyDto_1 = require("./MosaicRestrictionKeyDto");
+class AddressKeyValueBuilder {
+    constructor(key, value) {
+        GeneratorUtils_1.GeneratorUtils.notNull(key, 'key is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(value, 'value is null or undefined');
+        this.key = key;
+        this.value = value;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const key = MosaicRestrictionKeyDto_1.MosaicRestrictionKeyDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, key.getSize());
+        const value = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(byteArray));
+        byteArray.splice(0, 8);
+        return new AddressKeyValueBuilder(key, value);
+    }
+    static createAddressKeyValueBuilder(key, value) {
+        return new AddressKeyValueBuilder(key, value);
+    }
+    getKey() {
+        return this.key;
+    }
+    getValue() {
+        return this.value;
+    }
+    getSize() {
+        let size = 0;
+        size += this.key.getSize();
+        size += 8;
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const keyBytes = this.key.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, keyBytes);
+        const valueBytes = GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getValue());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, valueBytes);
+        return newArray;
+    }
+}
+exports.AddressKeyValueBuilder = AddressKeyValueBuilder;
+
+},{"./GeneratorUtils":348,"./MosaicRestrictionKeyDto":396}],303:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AddressKeyValueSetBuilder = void 0;
+const AddressKeyValueBuilder_1 = require("./AddressKeyValueBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class AddressKeyValueSetBuilder {
+    constructor(keys) {
+        GeneratorUtils_1.GeneratorUtils.notNull(keys, 'keys is null or undefined');
+        this.keys = keys;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const keyValueCount = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const keys = GeneratorUtils_1.GeneratorUtils.loadFromBinary(AddressKeyValueBuilder_1.AddressKeyValueBuilder.loadFromBinary, Uint8Array.from(byteArray), keyValueCount);
+        byteArray.splice(0, keys.reduce((sum, c) => sum + c.getSize(), 0));
+        return new AddressKeyValueSetBuilder(keys);
+    }
+    static createAddressKeyValueSetBuilder(keys) {
+        return new AddressKeyValueSetBuilder(keys);
+    }
+    getKeys() {
+        return this.keys;
+    }
+    getSize() {
+        let size = 0;
+        size += 1;
+        size += this.keys.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0);
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const keyValueCountBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.keys.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, keyValueCountBytes);
+        const keysBytes = GeneratorUtils_1.GeneratorUtils.writeList(this.keys, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, keysBytes);
+        return newArray;
+    }
+}
+exports.AddressKeyValueSetBuilder = AddressKeyValueSetBuilder;
+
+},{"./AddressKeyValueBuilder":302,"./GeneratorUtils":348}],304:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AddressResolutionEntryBuilder = void 0;
+const AddressDto_1 = require("./AddressDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const ReceiptSourceBuilder_1 = require("./ReceiptSourceBuilder");
+class AddressResolutionEntryBuilder {
+    constructor(source, resolved) {
+        GeneratorUtils_1.GeneratorUtils.notNull(source, 'source is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(resolved, 'resolved is null or undefined');
+        this.source = source;
+        this.resolved = resolved;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const source = ReceiptSourceBuilder_1.ReceiptSourceBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, source.getSize());
+        const resolved = AddressDto_1.AddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, resolved.getSize());
+        return new AddressResolutionEntryBuilder(source, resolved);
+    }
+    static createAddressResolutionEntryBuilder(source, resolved) {
+        return new AddressResolutionEntryBuilder(source, resolved);
+    }
+    getSource() {
+        return this.source;
+    }
+    getResolved() {
+        return this.resolved;
+    }
+    getSize() {
+        let size = 0;
+        size += this.source.getSize();
+        size += this.resolved.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const sourceBytes = this.source.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, sourceBytes);
+        const resolvedBytes = this.resolved.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, resolvedBytes);
+        return newArray;
+    }
+}
+exports.AddressResolutionEntryBuilder = AddressResolutionEntryBuilder;
+
+},{"./AddressDto":301,"./GeneratorUtils":348,"./ReceiptSourceBuilder":425}],305:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AddressResolutionStatementBuilder = void 0;
+const AddressResolutionEntryBuilder_1 = require("./AddressResolutionEntryBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const ReceiptBuilder_1 = require("./ReceiptBuilder");
+const UnresolvedAddressDto_1 = require("./UnresolvedAddressDto");
+class AddressResolutionStatementBuilder extends ReceiptBuilder_1.ReceiptBuilder {
+    constructor(version, type, unresolved, resolutionEntries) {
+        super(version, type);
+        GeneratorUtils_1.GeneratorUtils.notNull(unresolved, 'unresolved is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(resolutionEntries, 'resolutionEntries is null or undefined');
+        this.unresolved = unresolved;
+        this.resolutionEntries = resolutionEntries;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = ReceiptBuilder_1.ReceiptBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const unresolved = UnresolvedAddressDto_1.UnresolvedAddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, unresolved.getSize());
+        const resolutionEntries = GeneratorUtils_1.GeneratorUtils.loadFromBinaryRemaining(AddressResolutionEntryBuilder_1.AddressResolutionEntryBuilder.loadFromBinary, Uint8Array.from(byteArray), byteArray.length, 0);
+        byteArray.splice(0, resolutionEntries.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0));
+        return new AddressResolutionStatementBuilder(superObject.version, superObject.type, unresolved, resolutionEntries);
+    }
+    static createAddressResolutionStatementBuilder(version, type, unresolved, resolutionEntries) {
+        return new AddressResolutionStatementBuilder(version, type, unresolved, resolutionEntries);
+    }
+    getUnresolved() {
+        return this.unresolved;
+    }
+    getResolutionEntries() {
+        return this.resolutionEntries;
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.unresolved.getSize();
+        size += this.resolutionEntries.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0);
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const unresolvedBytes = this.unresolved.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, unresolvedBytes);
+        const resolutionEntriesBytes = GeneratorUtils_1.GeneratorUtils.writeList(this.resolutionEntries, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, resolutionEntriesBytes);
+        return newArray;
+    }
+}
+exports.AddressResolutionStatementBuilder = AddressResolutionStatementBuilder;
+
+},{"./AddressResolutionEntryBuilder":304,"./GeneratorUtils":348,"./ReceiptBuilder":424,"./UnresolvedAddressDto":443}],306:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AggregateBondedTransactionBuilder = void 0;
+const AggregateTransactionBodyBuilder_1 = require("./AggregateTransactionBodyBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+class AggregateBondedTransactionBuilder extends TransactionBuilder_1.TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline, transactionsHash, transactions, cosignatures) {
+        super(signature, signerPublicKey, version, network, type, fee, deadline);
+        this.aggregateTransactionBody = new AggregateTransactionBodyBuilder_1.AggregateTransactionBodyBuilder(transactionsHash, transactions, cosignatures);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const aggregateTransactionBody = AggregateTransactionBodyBuilder_1.AggregateTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, aggregateTransactionBody.getSize());
+        return new AggregateBondedTransactionBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.fee, superObject.deadline, aggregateTransactionBody.transactionsHash, aggregateTransactionBody.transactions, aggregateTransactionBody.cosignatures);
+    }
+    static createAggregateBondedTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, transactionsHash, transactions, cosignatures) {
+        return new AggregateBondedTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, transactionsHash, transactions, cosignatures);
+    }
+    getTransactionsHash() {
+        return this.aggregateTransactionBody.getTransactionsHash();
+    }
+    getTransactions() {
+        return this.aggregateTransactionBody.getTransactions();
+    }
+    getCosignatures() {
+        return this.aggregateTransactionBody.getCosignatures();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.aggregateTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.aggregateTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const aggregateTransactionBodyBytes = this.aggregateTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, aggregateTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.AggregateBondedTransactionBuilder = AggregateBondedTransactionBuilder;
+
+},{"./AggregateTransactionBodyBuilder":308,"./GeneratorUtils":348,"./TransactionBuilder":439}],307:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AggregateCompleteTransactionBuilder = void 0;
+const AggregateTransactionBodyBuilder_1 = require("./AggregateTransactionBodyBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+class AggregateCompleteTransactionBuilder extends TransactionBuilder_1.TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline, transactionsHash, transactions, cosignatures) {
+        super(signature, signerPublicKey, version, network, type, fee, deadline);
+        this.aggregateTransactionBody = new AggregateTransactionBodyBuilder_1.AggregateTransactionBodyBuilder(transactionsHash, transactions, cosignatures);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const aggregateTransactionBody = AggregateTransactionBodyBuilder_1.AggregateTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, aggregateTransactionBody.getSize());
+        return new AggregateCompleteTransactionBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.fee, superObject.deadline, aggregateTransactionBody.transactionsHash, aggregateTransactionBody.transactions, aggregateTransactionBody.cosignatures);
+    }
+    static createAggregateCompleteTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, transactionsHash, transactions, cosignatures) {
+        return new AggregateCompleteTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, transactionsHash, transactions, cosignatures);
+    }
+    getTransactionsHash() {
+        return this.aggregateTransactionBody.getTransactionsHash();
+    }
+    getTransactions() {
+        return this.aggregateTransactionBody.getTransactions();
+    }
+    getCosignatures() {
+        return this.aggregateTransactionBody.getCosignatures();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.aggregateTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.aggregateTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const aggregateTransactionBodyBytes = this.aggregateTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, aggregateTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.AggregateCompleteTransactionBuilder = AggregateCompleteTransactionBuilder;
+
+},{"./AggregateTransactionBodyBuilder":308,"./GeneratorUtils":348,"./TransactionBuilder":439}],308:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AggregateTransactionBodyBuilder = void 0;
+const CosignatureBuilder_1 = require("./CosignatureBuilder");
+const EmbeddedTransactionHelper_1 = require("./EmbeddedTransactionHelper");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const Hash256Dto_1 = require("./Hash256Dto");
+class AggregateTransactionBodyBuilder {
+    constructor(transactionsHash, transactions, cosignatures) {
+        GeneratorUtils_1.GeneratorUtils.notNull(transactionsHash, 'transactionsHash is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(transactions, 'transactions is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(cosignatures, 'cosignatures is null or undefined');
+        this.transactionsHash = transactionsHash;
+        this.transactions = transactions;
+        this.cosignatures = cosignatures;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const transactionsHash = Hash256Dto_1.Hash256Dto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, transactionsHash.getSize());
+        const payloadSize = GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        const transactions = GeneratorUtils_1.GeneratorUtils.loadFromBinaryRemaining(EmbeddedTransactionHelper_1.EmbeddedTransactionHelper.loadFromBinary, Uint8Array.from(byteArray), payloadSize, 8);
+        byteArray.splice(0, transactions.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 8), 0));
+        const cosignatures = GeneratorUtils_1.GeneratorUtils.loadFromBinaryRemaining(CosignatureBuilder_1.CosignatureBuilder.loadFromBinary, Uint8Array.from(byteArray), byteArray.length, 0);
+        byteArray.splice(0, cosignatures.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0));
+        return new AggregateTransactionBodyBuilder(transactionsHash, transactions, cosignatures);
+    }
+    static createAggregateTransactionBodyBuilder(transactionsHash, transactions, cosignatures) {
+        return new AggregateTransactionBodyBuilder(transactionsHash, transactions, cosignatures);
+    }
+    getTransactionsHash() {
+        return this.transactionsHash;
+    }
+    getTransactions() {
+        return this.transactions;
+    }
+    getCosignatures() {
+        return this.cosignatures;
+    }
+    getSize() {
+        let size = 0;
+        size += this.transactionsHash.getSize();
+        size += 4;
+        size += 4;
+        size += this.transactions.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 8), 0);
+        size += this.cosignatures.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0);
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const transactionsHashBytes = this.transactionsHash.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, transactionsHashBytes);
+        const payloadSize = this.transactions.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 8), 0);
+        const payloadSizeBytes = GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(payloadSize);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, payloadSizeBytes);
+        const aggregateTransactionHeader_Reserved1Bytes = GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, aggregateTransactionHeader_Reserved1Bytes);
+        const transactionsBytes = GeneratorUtils_1.GeneratorUtils.writeList(this.transactions, 8);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, transactionsBytes);
+        const cosignaturesBytes = GeneratorUtils_1.GeneratorUtils.writeList(this.cosignatures, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, cosignaturesBytes);
+        return newArray;
+    }
+}
+exports.AggregateTransactionBodyBuilder = AggregateTransactionBodyBuilder;
+
+},{"./CosignatureBuilder":316,"./EmbeddedTransactionHelper":339,"./GeneratorUtils":348,"./Hash256Dto":351}],309:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AliasActionDto = void 0;
+var AliasActionDto;
+(function (AliasActionDto) {
+    AliasActionDto[AliasActionDto["UNLINK"] = 0] = "UNLINK";
+    AliasActionDto[AliasActionDto["LINK"] = 1] = "LINK";
+})(AliasActionDto = exports.AliasActionDto || (exports.AliasActionDto = {}));
+
+},{}],310:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AmountDto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class AmountDto {
+    constructor(amount) {
+        this.amount = amount;
+    }
+    static loadFromBinary(payload) {
+        const amount = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(payload));
+        return new AmountDto(amount);
+    }
+    getAmount() {
+        return this.amount;
+    }
+    getSize() {
+        return 8;
+    }
+    serialize() {
+        return GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getAmount());
+    }
+}
+exports.AmountDto = AmountDto;
+
+},{"./GeneratorUtils":348}],311:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.BalanceChangeReceiptBuilder = void 0;
+const AddressDto_1 = require("./AddressDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicBuilder_1 = require("./MosaicBuilder");
+const ReceiptBuilder_1 = require("./ReceiptBuilder");
+class BalanceChangeReceiptBuilder extends ReceiptBuilder_1.ReceiptBuilder {
+    constructor(version, type, mosaic, targetAddress) {
+        super(version, type);
+        GeneratorUtils_1.GeneratorUtils.notNull(mosaic, 'mosaic is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(targetAddress, 'targetAddress is null or undefined');
+        this.mosaic = mosaic;
+        this.targetAddress = targetAddress;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = ReceiptBuilder_1.ReceiptBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const mosaic = MosaicBuilder_1.MosaicBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaic.getSize());
+        const targetAddress = AddressDto_1.AddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, targetAddress.getSize());
+        return new BalanceChangeReceiptBuilder(superObject.version, superObject.type, mosaic, targetAddress);
+    }
+    static createBalanceChangeReceiptBuilder(version, type, mosaic, targetAddress) {
+        return new BalanceChangeReceiptBuilder(version, type, mosaic, targetAddress);
+    }
+    getMosaic() {
+        return this.mosaic;
+    }
+    getTargetAddress() {
+        return this.targetAddress;
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.mosaic.getSize();
+        size += this.targetAddress.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const mosaicBytes = this.mosaic.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicBytes);
+        const targetAddressBytes = this.targetAddress.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, targetAddressBytes);
+        return newArray;
+    }
+}
+exports.BalanceChangeReceiptBuilder = BalanceChangeReceiptBuilder;
+
+},{"./AddressDto":301,"./GeneratorUtils":348,"./MosaicBuilder":377,"./ReceiptBuilder":424}],312:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.BalanceTransferReceiptBuilder = void 0;
+const AddressDto_1 = require("./AddressDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicBuilder_1 = require("./MosaicBuilder");
+const ReceiptBuilder_1 = require("./ReceiptBuilder");
+class BalanceTransferReceiptBuilder extends ReceiptBuilder_1.ReceiptBuilder {
+    constructor(version, type, mosaic, senderAddress, recipientAddress) {
+        super(version, type);
+        GeneratorUtils_1.GeneratorUtils.notNull(mosaic, 'mosaic is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(senderAddress, 'senderAddress is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(recipientAddress, 'recipientAddress is null or undefined');
+        this.mosaic = mosaic;
+        this.senderAddress = senderAddress;
+        this.recipientAddress = recipientAddress;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = ReceiptBuilder_1.ReceiptBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const mosaic = MosaicBuilder_1.MosaicBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaic.getSize());
+        const senderAddress = AddressDto_1.AddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, senderAddress.getSize());
+        const recipientAddress = AddressDto_1.AddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, recipientAddress.getSize());
+        return new BalanceTransferReceiptBuilder(superObject.version, superObject.type, mosaic, senderAddress, recipientAddress);
+    }
+    static createBalanceTransferReceiptBuilder(version, type, mosaic, senderAddress, recipientAddress) {
+        return new BalanceTransferReceiptBuilder(version, type, mosaic, senderAddress, recipientAddress);
+    }
+    getMosaic() {
+        return this.mosaic;
+    }
+    getSenderAddress() {
+        return this.senderAddress;
+    }
+    getRecipientAddress() {
+        return this.recipientAddress;
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.mosaic.getSize();
+        size += this.senderAddress.getSize();
+        size += this.recipientAddress.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const mosaicBytes = this.mosaic.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicBytes);
+        const senderAddressBytes = this.senderAddress.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, senderAddressBytes);
+        const recipientAddressBytes = this.recipientAddress.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, recipientAddressBytes);
+        return newArray;
+    }
+}
+exports.BalanceTransferReceiptBuilder = BalanceTransferReceiptBuilder;
+
+},{"./AddressDto":301,"./GeneratorUtils":348,"./MosaicBuilder":377,"./ReceiptBuilder":424}],313:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.BlockDurationDto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class BlockDurationDto {
+    constructor(blockDuration) {
+        this.blockDuration = blockDuration;
+    }
+    static loadFromBinary(payload) {
+        const blockDuration = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(payload));
+        return new BlockDurationDto(blockDuration);
+    }
+    getBlockDuration() {
+        return this.blockDuration;
+    }
+    getSize() {
+        return 8;
+    }
+    serialize() {
+        return GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getBlockDuration());
+    }
+}
+exports.BlockDurationDto = BlockDurationDto;
+
+},{"./GeneratorUtils":348}],314:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.BlockFeeMultiplierDto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class BlockFeeMultiplierDto {
+    constructor(blockFeeMultiplier) {
+        this.blockFeeMultiplier = blockFeeMultiplier;
+    }
+    static loadFromBinary(payload) {
+        const blockFeeMultiplier = GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(payload));
+        return new BlockFeeMultiplierDto(blockFeeMultiplier);
+    }
+    getBlockFeeMultiplier() {
+        return this.blockFeeMultiplier;
+    }
+    getSize() {
+        return 4;
+    }
+    serialize() {
+        return GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(this.getBlockFeeMultiplier());
+    }
+}
+exports.BlockFeeMultiplierDto = BlockFeeMultiplierDto;
+
+},{"./GeneratorUtils":348}],315:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.BlockHeaderBuilder = void 0;
+const AddressDto_1 = require("./AddressDto");
+const BlockFeeMultiplierDto_1 = require("./BlockFeeMultiplierDto");
+const DifficultyDto_1 = require("./DifficultyDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const Hash256Dto_1 = require("./Hash256Dto");
+const HeightDto_1 = require("./HeightDto");
+const KeyDto_1 = require("./KeyDto");
+const SignatureDto_1 = require("./SignatureDto");
+const TimestampDto_1 = require("./TimestampDto");
+const VrfProofBuilder_1 = require("./VrfProofBuilder");
+class BlockHeaderBuilder {
+    constructor(signature, signerPublicKey, version, network, type, height, timestamp, difficulty, generationHashProof, previousBlockHash, transactionsHash, receiptsHash, stateHash, beneficiaryAddress, feeMultiplier) {
+        GeneratorUtils_1.GeneratorUtils.notNull(signature, 'signature is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(signerPublicKey, 'signerPublicKey is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(version, 'version is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(network, 'network is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(type, 'type is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(height, 'height is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(timestamp, 'timestamp is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(difficulty, 'difficulty is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(generationHashProof, 'generationHashProof is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(previousBlockHash, 'previousBlockHash is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(transactionsHash, 'transactionsHash is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(receiptsHash, 'receiptsHash is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(stateHash, 'stateHash is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(beneficiaryAddress, 'beneficiaryAddress is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(feeMultiplier, 'feeMultiplier is null or undefined');
+        this.signature = signature;
+        this.signerPublicKey = signerPublicKey;
+        this.version = version;
+        this.network = network;
+        this.type = type;
+        this.height = height;
+        this.timestamp = timestamp;
+        this.difficulty = difficulty;
+        this.generationHashProof = generationHashProof;
+        this.previousBlockHash = previousBlockHash;
+        this.transactionsHash = transactionsHash;
+        this.receiptsHash = receiptsHash;
+        this.stateHash = stateHash;
+        this.beneficiaryAddress = beneficiaryAddress;
+        this.feeMultiplier = feeMultiplier;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const size = GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        const signature = SignatureDto_1.SignatureDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, signature.getSize());
+        const signerPublicKey = KeyDto_1.KeyDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, signerPublicKey.getSize());
+        GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        const version = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const network = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const type = GeneratorUtils_1.GeneratorUtils.bufferToUint16(Uint8Array.from(byteArray));
+        byteArray.splice(0, 2);
+        const height = HeightDto_1.HeightDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, height.getSize());
+        const timestamp = TimestampDto_1.TimestampDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, timestamp.getSize());
+        const difficulty = DifficultyDto_1.DifficultyDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, difficulty.getSize());
+        const generationHashProof = VrfProofBuilder_1.VrfProofBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, generationHashProof.getSize());
+        const previousBlockHash = Hash256Dto_1.Hash256Dto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, previousBlockHash.getSize());
+        const transactionsHash = Hash256Dto_1.Hash256Dto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, transactionsHash.getSize());
+        const receiptsHash = Hash256Dto_1.Hash256Dto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, receiptsHash.getSize());
+        const stateHash = Hash256Dto_1.Hash256Dto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, stateHash.getSize());
+        const beneficiaryAddress = AddressDto_1.AddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, beneficiaryAddress.getSize());
+        const feeMultiplier = BlockFeeMultiplierDto_1.BlockFeeMultiplierDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, feeMultiplier.getSize());
+        return new BlockHeaderBuilder(signature, signerPublicKey, version, network, type, height, timestamp, difficulty, generationHashProof, previousBlockHash, transactionsHash, receiptsHash, stateHash, beneficiaryAddress, feeMultiplier);
+    }
+    static createBlockHeaderBuilder(signature, signerPublicKey, version, network, type, height, timestamp, difficulty, generationHashProof, previousBlockHash, transactionsHash, receiptsHash, stateHash, beneficiaryAddress, feeMultiplier) {
+        return new BlockHeaderBuilder(signature, signerPublicKey, version, network, type, height, timestamp, difficulty, generationHashProof, previousBlockHash, transactionsHash, receiptsHash, stateHash, beneficiaryAddress, feeMultiplier);
+    }
+    getSignature() {
+        return this.signature;
+    }
+    getSignerPublicKey() {
+        return this.signerPublicKey;
+    }
+    getVersion() {
+        return this.version;
+    }
+    getNetwork() {
+        return this.network;
+    }
+    getType() {
+        return this.type;
+    }
+    getHeight() {
+        return this.height;
+    }
+    getTimestamp() {
+        return this.timestamp;
+    }
+    getDifficulty() {
+        return this.difficulty;
+    }
+    getGenerationHashProof() {
+        return this.generationHashProof;
+    }
+    getPreviousBlockHash() {
+        return this.previousBlockHash;
+    }
+    getTransactionsHash() {
+        return this.transactionsHash;
+    }
+    getReceiptsHash() {
+        return this.receiptsHash;
+    }
+    getStateHash() {
+        return this.stateHash;
+    }
+    getBeneficiaryAddress() {
+        return this.beneficiaryAddress;
+    }
+    getFeeMultiplier() {
+        return this.feeMultiplier;
+    }
+    getSize() {
+        let size = 0;
+        size += 4;
+        size += 4;
+        size += this.signature.getSize();
+        size += this.signerPublicKey.getSize();
+        size += 4;
+        size += 1;
+        size += 1;
+        size += 2;
+        size += this.height.getSize();
+        size += this.timestamp.getSize();
+        size += this.difficulty.getSize();
+        size += this.generationHashProof.getSize();
+        size += this.previousBlockHash.getSize();
+        size += this.transactionsHash.getSize();
+        size += this.receiptsHash.getSize();
+        size += this.stateHash.getSize();
+        size += this.beneficiaryAddress.getSize();
+        size += this.feeMultiplier.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const sizeBytes = GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(this.getSize());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, sizeBytes);
+        const verifiableEntityHeader_Reserved1Bytes = GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, verifiableEntityHeader_Reserved1Bytes);
+        const signatureBytes = this.signature.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, signatureBytes);
+        const signerPublicKeyBytes = this.signerPublicKey.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, signerPublicKeyBytes);
+        const entityBody_Reserved1Bytes = GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, entityBody_Reserved1Bytes);
+        const versionBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.getVersion());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, versionBytes);
+        const networkBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.network);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, networkBytes);
+        const typeBytes = GeneratorUtils_1.GeneratorUtils.uint16ToBuffer(this.type);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, typeBytes);
+        const heightBytes = this.height.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, heightBytes);
+        const timestampBytes = this.timestamp.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, timestampBytes);
+        const difficultyBytes = this.difficulty.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, difficultyBytes);
+        const generationHashProofBytes = this.generationHashProof.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, generationHashProofBytes);
+        const previousBlockHashBytes = this.previousBlockHash.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, previousBlockHashBytes);
+        const transactionsHashBytes = this.transactionsHash.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, transactionsHashBytes);
+        const receiptsHashBytes = this.receiptsHash.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, receiptsHashBytes);
+        const stateHashBytes = this.stateHash.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, stateHashBytes);
+        const beneficiaryAddressBytes = this.beneficiaryAddress.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, beneficiaryAddressBytes);
+        const feeMultiplierBytes = this.feeMultiplier.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, feeMultiplierBytes);
+        return newArray;
+    }
+}
+exports.BlockHeaderBuilder = BlockHeaderBuilder;
+
+},{"./AddressDto":301,"./BlockFeeMultiplierDto":314,"./DifficultyDto":318,"./GeneratorUtils":348,"./Hash256Dto":351,"./HeightDto":358,"./KeyDto":365,"./SignatureDto":436,"./TimestampDto":438,"./VrfProofBuilder":451}],316:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.CosignatureBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const KeyDto_1 = require("./KeyDto");
+const SignatureDto_1 = require("./SignatureDto");
+class CosignatureBuilder {
+    constructor(version, signerPublicKey, signature) {
+        GeneratorUtils_1.GeneratorUtils.notNull(version, 'version is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(signerPublicKey, 'signerPublicKey is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(signature, 'signature is null or undefined');
+        this.version = version;
+        this.signerPublicKey = signerPublicKey;
+        this.signature = signature;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const version = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(byteArray));
+        byteArray.splice(0, 8);
+        const signerPublicKey = KeyDto_1.KeyDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, signerPublicKey.getSize());
+        const signature = SignatureDto_1.SignatureDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, signature.getSize());
+        return new CosignatureBuilder(version, signerPublicKey, signature);
+    }
+    static createCosignatureBuilder(version, signerPublicKey, signature) {
+        return new CosignatureBuilder(version, signerPublicKey, signature);
+    }
+    getVersion() {
+        return this.version;
+    }
+    getSignerPublicKey() {
+        return this.signerPublicKey;
+    }
+    getSignature() {
+        return this.signature;
+    }
+    getSize() {
+        let size = 0;
+        size += 8;
+        size += this.signerPublicKey.getSize();
+        size += this.signature.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const versionBytes = GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getVersion());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, versionBytes);
+        const signerPublicKeyBytes = this.signerPublicKey.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, signerPublicKeyBytes);
+        const signatureBytes = this.signature.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, signatureBytes);
+        return newArray;
+    }
+}
+exports.CosignatureBuilder = CosignatureBuilder;
+
+},{"./GeneratorUtils":348,"./KeyDto":365,"./SignatureDto":436}],317:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DetachedCosignatureBuilder = void 0;
+const CosignatureBuilder_1 = require("./CosignatureBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const Hash256Dto_1 = require("./Hash256Dto");
+class DetachedCosignatureBuilder extends CosignatureBuilder_1.CosignatureBuilder {
+    constructor(version, signerPublicKey, signature, parentHash) {
+        super(version, signerPublicKey, signature);
+        GeneratorUtils_1.GeneratorUtils.notNull(parentHash, 'parentHash is null or undefined');
+        this.parentHash = parentHash;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = CosignatureBuilder_1.CosignatureBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const parentHash = Hash256Dto_1.Hash256Dto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, parentHash.getSize());
+        return new DetachedCosignatureBuilder(superObject.version, superObject.signerPublicKey, superObject.signature, parentHash);
+    }
+    static createDetachedCosignatureBuilder(version, signerPublicKey, signature, parentHash) {
+        return new DetachedCosignatureBuilder(version, signerPublicKey, signature, parentHash);
+    }
+    getParentHash() {
+        return this.parentHash;
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.parentHash.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const parentHashBytes = this.parentHash.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, parentHashBytes);
+        return newArray;
+    }
+}
+exports.DetachedCosignatureBuilder = DetachedCosignatureBuilder;
+
+},{"./CosignatureBuilder":316,"./GeneratorUtils":348,"./Hash256Dto":351}],318:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DifficultyDto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class DifficultyDto {
+    constructor(difficulty) {
+        this.difficulty = difficulty;
+    }
+    static loadFromBinary(payload) {
+        const difficulty = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(payload));
+        return new DifficultyDto(difficulty);
+    }
+    getDifficulty() {
+        return this.difficulty;
+    }
+    getSize() {
+        return 8;
+    }
+    serialize() {
+        return GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getDifficulty());
+    }
+}
+exports.DifficultyDto = DifficultyDto;
+
+},{"./GeneratorUtils":348}],319:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmbeddedAccountAddressRestrictionTransactionBuilder = void 0;
+const AccountAddressRestrictionTransactionBodyBuilder_1 = require("./AccountAddressRestrictionTransactionBodyBuilder");
+const EmbeddedTransactionBuilder_1 = require("./EmbeddedTransactionBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class EmbeddedAccountAddressRestrictionTransactionBuilder extends EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder {
+    constructor(signerPublicKey, version, network, type, restrictionFlags, restrictionAdditions, restrictionDeletions) {
+        super(signerPublicKey, version, network, type);
+        this.accountAddressRestrictionTransactionBody = new AccountAddressRestrictionTransactionBodyBuilder_1.AccountAddressRestrictionTransactionBodyBuilder(restrictionFlags, restrictionAdditions, restrictionDeletions);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const accountAddressRestrictionTransactionBody = AccountAddressRestrictionTransactionBodyBuilder_1.AccountAddressRestrictionTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, accountAddressRestrictionTransactionBody.getSize());
+        return new EmbeddedAccountAddressRestrictionTransactionBuilder(superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, accountAddressRestrictionTransactionBody.restrictionFlags, accountAddressRestrictionTransactionBody.restrictionAdditions, accountAddressRestrictionTransactionBody.restrictionDeletions);
+    }
+    static createEmbeddedAccountAddressRestrictionTransactionBuilder(signerPublicKey, version, network, type, restrictionFlags, restrictionAdditions, restrictionDeletions) {
+        return new EmbeddedAccountAddressRestrictionTransactionBuilder(signerPublicKey, version, network, type, restrictionFlags, restrictionAdditions, restrictionDeletions);
+    }
+    getRestrictionFlags() {
+        return this.accountAddressRestrictionTransactionBody.getRestrictionFlags();
+    }
+    getRestrictionAdditions() {
+        return this.accountAddressRestrictionTransactionBody.getRestrictionAdditions();
+    }
+    getRestrictionDeletions() {
+        return this.accountAddressRestrictionTransactionBody.getRestrictionDeletions();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.accountAddressRestrictionTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.accountAddressRestrictionTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const accountAddressRestrictionTransactionBodyBytes = this.accountAddressRestrictionTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, accountAddressRestrictionTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.EmbeddedAccountAddressRestrictionTransactionBuilder = EmbeddedAccountAddressRestrictionTransactionBuilder;
+
+},{"./AccountAddressRestrictionTransactionBodyBuilder":279,"./EmbeddedTransactionBuilder":338,"./GeneratorUtils":348}],320:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmbeddedAccountKeyLinkTransactionBuilder = void 0;
+const AccountKeyLinkTransactionBodyBuilder_1 = require("./AccountKeyLinkTransactionBodyBuilder");
+const EmbeddedTransactionBuilder_1 = require("./EmbeddedTransactionBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class EmbeddedAccountKeyLinkTransactionBuilder extends EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder {
+    constructor(signerPublicKey, version, network, type, linkedPublicKey, linkAction) {
+        super(signerPublicKey, version, network, type);
+        this.accountKeyLinkTransactionBody = new AccountKeyLinkTransactionBodyBuilder_1.AccountKeyLinkTransactionBodyBuilder(linkedPublicKey, linkAction);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const accountKeyLinkTransactionBody = AccountKeyLinkTransactionBodyBuilder_1.AccountKeyLinkTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, accountKeyLinkTransactionBody.getSize());
+        return new EmbeddedAccountKeyLinkTransactionBuilder(superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, accountKeyLinkTransactionBody.linkedPublicKey, accountKeyLinkTransactionBody.linkAction);
+    }
+    static createEmbeddedAccountKeyLinkTransactionBuilder(signerPublicKey, version, network, type, linkedPublicKey, linkAction) {
+        return new EmbeddedAccountKeyLinkTransactionBuilder(signerPublicKey, version, network, type, linkedPublicKey, linkAction);
+    }
+    getLinkedPublicKey() {
+        return this.accountKeyLinkTransactionBody.getLinkedPublicKey();
+    }
+    getLinkAction() {
+        return this.accountKeyLinkTransactionBody.getLinkAction();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.accountKeyLinkTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.accountKeyLinkTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const accountKeyLinkTransactionBodyBytes = this.accountKeyLinkTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, accountKeyLinkTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.EmbeddedAccountKeyLinkTransactionBuilder = EmbeddedAccountKeyLinkTransactionBuilder;
+
+},{"./AccountKeyLinkTransactionBodyBuilder":281,"./EmbeddedTransactionBuilder":338,"./GeneratorUtils":348}],321:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmbeddedAccountMetadataTransactionBuilder = void 0;
+const AccountMetadataTransactionBodyBuilder_1 = require("./AccountMetadataTransactionBodyBuilder");
+const EmbeddedTransactionBuilder_1 = require("./EmbeddedTransactionBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class EmbeddedAccountMetadataTransactionBuilder extends EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder {
+    constructor(signerPublicKey, version, network, type, targetAddress, scopedMetadataKey, valueSizeDelta, value) {
+        super(signerPublicKey, version, network, type);
+        this.accountMetadataTransactionBody = new AccountMetadataTransactionBodyBuilder_1.AccountMetadataTransactionBodyBuilder(targetAddress, scopedMetadataKey, valueSizeDelta, value);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const accountMetadataTransactionBody = AccountMetadataTransactionBodyBuilder_1.AccountMetadataTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, accountMetadataTransactionBody.getSize());
+        return new EmbeddedAccountMetadataTransactionBuilder(superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, accountMetadataTransactionBody.targetAddress, accountMetadataTransactionBody.scopedMetadataKey, accountMetadataTransactionBody.valueSizeDelta, accountMetadataTransactionBody.value);
+    }
+    static createEmbeddedAccountMetadataTransactionBuilder(signerPublicKey, version, network, type, targetAddress, scopedMetadataKey, valueSizeDelta, value) {
+        return new EmbeddedAccountMetadataTransactionBuilder(signerPublicKey, version, network, type, targetAddress, scopedMetadataKey, valueSizeDelta, value);
+    }
+    getTargetAddress() {
+        return this.accountMetadataTransactionBody.getTargetAddress();
+    }
+    getScopedMetadataKey() {
+        return this.accountMetadataTransactionBody.getScopedMetadataKey();
+    }
+    getValueSizeDelta() {
+        return this.accountMetadataTransactionBody.getValueSizeDelta();
+    }
+    getValue() {
+        return this.accountMetadataTransactionBody.getValue();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.accountMetadataTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.accountMetadataTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const accountMetadataTransactionBodyBytes = this.accountMetadataTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, accountMetadataTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.EmbeddedAccountMetadataTransactionBuilder = EmbeddedAccountMetadataTransactionBuilder;
+
+},{"./AccountMetadataTransactionBodyBuilder":284,"./EmbeddedTransactionBuilder":338,"./GeneratorUtils":348}],322:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmbeddedAccountMosaicRestrictionTransactionBuilder = void 0;
+const AccountMosaicRestrictionTransactionBodyBuilder_1 = require("./AccountMosaicRestrictionTransactionBodyBuilder");
+const EmbeddedTransactionBuilder_1 = require("./EmbeddedTransactionBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class EmbeddedAccountMosaicRestrictionTransactionBuilder extends EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder {
+    constructor(signerPublicKey, version, network, type, restrictionFlags, restrictionAdditions, restrictionDeletions) {
+        super(signerPublicKey, version, network, type);
+        this.accountMosaicRestrictionTransactionBody = new AccountMosaicRestrictionTransactionBodyBuilder_1.AccountMosaicRestrictionTransactionBodyBuilder(restrictionFlags, restrictionAdditions, restrictionDeletions);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const accountMosaicRestrictionTransactionBody = AccountMosaicRestrictionTransactionBodyBuilder_1.AccountMosaicRestrictionTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, accountMosaicRestrictionTransactionBody.getSize());
+        return new EmbeddedAccountMosaicRestrictionTransactionBuilder(superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, accountMosaicRestrictionTransactionBody.restrictionFlags, accountMosaicRestrictionTransactionBody.restrictionAdditions, accountMosaicRestrictionTransactionBody.restrictionDeletions);
+    }
+    static createEmbeddedAccountMosaicRestrictionTransactionBuilder(signerPublicKey, version, network, type, restrictionFlags, restrictionAdditions, restrictionDeletions) {
+        return new EmbeddedAccountMosaicRestrictionTransactionBuilder(signerPublicKey, version, network, type, restrictionFlags, restrictionAdditions, restrictionDeletions);
+    }
+    getRestrictionFlags() {
+        return this.accountMosaicRestrictionTransactionBody.getRestrictionFlags();
+    }
+    getRestrictionAdditions() {
+        return this.accountMosaicRestrictionTransactionBody.getRestrictionAdditions();
+    }
+    getRestrictionDeletions() {
+        return this.accountMosaicRestrictionTransactionBody.getRestrictionDeletions();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.accountMosaicRestrictionTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.accountMosaicRestrictionTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const accountMosaicRestrictionTransactionBodyBytes = this.accountMosaicRestrictionTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, accountMosaicRestrictionTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.EmbeddedAccountMosaicRestrictionTransactionBuilder = EmbeddedAccountMosaicRestrictionTransactionBuilder;
+
+},{"./AccountMosaicRestrictionTransactionBodyBuilder":286,"./EmbeddedTransactionBuilder":338,"./GeneratorUtils":348}],323:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmbeddedAccountOperationRestrictionTransactionBuilder = void 0;
+const AccountOperationRestrictionTransactionBodyBuilder_1 = require("./AccountOperationRestrictionTransactionBodyBuilder");
+const EmbeddedTransactionBuilder_1 = require("./EmbeddedTransactionBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class EmbeddedAccountOperationRestrictionTransactionBuilder extends EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder {
+    constructor(signerPublicKey, version, network, type, restrictionFlags, restrictionAdditions, restrictionDeletions) {
+        super(signerPublicKey, version, network, type);
+        this.accountOperationRestrictionTransactionBody = new AccountOperationRestrictionTransactionBodyBuilder_1.AccountOperationRestrictionTransactionBodyBuilder(restrictionFlags, restrictionAdditions, restrictionDeletions);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const accountOperationRestrictionTransactionBody = AccountOperationRestrictionTransactionBodyBuilder_1.AccountOperationRestrictionTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, accountOperationRestrictionTransactionBody.getSize());
+        return new EmbeddedAccountOperationRestrictionTransactionBuilder(superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, accountOperationRestrictionTransactionBody.restrictionFlags, accountOperationRestrictionTransactionBody.restrictionAdditions, accountOperationRestrictionTransactionBody.restrictionDeletions);
+    }
+    static createEmbeddedAccountOperationRestrictionTransactionBuilder(signerPublicKey, version, network, type, restrictionFlags, restrictionAdditions, restrictionDeletions) {
+        return new EmbeddedAccountOperationRestrictionTransactionBuilder(signerPublicKey, version, network, type, restrictionFlags, restrictionAdditions, restrictionDeletions);
+    }
+    getRestrictionFlags() {
+        return this.accountOperationRestrictionTransactionBody.getRestrictionFlags();
+    }
+    getRestrictionAdditions() {
+        return this.accountOperationRestrictionTransactionBody.getRestrictionAdditions();
+    }
+    getRestrictionDeletions() {
+        return this.accountOperationRestrictionTransactionBody.getRestrictionDeletions();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.accountOperationRestrictionTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.accountOperationRestrictionTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const accountOperationRestrictionTransactionBodyBytes = this.accountOperationRestrictionTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, accountOperationRestrictionTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.EmbeddedAccountOperationRestrictionTransactionBuilder = EmbeddedAccountOperationRestrictionTransactionBuilder;
+
+},{"./AccountOperationRestrictionTransactionBodyBuilder":288,"./EmbeddedTransactionBuilder":338,"./GeneratorUtils":348}],324:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmbeddedAddressAliasTransactionBuilder = void 0;
+const AddressAliasTransactionBodyBuilder_1 = require("./AddressAliasTransactionBodyBuilder");
+const EmbeddedTransactionBuilder_1 = require("./EmbeddedTransactionBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class EmbeddedAddressAliasTransactionBuilder extends EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder {
+    constructor(signerPublicKey, version, network, type, namespaceId, address, aliasAction) {
+        super(signerPublicKey, version, network, type);
+        this.addressAliasTransactionBody = new AddressAliasTransactionBodyBuilder_1.AddressAliasTransactionBodyBuilder(namespaceId, address, aliasAction);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const addressAliasTransactionBody = AddressAliasTransactionBodyBuilder_1.AddressAliasTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, addressAliasTransactionBody.getSize());
+        return new EmbeddedAddressAliasTransactionBuilder(superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, addressAliasTransactionBody.namespaceId, addressAliasTransactionBody.address, addressAliasTransactionBody.aliasAction);
+    }
+    static createEmbeddedAddressAliasTransactionBuilder(signerPublicKey, version, network, type, namespaceId, address, aliasAction) {
+        return new EmbeddedAddressAliasTransactionBuilder(signerPublicKey, version, network, type, namespaceId, address, aliasAction);
+    }
+    getNamespaceId() {
+        return this.addressAliasTransactionBody.getNamespaceId();
+    }
+    getAddress() {
+        return this.addressAliasTransactionBody.getAddress();
+    }
+    getAliasAction() {
+        return this.addressAliasTransactionBody.getAliasAction();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.addressAliasTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.addressAliasTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const addressAliasTransactionBodyBytes = this.addressAliasTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, addressAliasTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.EmbeddedAddressAliasTransactionBuilder = EmbeddedAddressAliasTransactionBuilder;
+
+},{"./AddressAliasTransactionBodyBuilder":299,"./EmbeddedTransactionBuilder":338,"./GeneratorUtils":348}],325:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmbeddedHashLockTransactionBuilder = void 0;
+const EmbeddedTransactionBuilder_1 = require("./EmbeddedTransactionBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const HashLockTransactionBodyBuilder_1 = require("./HashLockTransactionBodyBuilder");
+class EmbeddedHashLockTransactionBuilder extends EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder {
+    constructor(signerPublicKey, version, network, type, mosaic, duration, hash) {
+        super(signerPublicKey, version, network, type);
+        this.hashLockTransactionBody = new HashLockTransactionBodyBuilder_1.HashLockTransactionBodyBuilder(mosaic, duration, hash);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const hashLockTransactionBody = HashLockTransactionBodyBuilder_1.HashLockTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, hashLockTransactionBody.getSize());
+        return new EmbeddedHashLockTransactionBuilder(superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, hashLockTransactionBody.mosaic, hashLockTransactionBody.duration, hashLockTransactionBody.hash);
+    }
+    static createEmbeddedHashLockTransactionBuilder(signerPublicKey, version, network, type, mosaic, duration, hash) {
+        return new EmbeddedHashLockTransactionBuilder(signerPublicKey, version, network, type, mosaic, duration, hash);
+    }
+    getMosaic() {
+        return this.hashLockTransactionBody.getMosaic();
+    }
+    getDuration() {
+        return this.hashLockTransactionBody.getDuration();
+    }
+    getHash() {
+        return this.hashLockTransactionBody.getHash();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.hashLockTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.hashLockTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const hashLockTransactionBodyBytes = this.hashLockTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, hashLockTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.EmbeddedHashLockTransactionBuilder = EmbeddedHashLockTransactionBuilder;
+
+},{"./EmbeddedTransactionBuilder":338,"./GeneratorUtils":348,"./HashLockTransactionBodyBuilder":354}],326:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmbeddedMosaicAddressRestrictionTransactionBuilder = void 0;
+const EmbeddedTransactionBuilder_1 = require("./EmbeddedTransactionBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicAddressRestrictionTransactionBodyBuilder_1 = require("./MosaicAddressRestrictionTransactionBodyBuilder");
+class EmbeddedMosaicAddressRestrictionTransactionBuilder extends EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder {
+    constructor(signerPublicKey, version, network, type, mosaicId, restrictionKey, previousRestrictionValue, newRestrictionValue, targetAddress) {
+        super(signerPublicKey, version, network, type);
+        this.mosaicAddressRestrictionTransactionBody = new MosaicAddressRestrictionTransactionBodyBuilder_1.MosaicAddressRestrictionTransactionBodyBuilder(mosaicId, restrictionKey, previousRestrictionValue, newRestrictionValue, targetAddress);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const mosaicAddressRestrictionTransactionBody = MosaicAddressRestrictionTransactionBodyBuilder_1.MosaicAddressRestrictionTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaicAddressRestrictionTransactionBody.getSize());
+        return new EmbeddedMosaicAddressRestrictionTransactionBuilder(superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, mosaicAddressRestrictionTransactionBody.mosaicId, mosaicAddressRestrictionTransactionBody.restrictionKey, mosaicAddressRestrictionTransactionBody.previousRestrictionValue, mosaicAddressRestrictionTransactionBody.newRestrictionValue, mosaicAddressRestrictionTransactionBody.targetAddress);
+    }
+    static createEmbeddedMosaicAddressRestrictionTransactionBuilder(signerPublicKey, version, network, type, mosaicId, restrictionKey, previousRestrictionValue, newRestrictionValue, targetAddress) {
+        return new EmbeddedMosaicAddressRestrictionTransactionBuilder(signerPublicKey, version, network, type, mosaicId, restrictionKey, previousRestrictionValue, newRestrictionValue, targetAddress);
+    }
+    getMosaicId() {
+        return this.mosaicAddressRestrictionTransactionBody.getMosaicId();
+    }
+    getRestrictionKey() {
+        return this.mosaicAddressRestrictionTransactionBody.getRestrictionKey();
+    }
+    getPreviousRestrictionValue() {
+        return this.mosaicAddressRestrictionTransactionBody.getPreviousRestrictionValue();
+    }
+    getNewRestrictionValue() {
+        return this.mosaicAddressRestrictionTransactionBody.getNewRestrictionValue();
+    }
+    getTargetAddress() {
+        return this.mosaicAddressRestrictionTransactionBody.getTargetAddress();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.mosaicAddressRestrictionTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.mosaicAddressRestrictionTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const mosaicAddressRestrictionTransactionBodyBytes = this.mosaicAddressRestrictionTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicAddressRestrictionTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.EmbeddedMosaicAddressRestrictionTransactionBuilder = EmbeddedMosaicAddressRestrictionTransactionBuilder;
+
+},{"./EmbeddedTransactionBuilder":338,"./GeneratorUtils":348,"./MosaicAddressRestrictionTransactionBodyBuilder":373}],327:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmbeddedMosaicAliasTransactionBuilder = void 0;
+const EmbeddedTransactionBuilder_1 = require("./EmbeddedTransactionBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicAliasTransactionBodyBuilder_1 = require("./MosaicAliasTransactionBodyBuilder");
+class EmbeddedMosaicAliasTransactionBuilder extends EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder {
+    constructor(signerPublicKey, version, network, type, namespaceId, mosaicId, aliasAction) {
+        super(signerPublicKey, version, network, type);
+        this.mosaicAliasTransactionBody = new MosaicAliasTransactionBodyBuilder_1.MosaicAliasTransactionBodyBuilder(namespaceId, mosaicId, aliasAction);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const mosaicAliasTransactionBody = MosaicAliasTransactionBodyBuilder_1.MosaicAliasTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaicAliasTransactionBody.getSize());
+        return new EmbeddedMosaicAliasTransactionBuilder(superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, mosaicAliasTransactionBody.namespaceId, mosaicAliasTransactionBody.mosaicId, mosaicAliasTransactionBody.aliasAction);
+    }
+    static createEmbeddedMosaicAliasTransactionBuilder(signerPublicKey, version, network, type, namespaceId, mosaicId, aliasAction) {
+        return new EmbeddedMosaicAliasTransactionBuilder(signerPublicKey, version, network, type, namespaceId, mosaicId, aliasAction);
+    }
+    getNamespaceId() {
+        return this.mosaicAliasTransactionBody.getNamespaceId();
+    }
+    getMosaicId() {
+        return this.mosaicAliasTransactionBody.getMosaicId();
+    }
+    getAliasAction() {
+        return this.mosaicAliasTransactionBody.getAliasAction();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.mosaicAliasTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.mosaicAliasTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const mosaicAliasTransactionBodyBytes = this.mosaicAliasTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicAliasTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.EmbeddedMosaicAliasTransactionBuilder = EmbeddedMosaicAliasTransactionBuilder;
+
+},{"./EmbeddedTransactionBuilder":338,"./GeneratorUtils":348,"./MosaicAliasTransactionBodyBuilder":375}],328:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmbeddedMosaicDefinitionTransactionBuilder = void 0;
+const EmbeddedTransactionBuilder_1 = require("./EmbeddedTransactionBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicDefinitionTransactionBodyBuilder_1 = require("./MosaicDefinitionTransactionBodyBuilder");
+class EmbeddedMosaicDefinitionTransactionBuilder extends EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder {
+    constructor(signerPublicKey, version, network, type, id, duration, nonce, flags, divisibility) {
+        super(signerPublicKey, version, network, type);
+        this.mosaicDefinitionTransactionBody = new MosaicDefinitionTransactionBodyBuilder_1.MosaicDefinitionTransactionBodyBuilder(id, duration, nonce, flags, divisibility);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const mosaicDefinitionTransactionBody = MosaicDefinitionTransactionBodyBuilder_1.MosaicDefinitionTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaicDefinitionTransactionBody.getSize());
+        return new EmbeddedMosaicDefinitionTransactionBuilder(superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, mosaicDefinitionTransactionBody.id, mosaicDefinitionTransactionBody.duration, mosaicDefinitionTransactionBody.nonce, mosaicDefinitionTransactionBody.flags, mosaicDefinitionTransactionBody.divisibility);
+    }
+    static createEmbeddedMosaicDefinitionTransactionBuilder(signerPublicKey, version, network, type, id, duration, nonce, flags, divisibility) {
+        return new EmbeddedMosaicDefinitionTransactionBuilder(signerPublicKey, version, network, type, id, duration, nonce, flags, divisibility);
+    }
+    getId() {
+        return this.mosaicDefinitionTransactionBody.getId();
+    }
+    getDuration() {
+        return this.mosaicDefinitionTransactionBody.getDuration();
+    }
+    getNonce() {
+        return this.mosaicDefinitionTransactionBody.getNonce();
+    }
+    getFlags() {
+        return this.mosaicDefinitionTransactionBody.getFlags();
+    }
+    getDivisibility() {
+        return this.mosaicDefinitionTransactionBody.getDivisibility();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.mosaicDefinitionTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.mosaicDefinitionTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const mosaicDefinitionTransactionBodyBytes = this.mosaicDefinitionTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicDefinitionTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.EmbeddedMosaicDefinitionTransactionBuilder = EmbeddedMosaicDefinitionTransactionBuilder;
+
+},{"./EmbeddedTransactionBuilder":338,"./GeneratorUtils":348,"./MosaicDefinitionTransactionBodyBuilder":379}],329:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmbeddedMosaicGlobalRestrictionTransactionBuilder = void 0;
+const EmbeddedTransactionBuilder_1 = require("./EmbeddedTransactionBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicGlobalRestrictionTransactionBodyBuilder_1 = require("./MosaicGlobalRestrictionTransactionBodyBuilder");
+class EmbeddedMosaicGlobalRestrictionTransactionBuilder extends EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder {
+    constructor(signerPublicKey, version, network, type, mosaicId, referenceMosaicId, restrictionKey, previousRestrictionValue, newRestrictionValue, previousRestrictionType, newRestrictionType) {
+        super(signerPublicKey, version, network, type);
+        this.mosaicGlobalRestrictionTransactionBody = new MosaicGlobalRestrictionTransactionBodyBuilder_1.MosaicGlobalRestrictionTransactionBodyBuilder(mosaicId, referenceMosaicId, restrictionKey, previousRestrictionValue, newRestrictionValue, previousRestrictionType, newRestrictionType);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const mosaicGlobalRestrictionTransactionBody = MosaicGlobalRestrictionTransactionBodyBuilder_1.MosaicGlobalRestrictionTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaicGlobalRestrictionTransactionBody.getSize());
+        return new EmbeddedMosaicGlobalRestrictionTransactionBuilder(superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, mosaicGlobalRestrictionTransactionBody.mosaicId, mosaicGlobalRestrictionTransactionBody.referenceMosaicId, mosaicGlobalRestrictionTransactionBody.restrictionKey, mosaicGlobalRestrictionTransactionBody.previousRestrictionValue, mosaicGlobalRestrictionTransactionBody.newRestrictionValue, mosaicGlobalRestrictionTransactionBody.previousRestrictionType, mosaicGlobalRestrictionTransactionBody.newRestrictionType);
+    }
+    static createEmbeddedMosaicGlobalRestrictionTransactionBuilder(signerPublicKey, version, network, type, mosaicId, referenceMosaicId, restrictionKey, previousRestrictionValue, newRestrictionValue, previousRestrictionType, newRestrictionType) {
+        return new EmbeddedMosaicGlobalRestrictionTransactionBuilder(signerPublicKey, version, network, type, mosaicId, referenceMosaicId, restrictionKey, previousRestrictionValue, newRestrictionValue, previousRestrictionType, newRestrictionType);
+    }
+    getMosaicId() {
+        return this.mosaicGlobalRestrictionTransactionBody.getMosaicId();
+    }
+    getReferenceMosaicId() {
+        return this.mosaicGlobalRestrictionTransactionBody.getReferenceMosaicId();
+    }
+    getRestrictionKey() {
+        return this.mosaicGlobalRestrictionTransactionBody.getRestrictionKey();
+    }
+    getPreviousRestrictionValue() {
+        return this.mosaicGlobalRestrictionTransactionBody.getPreviousRestrictionValue();
+    }
+    getNewRestrictionValue() {
+        return this.mosaicGlobalRestrictionTransactionBody.getNewRestrictionValue();
+    }
+    getPreviousRestrictionType() {
+        return this.mosaicGlobalRestrictionTransactionBody.getPreviousRestrictionType();
+    }
+    getNewRestrictionType() {
+        return this.mosaicGlobalRestrictionTransactionBody.getNewRestrictionType();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.mosaicGlobalRestrictionTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.mosaicGlobalRestrictionTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const mosaicGlobalRestrictionTransactionBodyBytes = this.mosaicGlobalRestrictionTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicGlobalRestrictionTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.EmbeddedMosaicGlobalRestrictionTransactionBuilder = EmbeddedMosaicGlobalRestrictionTransactionBuilder;
+
+},{"./EmbeddedTransactionBuilder":338,"./GeneratorUtils":348,"./MosaicGlobalRestrictionTransactionBodyBuilder":385}],330:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmbeddedMosaicMetadataTransactionBuilder = void 0;
+const EmbeddedTransactionBuilder_1 = require("./EmbeddedTransactionBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicMetadataTransactionBodyBuilder_1 = require("./MosaicMetadataTransactionBodyBuilder");
+class EmbeddedMosaicMetadataTransactionBuilder extends EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder {
+    constructor(signerPublicKey, version, network, type, targetAddress, scopedMetadataKey, targetMosaicId, valueSizeDelta, value) {
+        super(signerPublicKey, version, network, type);
+        this.mosaicMetadataTransactionBody = new MosaicMetadataTransactionBodyBuilder_1.MosaicMetadataTransactionBodyBuilder(targetAddress, scopedMetadataKey, targetMosaicId, valueSizeDelta, value);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const mosaicMetadataTransactionBody = MosaicMetadataTransactionBodyBuilder_1.MosaicMetadataTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaicMetadataTransactionBody.getSize());
+        return new EmbeddedMosaicMetadataTransactionBuilder(superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, mosaicMetadataTransactionBody.targetAddress, mosaicMetadataTransactionBody.scopedMetadataKey, mosaicMetadataTransactionBody.targetMosaicId, mosaicMetadataTransactionBody.valueSizeDelta, mosaicMetadataTransactionBody.value);
+    }
+    static createEmbeddedMosaicMetadataTransactionBuilder(signerPublicKey, version, network, type, targetAddress, scopedMetadataKey, targetMosaicId, valueSizeDelta, value) {
+        return new EmbeddedMosaicMetadataTransactionBuilder(signerPublicKey, version, network, type, targetAddress, scopedMetadataKey, targetMosaicId, valueSizeDelta, value);
+    }
+    getTargetAddress() {
+        return this.mosaicMetadataTransactionBody.getTargetAddress();
+    }
+    getScopedMetadataKey() {
+        return this.mosaicMetadataTransactionBody.getScopedMetadataKey();
+    }
+    getTargetMosaicId() {
+        return this.mosaicMetadataTransactionBody.getTargetMosaicId();
+    }
+    getValueSizeDelta() {
+        return this.mosaicMetadataTransactionBody.getValueSizeDelta();
+    }
+    getValue() {
+        return this.mosaicMetadataTransactionBody.getValue();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.mosaicMetadataTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.mosaicMetadataTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const mosaicMetadataTransactionBodyBytes = this.mosaicMetadataTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicMetadataTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.EmbeddedMosaicMetadataTransactionBuilder = EmbeddedMosaicMetadataTransactionBuilder;
+
+},{"./EmbeddedTransactionBuilder":338,"./GeneratorUtils":348,"./MosaicMetadataTransactionBodyBuilder":388}],331:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmbeddedMosaicSupplyChangeTransactionBuilder = void 0;
+const EmbeddedTransactionBuilder_1 = require("./EmbeddedTransactionBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicSupplyChangeTransactionBodyBuilder_1 = require("./MosaicSupplyChangeTransactionBodyBuilder");
+class EmbeddedMosaicSupplyChangeTransactionBuilder extends EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder {
+    constructor(signerPublicKey, version, network, type, mosaicId, delta, action) {
+        super(signerPublicKey, version, network, type);
+        this.mosaicSupplyChangeTransactionBody = new MosaicSupplyChangeTransactionBodyBuilder_1.MosaicSupplyChangeTransactionBodyBuilder(mosaicId, delta, action);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const mosaicSupplyChangeTransactionBody = MosaicSupplyChangeTransactionBodyBuilder_1.MosaicSupplyChangeTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaicSupplyChangeTransactionBody.getSize());
+        return new EmbeddedMosaicSupplyChangeTransactionBuilder(superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, mosaicSupplyChangeTransactionBody.mosaicId, mosaicSupplyChangeTransactionBody.delta, mosaicSupplyChangeTransactionBody.action);
+    }
+    static createEmbeddedMosaicSupplyChangeTransactionBuilder(signerPublicKey, version, network, type, mosaicId, delta, action) {
+        return new EmbeddedMosaicSupplyChangeTransactionBuilder(signerPublicKey, version, network, type, mosaicId, delta, action);
+    }
+    getMosaicId() {
+        return this.mosaicSupplyChangeTransactionBody.getMosaicId();
+    }
+    getDelta() {
+        return this.mosaicSupplyChangeTransactionBody.getDelta();
+    }
+    getAction() {
+        return this.mosaicSupplyChangeTransactionBody.getAction();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.mosaicSupplyChangeTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.mosaicSupplyChangeTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const mosaicSupplyChangeTransactionBodyBytes = this.mosaicSupplyChangeTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicSupplyChangeTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.EmbeddedMosaicSupplyChangeTransactionBuilder = EmbeddedMosaicSupplyChangeTransactionBuilder;
+
+},{"./EmbeddedTransactionBuilder":338,"./GeneratorUtils":348,"./MosaicSupplyChangeTransactionBodyBuilder":399}],332:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmbeddedMultisigAccountModificationTransactionBuilder = void 0;
+const EmbeddedTransactionBuilder_1 = require("./EmbeddedTransactionBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MultisigAccountModificationTransactionBodyBuilder_1 = require("./MultisigAccountModificationTransactionBodyBuilder");
+class EmbeddedMultisigAccountModificationTransactionBuilder extends EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder {
+    constructor(signerPublicKey, version, network, type, minRemovalDelta, minApprovalDelta, addressAdditions, addressDeletions) {
+        super(signerPublicKey, version, network, type);
+        this.multisigAccountModificationTransactionBody = new MultisigAccountModificationTransactionBodyBuilder_1.MultisigAccountModificationTransactionBodyBuilder(minRemovalDelta, minApprovalDelta, addressAdditions, addressDeletions);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const multisigAccountModificationTransactionBody = MultisigAccountModificationTransactionBodyBuilder_1.MultisigAccountModificationTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, multisigAccountModificationTransactionBody.getSize());
+        return new EmbeddedMultisigAccountModificationTransactionBuilder(superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, multisigAccountModificationTransactionBody.minRemovalDelta, multisigAccountModificationTransactionBody.minApprovalDelta, multisigAccountModificationTransactionBody.addressAdditions, multisigAccountModificationTransactionBody.addressDeletions);
+    }
+    static createEmbeddedMultisigAccountModificationTransactionBuilder(signerPublicKey, version, network, type, minRemovalDelta, minApprovalDelta, addressAdditions, addressDeletions) {
+        return new EmbeddedMultisigAccountModificationTransactionBuilder(signerPublicKey, version, network, type, minRemovalDelta, minApprovalDelta, addressAdditions, addressDeletions);
+    }
+    getMinRemovalDelta() {
+        return this.multisigAccountModificationTransactionBody.getMinRemovalDelta();
+    }
+    getMinApprovalDelta() {
+        return this.multisigAccountModificationTransactionBody.getMinApprovalDelta();
+    }
+    getAddressAdditions() {
+        return this.multisigAccountModificationTransactionBody.getAddressAdditions();
+    }
+    getAddressDeletions() {
+        return this.multisigAccountModificationTransactionBody.getAddressDeletions();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.multisigAccountModificationTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.multisigAccountModificationTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const multisigAccountModificationTransactionBodyBytes = this.multisigAccountModificationTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, multisigAccountModificationTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.EmbeddedMultisigAccountModificationTransactionBuilder = EmbeddedMultisigAccountModificationTransactionBuilder;
+
+},{"./EmbeddedTransactionBuilder":338,"./GeneratorUtils":348,"./MultisigAccountModificationTransactionBodyBuilder":401}],333:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmbeddedNamespaceMetadataTransactionBuilder = void 0;
+const EmbeddedTransactionBuilder_1 = require("./EmbeddedTransactionBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const NamespaceMetadataTransactionBodyBuilder_1 = require("./NamespaceMetadataTransactionBodyBuilder");
+class EmbeddedNamespaceMetadataTransactionBuilder extends EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder {
+    constructor(signerPublicKey, version, network, type, targetAddress, scopedMetadataKey, targetNamespaceId, valueSizeDelta, value) {
+        super(signerPublicKey, version, network, type);
+        this.namespaceMetadataTransactionBody = new NamespaceMetadataTransactionBodyBuilder_1.NamespaceMetadataTransactionBodyBuilder(targetAddress, scopedMetadataKey, targetNamespaceId, valueSizeDelta, value);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const namespaceMetadataTransactionBody = NamespaceMetadataTransactionBodyBuilder_1.NamespaceMetadataTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, namespaceMetadataTransactionBody.getSize());
+        return new EmbeddedNamespaceMetadataTransactionBuilder(superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, namespaceMetadataTransactionBody.targetAddress, namespaceMetadataTransactionBody.scopedMetadataKey, namespaceMetadataTransactionBody.targetNamespaceId, namespaceMetadataTransactionBody.valueSizeDelta, namespaceMetadataTransactionBody.value);
+    }
+    static createEmbeddedNamespaceMetadataTransactionBuilder(signerPublicKey, version, network, type, targetAddress, scopedMetadataKey, targetNamespaceId, valueSizeDelta, value) {
+        return new EmbeddedNamespaceMetadataTransactionBuilder(signerPublicKey, version, network, type, targetAddress, scopedMetadataKey, targetNamespaceId, valueSizeDelta, value);
+    }
+    getTargetAddress() {
+        return this.namespaceMetadataTransactionBody.getTargetAddress();
+    }
+    getScopedMetadataKey() {
+        return this.namespaceMetadataTransactionBody.getScopedMetadataKey();
+    }
+    getTargetNamespaceId() {
+        return this.namespaceMetadataTransactionBody.getTargetNamespaceId();
+    }
+    getValueSizeDelta() {
+        return this.namespaceMetadataTransactionBody.getValueSizeDelta();
+    }
+    getValue() {
+        return this.namespaceMetadataTransactionBody.getValue();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.namespaceMetadataTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.namespaceMetadataTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const namespaceMetadataTransactionBodyBytes = this.namespaceMetadataTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, namespaceMetadataTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.EmbeddedNamespaceMetadataTransactionBuilder = EmbeddedNamespaceMetadataTransactionBuilder;
+
+},{"./EmbeddedTransactionBuilder":338,"./GeneratorUtils":348,"./NamespaceMetadataTransactionBodyBuilder":409}],334:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmbeddedNamespaceRegistrationTransactionBuilder = void 0;
+const EmbeddedTransactionBuilder_1 = require("./EmbeddedTransactionBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const NamespaceRegistrationTransactionBodyBuilder_1 = require("./NamespaceRegistrationTransactionBodyBuilder");
+const NamespaceRegistrationTypeDto_1 = require("./NamespaceRegistrationTypeDto");
+class EmbeddedNamespaceRegistrationTransactionBuilder extends EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder {
+    constructor(signerPublicKey, version, network, type, duration, parentId, id, registrationType, name) {
+        super(signerPublicKey, version, network, type);
+        this.namespaceRegistrationTransactionBody = new NamespaceRegistrationTransactionBodyBuilder_1.NamespaceRegistrationTransactionBodyBuilder(duration, parentId, id, registrationType, name);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const namespaceRegistrationTransactionBody = NamespaceRegistrationTransactionBodyBuilder_1.NamespaceRegistrationTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, namespaceRegistrationTransactionBody.getSize());
+        return new EmbeddedNamespaceRegistrationTransactionBuilder(superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, namespaceRegistrationTransactionBody.duration, namespaceRegistrationTransactionBody.parentId, namespaceRegistrationTransactionBody.id, namespaceRegistrationTransactionBody.registrationType, namespaceRegistrationTransactionBody.name);
+    }
+    static createEmbeddedNamespaceRegistrationTransactionBuilderChild(signerPublicKey, version, network, type, parentId, id, name) {
+        const registrationType = NamespaceRegistrationTypeDto_1.NamespaceRegistrationTypeDto.CHILD;
+        return new EmbeddedNamespaceRegistrationTransactionBuilder(signerPublicKey, version, network, type, undefined, parentId, id, registrationType, name);
+    }
+    static createEmbeddedNamespaceRegistrationTransactionBuilderRoot(signerPublicKey, version, network, type, duration, id, name) {
+        const registrationType = NamespaceRegistrationTypeDto_1.NamespaceRegistrationTypeDto.ROOT;
+        return new EmbeddedNamespaceRegistrationTransactionBuilder(signerPublicKey, version, network, type, duration, undefined, id, registrationType, name);
+    }
+    getDuration() {
+        return this.namespaceRegistrationTransactionBody.getDuration();
+    }
+    getParentId() {
+        return this.namespaceRegistrationTransactionBody.getParentId();
+    }
+    getId() {
+        return this.namespaceRegistrationTransactionBody.getId();
+    }
+    getRegistrationType() {
+        return this.namespaceRegistrationTransactionBody.getRegistrationType();
+    }
+    getName() {
+        return this.namespaceRegistrationTransactionBody.getName();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.namespaceRegistrationTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.namespaceRegistrationTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const namespaceRegistrationTransactionBodyBytes = this.namespaceRegistrationTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, namespaceRegistrationTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.EmbeddedNamespaceRegistrationTransactionBuilder = EmbeddedNamespaceRegistrationTransactionBuilder;
+
+},{"./EmbeddedTransactionBuilder":338,"./GeneratorUtils":348,"./NamespaceRegistrationTransactionBodyBuilder":412,"./NamespaceRegistrationTypeDto":414}],335:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmbeddedNodeKeyLinkTransactionBuilder = void 0;
+const EmbeddedTransactionBuilder_1 = require("./EmbeddedTransactionBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const NodeKeyLinkTransactionBodyBuilder_1 = require("./NodeKeyLinkTransactionBodyBuilder");
+class EmbeddedNodeKeyLinkTransactionBuilder extends EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder {
+    constructor(signerPublicKey, version, network, type, linkedPublicKey, linkAction) {
+        super(signerPublicKey, version, network, type);
+        this.nodeKeyLinkTransactionBody = new NodeKeyLinkTransactionBodyBuilder_1.NodeKeyLinkTransactionBodyBuilder(linkedPublicKey, linkAction);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const nodeKeyLinkTransactionBody = NodeKeyLinkTransactionBodyBuilder_1.NodeKeyLinkTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, nodeKeyLinkTransactionBody.getSize());
+        return new EmbeddedNodeKeyLinkTransactionBuilder(superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, nodeKeyLinkTransactionBody.linkedPublicKey, nodeKeyLinkTransactionBody.linkAction);
+    }
+    static createEmbeddedNodeKeyLinkTransactionBuilder(signerPublicKey, version, network, type, linkedPublicKey, linkAction) {
+        return new EmbeddedNodeKeyLinkTransactionBuilder(signerPublicKey, version, network, type, linkedPublicKey, linkAction);
+    }
+    getLinkedPublicKey() {
+        return this.nodeKeyLinkTransactionBody.getLinkedPublicKey();
+    }
+    getLinkAction() {
+        return this.nodeKeyLinkTransactionBody.getLinkAction();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.nodeKeyLinkTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.nodeKeyLinkTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const nodeKeyLinkTransactionBodyBytes = this.nodeKeyLinkTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, nodeKeyLinkTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.EmbeddedNodeKeyLinkTransactionBuilder = EmbeddedNodeKeyLinkTransactionBuilder;
+
+},{"./EmbeddedTransactionBuilder":338,"./GeneratorUtils":348,"./NodeKeyLinkTransactionBodyBuilder":417}],336:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmbeddedSecretLockTransactionBuilder = void 0;
+const EmbeddedTransactionBuilder_1 = require("./EmbeddedTransactionBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const SecretLockTransactionBodyBuilder_1 = require("./SecretLockTransactionBodyBuilder");
+class EmbeddedSecretLockTransactionBuilder extends EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder {
+    constructor(signerPublicKey, version, network, type, recipientAddress, secret, mosaic, duration, hashAlgorithm) {
+        super(signerPublicKey, version, network, type);
+        this.secretLockTransactionBody = new SecretLockTransactionBodyBuilder_1.SecretLockTransactionBodyBuilder(recipientAddress, secret, mosaic, duration, hashAlgorithm);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const secretLockTransactionBody = SecretLockTransactionBodyBuilder_1.SecretLockTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, secretLockTransactionBody.getSize());
+        return new EmbeddedSecretLockTransactionBuilder(superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, secretLockTransactionBody.recipientAddress, secretLockTransactionBody.secret, secretLockTransactionBody.mosaic, secretLockTransactionBody.duration, secretLockTransactionBody.hashAlgorithm);
+    }
+    static createEmbeddedSecretLockTransactionBuilder(signerPublicKey, version, network, type, recipientAddress, secret, mosaic, duration, hashAlgorithm) {
+        return new EmbeddedSecretLockTransactionBuilder(signerPublicKey, version, network, type, recipientAddress, secret, mosaic, duration, hashAlgorithm);
+    }
+    getRecipientAddress() {
+        return this.secretLockTransactionBody.getRecipientAddress();
+    }
+    getSecret() {
+        return this.secretLockTransactionBody.getSecret();
+    }
+    getMosaic() {
+        return this.secretLockTransactionBody.getMosaic();
+    }
+    getDuration() {
+        return this.secretLockTransactionBody.getDuration();
+    }
+    getHashAlgorithm() {
+        return this.secretLockTransactionBody.getHashAlgorithm();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.secretLockTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.secretLockTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const secretLockTransactionBodyBytes = this.secretLockTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, secretLockTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.EmbeddedSecretLockTransactionBuilder = EmbeddedSecretLockTransactionBuilder;
+
+},{"./EmbeddedTransactionBuilder":338,"./GeneratorUtils":348,"./SecretLockTransactionBodyBuilder":431}],337:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmbeddedSecretProofTransactionBuilder = void 0;
+const EmbeddedTransactionBuilder_1 = require("./EmbeddedTransactionBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const SecretProofTransactionBodyBuilder_1 = require("./SecretProofTransactionBodyBuilder");
+class EmbeddedSecretProofTransactionBuilder extends EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder {
+    constructor(signerPublicKey, version, network, type, recipientAddress, secret, hashAlgorithm, proof) {
+        super(signerPublicKey, version, network, type);
+        this.secretProofTransactionBody = new SecretProofTransactionBodyBuilder_1.SecretProofTransactionBodyBuilder(recipientAddress, secret, hashAlgorithm, proof);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const secretProofTransactionBody = SecretProofTransactionBodyBuilder_1.SecretProofTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, secretProofTransactionBody.getSize());
+        return new EmbeddedSecretProofTransactionBuilder(superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, secretProofTransactionBody.recipientAddress, secretProofTransactionBody.secret, secretProofTransactionBody.hashAlgorithm, secretProofTransactionBody.proof);
+    }
+    static createEmbeddedSecretProofTransactionBuilder(signerPublicKey, version, network, type, recipientAddress, secret, hashAlgorithm, proof) {
+        return new EmbeddedSecretProofTransactionBuilder(signerPublicKey, version, network, type, recipientAddress, secret, hashAlgorithm, proof);
+    }
+    getRecipientAddress() {
+        return this.secretProofTransactionBody.getRecipientAddress();
+    }
+    getSecret() {
+        return this.secretProofTransactionBody.getSecret();
+    }
+    getHashAlgorithm() {
+        return this.secretProofTransactionBody.getHashAlgorithm();
+    }
+    getProof() {
+        return this.secretProofTransactionBody.getProof();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.secretProofTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.secretProofTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const secretProofTransactionBodyBytes = this.secretProofTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, secretProofTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.EmbeddedSecretProofTransactionBuilder = EmbeddedSecretProofTransactionBuilder;
+
+},{"./EmbeddedTransactionBuilder":338,"./GeneratorUtils":348,"./SecretProofTransactionBodyBuilder":433}],338:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmbeddedTransactionBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const KeyDto_1 = require("./KeyDto");
+class EmbeddedTransactionBuilder {
+    constructor(signerPublicKey, version, network, type) {
+        GeneratorUtils_1.GeneratorUtils.notNull(signerPublicKey, 'signerPublicKey is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(version, 'version is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(network, 'network is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(type, 'type is null or undefined');
+        this.signerPublicKey = signerPublicKey;
+        this.version = version;
+        this.network = network;
+        this.type = type;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const size = GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        const signerPublicKey = KeyDto_1.KeyDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, signerPublicKey.getSize());
+        GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        const version = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const network = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const type = GeneratorUtils_1.GeneratorUtils.bufferToUint16(Uint8Array.from(byteArray));
+        byteArray.splice(0, 2);
+        return new EmbeddedTransactionBuilder(signerPublicKey, version, network, type);
+    }
+    static createEmbeddedTransactionBuilder(signerPublicKey, version, network, type) {
+        return new EmbeddedTransactionBuilder(signerPublicKey, version, network, type);
+    }
+    getSignerPublicKey() {
+        return this.signerPublicKey;
+    }
+    getVersion() {
+        return this.version;
+    }
+    getNetwork() {
+        return this.network;
+    }
+    getType() {
+        return this.type;
+    }
+    getSize() {
+        let size = 0;
+        size += 4;
+        size += 4;
+        size += this.signerPublicKey.getSize();
+        size += 4;
+        size += 1;
+        size += 1;
+        size += 2;
+        return size;
+    }
+    getBody() {
+        return undefined;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const sizeBytes = GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(this.getSize());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, sizeBytes);
+        const embeddedTransactionHeader_Reserved1Bytes = GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, embeddedTransactionHeader_Reserved1Bytes);
+        const signerPublicKeyBytes = this.signerPublicKey.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, signerPublicKeyBytes);
+        const entityBody_Reserved1Bytes = GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, entityBody_Reserved1Bytes);
+        const versionBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.getVersion());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, versionBytes);
+        const networkBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.network);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, networkBytes);
+        const typeBytes = GeneratorUtils_1.GeneratorUtils.uint16ToBuffer(this.type);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, typeBytes);
+        return newArray;
+    }
+}
+exports.EmbeddedTransactionBuilder = EmbeddedTransactionBuilder;
+
+},{"./GeneratorUtils":348,"./KeyDto":365}],339:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmbeddedTransactionHelper = void 0;
+const EmbeddedAccountAddressRestrictionTransactionBuilder_1 = require("./EmbeddedAccountAddressRestrictionTransactionBuilder");
+const EmbeddedAccountKeyLinkTransactionBuilder_1 = require("./EmbeddedAccountKeyLinkTransactionBuilder");
+const EmbeddedAccountMetadataTransactionBuilder_1 = require("./EmbeddedAccountMetadataTransactionBuilder");
+const EmbeddedAccountMosaicRestrictionTransactionBuilder_1 = require("./EmbeddedAccountMosaicRestrictionTransactionBuilder");
+const EmbeddedAccountOperationRestrictionTransactionBuilder_1 = require("./EmbeddedAccountOperationRestrictionTransactionBuilder");
+const EmbeddedAddressAliasTransactionBuilder_1 = require("./EmbeddedAddressAliasTransactionBuilder");
+const EmbeddedHashLockTransactionBuilder_1 = require("./EmbeddedHashLockTransactionBuilder");
+const EmbeddedMosaicAddressRestrictionTransactionBuilder_1 = require("./EmbeddedMosaicAddressRestrictionTransactionBuilder");
+const EmbeddedMosaicAliasTransactionBuilder_1 = require("./EmbeddedMosaicAliasTransactionBuilder");
+const EmbeddedMosaicDefinitionTransactionBuilder_1 = require("./EmbeddedMosaicDefinitionTransactionBuilder");
+const EmbeddedMosaicGlobalRestrictionTransactionBuilder_1 = require("./EmbeddedMosaicGlobalRestrictionTransactionBuilder");
+const EmbeddedMosaicMetadataTransactionBuilder_1 = require("./EmbeddedMosaicMetadataTransactionBuilder");
+const EmbeddedMosaicSupplyChangeTransactionBuilder_1 = require("./EmbeddedMosaicSupplyChangeTransactionBuilder");
+const EmbeddedMultisigAccountModificationTransactionBuilder_1 = require("./EmbeddedMultisigAccountModificationTransactionBuilder");
+const EmbeddedNamespaceMetadataTransactionBuilder_1 = require("./EmbeddedNamespaceMetadataTransactionBuilder");
+const EmbeddedNamespaceRegistrationTransactionBuilder_1 = require("./EmbeddedNamespaceRegistrationTransactionBuilder");
+const EmbeddedNodeKeyLinkTransactionBuilder_1 = require("./EmbeddedNodeKeyLinkTransactionBuilder");
+const EmbeddedSecretLockTransactionBuilder_1 = require("./EmbeddedSecretLockTransactionBuilder");
+const EmbeddedSecretProofTransactionBuilder_1 = require("./EmbeddedSecretProofTransactionBuilder");
+const EmbeddedTransactionBuilder_1 = require("./EmbeddedTransactionBuilder");
+const EmbeddedTransferTransactionBuilder_1 = require("./EmbeddedTransferTransactionBuilder");
+const EmbeddedVotingKeyLinkTransactionBuilder_1 = require("./EmbeddedVotingKeyLinkTransactionBuilder");
+const EmbeddedVrfKeyLinkTransactionBuilder_1 = require("./EmbeddedVrfKeyLinkTransactionBuilder");
+class EmbeddedTransactionHelper {
+    static loadFromBinary(payload) {
+        const header = EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder.loadFromBinary(payload);
+        if (header.type === 16716 && header.version == 1) {
+            return EmbeddedAccountKeyLinkTransactionBuilder_1.EmbeddedAccountKeyLinkTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16972 && header.version == 1) {
+            return EmbeddedNodeKeyLinkTransactionBuilder_1.EmbeddedNodeKeyLinkTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16707 && header.version == 1) {
+            return EmbeddedVotingKeyLinkTransactionBuilder_1.EmbeddedVotingKeyLinkTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16963 && header.version == 1) {
+            return EmbeddedVrfKeyLinkTransactionBuilder_1.EmbeddedVrfKeyLinkTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16712 && header.version == 1) {
+            return EmbeddedHashLockTransactionBuilder_1.EmbeddedHashLockTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16722 && header.version == 1) {
+            return EmbeddedSecretLockTransactionBuilder_1.EmbeddedSecretLockTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16978 && header.version == 1) {
+            return EmbeddedSecretProofTransactionBuilder_1.EmbeddedSecretProofTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16708 && header.version == 1) {
+            return EmbeddedAccountMetadataTransactionBuilder_1.EmbeddedAccountMetadataTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16964 && header.version == 1) {
+            return EmbeddedMosaicMetadataTransactionBuilder_1.EmbeddedMosaicMetadataTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 17220 && header.version == 1) {
+            return EmbeddedNamespaceMetadataTransactionBuilder_1.EmbeddedNamespaceMetadataTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16717 && header.version == 1) {
+            return EmbeddedMosaicDefinitionTransactionBuilder_1.EmbeddedMosaicDefinitionTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16973 && header.version == 1) {
+            return EmbeddedMosaicSupplyChangeTransactionBuilder_1.EmbeddedMosaicSupplyChangeTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16725 && header.version == 1) {
+            return EmbeddedMultisigAccountModificationTransactionBuilder_1.EmbeddedMultisigAccountModificationTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16974 && header.version == 1) {
+            return EmbeddedAddressAliasTransactionBuilder_1.EmbeddedAddressAliasTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 17230 && header.version == 1) {
+            return EmbeddedMosaicAliasTransactionBuilder_1.EmbeddedMosaicAliasTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16718 && header.version == 1) {
+            return EmbeddedNamespaceRegistrationTransactionBuilder_1.EmbeddedNamespaceRegistrationTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16720 && header.version == 1) {
+            return EmbeddedAccountAddressRestrictionTransactionBuilder_1.EmbeddedAccountAddressRestrictionTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16976 && header.version == 1) {
+            return EmbeddedAccountMosaicRestrictionTransactionBuilder_1.EmbeddedAccountMosaicRestrictionTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 17232 && header.version == 1) {
+            return EmbeddedAccountOperationRestrictionTransactionBuilder_1.EmbeddedAccountOperationRestrictionTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16977 && header.version == 1) {
+            return EmbeddedMosaicAddressRestrictionTransactionBuilder_1.EmbeddedMosaicAddressRestrictionTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16721 && header.version == 1) {
+            return EmbeddedMosaicGlobalRestrictionTransactionBuilder_1.EmbeddedMosaicGlobalRestrictionTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16724 && header.version == 1) {
+            return EmbeddedTransferTransactionBuilder_1.EmbeddedTransferTransactionBuilder.loadFromBinary(payload);
+        }
+        return header;
+    }
+}
+exports.EmbeddedTransactionHelper = EmbeddedTransactionHelper;
+
+},{"./EmbeddedAccountAddressRestrictionTransactionBuilder":319,"./EmbeddedAccountKeyLinkTransactionBuilder":320,"./EmbeddedAccountMetadataTransactionBuilder":321,"./EmbeddedAccountMosaicRestrictionTransactionBuilder":322,"./EmbeddedAccountOperationRestrictionTransactionBuilder":323,"./EmbeddedAddressAliasTransactionBuilder":324,"./EmbeddedHashLockTransactionBuilder":325,"./EmbeddedMosaicAddressRestrictionTransactionBuilder":326,"./EmbeddedMosaicAliasTransactionBuilder":327,"./EmbeddedMosaicDefinitionTransactionBuilder":328,"./EmbeddedMosaicGlobalRestrictionTransactionBuilder":329,"./EmbeddedMosaicMetadataTransactionBuilder":330,"./EmbeddedMosaicSupplyChangeTransactionBuilder":331,"./EmbeddedMultisigAccountModificationTransactionBuilder":332,"./EmbeddedNamespaceMetadataTransactionBuilder":333,"./EmbeddedNamespaceRegistrationTransactionBuilder":334,"./EmbeddedNodeKeyLinkTransactionBuilder":335,"./EmbeddedSecretLockTransactionBuilder":336,"./EmbeddedSecretProofTransactionBuilder":337,"./EmbeddedTransactionBuilder":338,"./EmbeddedTransferTransactionBuilder":340,"./EmbeddedVotingKeyLinkTransactionBuilder":341,"./EmbeddedVrfKeyLinkTransactionBuilder":342}],340:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmbeddedTransferTransactionBuilder = void 0;
+const EmbeddedTransactionBuilder_1 = require("./EmbeddedTransactionBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const TransferTransactionBodyBuilder_1 = require("./TransferTransactionBodyBuilder");
+class EmbeddedTransferTransactionBuilder extends EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder {
+    constructor(signerPublicKey, version, network, type, recipientAddress, mosaics, message) {
+        super(signerPublicKey, version, network, type);
+        this.transferTransactionBody = new TransferTransactionBodyBuilder_1.TransferTransactionBodyBuilder(recipientAddress, mosaics, message);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const transferTransactionBody = TransferTransactionBodyBuilder_1.TransferTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, transferTransactionBody.getSize());
+        return new EmbeddedTransferTransactionBuilder(superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, transferTransactionBody.recipientAddress, transferTransactionBody.mosaics, transferTransactionBody.message);
+    }
+    static createEmbeddedTransferTransactionBuilder(signerPublicKey, version, network, type, recipientAddress, mosaics, message) {
+        return new EmbeddedTransferTransactionBuilder(signerPublicKey, version, network, type, recipientAddress, mosaics, message);
+    }
+    getRecipientAddress() {
+        return this.transferTransactionBody.getRecipientAddress();
+    }
+    getMosaics() {
+        return this.transferTransactionBody.getMosaics();
+    }
+    getMessage() {
+        return this.transferTransactionBody.getMessage();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.transferTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.transferTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const transferTransactionBodyBytes = this.transferTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, transferTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.EmbeddedTransferTransactionBuilder = EmbeddedTransferTransactionBuilder;
+
+},{"./EmbeddedTransactionBuilder":338,"./GeneratorUtils":348,"./TransferTransactionBodyBuilder":441}],341:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmbeddedVotingKeyLinkTransactionBuilder = void 0;
+const EmbeddedTransactionBuilder_1 = require("./EmbeddedTransactionBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const VotingKeyLinkTransactionBodyBuilder_1 = require("./VotingKeyLinkTransactionBodyBuilder");
+class EmbeddedVotingKeyLinkTransactionBuilder extends EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder {
+    constructor(signerPublicKey, version, network, type, linkedPublicKey, startEpoch, endEpoch, linkAction) {
+        super(signerPublicKey, version, network, type);
+        this.votingKeyLinkTransactionBody = new VotingKeyLinkTransactionBodyBuilder_1.VotingKeyLinkTransactionBodyBuilder(linkedPublicKey, startEpoch, endEpoch, linkAction);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const votingKeyLinkTransactionBody = VotingKeyLinkTransactionBodyBuilder_1.VotingKeyLinkTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, votingKeyLinkTransactionBody.getSize());
+        return new EmbeddedVotingKeyLinkTransactionBuilder(superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, votingKeyLinkTransactionBody.linkedPublicKey, votingKeyLinkTransactionBody.startEpoch, votingKeyLinkTransactionBody.endEpoch, votingKeyLinkTransactionBody.linkAction);
+    }
+    static createEmbeddedVotingKeyLinkTransactionBuilder(signerPublicKey, version, network, type, linkedPublicKey, startEpoch, endEpoch, linkAction) {
+        return new EmbeddedVotingKeyLinkTransactionBuilder(signerPublicKey, version, network, type, linkedPublicKey, startEpoch, endEpoch, linkAction);
+    }
+    getLinkedPublicKey() {
+        return this.votingKeyLinkTransactionBody.getLinkedPublicKey();
+    }
+    getStartEpoch() {
+        return this.votingKeyLinkTransactionBody.getStartEpoch();
+    }
+    getEndEpoch() {
+        return this.votingKeyLinkTransactionBody.getEndEpoch();
+    }
+    getLinkAction() {
+        return this.votingKeyLinkTransactionBody.getLinkAction();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.votingKeyLinkTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.votingKeyLinkTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const votingKeyLinkTransactionBodyBytes = this.votingKeyLinkTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, votingKeyLinkTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.EmbeddedVotingKeyLinkTransactionBuilder = EmbeddedVotingKeyLinkTransactionBuilder;
+
+},{"./EmbeddedTransactionBuilder":338,"./GeneratorUtils":348,"./VotingKeyLinkTransactionBodyBuilder":447}],342:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmbeddedVrfKeyLinkTransactionBuilder = void 0;
+const EmbeddedTransactionBuilder_1 = require("./EmbeddedTransactionBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const VrfKeyLinkTransactionBodyBuilder_1 = require("./VrfKeyLinkTransactionBodyBuilder");
+class EmbeddedVrfKeyLinkTransactionBuilder extends EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder {
+    constructor(signerPublicKey, version, network, type, linkedPublicKey, linkAction) {
+        super(signerPublicKey, version, network, type);
+        this.vrfKeyLinkTransactionBody = new VrfKeyLinkTransactionBodyBuilder_1.VrfKeyLinkTransactionBodyBuilder(linkedPublicKey, linkAction);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = EmbeddedTransactionBuilder_1.EmbeddedTransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const vrfKeyLinkTransactionBody = VrfKeyLinkTransactionBodyBuilder_1.VrfKeyLinkTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, vrfKeyLinkTransactionBody.getSize());
+        return new EmbeddedVrfKeyLinkTransactionBuilder(superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, vrfKeyLinkTransactionBody.linkedPublicKey, vrfKeyLinkTransactionBody.linkAction);
+    }
+    static createEmbeddedVrfKeyLinkTransactionBuilder(signerPublicKey, version, network, type, linkedPublicKey, linkAction) {
+        return new EmbeddedVrfKeyLinkTransactionBuilder(signerPublicKey, version, network, type, linkedPublicKey, linkAction);
+    }
+    getLinkedPublicKey() {
+        return this.vrfKeyLinkTransactionBody.getLinkedPublicKey();
+    }
+    getLinkAction() {
+        return this.vrfKeyLinkTransactionBody.getLinkAction();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.vrfKeyLinkTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.vrfKeyLinkTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const vrfKeyLinkTransactionBodyBytes = this.vrfKeyLinkTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, vrfKeyLinkTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.EmbeddedVrfKeyLinkTransactionBuilder = EmbeddedVrfKeyLinkTransactionBuilder;
+
+},{"./EmbeddedTransactionBuilder":338,"./GeneratorUtils":348,"./VrfKeyLinkTransactionBodyBuilder":449}],343:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EntityTypeDto = void 0;
+var EntityTypeDto;
+(function (EntityTypeDto) {
+    EntityTypeDto[EntityTypeDto["RESERVED"] = 0] = "RESERVED";
+    EntityTypeDto[EntityTypeDto["NEMESIS_BLOCK_HEADER"] = 32835] = "NEMESIS_BLOCK_HEADER";
+    EntityTypeDto[EntityTypeDto["NORMAL_BLOCK_HEADER"] = 33091] = "NORMAL_BLOCK_HEADER";
+    EntityTypeDto[EntityTypeDto["IMPORTANCE_BLOCK_HEADER"] = 33347] = "IMPORTANCE_BLOCK_HEADER";
+    EntityTypeDto[EntityTypeDto["ACCOUNT_KEY_LINK_TRANSACTION"] = 16716] = "ACCOUNT_KEY_LINK_TRANSACTION";
+    EntityTypeDto[EntityTypeDto["NODE_KEY_LINK_TRANSACTION"] = 16972] = "NODE_KEY_LINK_TRANSACTION";
+    EntityTypeDto[EntityTypeDto["AGGREGATE_COMPLETE_TRANSACTION"] = 16705] = "AGGREGATE_COMPLETE_TRANSACTION";
+    EntityTypeDto[EntityTypeDto["AGGREGATE_BONDED_TRANSACTION"] = 16961] = "AGGREGATE_BONDED_TRANSACTION";
+    EntityTypeDto[EntityTypeDto["VOTING_KEY_LINK_TRANSACTION"] = 16707] = "VOTING_KEY_LINK_TRANSACTION";
+    EntityTypeDto[EntityTypeDto["VRF_KEY_LINK_TRANSACTION"] = 16963] = "VRF_KEY_LINK_TRANSACTION";
+    EntityTypeDto[EntityTypeDto["HASH_LOCK_TRANSACTION"] = 16712] = "HASH_LOCK_TRANSACTION";
+    EntityTypeDto[EntityTypeDto["SECRET_LOCK_TRANSACTION"] = 16722] = "SECRET_LOCK_TRANSACTION";
+    EntityTypeDto[EntityTypeDto["SECRET_PROOF_TRANSACTION"] = 16978] = "SECRET_PROOF_TRANSACTION";
+    EntityTypeDto[EntityTypeDto["ACCOUNT_METADATA_TRANSACTION"] = 16708] = "ACCOUNT_METADATA_TRANSACTION";
+    EntityTypeDto[EntityTypeDto["MOSAIC_METADATA_TRANSACTION"] = 16964] = "MOSAIC_METADATA_TRANSACTION";
+    EntityTypeDto[EntityTypeDto["NAMESPACE_METADATA_TRANSACTION"] = 17220] = "NAMESPACE_METADATA_TRANSACTION";
+    EntityTypeDto[EntityTypeDto["MOSAIC_DEFINITION_TRANSACTION"] = 16717] = "MOSAIC_DEFINITION_TRANSACTION";
+    EntityTypeDto[EntityTypeDto["MOSAIC_SUPPLY_CHANGE_TRANSACTION"] = 16973] = "MOSAIC_SUPPLY_CHANGE_TRANSACTION";
+    EntityTypeDto[EntityTypeDto["MULTISIG_ACCOUNT_MODIFICATION_TRANSACTION"] = 16725] = "MULTISIG_ACCOUNT_MODIFICATION_TRANSACTION";
+    EntityTypeDto[EntityTypeDto["ADDRESS_ALIAS_TRANSACTION"] = 16974] = "ADDRESS_ALIAS_TRANSACTION";
+    EntityTypeDto[EntityTypeDto["MOSAIC_ALIAS_TRANSACTION"] = 17230] = "MOSAIC_ALIAS_TRANSACTION";
+    EntityTypeDto[EntityTypeDto["NAMESPACE_REGISTRATION_TRANSACTION"] = 16718] = "NAMESPACE_REGISTRATION_TRANSACTION";
+    EntityTypeDto[EntityTypeDto["ACCOUNT_ADDRESS_RESTRICTION_TRANSACTION"] = 16720] = "ACCOUNT_ADDRESS_RESTRICTION_TRANSACTION";
+    EntityTypeDto[EntityTypeDto["ACCOUNT_MOSAIC_RESTRICTION_TRANSACTION"] = 16976] = "ACCOUNT_MOSAIC_RESTRICTION_TRANSACTION";
+    EntityTypeDto[EntityTypeDto["ACCOUNT_OPERATION_RESTRICTION_TRANSACTION"] = 17232] = "ACCOUNT_OPERATION_RESTRICTION_TRANSACTION";
+    EntityTypeDto[EntityTypeDto["MOSAIC_ADDRESS_RESTRICTION_TRANSACTION"] = 16977] = "MOSAIC_ADDRESS_RESTRICTION_TRANSACTION";
+    EntityTypeDto[EntityTypeDto["MOSAIC_GLOBAL_RESTRICTION_TRANSACTION"] = 16721] = "MOSAIC_GLOBAL_RESTRICTION_TRANSACTION";
+    EntityTypeDto[EntityTypeDto["TRANSFER_TRANSACTION"] = 16724] = "TRANSFER_TRANSACTION";
+})(EntityTypeDto = exports.EntityTypeDto || (exports.EntityTypeDto = {}));
+
+},{}],344:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.FinalizationEpochDto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class FinalizationEpochDto {
+    constructor(finalizationEpoch) {
+        this.finalizationEpoch = finalizationEpoch;
+    }
+    static loadFromBinary(payload) {
+        const finalizationEpoch = GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(payload));
+        return new FinalizationEpochDto(finalizationEpoch);
+    }
+    getFinalizationEpoch() {
+        return this.finalizationEpoch;
+    }
+    getSize() {
+        return 4;
+    }
+    serialize() {
+        return GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(this.getFinalizationEpoch());
+    }
+}
+exports.FinalizationEpochDto = FinalizationEpochDto;
+
+},{"./GeneratorUtils":348}],345:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.FinalizationPointDto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class FinalizationPointDto {
+    constructor(finalizationPoint) {
+        this.finalizationPoint = finalizationPoint;
+    }
+    static loadFromBinary(payload) {
+        const finalizationPoint = GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(payload));
+        return new FinalizationPointDto(finalizationPoint);
+    }
+    getFinalizationPoint() {
+        return this.finalizationPoint;
+    }
+    getSize() {
+        return 4;
+    }
+    serialize() {
+        return GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(this.getFinalizationPoint());
+    }
+}
+exports.FinalizationPointDto = FinalizationPointDto;
+
+},{"./GeneratorUtils":348}],346:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.FinalizationRoundBuilder = void 0;
+const FinalizationEpochDto_1 = require("./FinalizationEpochDto");
+const FinalizationPointDto_1 = require("./FinalizationPointDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class FinalizationRoundBuilder {
+    constructor(epoch, point) {
+        GeneratorUtils_1.GeneratorUtils.notNull(epoch, 'epoch is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(point, 'point is null or undefined');
+        this.epoch = epoch;
+        this.point = point;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const epoch = FinalizationEpochDto_1.FinalizationEpochDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, epoch.getSize());
+        const point = FinalizationPointDto_1.FinalizationPointDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, point.getSize());
+        return new FinalizationRoundBuilder(epoch, point);
+    }
+    static createFinalizationRoundBuilder(epoch, point) {
+        return new FinalizationRoundBuilder(epoch, point);
+    }
+    getEpoch() {
+        return this.epoch;
+    }
+    getPoint() {
+        return this.point;
+    }
+    getSize() {
+        let size = 0;
+        size += this.epoch.getSize();
+        size += this.point.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const epochBytes = this.epoch.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, epochBytes);
+        const pointBytes = this.point.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, pointBytes);
+        return newArray;
+    }
+}
+exports.FinalizationRoundBuilder = FinalizationRoundBuilder;
+
+},{"./FinalizationEpochDto":344,"./FinalizationPointDto":345,"./GeneratorUtils":348}],347:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.FinalizedBlockHeaderBuilder = void 0;
+const FinalizationRoundBuilder_1 = require("./FinalizationRoundBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const Hash256Dto_1 = require("./Hash256Dto");
+const HeightDto_1 = require("./HeightDto");
+class FinalizedBlockHeaderBuilder {
+    constructor(round, height, hash) {
+        GeneratorUtils_1.GeneratorUtils.notNull(round, 'round is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(height, 'height is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(hash, 'hash is null or undefined');
+        this.round = round;
+        this.height = height;
+        this.hash = hash;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const round = FinalizationRoundBuilder_1.FinalizationRoundBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, round.getSize());
+        const height = HeightDto_1.HeightDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, height.getSize());
+        const hash = Hash256Dto_1.Hash256Dto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, hash.getSize());
+        return new FinalizedBlockHeaderBuilder(round, height, hash);
+    }
+    static createFinalizedBlockHeaderBuilder(round, height, hash) {
+        return new FinalizedBlockHeaderBuilder(round, height, hash);
+    }
+    getRound() {
+        return this.round;
+    }
+    getHeight() {
+        return this.height;
+    }
+    getHash() {
+        return this.hash;
+    }
+    getSize() {
+        let size = 0;
+        size += this.round.getSize();
+        size += this.height.getSize();
+        size += this.hash.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const roundBytes = this.round.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, roundBytes);
+        const heightBytes = this.height.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, heightBytes);
+        const hashBytes = this.hash.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, hashBytes);
+        return newArray;
+    }
+}
+exports.FinalizedBlockHeaderBuilder = FinalizedBlockHeaderBuilder;
+
+},{"./FinalizationRoundBuilder":346,"./GeneratorUtils":348,"./Hash256Dto":351,"./HeightDto":358}],348:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.GeneratorUtils = void 0;
+class GeneratorUtils {
+    static bufferToUint64(input) {
+        const view = new DataView(input.slice(0, 8).reverse().buffer);
+        return [view.getUint32(4), view.getUint32(0)];
+    }
+    static readUint32At(bytes, index) {
+        return (bytes[index] + (bytes[index + 1] << 8) + (bytes[index + 2] << 16) + (bytes[index + 3] << 24)) >>> 0;
+    }
+    static uintToBuffer(uintValue, bufferSize) {
+        const buffer = new ArrayBuffer(bufferSize);
+        const dataView = new DataView(buffer);
+        try {
+            if (1 === bufferSize) {
+                dataView.setUint8(0, uintValue);
+            }
+            else if (2 === bufferSize) {
+                dataView.setUint16(0, uintValue, true);
+            }
+            else if (4 === bufferSize) {
+                dataView.setUint32(0, uintValue, true);
+            }
+            else {
+                throw new Error('Unexpected bufferSize ' + bufferSize);
+            }
+            return new Uint8Array(buffer);
+        }
+        catch (e) {
+            throw new Error(`Converting uint value ` + uintValue + ` into buffer with error: ` + e);
+        }
+    }
+    static uint8ToBuffer(uintValue) {
+        return GeneratorUtils.uintToBuffer(uintValue, 1);
+    }
+    static uint16ToBuffer(uintValue) {
+        return GeneratorUtils.uintToBuffer(uintValue, 2);
+    }
+    static uint32ToBuffer(uintValue) {
+        return GeneratorUtils.uintToBuffer(uintValue, 4);
+    }
+    static notNull(value, message) {
+        if (value === undefined || value === null) {
+            throw new Error(message);
+        }
+    }
+    static bufferToUint(buffer, size) {
+        const dataView = new DataView(buffer.buffer);
+        try {
+            if (1 === size) {
+                return dataView.getUint8(0);
+            }
+            else if (2 === size) {
+                return dataView.getUint16(0, true);
+            }
+            else if (4 === size) {
+                return dataView.getUint32(0, true);
+            }
+            throw new Error('Unexpected size ' + size);
+        }
+        catch (e) {
+            throw new Error(`Converting buffer into number with error:` + e);
+        }
+    }
+    static bufferToUint8(buffer) {
+        return GeneratorUtils.bufferToUint(buffer, 1);
+    }
+    static bufferToUint16(buffer) {
+        return GeneratorUtils.bufferToUint(buffer, 2);
+    }
+    static bufferToUint32(buffer) {
+        return GeneratorUtils.bufferToUint(buffer, 4);
+    }
+    static uint64ToBuffer(uintValue) {
+        const uint32Array = new Uint32Array(GeneratorUtils.fromUint(uintValue));
+        return new Uint8Array(uint32Array.buffer);
+    }
+    static concatTypedArrays(array1, array2) {
+        const newArray = new Uint8Array(array1.length + array2.length);
+        newArray.set(array1);
+        newArray.set(array2, array1.length);
+        return newArray;
+    }
+    static getBytes(binary, size) {
+        if (size > binary.length) {
+            throw new RangeError();
+        }
+        const bytes = binary.slice(0, size);
+        return bytes;
+    }
+    static getPaddingSize(size, alignment) {
+        if (alignment === 0) {
+            return 0;
+        }
+        return 0 === size % alignment ? 0 : alignment - (size % alignment);
+    }
+    static getSizeWithPadding(size, alignment) {
+        return size + GeneratorUtils.getPaddingSize(size, alignment);
+    }
+    static compact(uint64) {
+        if (Array.isArray(uint64)) {
+            const low = uint64[0];
+            const high = uint64[1];
+            if (0x00200000 <= high) {
+                throw new Error('Cannot compact number: ' + uint64);
+            }
+            return high * 0x100000000 + low;
+        }
+        else {
+            return uint64;
+        }
+    }
+    static fromUint(number) {
+        if (Array.isArray(number)) {
+            return number;
+        }
+        return [(number & 0xffffffff) >>> 0, (number / 0x100000000) >>> 0];
+    }
+    static loadFromBinary(loadFromBinary, payload, count) {
+        const byteArray = Array.from(payload);
+        const values = [];
+        for (let i = 0; i < GeneratorUtils.compact(count); i++) {
+            const item = loadFromBinary(Uint8Array.from(byteArray));
+            const itemSize = item.getSize();
+            values.push(item);
+            byteArray.splice(0, itemSize);
+        }
+        return values;
+    }
+    static loadFromBinaryEnums(payload, count, itemSize) {
+        const byteArray = Array.from(payload);
+        const values = [];
+        for (let i = 0; i < GeneratorUtils.compact(count); i++) {
+            values.push(GeneratorUtils.bufferToUint(payload, 2));
+            byteArray.splice(0, itemSize);
+        }
+        return values;
+    }
+    static loadFromBinaryRemaining(loadFromBinary, payload, payloadSize, alignment) {
+        const byteArray = Array.from(payload);
+        let remainingByteSizes = payloadSize;
+        const transactions = [];
+        while (remainingByteSizes > 0) {
+            const item = loadFromBinary(Uint8Array.from(byteArray));
+            transactions.push(item);
+            const size = item.getSize();
+            const itemSize = size + GeneratorUtils.getPaddingSize(item.getSize(), alignment);
+            remainingByteSizes -= itemSize;
+            byteArray.splice(0, itemSize);
+        }
+        return transactions;
+    }
+    static writeList(elements, alignment) {
+        return elements.reduce((newArray, item) => {
+            const byte = item.serialize();
+            const padding = new Uint8Array(GeneratorUtils.getPaddingSize(byte.length, alignment));
+            return GeneratorUtils.concatTypedArrays(newArray, GeneratorUtils.concatTypedArrays(byte, padding));
+        }, Uint8Array.from([]));
+    }
+    static writeListEnum(elements, alignment) {
+        return elements.reduce((newArray, item) => {
+            const byte = GeneratorUtils.uint16ToBuffer(item);
+            const padding = new Uint8Array(GeneratorUtils.getPaddingSize(byte.length, alignment));
+            return GeneratorUtils.concatTypedArrays(newArray, GeneratorUtils.concatTypedArrays(byte, padding));
+        }, Uint8Array.from([]));
+    }
+    static toFlags(enumClass, bitMaskValue) {
+        const values = Object.keys(enumClass)
+            .map((key) => enumClass[key])
+            .filter((k) => parseInt(k) >= 0)
+            .map((k) => parseInt(k));
+        return values.filter((value) => (value & bitMaskValue) !== 0);
+    }
+    static fromFlags(enumClass, flags) {
+        const values = Object.keys(enumClass)
+            .map((key) => enumClass[key])
+            .filter((k) => parseInt(k) >= 0)
+            .map((k) => parseInt(k));
+        return flags.filter((f) => values.indexOf(f) > -1).reduce((a, b) => a + b, 0);
+    }
+}
+exports.GeneratorUtils = GeneratorUtils;
+GeneratorUtils.uint8ToInt8 = (input) => {
+    if (0xff < input) {
+        throw Error(`input '` + input + `' is out of range`);
+    }
+    return (input << 24) >> 24;
+};
+
+},{}],349:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.GlobalKeyValueBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicRestrictionKeyDto_1 = require("./MosaicRestrictionKeyDto");
+const RestrictionRuleBuilder_1 = require("./RestrictionRuleBuilder");
+class GlobalKeyValueBuilder {
+    constructor(key, restrictionRule) {
+        GeneratorUtils_1.GeneratorUtils.notNull(key, 'key is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(restrictionRule, 'restrictionRule is null or undefined');
+        this.key = key;
+        this.restrictionRule = restrictionRule;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const key = MosaicRestrictionKeyDto_1.MosaicRestrictionKeyDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, key.getSize());
+        const restrictionRule = RestrictionRuleBuilder_1.RestrictionRuleBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, restrictionRule.getSize());
+        return new GlobalKeyValueBuilder(key, restrictionRule);
+    }
+    static createGlobalKeyValueBuilder(key, restrictionRule) {
+        return new GlobalKeyValueBuilder(key, restrictionRule);
+    }
+    getKey() {
+        return this.key;
+    }
+    getRestrictionRule() {
+        return this.restrictionRule;
+    }
+    getSize() {
+        let size = 0;
+        size += this.key.getSize();
+        size += this.restrictionRule.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const keyBytes = this.key.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, keyBytes);
+        const restrictionRuleBytes = this.restrictionRule.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionRuleBytes);
+        return newArray;
+    }
+}
+exports.GlobalKeyValueBuilder = GlobalKeyValueBuilder;
+
+},{"./GeneratorUtils":348,"./MosaicRestrictionKeyDto":396,"./RestrictionRuleBuilder":427}],350:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.GlobalKeyValueSetBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const GlobalKeyValueBuilder_1 = require("./GlobalKeyValueBuilder");
+class GlobalKeyValueSetBuilder {
+    constructor(keys) {
+        GeneratorUtils_1.GeneratorUtils.notNull(keys, 'keys is null or undefined');
+        this.keys = keys;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const keyValueCount = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const keys = GeneratorUtils_1.GeneratorUtils.loadFromBinary(GlobalKeyValueBuilder_1.GlobalKeyValueBuilder.loadFromBinary, Uint8Array.from(byteArray), keyValueCount);
+        byteArray.splice(0, keys.reduce((sum, c) => sum + c.getSize(), 0));
+        return new GlobalKeyValueSetBuilder(keys);
+    }
+    static createGlobalKeyValueSetBuilder(keys) {
+        return new GlobalKeyValueSetBuilder(keys);
+    }
+    getKeys() {
+        return this.keys;
+    }
+    getSize() {
+        let size = 0;
+        size += 1;
+        size += this.keys.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0);
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const keyValueCountBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.keys.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, keyValueCountBytes);
+        const keysBytes = GeneratorUtils_1.GeneratorUtils.writeList(this.keys, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, keysBytes);
+        return newArray;
+    }
+}
+exports.GlobalKeyValueSetBuilder = GlobalKeyValueSetBuilder;
+
+},{"./GeneratorUtils":348,"./GlobalKeyValueBuilder":349}],351:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Hash256Dto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class Hash256Dto {
+    constructor(hash256) {
+        this.hash256 = hash256;
+    }
+    static loadFromBinary(payload) {
+        const hash256 = GeneratorUtils_1.GeneratorUtils.getBytes(Uint8Array.from(payload), 32);
+        return new Hash256Dto(hash256);
+    }
+    getHash256() {
+        return this.hash256;
+    }
+    getSize() {
+        return 32;
+    }
+    serialize() {
+        return this.getHash256();
+    }
+}
+exports.Hash256Dto = Hash256Dto;
+
+},{"./GeneratorUtils":348}],352:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Hash512Dto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class Hash512Dto {
+    constructor(hash512) {
+        this.hash512 = hash512;
+    }
+    static loadFromBinary(payload) {
+        const hash512 = GeneratorUtils_1.GeneratorUtils.getBytes(Uint8Array.from(payload), 64);
+        return new Hash512Dto(hash512);
+    }
+    getHash512() {
+        return this.hash512;
+    }
+    getSize() {
+        return 64;
+    }
+    serialize() {
+        return this.getHash512();
+    }
+}
+exports.Hash512Dto = Hash512Dto;
+
+},{"./GeneratorUtils":348}],353:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.HashLockInfoBuilder = void 0;
+const AddressDto_1 = require("./AddressDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const Hash256Dto_1 = require("./Hash256Dto");
+const HeightDto_1 = require("./HeightDto");
+const MosaicBuilder_1 = require("./MosaicBuilder");
+const StateHeaderBuilder_1 = require("./StateHeaderBuilder");
+class HashLockInfoBuilder extends StateHeaderBuilder_1.StateHeaderBuilder {
+    constructor(version, ownerAddress, mosaic, endHeight, status, hash) {
+        super(version);
+        GeneratorUtils_1.GeneratorUtils.notNull(ownerAddress, 'ownerAddress is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(mosaic, 'mosaic is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(endHeight, 'endHeight is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(status, 'status is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(hash, 'hash is null or undefined');
+        this.ownerAddress = ownerAddress;
+        this.mosaic = mosaic;
+        this.endHeight = endHeight;
+        this.status = status;
+        this.hash = hash;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = StateHeaderBuilder_1.StateHeaderBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const ownerAddress = AddressDto_1.AddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, ownerAddress.getSize());
+        const mosaic = MosaicBuilder_1.MosaicBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaic.getSize());
+        const endHeight = HeightDto_1.HeightDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, endHeight.getSize());
+        const status = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const hash = Hash256Dto_1.Hash256Dto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, hash.getSize());
+        return new HashLockInfoBuilder(superObject.version, ownerAddress, mosaic, endHeight, status, hash);
+    }
+    static createHashLockInfoBuilder(version, ownerAddress, mosaic, endHeight, status, hash) {
+        return new HashLockInfoBuilder(version, ownerAddress, mosaic, endHeight, status, hash);
+    }
+    getOwnerAddress() {
+        return this.ownerAddress;
+    }
+    getMosaic() {
+        return this.mosaic;
+    }
+    getEndHeight() {
+        return this.endHeight;
+    }
+    getStatus() {
+        return this.status;
+    }
+    getHash() {
+        return this.hash;
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.ownerAddress.getSize();
+        size += this.mosaic.getSize();
+        size += this.endHeight.getSize();
+        size += 1;
+        size += this.hash.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const ownerAddressBytes = this.ownerAddress.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, ownerAddressBytes);
+        const mosaicBytes = this.mosaic.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicBytes);
+        const endHeightBytes = this.endHeight.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, endHeightBytes);
+        const statusBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.status);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, statusBytes);
+        const hashBytes = this.hash.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, hashBytes);
+        return newArray;
+    }
+}
+exports.HashLockInfoBuilder = HashLockInfoBuilder;
+
+},{"./AddressDto":301,"./GeneratorUtils":348,"./Hash256Dto":351,"./HeightDto":358,"./MosaicBuilder":377,"./StateHeaderBuilder":437}],354:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.HashLockTransactionBodyBuilder = void 0;
+const BlockDurationDto_1 = require("./BlockDurationDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const Hash256Dto_1 = require("./Hash256Dto");
+const UnresolvedMosaicBuilder_1 = require("./UnresolvedMosaicBuilder");
+class HashLockTransactionBodyBuilder {
+    constructor(mosaic, duration, hash) {
+        GeneratorUtils_1.GeneratorUtils.notNull(mosaic, 'mosaic is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(duration, 'duration is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(hash, 'hash is null or undefined');
+        this.mosaic = mosaic;
+        this.duration = duration;
+        this.hash = hash;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const mosaic = UnresolvedMosaicBuilder_1.UnresolvedMosaicBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaic.getSize());
+        const duration = BlockDurationDto_1.BlockDurationDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, duration.getSize());
+        const hash = Hash256Dto_1.Hash256Dto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, hash.getSize());
+        return new HashLockTransactionBodyBuilder(mosaic, duration, hash);
+    }
+    static createHashLockTransactionBodyBuilder(mosaic, duration, hash) {
+        return new HashLockTransactionBodyBuilder(mosaic, duration, hash);
+    }
+    getMosaic() {
+        return this.mosaic;
+    }
+    getDuration() {
+        return this.duration;
+    }
+    getHash() {
+        return this.hash;
+    }
+    getSize() {
+        let size = 0;
+        size += this.mosaic.getSize();
+        size += this.duration.getSize();
+        size += this.hash.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const mosaicBytes = this.mosaic.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicBytes);
+        const durationBytes = this.duration.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, durationBytes);
+        const hashBytes = this.hash.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, hashBytes);
+        return newArray;
+    }
+}
+exports.HashLockTransactionBodyBuilder = HashLockTransactionBodyBuilder;
+
+},{"./BlockDurationDto":313,"./GeneratorUtils":348,"./Hash256Dto":351,"./UnresolvedMosaicBuilder":444}],355:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.HashLockTransactionBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const HashLockTransactionBodyBuilder_1 = require("./HashLockTransactionBodyBuilder");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+class HashLockTransactionBuilder extends TransactionBuilder_1.TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline, mosaic, duration, hash) {
+        super(signature, signerPublicKey, version, network, type, fee, deadline);
+        this.hashLockTransactionBody = new HashLockTransactionBodyBuilder_1.HashLockTransactionBodyBuilder(mosaic, duration, hash);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const hashLockTransactionBody = HashLockTransactionBodyBuilder_1.HashLockTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, hashLockTransactionBody.getSize());
+        return new HashLockTransactionBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.fee, superObject.deadline, hashLockTransactionBody.mosaic, hashLockTransactionBody.duration, hashLockTransactionBody.hash);
+    }
+    static createHashLockTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, mosaic, duration, hash) {
+        return new HashLockTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, mosaic, duration, hash);
+    }
+    getMosaic() {
+        return this.hashLockTransactionBody.getMosaic();
+    }
+    getDuration() {
+        return this.hashLockTransactionBody.getDuration();
+    }
+    getHash() {
+        return this.hashLockTransactionBody.getHash();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.hashLockTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.hashLockTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const hashLockTransactionBodyBytes = this.hashLockTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, hashLockTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.HashLockTransactionBuilder = HashLockTransactionBuilder;
+
+},{"./GeneratorUtils":348,"./HashLockTransactionBodyBuilder":354,"./TransactionBuilder":439}],356:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.HeightActivityBucketBuilder = void 0;
+const AmountDto_1 = require("./AmountDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const ImportanceHeightDto_1 = require("./ImportanceHeightDto");
+class HeightActivityBucketBuilder {
+    constructor(startHeight, totalFeesPaid, beneficiaryCount, rawScore) {
+        GeneratorUtils_1.GeneratorUtils.notNull(startHeight, 'startHeight is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(totalFeesPaid, 'totalFeesPaid is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(beneficiaryCount, 'beneficiaryCount is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(rawScore, 'rawScore is null or undefined');
+        this.startHeight = startHeight;
+        this.totalFeesPaid = totalFeesPaid;
+        this.beneficiaryCount = beneficiaryCount;
+        this.rawScore = rawScore;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const startHeight = ImportanceHeightDto_1.ImportanceHeightDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, startHeight.getSize());
+        const totalFeesPaid = AmountDto_1.AmountDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, totalFeesPaid.getSize());
+        const beneficiaryCount = GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        const rawScore = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(byteArray));
+        byteArray.splice(0, 8);
+        return new HeightActivityBucketBuilder(startHeight, totalFeesPaid, beneficiaryCount, rawScore);
+    }
+    static createHeightActivityBucketBuilder(startHeight, totalFeesPaid, beneficiaryCount, rawScore) {
+        return new HeightActivityBucketBuilder(startHeight, totalFeesPaid, beneficiaryCount, rawScore);
+    }
+    getStartHeight() {
+        return this.startHeight;
+    }
+    getTotalFeesPaid() {
+        return this.totalFeesPaid;
+    }
+    getBeneficiaryCount() {
+        return this.beneficiaryCount;
+    }
+    getRawScore() {
+        return this.rawScore;
+    }
+    getSize() {
+        let size = 0;
+        size += this.startHeight.getSize();
+        size += this.totalFeesPaid.getSize();
+        size += 4;
+        size += 8;
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const startHeightBytes = this.startHeight.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, startHeightBytes);
+        const totalFeesPaidBytes = this.totalFeesPaid.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, totalFeesPaidBytes);
+        const beneficiaryCountBytes = GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(this.getBeneficiaryCount());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, beneficiaryCountBytes);
+        const rawScoreBytes = GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getRawScore());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, rawScoreBytes);
+        return newArray;
+    }
+}
+exports.HeightActivityBucketBuilder = HeightActivityBucketBuilder;
+
+},{"./AmountDto":310,"./GeneratorUtils":348,"./ImportanceHeightDto":362}],357:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.HeightActivityBucketsBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const HeightActivityBucketBuilder_1 = require("./HeightActivityBucketBuilder");
+class HeightActivityBucketsBuilder {
+    constructor(buckets) {
+        GeneratorUtils_1.GeneratorUtils.notNull(buckets, 'buckets is null or undefined');
+        this.buckets = buckets;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const buckets = GeneratorUtils_1.GeneratorUtils.loadFromBinary(HeightActivityBucketBuilder_1.HeightActivityBucketBuilder.loadFromBinary, Uint8Array.from(byteArray), 5);
+        byteArray.splice(0, buckets.reduce((sum, c) => sum + c.getSize(), 0));
+        return new HeightActivityBucketsBuilder(buckets);
+    }
+    static createHeightActivityBucketsBuilder(buckets) {
+        return new HeightActivityBucketsBuilder(buckets);
+    }
+    getBuckets() {
+        return this.buckets;
+    }
+    getSize() {
+        let size = 0;
+        size += this.buckets.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0);
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const bucketsBytes = GeneratorUtils_1.GeneratorUtils.writeList(this.buckets, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, bucketsBytes);
+        return newArray;
+    }
+}
+exports.HeightActivityBucketsBuilder = HeightActivityBucketsBuilder;
+
+},{"./GeneratorUtils":348,"./HeightActivityBucketBuilder":356}],358:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.HeightDto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class HeightDto {
+    constructor(height) {
+        this.height = height;
+    }
+    static loadFromBinary(payload) {
+        const height = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(payload));
+        return new HeightDto(height);
+    }
+    getHeight() {
+        return this.height;
+    }
+    getSize() {
+        return 8;
+    }
+    serialize() {
+        return GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getHeight());
+    }
+}
+exports.HeightDto = HeightDto;
+
+},{"./GeneratorUtils":348}],359:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ImportanceBlockFooterBuilder = void 0;
+const AmountDto_1 = require("./AmountDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const Hash256Dto_1 = require("./Hash256Dto");
+class ImportanceBlockFooterBuilder {
+    constructor(votingEligibleAccountsCount, harvestingEligibleAccountsCount, totalVotingBalance, previousImportanceBlockHash) {
+        GeneratorUtils_1.GeneratorUtils.notNull(votingEligibleAccountsCount, 'votingEligibleAccountsCount is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(harvestingEligibleAccountsCount, 'harvestingEligibleAccountsCount is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(totalVotingBalance, 'totalVotingBalance is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(previousImportanceBlockHash, 'previousImportanceBlockHash is null or undefined');
+        this.votingEligibleAccountsCount = votingEligibleAccountsCount;
+        this.harvestingEligibleAccountsCount = harvestingEligibleAccountsCount;
+        this.totalVotingBalance = totalVotingBalance;
+        this.previousImportanceBlockHash = previousImportanceBlockHash;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const votingEligibleAccountsCount = GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        const harvestingEligibleAccountsCount = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(byteArray));
+        byteArray.splice(0, 8);
+        const totalVotingBalance = AmountDto_1.AmountDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, totalVotingBalance.getSize());
+        const previousImportanceBlockHash = Hash256Dto_1.Hash256Dto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, previousImportanceBlockHash.getSize());
+        return new ImportanceBlockFooterBuilder(votingEligibleAccountsCount, harvestingEligibleAccountsCount, totalVotingBalance, previousImportanceBlockHash);
+    }
+    static createImportanceBlockFooterBuilder(votingEligibleAccountsCount, harvestingEligibleAccountsCount, totalVotingBalance, previousImportanceBlockHash) {
+        return new ImportanceBlockFooterBuilder(votingEligibleAccountsCount, harvestingEligibleAccountsCount, totalVotingBalance, previousImportanceBlockHash);
+    }
+    getVotingEligibleAccountsCount() {
+        return this.votingEligibleAccountsCount;
+    }
+    getHarvestingEligibleAccountsCount() {
+        return this.harvestingEligibleAccountsCount;
+    }
+    getTotalVotingBalance() {
+        return this.totalVotingBalance;
+    }
+    getPreviousImportanceBlockHash() {
+        return this.previousImportanceBlockHash;
+    }
+    getSize() {
+        let size = 0;
+        size += 4;
+        size += 8;
+        size += this.totalVotingBalance.getSize();
+        size += this.previousImportanceBlockHash.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const votingEligibleAccountsCountBytes = GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(this.getVotingEligibleAccountsCount());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, votingEligibleAccountsCountBytes);
+        const harvestingEligibleAccountsCountBytes = GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getHarvestingEligibleAccountsCount());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, harvestingEligibleAccountsCountBytes);
+        const totalVotingBalanceBytes = this.totalVotingBalance.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, totalVotingBalanceBytes);
+        const previousImportanceBlockHashBytes = this.previousImportanceBlockHash.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, previousImportanceBlockHashBytes);
+        return newArray;
+    }
+}
+exports.ImportanceBlockFooterBuilder = ImportanceBlockFooterBuilder;
+
+},{"./AmountDto":310,"./GeneratorUtils":348,"./Hash256Dto":351}],360:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ImportanceBlockHeaderBuilder = void 0;
+const BlockHeaderBuilder_1 = require("./BlockHeaderBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const ImportanceBlockFooterBuilder_1 = require("./ImportanceBlockFooterBuilder");
+class ImportanceBlockHeaderBuilder extends BlockHeaderBuilder_1.BlockHeaderBuilder {
+    constructor(signature, signerPublicKey, version, network, type, height, timestamp, difficulty, generationHashProof, previousBlockHash, transactionsHash, receiptsHash, stateHash, beneficiaryAddress, feeMultiplier, votingEligibleAccountsCount, harvestingEligibleAccountsCount, totalVotingBalance, previousImportanceBlockHash) {
+        super(signature, signerPublicKey, version, network, type, height, timestamp, difficulty, generationHashProof, previousBlockHash, transactionsHash, receiptsHash, stateHash, beneficiaryAddress, feeMultiplier);
+        this.importanceBlockFooter = new ImportanceBlockFooterBuilder_1.ImportanceBlockFooterBuilder(votingEligibleAccountsCount, harvestingEligibleAccountsCount, totalVotingBalance, previousImportanceBlockHash);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = BlockHeaderBuilder_1.BlockHeaderBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const importanceBlockFooter = ImportanceBlockFooterBuilder_1.ImportanceBlockFooterBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, importanceBlockFooter.getSize());
+        return new ImportanceBlockHeaderBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.height, superObject.timestamp, superObject.difficulty, superObject.generationHashProof, superObject.previousBlockHash, superObject.transactionsHash, superObject.receiptsHash, superObject.stateHash, superObject.beneficiaryAddress, superObject.feeMultiplier, importanceBlockFooter.votingEligibleAccountsCount, importanceBlockFooter.harvestingEligibleAccountsCount, importanceBlockFooter.totalVotingBalance, importanceBlockFooter.previousImportanceBlockHash);
+    }
+    static createImportanceBlockHeaderBuilder(signature, signerPublicKey, version, network, type, height, timestamp, difficulty, generationHashProof, previousBlockHash, transactionsHash, receiptsHash, stateHash, beneficiaryAddress, feeMultiplier, votingEligibleAccountsCount, harvestingEligibleAccountsCount, totalVotingBalance, previousImportanceBlockHash) {
+        return new ImportanceBlockHeaderBuilder(signature, signerPublicKey, version, network, type, height, timestamp, difficulty, generationHashProof, previousBlockHash, transactionsHash, receiptsHash, stateHash, beneficiaryAddress, feeMultiplier, votingEligibleAccountsCount, harvestingEligibleAccountsCount, totalVotingBalance, previousImportanceBlockHash);
+    }
+    getVotingEligibleAccountsCount() {
+        return this.importanceBlockFooter.getVotingEligibleAccountsCount();
+    }
+    getHarvestingEligibleAccountsCount() {
+        return this.importanceBlockFooter.getHarvestingEligibleAccountsCount();
+    }
+    getTotalVotingBalance() {
+        return this.importanceBlockFooter.getTotalVotingBalance();
+    }
+    getPreviousImportanceBlockHash() {
+        return this.importanceBlockFooter.getPreviousImportanceBlockHash();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.importanceBlockFooter.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const importanceBlockFooterBytes = this.importanceBlockFooter.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, importanceBlockFooterBytes);
+        return newArray;
+    }
+}
+exports.ImportanceBlockHeaderBuilder = ImportanceBlockHeaderBuilder;
+
+},{"./BlockHeaderBuilder":315,"./GeneratorUtils":348,"./ImportanceBlockFooterBuilder":359}],361:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ImportanceDto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class ImportanceDto {
+    constructor(importance) {
+        this.importance = importance;
+    }
+    static loadFromBinary(payload) {
+        const importance = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(payload));
+        return new ImportanceDto(importance);
+    }
+    getImportance() {
+        return this.importance;
+    }
+    getSize() {
+        return 8;
+    }
+    serialize() {
+        return GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getImportance());
+    }
+}
+exports.ImportanceDto = ImportanceDto;
+
+},{"./GeneratorUtils":348}],362:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ImportanceHeightDto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class ImportanceHeightDto {
+    constructor(importanceHeight) {
+        this.importanceHeight = importanceHeight;
+    }
+    static loadFromBinary(payload) {
+        const importanceHeight = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(payload));
+        return new ImportanceHeightDto(importanceHeight);
+    }
+    getImportanceHeight() {
+        return this.importanceHeight;
+    }
+    getSize() {
+        return 8;
+    }
+    serialize() {
+        return GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getImportanceHeight());
+    }
+}
+exports.ImportanceHeightDto = ImportanceHeightDto;
+
+},{"./GeneratorUtils":348}],363:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ImportanceSnapshotBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const ImportanceDto_1 = require("./ImportanceDto");
+const ImportanceHeightDto_1 = require("./ImportanceHeightDto");
+class ImportanceSnapshotBuilder {
+    constructor(importance, height) {
+        GeneratorUtils_1.GeneratorUtils.notNull(importance, 'importance is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(height, 'height is null or undefined');
+        this.importance = importance;
+        this.height = height;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const importance = ImportanceDto_1.ImportanceDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, importance.getSize());
+        const height = ImportanceHeightDto_1.ImportanceHeightDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, height.getSize());
+        return new ImportanceSnapshotBuilder(importance, height);
+    }
+    static createImportanceSnapshotBuilder(importance, height) {
+        return new ImportanceSnapshotBuilder(importance, height);
+    }
+    getImportance() {
+        return this.importance;
+    }
+    getHeight() {
+        return this.height;
+    }
+    getSize() {
+        let size = 0;
+        size += this.importance.getSize();
+        size += this.height.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const importanceBytes = this.importance.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, importanceBytes);
+        const heightBytes = this.height.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, heightBytes);
+        return newArray;
+    }
+}
+exports.ImportanceSnapshotBuilder = ImportanceSnapshotBuilder;
+
+},{"./GeneratorUtils":348,"./ImportanceDto":361,"./ImportanceHeightDto":362}],364:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.InflationReceiptBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicBuilder_1 = require("./MosaicBuilder");
+const ReceiptBuilder_1 = require("./ReceiptBuilder");
+class InflationReceiptBuilder extends ReceiptBuilder_1.ReceiptBuilder {
+    constructor(version, type, mosaic) {
+        super(version, type);
+        GeneratorUtils_1.GeneratorUtils.notNull(mosaic, 'mosaic is null or undefined');
+        this.mosaic = mosaic;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = ReceiptBuilder_1.ReceiptBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const mosaic = MosaicBuilder_1.MosaicBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaic.getSize());
+        return new InflationReceiptBuilder(superObject.version, superObject.type, mosaic);
+    }
+    static createInflationReceiptBuilder(version, type, mosaic) {
+        return new InflationReceiptBuilder(version, type, mosaic);
+    }
+    getMosaic() {
+        return this.mosaic;
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.mosaic.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const mosaicBytes = this.mosaic.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicBytes);
+        return newArray;
+    }
+}
+exports.InflationReceiptBuilder = InflationReceiptBuilder;
+
+},{"./GeneratorUtils":348,"./MosaicBuilder":377,"./ReceiptBuilder":424}],365:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.KeyDto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class KeyDto {
+    constructor(key) {
+        this.key = key;
+    }
+    static loadFromBinary(payload) {
+        const key = GeneratorUtils_1.GeneratorUtils.getBytes(Uint8Array.from(payload), 32);
+        return new KeyDto(key);
+    }
+    getKey() {
+        return this.key;
+    }
+    getSize() {
+        return 32;
+    }
+    serialize() {
+        return this.getKey();
+    }
+}
+exports.KeyDto = KeyDto;
+
+},{"./GeneratorUtils":348}],366:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.LinkActionDto = void 0;
+var LinkActionDto;
+(function (LinkActionDto) {
+    LinkActionDto[LinkActionDto["UNLINK"] = 0] = "UNLINK";
+    LinkActionDto[LinkActionDto["LINK"] = 1] = "LINK";
+})(LinkActionDto = exports.LinkActionDto || (exports.LinkActionDto = {}));
+
+},{}],367:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.LockHashAlgorithmDto = void 0;
+var LockHashAlgorithmDto;
+(function (LockHashAlgorithmDto) {
+    LockHashAlgorithmDto[LockHashAlgorithmDto["SHA3_256"] = 0] = "SHA3_256";
+    LockHashAlgorithmDto[LockHashAlgorithmDto["HASH_160"] = 1] = "HASH_160";
+    LockHashAlgorithmDto[LockHashAlgorithmDto["HASH_256"] = 2] = "HASH_256";
+})(LockHashAlgorithmDto = exports.LockHashAlgorithmDto || (exports.LockHashAlgorithmDto = {}));
+
+},{}],368:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.LockStatusDto = void 0;
+var LockStatusDto;
+(function (LockStatusDto) {
+    LockStatusDto[LockStatusDto["UNUSED"] = 0] = "UNUSED";
+    LockStatusDto[LockStatusDto["USED"] = 1] = "USED";
+})(LockStatusDto = exports.LockStatusDto || (exports.LockStatusDto = {}));
+
+},{}],369:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MetadataEntryBuilder = void 0;
+const AddressDto_1 = require("./AddressDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MetadataValueBuilder_1 = require("./MetadataValueBuilder");
+const ScopedMetadataKeyDto_1 = require("./ScopedMetadataKeyDto");
+const StateHeaderBuilder_1 = require("./StateHeaderBuilder");
+class MetadataEntryBuilder extends StateHeaderBuilder_1.StateHeaderBuilder {
+    constructor(version, sourceAddress, targetAddress, scopedMetadataKey, targetId, metadataType, value) {
+        super(version);
+        GeneratorUtils_1.GeneratorUtils.notNull(sourceAddress, 'sourceAddress is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(targetAddress, 'targetAddress is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(scopedMetadataKey, 'scopedMetadataKey is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(targetId, 'targetId is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(metadataType, 'metadataType is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(value, 'value is null or undefined');
+        this.sourceAddress = sourceAddress;
+        this.targetAddress = targetAddress;
+        this.scopedMetadataKey = scopedMetadataKey;
+        this.targetId = targetId;
+        this.metadataType = metadataType;
+        this.value = value;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = StateHeaderBuilder_1.StateHeaderBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const sourceAddress = AddressDto_1.AddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, sourceAddress.getSize());
+        const targetAddress = AddressDto_1.AddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, targetAddress.getSize());
+        const scopedMetadataKey = ScopedMetadataKeyDto_1.ScopedMetadataKeyDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, scopedMetadataKey.getSize());
+        const targetId = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(byteArray));
+        byteArray.splice(0, 8);
+        const metadataType = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const value = MetadataValueBuilder_1.MetadataValueBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, value.getSize());
+        return new MetadataEntryBuilder(superObject.version, sourceAddress, targetAddress, scopedMetadataKey, targetId, metadataType, value);
+    }
+    static createMetadataEntryBuilder(version, sourceAddress, targetAddress, scopedMetadataKey, targetId, metadataType, value) {
+        return new MetadataEntryBuilder(version, sourceAddress, targetAddress, scopedMetadataKey, targetId, metadataType, value);
+    }
+    getSourceAddress() {
+        return this.sourceAddress;
+    }
+    getTargetAddress() {
+        return this.targetAddress;
+    }
+    getScopedMetadataKey() {
+        return this.scopedMetadataKey;
+    }
+    getTargetId() {
+        return this.targetId;
+    }
+    getMetadataType() {
+        return this.metadataType;
+    }
+    getValue() {
+        return this.value;
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.sourceAddress.getSize();
+        size += this.targetAddress.getSize();
+        size += this.scopedMetadataKey.getSize();
+        size += 8;
+        size += 1;
+        size += this.value.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const sourceAddressBytes = this.sourceAddress.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, sourceAddressBytes);
+        const targetAddressBytes = this.targetAddress.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, targetAddressBytes);
+        const scopedMetadataKeyBytes = this.scopedMetadataKey.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, scopedMetadataKeyBytes);
+        const targetIdBytes = GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getTargetId());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, targetIdBytes);
+        const metadataTypeBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.metadataType);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, metadataTypeBytes);
+        const valueBytes = this.value.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, valueBytes);
+        return newArray;
+    }
+}
+exports.MetadataEntryBuilder = MetadataEntryBuilder;
+
+},{"./AddressDto":301,"./GeneratorUtils":348,"./MetadataValueBuilder":371,"./ScopedMetadataKeyDto":429,"./StateHeaderBuilder":437}],370:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MetadataTypeDto = void 0;
+var MetadataTypeDto;
+(function (MetadataTypeDto) {
+    MetadataTypeDto[MetadataTypeDto["ACCOUNT"] = 0] = "ACCOUNT";
+    MetadataTypeDto[MetadataTypeDto["MOSAIC"] = 1] = "MOSAIC";
+    MetadataTypeDto[MetadataTypeDto["NAMESPACE"] = 2] = "NAMESPACE";
+})(MetadataTypeDto = exports.MetadataTypeDto || (exports.MetadataTypeDto = {}));
+
+},{}],371:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MetadataValueBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class MetadataValueBuilder {
+    constructor(data) {
+        GeneratorUtils_1.GeneratorUtils.notNull(data, 'data is null or undefined');
+        this.data = data;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const size = GeneratorUtils_1.GeneratorUtils.bufferToUint16(Uint8Array.from(byteArray));
+        byteArray.splice(0, 2);
+        const data = GeneratorUtils_1.GeneratorUtils.getBytes(Uint8Array.from(byteArray), size);
+        byteArray.splice(0, size);
+        return new MetadataValueBuilder(data);
+    }
+    static createMetadataValueBuilder(data) {
+        return new MetadataValueBuilder(data);
+    }
+    getData() {
+        return this.data;
+    }
+    getSize() {
+        let size = 0;
+        size += 2;
+        size += this.data.length;
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const sizeBytes = GeneratorUtils_1.GeneratorUtils.uint16ToBuffer(this.data.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, sizeBytes);
+        const dataBytes = this.data;
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, dataBytes);
+        return newArray;
+    }
+}
+exports.MetadataValueBuilder = MetadataValueBuilder;
+
+},{"./GeneratorUtils":348}],372:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicAddressRestrictionEntryBuilder = void 0;
+const AddressDto_1 = require("./AddressDto");
+const AddressKeyValueSetBuilder_1 = require("./AddressKeyValueSetBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicIdDto_1 = require("./MosaicIdDto");
+class MosaicAddressRestrictionEntryBuilder {
+    constructor(mosaicId, address, keyPairs) {
+        GeneratorUtils_1.GeneratorUtils.notNull(mosaicId, 'mosaicId is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(address, 'address is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(keyPairs, 'keyPairs is null or undefined');
+        this.mosaicId = mosaicId;
+        this.address = address;
+        this.keyPairs = keyPairs;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const mosaicId = MosaicIdDto_1.MosaicIdDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaicId.getSize());
+        const address = AddressDto_1.AddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, address.getSize());
+        const keyPairs = AddressKeyValueSetBuilder_1.AddressKeyValueSetBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, keyPairs.getSize());
+        return new MosaicAddressRestrictionEntryBuilder(mosaicId, address, keyPairs);
+    }
+    static createMosaicAddressRestrictionEntryBuilder(mosaicId, address, keyPairs) {
+        return new MosaicAddressRestrictionEntryBuilder(mosaicId, address, keyPairs);
+    }
+    getMosaicId() {
+        return this.mosaicId;
+    }
+    getAddress() {
+        return this.address;
+    }
+    getKeyPairs() {
+        return this.keyPairs;
+    }
+    getSize() {
+        let size = 0;
+        size += this.mosaicId.getSize();
+        size += this.address.getSize();
+        size += this.keyPairs.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const mosaicIdBytes = this.mosaicId.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicIdBytes);
+        const addressBytes = this.address.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, addressBytes);
+        const keyPairsBytes = this.keyPairs.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, keyPairsBytes);
+        return newArray;
+    }
+}
+exports.MosaicAddressRestrictionEntryBuilder = MosaicAddressRestrictionEntryBuilder;
+
+},{"./AddressDto":301,"./AddressKeyValueSetBuilder":303,"./GeneratorUtils":348,"./MosaicIdDto":387}],373:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicAddressRestrictionTransactionBodyBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const UnresolvedAddressDto_1 = require("./UnresolvedAddressDto");
+const UnresolvedMosaicIdDto_1 = require("./UnresolvedMosaicIdDto");
+class MosaicAddressRestrictionTransactionBodyBuilder {
+    constructor(mosaicId, restrictionKey, previousRestrictionValue, newRestrictionValue, targetAddress) {
+        GeneratorUtils_1.GeneratorUtils.notNull(mosaicId, 'mosaicId is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(restrictionKey, 'restrictionKey is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(previousRestrictionValue, 'previousRestrictionValue is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(newRestrictionValue, 'newRestrictionValue is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(targetAddress, 'targetAddress is null or undefined');
+        this.mosaicId = mosaicId;
+        this.restrictionKey = restrictionKey;
+        this.previousRestrictionValue = previousRestrictionValue;
+        this.newRestrictionValue = newRestrictionValue;
+        this.targetAddress = targetAddress;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const mosaicId = UnresolvedMosaicIdDto_1.UnresolvedMosaicIdDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaicId.getSize());
+        const restrictionKey = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(byteArray));
+        byteArray.splice(0, 8);
+        const previousRestrictionValue = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(byteArray));
+        byteArray.splice(0, 8);
+        const newRestrictionValue = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(byteArray));
+        byteArray.splice(0, 8);
+        const targetAddress = UnresolvedAddressDto_1.UnresolvedAddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, targetAddress.getSize());
+        return new MosaicAddressRestrictionTransactionBodyBuilder(mosaicId, restrictionKey, previousRestrictionValue, newRestrictionValue, targetAddress);
+    }
+    static createMosaicAddressRestrictionTransactionBodyBuilder(mosaicId, restrictionKey, previousRestrictionValue, newRestrictionValue, targetAddress) {
+        return new MosaicAddressRestrictionTransactionBodyBuilder(mosaicId, restrictionKey, previousRestrictionValue, newRestrictionValue, targetAddress);
+    }
+    getMosaicId() {
+        return this.mosaicId;
+    }
+    getRestrictionKey() {
+        return this.restrictionKey;
+    }
+    getPreviousRestrictionValue() {
+        return this.previousRestrictionValue;
+    }
+    getNewRestrictionValue() {
+        return this.newRestrictionValue;
+    }
+    getTargetAddress() {
+        return this.targetAddress;
+    }
+    getSize() {
+        let size = 0;
+        size += this.mosaicId.getSize();
+        size += 8;
+        size += 8;
+        size += 8;
+        size += this.targetAddress.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const mosaicIdBytes = this.mosaicId.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicIdBytes);
+        const restrictionKeyBytes = GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getRestrictionKey());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionKeyBytes);
+        const previousRestrictionValueBytes = GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getPreviousRestrictionValue());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, previousRestrictionValueBytes);
+        const newRestrictionValueBytes = GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getNewRestrictionValue());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, newRestrictionValueBytes);
+        const targetAddressBytes = this.targetAddress.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, targetAddressBytes);
+        return newArray;
+    }
+}
+exports.MosaicAddressRestrictionTransactionBodyBuilder = MosaicAddressRestrictionTransactionBodyBuilder;
+
+},{"./GeneratorUtils":348,"./UnresolvedAddressDto":443,"./UnresolvedMosaicIdDto":445}],374:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicAddressRestrictionTransactionBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicAddressRestrictionTransactionBodyBuilder_1 = require("./MosaicAddressRestrictionTransactionBodyBuilder");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+class MosaicAddressRestrictionTransactionBuilder extends TransactionBuilder_1.TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline, mosaicId, restrictionKey, previousRestrictionValue, newRestrictionValue, targetAddress) {
+        super(signature, signerPublicKey, version, network, type, fee, deadline);
+        this.mosaicAddressRestrictionTransactionBody = new MosaicAddressRestrictionTransactionBodyBuilder_1.MosaicAddressRestrictionTransactionBodyBuilder(mosaicId, restrictionKey, previousRestrictionValue, newRestrictionValue, targetAddress);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const mosaicAddressRestrictionTransactionBody = MosaicAddressRestrictionTransactionBodyBuilder_1.MosaicAddressRestrictionTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaicAddressRestrictionTransactionBody.getSize());
+        return new MosaicAddressRestrictionTransactionBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.fee, superObject.deadline, mosaicAddressRestrictionTransactionBody.mosaicId, mosaicAddressRestrictionTransactionBody.restrictionKey, mosaicAddressRestrictionTransactionBody.previousRestrictionValue, mosaicAddressRestrictionTransactionBody.newRestrictionValue, mosaicAddressRestrictionTransactionBody.targetAddress);
+    }
+    static createMosaicAddressRestrictionTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, mosaicId, restrictionKey, previousRestrictionValue, newRestrictionValue, targetAddress) {
+        return new MosaicAddressRestrictionTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, mosaicId, restrictionKey, previousRestrictionValue, newRestrictionValue, targetAddress);
+    }
+    getMosaicId() {
+        return this.mosaicAddressRestrictionTransactionBody.getMosaicId();
+    }
+    getRestrictionKey() {
+        return this.mosaicAddressRestrictionTransactionBody.getRestrictionKey();
+    }
+    getPreviousRestrictionValue() {
+        return this.mosaicAddressRestrictionTransactionBody.getPreviousRestrictionValue();
+    }
+    getNewRestrictionValue() {
+        return this.mosaicAddressRestrictionTransactionBody.getNewRestrictionValue();
+    }
+    getTargetAddress() {
+        return this.mosaicAddressRestrictionTransactionBody.getTargetAddress();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.mosaicAddressRestrictionTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.mosaicAddressRestrictionTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const mosaicAddressRestrictionTransactionBodyBytes = this.mosaicAddressRestrictionTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicAddressRestrictionTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.MosaicAddressRestrictionTransactionBuilder = MosaicAddressRestrictionTransactionBuilder;
+
+},{"./GeneratorUtils":348,"./MosaicAddressRestrictionTransactionBodyBuilder":373,"./TransactionBuilder":439}],375:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicAliasTransactionBodyBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicIdDto_1 = require("./MosaicIdDto");
+const NamespaceIdDto_1 = require("./NamespaceIdDto");
+class MosaicAliasTransactionBodyBuilder {
+    constructor(namespaceId, mosaicId, aliasAction) {
+        GeneratorUtils_1.GeneratorUtils.notNull(namespaceId, 'namespaceId is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(mosaicId, 'mosaicId is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(aliasAction, 'aliasAction is null or undefined');
+        this.namespaceId = namespaceId;
+        this.mosaicId = mosaicId;
+        this.aliasAction = aliasAction;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const namespaceId = NamespaceIdDto_1.NamespaceIdDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, namespaceId.getSize());
+        const mosaicId = MosaicIdDto_1.MosaicIdDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaicId.getSize());
+        const aliasAction = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        return new MosaicAliasTransactionBodyBuilder(namespaceId, mosaicId, aliasAction);
+    }
+    static createMosaicAliasTransactionBodyBuilder(namespaceId, mosaicId, aliasAction) {
+        return new MosaicAliasTransactionBodyBuilder(namespaceId, mosaicId, aliasAction);
+    }
+    getNamespaceId() {
+        return this.namespaceId;
+    }
+    getMosaicId() {
+        return this.mosaicId;
+    }
+    getAliasAction() {
+        return this.aliasAction;
+    }
+    getSize() {
+        let size = 0;
+        size += this.namespaceId.getSize();
+        size += this.mosaicId.getSize();
+        size += 1;
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const namespaceIdBytes = this.namespaceId.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, namespaceIdBytes);
+        const mosaicIdBytes = this.mosaicId.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicIdBytes);
+        const aliasActionBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.aliasAction);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, aliasActionBytes);
+        return newArray;
+    }
+}
+exports.MosaicAliasTransactionBodyBuilder = MosaicAliasTransactionBodyBuilder;
+
+},{"./GeneratorUtils":348,"./MosaicIdDto":387,"./NamespaceIdDto":407}],376:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicAliasTransactionBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicAliasTransactionBodyBuilder_1 = require("./MosaicAliasTransactionBodyBuilder");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+class MosaicAliasTransactionBuilder extends TransactionBuilder_1.TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline, namespaceId, mosaicId, aliasAction) {
+        super(signature, signerPublicKey, version, network, type, fee, deadline);
+        this.mosaicAliasTransactionBody = new MosaicAliasTransactionBodyBuilder_1.MosaicAliasTransactionBodyBuilder(namespaceId, mosaicId, aliasAction);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const mosaicAliasTransactionBody = MosaicAliasTransactionBodyBuilder_1.MosaicAliasTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaicAliasTransactionBody.getSize());
+        return new MosaicAliasTransactionBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.fee, superObject.deadline, mosaicAliasTransactionBody.namespaceId, mosaicAliasTransactionBody.mosaicId, mosaicAliasTransactionBody.aliasAction);
+    }
+    static createMosaicAliasTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, namespaceId, mosaicId, aliasAction) {
+        return new MosaicAliasTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, namespaceId, mosaicId, aliasAction);
+    }
+    getNamespaceId() {
+        return this.mosaicAliasTransactionBody.getNamespaceId();
+    }
+    getMosaicId() {
+        return this.mosaicAliasTransactionBody.getMosaicId();
+    }
+    getAliasAction() {
+        return this.mosaicAliasTransactionBody.getAliasAction();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.mosaicAliasTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.mosaicAliasTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const mosaicAliasTransactionBodyBytes = this.mosaicAliasTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicAliasTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.MosaicAliasTransactionBuilder = MosaicAliasTransactionBuilder;
+
+},{"./GeneratorUtils":348,"./MosaicAliasTransactionBodyBuilder":375,"./TransactionBuilder":439}],377:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicBuilder = void 0;
+const AmountDto_1 = require("./AmountDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicIdDto_1 = require("./MosaicIdDto");
+class MosaicBuilder {
+    constructor(mosaicId, amount) {
+        GeneratorUtils_1.GeneratorUtils.notNull(mosaicId, 'mosaicId is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(amount, 'amount is null or undefined');
+        this.mosaicId = mosaicId;
+        this.amount = amount;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const mosaicId = MosaicIdDto_1.MosaicIdDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaicId.getSize());
+        const amount = AmountDto_1.AmountDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, amount.getSize());
+        return new MosaicBuilder(mosaicId, amount);
+    }
+    static createMosaicBuilder(mosaicId, amount) {
+        return new MosaicBuilder(mosaicId, amount);
+    }
+    getMosaicId() {
+        return this.mosaicId;
+    }
+    getAmount() {
+        return this.amount;
+    }
+    getSize() {
+        let size = 0;
+        size += this.mosaicId.getSize();
+        size += this.amount.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const mosaicIdBytes = this.mosaicId.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicIdBytes);
+        const amountBytes = this.amount.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, amountBytes);
+        return newArray;
+    }
+}
+exports.MosaicBuilder = MosaicBuilder;
+
+},{"./AmountDto":310,"./GeneratorUtils":348,"./MosaicIdDto":387}],378:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicDefinitionBuilder = void 0;
+const AddressDto_1 = require("./AddressDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const HeightDto_1 = require("./HeightDto");
+const MosaicPropertiesBuilder_1 = require("./MosaicPropertiesBuilder");
+class MosaicDefinitionBuilder {
+    constructor(startHeight, ownerAddress, revision, properties) {
+        GeneratorUtils_1.GeneratorUtils.notNull(startHeight, 'startHeight is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(ownerAddress, 'ownerAddress is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(revision, 'revision is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(properties, 'properties is null or undefined');
+        this.startHeight = startHeight;
+        this.ownerAddress = ownerAddress;
+        this.revision = revision;
+        this.properties = properties;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const startHeight = HeightDto_1.HeightDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, startHeight.getSize());
+        const ownerAddress = AddressDto_1.AddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, ownerAddress.getSize());
+        const revision = GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        const properties = MosaicPropertiesBuilder_1.MosaicPropertiesBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, properties.getSize());
+        return new MosaicDefinitionBuilder(startHeight, ownerAddress, revision, properties);
+    }
+    static createMosaicDefinitionBuilder(startHeight, ownerAddress, revision, properties) {
+        return new MosaicDefinitionBuilder(startHeight, ownerAddress, revision, properties);
+    }
+    getStartHeight() {
+        return this.startHeight;
+    }
+    getOwnerAddress() {
+        return this.ownerAddress;
+    }
+    getRevision() {
+        return this.revision;
+    }
+    getProperties() {
+        return this.properties;
+    }
+    getSize() {
+        let size = 0;
+        size += this.startHeight.getSize();
+        size += this.ownerAddress.getSize();
+        size += 4;
+        size += this.properties.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const startHeightBytes = this.startHeight.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, startHeightBytes);
+        const ownerAddressBytes = this.ownerAddress.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, ownerAddressBytes);
+        const revisionBytes = GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(this.getRevision());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, revisionBytes);
+        const propertiesBytes = this.properties.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, propertiesBytes);
+        return newArray;
+    }
+}
+exports.MosaicDefinitionBuilder = MosaicDefinitionBuilder;
+
+},{"./AddressDto":301,"./GeneratorUtils":348,"./HeightDto":358,"./MosaicPropertiesBuilder":391}],379:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicDefinitionTransactionBodyBuilder = void 0;
+const BlockDurationDto_1 = require("./BlockDurationDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicFlagsDto_1 = require("./MosaicFlagsDto");
+const MosaicIdDto_1 = require("./MosaicIdDto");
+const MosaicNonceDto_1 = require("./MosaicNonceDto");
+class MosaicDefinitionTransactionBodyBuilder {
+    constructor(id, duration, nonce, flags, divisibility) {
+        GeneratorUtils_1.GeneratorUtils.notNull(id, 'id is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(duration, 'duration is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(nonce, 'nonce is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(flags, 'flags is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(divisibility, 'divisibility is null or undefined');
+        this.id = id;
+        this.duration = duration;
+        this.nonce = nonce;
+        this.flags = flags;
+        this.divisibility = divisibility;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const id = MosaicIdDto_1.MosaicIdDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, id.getSize());
+        const duration = BlockDurationDto_1.BlockDurationDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, duration.getSize());
+        const nonce = MosaicNonceDto_1.MosaicNonceDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, nonce.getSize());
+        const flags = GeneratorUtils_1.GeneratorUtils.toFlags(MosaicFlagsDto_1.MosaicFlagsDto, GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray)));
+        byteArray.splice(0, 1);
+        const divisibility = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        return new MosaicDefinitionTransactionBodyBuilder(id, duration, nonce, flags, divisibility);
+    }
+    static createMosaicDefinitionTransactionBodyBuilder(id, duration, nonce, flags, divisibility) {
+        return new MosaicDefinitionTransactionBodyBuilder(id, duration, nonce, flags, divisibility);
+    }
+    getId() {
+        return this.id;
+    }
+    getDuration() {
+        return this.duration;
+    }
+    getNonce() {
+        return this.nonce;
+    }
+    getFlags() {
+        return this.flags;
+    }
+    getDivisibility() {
+        return this.divisibility;
+    }
+    getSize() {
+        let size = 0;
+        size += this.id.getSize();
+        size += this.duration.getSize();
+        size += this.nonce.getSize();
+        size += 1;
+        size += 1;
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const idBytes = this.id.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, idBytes);
+        const durationBytes = this.duration.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, durationBytes);
+        const nonceBytes = this.nonce.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, nonceBytes);
+        const flagsBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(GeneratorUtils_1.GeneratorUtils.fromFlags(MosaicFlagsDto_1.MosaicFlagsDto, this.flags));
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, flagsBytes);
+        const divisibilityBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.getDivisibility());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, divisibilityBytes);
+        return newArray;
+    }
+}
+exports.MosaicDefinitionTransactionBodyBuilder = MosaicDefinitionTransactionBodyBuilder;
+
+},{"./BlockDurationDto":313,"./GeneratorUtils":348,"./MosaicFlagsDto":383,"./MosaicIdDto":387,"./MosaicNonceDto":390}],380:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicDefinitionTransactionBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicDefinitionTransactionBodyBuilder_1 = require("./MosaicDefinitionTransactionBodyBuilder");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+class MosaicDefinitionTransactionBuilder extends TransactionBuilder_1.TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline, id, duration, nonce, flags, divisibility) {
+        super(signature, signerPublicKey, version, network, type, fee, deadline);
+        this.mosaicDefinitionTransactionBody = new MosaicDefinitionTransactionBodyBuilder_1.MosaicDefinitionTransactionBodyBuilder(id, duration, nonce, flags, divisibility);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const mosaicDefinitionTransactionBody = MosaicDefinitionTransactionBodyBuilder_1.MosaicDefinitionTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaicDefinitionTransactionBody.getSize());
+        return new MosaicDefinitionTransactionBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.fee, superObject.deadline, mosaicDefinitionTransactionBody.id, mosaicDefinitionTransactionBody.duration, mosaicDefinitionTransactionBody.nonce, mosaicDefinitionTransactionBody.flags, mosaicDefinitionTransactionBody.divisibility);
+    }
+    static createMosaicDefinitionTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, id, duration, nonce, flags, divisibility) {
+        return new MosaicDefinitionTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, id, duration, nonce, flags, divisibility);
+    }
+    getId() {
+        return this.mosaicDefinitionTransactionBody.getId();
+    }
+    getDuration() {
+        return this.mosaicDefinitionTransactionBody.getDuration();
+    }
+    getNonce() {
+        return this.mosaicDefinitionTransactionBody.getNonce();
+    }
+    getFlags() {
+        return this.mosaicDefinitionTransactionBody.getFlags();
+    }
+    getDivisibility() {
+        return this.mosaicDefinitionTransactionBody.getDivisibility();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.mosaicDefinitionTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.mosaicDefinitionTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const mosaicDefinitionTransactionBodyBytes = this.mosaicDefinitionTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicDefinitionTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.MosaicDefinitionTransactionBuilder = MosaicDefinitionTransactionBuilder;
+
+},{"./GeneratorUtils":348,"./MosaicDefinitionTransactionBodyBuilder":379,"./TransactionBuilder":439}],381:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicEntryBuilder = void 0;
+const AmountDto_1 = require("./AmountDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicDefinitionBuilder_1 = require("./MosaicDefinitionBuilder");
+const MosaicIdDto_1 = require("./MosaicIdDto");
+const StateHeaderBuilder_1 = require("./StateHeaderBuilder");
+class MosaicEntryBuilder extends StateHeaderBuilder_1.StateHeaderBuilder {
+    constructor(version, mosaicId, supply, definition) {
+        super(version);
+        GeneratorUtils_1.GeneratorUtils.notNull(mosaicId, 'mosaicId is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(supply, 'supply is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(definition, 'definition is null or undefined');
+        this.mosaicId = mosaicId;
+        this.supply = supply;
+        this.definition = definition;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = StateHeaderBuilder_1.StateHeaderBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const mosaicId = MosaicIdDto_1.MosaicIdDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaicId.getSize());
+        const supply = AmountDto_1.AmountDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, supply.getSize());
+        const definition = MosaicDefinitionBuilder_1.MosaicDefinitionBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, definition.getSize());
+        return new MosaicEntryBuilder(superObject.version, mosaicId, supply, definition);
+    }
+    static createMosaicEntryBuilder(version, mosaicId, supply, definition) {
+        return new MosaicEntryBuilder(version, mosaicId, supply, definition);
+    }
+    getMosaicId() {
+        return this.mosaicId;
+    }
+    getSupply() {
+        return this.supply;
+    }
+    getDefinition() {
+        return this.definition;
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.mosaicId.getSize();
+        size += this.supply.getSize();
+        size += this.definition.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const mosaicIdBytes = this.mosaicId.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicIdBytes);
+        const supplyBytes = this.supply.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, supplyBytes);
+        const definitionBytes = this.definition.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, definitionBytes);
+        return newArray;
+    }
+}
+exports.MosaicEntryBuilder = MosaicEntryBuilder;
+
+},{"./AmountDto":310,"./GeneratorUtils":348,"./MosaicDefinitionBuilder":378,"./MosaicIdDto":387,"./StateHeaderBuilder":437}],382:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicExpiryReceiptBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicIdDto_1 = require("./MosaicIdDto");
+const ReceiptBuilder_1 = require("./ReceiptBuilder");
+class MosaicExpiryReceiptBuilder extends ReceiptBuilder_1.ReceiptBuilder {
+    constructor(version, type, artifactId) {
+        super(version, type);
+        GeneratorUtils_1.GeneratorUtils.notNull(artifactId, 'artifactId is null or undefined');
+        this.artifactId = artifactId;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = ReceiptBuilder_1.ReceiptBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const artifactId = MosaicIdDto_1.MosaicIdDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, artifactId.getSize());
+        return new MosaicExpiryReceiptBuilder(superObject.version, superObject.type, artifactId);
+    }
+    static createMosaicExpiryReceiptBuilder(version, type, artifactId) {
+        return new MosaicExpiryReceiptBuilder(version, type, artifactId);
+    }
+    getArtifactId() {
+        return this.artifactId;
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.artifactId.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const artifactIdBytes = this.artifactId.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, artifactIdBytes);
+        return newArray;
+    }
+}
+exports.MosaicExpiryReceiptBuilder = MosaicExpiryReceiptBuilder;
+
+},{"./GeneratorUtils":348,"./MosaicIdDto":387,"./ReceiptBuilder":424}],383:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicFlagsDto = void 0;
+var MosaicFlagsDto;
+(function (MosaicFlagsDto) {
+    MosaicFlagsDto[MosaicFlagsDto["NONE"] = 0] = "NONE";
+    MosaicFlagsDto[MosaicFlagsDto["SUPPLY_MUTABLE"] = 1] = "SUPPLY_MUTABLE";
+    MosaicFlagsDto[MosaicFlagsDto["TRANSFERABLE"] = 2] = "TRANSFERABLE";
+    MosaicFlagsDto[MosaicFlagsDto["RESTRICTABLE"] = 4] = "RESTRICTABLE";
+})(MosaicFlagsDto = exports.MosaicFlagsDto || (exports.MosaicFlagsDto = {}));
+
+},{}],384:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicGlobalRestrictionEntryBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const GlobalKeyValueSetBuilder_1 = require("./GlobalKeyValueSetBuilder");
+const MosaicIdDto_1 = require("./MosaicIdDto");
+class MosaicGlobalRestrictionEntryBuilder {
+    constructor(mosaicId, keyPairs) {
+        GeneratorUtils_1.GeneratorUtils.notNull(mosaicId, 'mosaicId is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(keyPairs, 'keyPairs is null or undefined');
+        this.mosaicId = mosaicId;
+        this.keyPairs = keyPairs;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const mosaicId = MosaicIdDto_1.MosaicIdDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaicId.getSize());
+        const keyPairs = GlobalKeyValueSetBuilder_1.GlobalKeyValueSetBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, keyPairs.getSize());
+        return new MosaicGlobalRestrictionEntryBuilder(mosaicId, keyPairs);
+    }
+    static createMosaicGlobalRestrictionEntryBuilder(mosaicId, keyPairs) {
+        return new MosaicGlobalRestrictionEntryBuilder(mosaicId, keyPairs);
+    }
+    getMosaicId() {
+        return this.mosaicId;
+    }
+    getKeyPairs() {
+        return this.keyPairs;
+    }
+    getSize() {
+        let size = 0;
+        size += this.mosaicId.getSize();
+        size += this.keyPairs.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const mosaicIdBytes = this.mosaicId.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicIdBytes);
+        const keyPairsBytes = this.keyPairs.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, keyPairsBytes);
+        return newArray;
+    }
+}
+exports.MosaicGlobalRestrictionEntryBuilder = MosaicGlobalRestrictionEntryBuilder;
+
+},{"./GeneratorUtils":348,"./GlobalKeyValueSetBuilder":350,"./MosaicIdDto":387}],385:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicGlobalRestrictionTransactionBodyBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const UnresolvedMosaicIdDto_1 = require("./UnresolvedMosaicIdDto");
+class MosaicGlobalRestrictionTransactionBodyBuilder {
+    constructor(mosaicId, referenceMosaicId, restrictionKey, previousRestrictionValue, newRestrictionValue, previousRestrictionType, newRestrictionType) {
+        GeneratorUtils_1.GeneratorUtils.notNull(mosaicId, 'mosaicId is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(referenceMosaicId, 'referenceMosaicId is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(restrictionKey, 'restrictionKey is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(previousRestrictionValue, 'previousRestrictionValue is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(newRestrictionValue, 'newRestrictionValue is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(previousRestrictionType, 'previousRestrictionType is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(newRestrictionType, 'newRestrictionType is null or undefined');
+        this.mosaicId = mosaicId;
+        this.referenceMosaicId = referenceMosaicId;
+        this.restrictionKey = restrictionKey;
+        this.previousRestrictionValue = previousRestrictionValue;
+        this.newRestrictionValue = newRestrictionValue;
+        this.previousRestrictionType = previousRestrictionType;
+        this.newRestrictionType = newRestrictionType;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const mosaicId = UnresolvedMosaicIdDto_1.UnresolvedMosaicIdDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaicId.getSize());
+        const referenceMosaicId = UnresolvedMosaicIdDto_1.UnresolvedMosaicIdDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, referenceMosaicId.getSize());
+        const restrictionKey = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(byteArray));
+        byteArray.splice(0, 8);
+        const previousRestrictionValue = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(byteArray));
+        byteArray.splice(0, 8);
+        const newRestrictionValue = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(byteArray));
+        byteArray.splice(0, 8);
+        const previousRestrictionType = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const newRestrictionType = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        return new MosaicGlobalRestrictionTransactionBodyBuilder(mosaicId, referenceMosaicId, restrictionKey, previousRestrictionValue, newRestrictionValue, previousRestrictionType, newRestrictionType);
+    }
+    static createMosaicGlobalRestrictionTransactionBodyBuilder(mosaicId, referenceMosaicId, restrictionKey, previousRestrictionValue, newRestrictionValue, previousRestrictionType, newRestrictionType) {
+        return new MosaicGlobalRestrictionTransactionBodyBuilder(mosaicId, referenceMosaicId, restrictionKey, previousRestrictionValue, newRestrictionValue, previousRestrictionType, newRestrictionType);
+    }
+    getMosaicId() {
+        return this.mosaicId;
+    }
+    getReferenceMosaicId() {
+        return this.referenceMosaicId;
+    }
+    getRestrictionKey() {
+        return this.restrictionKey;
+    }
+    getPreviousRestrictionValue() {
+        return this.previousRestrictionValue;
+    }
+    getNewRestrictionValue() {
+        return this.newRestrictionValue;
+    }
+    getPreviousRestrictionType() {
+        return this.previousRestrictionType;
+    }
+    getNewRestrictionType() {
+        return this.newRestrictionType;
+    }
+    getSize() {
+        let size = 0;
+        size += this.mosaicId.getSize();
+        size += this.referenceMosaicId.getSize();
+        size += 8;
+        size += 8;
+        size += 8;
+        size += 1;
+        size += 1;
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const mosaicIdBytes = this.mosaicId.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicIdBytes);
+        const referenceMosaicIdBytes = this.referenceMosaicId.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, referenceMosaicIdBytes);
+        const restrictionKeyBytes = GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getRestrictionKey());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionKeyBytes);
+        const previousRestrictionValueBytes = GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getPreviousRestrictionValue());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, previousRestrictionValueBytes);
+        const newRestrictionValueBytes = GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getNewRestrictionValue());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, newRestrictionValueBytes);
+        const previousRestrictionTypeBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.previousRestrictionType);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, previousRestrictionTypeBytes);
+        const newRestrictionTypeBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.newRestrictionType);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, newRestrictionTypeBytes);
+        return newArray;
+    }
+}
+exports.MosaicGlobalRestrictionTransactionBodyBuilder = MosaicGlobalRestrictionTransactionBodyBuilder;
+
+},{"./GeneratorUtils":348,"./UnresolvedMosaicIdDto":445}],386:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicGlobalRestrictionTransactionBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicGlobalRestrictionTransactionBodyBuilder_1 = require("./MosaicGlobalRestrictionTransactionBodyBuilder");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+class MosaicGlobalRestrictionTransactionBuilder extends TransactionBuilder_1.TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline, mosaicId, referenceMosaicId, restrictionKey, previousRestrictionValue, newRestrictionValue, previousRestrictionType, newRestrictionType) {
+        super(signature, signerPublicKey, version, network, type, fee, deadline);
+        this.mosaicGlobalRestrictionTransactionBody = new MosaicGlobalRestrictionTransactionBodyBuilder_1.MosaicGlobalRestrictionTransactionBodyBuilder(mosaicId, referenceMosaicId, restrictionKey, previousRestrictionValue, newRestrictionValue, previousRestrictionType, newRestrictionType);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const mosaicGlobalRestrictionTransactionBody = MosaicGlobalRestrictionTransactionBodyBuilder_1.MosaicGlobalRestrictionTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaicGlobalRestrictionTransactionBody.getSize());
+        return new MosaicGlobalRestrictionTransactionBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.fee, superObject.deadline, mosaicGlobalRestrictionTransactionBody.mosaicId, mosaicGlobalRestrictionTransactionBody.referenceMosaicId, mosaicGlobalRestrictionTransactionBody.restrictionKey, mosaicGlobalRestrictionTransactionBody.previousRestrictionValue, mosaicGlobalRestrictionTransactionBody.newRestrictionValue, mosaicGlobalRestrictionTransactionBody.previousRestrictionType, mosaicGlobalRestrictionTransactionBody.newRestrictionType);
+    }
+    static createMosaicGlobalRestrictionTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, mosaicId, referenceMosaicId, restrictionKey, previousRestrictionValue, newRestrictionValue, previousRestrictionType, newRestrictionType) {
+        return new MosaicGlobalRestrictionTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, mosaicId, referenceMosaicId, restrictionKey, previousRestrictionValue, newRestrictionValue, previousRestrictionType, newRestrictionType);
+    }
+    getMosaicId() {
+        return this.mosaicGlobalRestrictionTransactionBody.getMosaicId();
+    }
+    getReferenceMosaicId() {
+        return this.mosaicGlobalRestrictionTransactionBody.getReferenceMosaicId();
+    }
+    getRestrictionKey() {
+        return this.mosaicGlobalRestrictionTransactionBody.getRestrictionKey();
+    }
+    getPreviousRestrictionValue() {
+        return this.mosaicGlobalRestrictionTransactionBody.getPreviousRestrictionValue();
+    }
+    getNewRestrictionValue() {
+        return this.mosaicGlobalRestrictionTransactionBody.getNewRestrictionValue();
+    }
+    getPreviousRestrictionType() {
+        return this.mosaicGlobalRestrictionTransactionBody.getPreviousRestrictionType();
+    }
+    getNewRestrictionType() {
+        return this.mosaicGlobalRestrictionTransactionBody.getNewRestrictionType();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.mosaicGlobalRestrictionTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.mosaicGlobalRestrictionTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const mosaicGlobalRestrictionTransactionBodyBytes = this.mosaicGlobalRestrictionTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicGlobalRestrictionTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.MosaicGlobalRestrictionTransactionBuilder = MosaicGlobalRestrictionTransactionBuilder;
+
+},{"./GeneratorUtils":348,"./MosaicGlobalRestrictionTransactionBodyBuilder":385,"./TransactionBuilder":439}],387:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicIdDto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class MosaicIdDto {
+    constructor(mosaicId) {
+        this.mosaicId = mosaicId;
+    }
+    static loadFromBinary(payload) {
+        const mosaicId = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(payload));
+        return new MosaicIdDto(mosaicId);
+    }
+    getMosaicId() {
+        return this.mosaicId;
+    }
+    getSize() {
+        return 8;
+    }
+    serialize() {
+        return GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getMosaicId());
+    }
+}
+exports.MosaicIdDto = MosaicIdDto;
+
+},{"./GeneratorUtils":348}],388:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicMetadataTransactionBodyBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const UnresolvedAddressDto_1 = require("./UnresolvedAddressDto");
+const UnresolvedMosaicIdDto_1 = require("./UnresolvedMosaicIdDto");
+class MosaicMetadataTransactionBodyBuilder {
+    constructor(targetAddress, scopedMetadataKey, targetMosaicId, valueSizeDelta, value) {
+        GeneratorUtils_1.GeneratorUtils.notNull(targetAddress, 'targetAddress is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(scopedMetadataKey, 'scopedMetadataKey is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(targetMosaicId, 'targetMosaicId is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(valueSizeDelta, 'valueSizeDelta is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(value, 'value is null or undefined');
+        this.targetAddress = targetAddress;
+        this.scopedMetadataKey = scopedMetadataKey;
+        this.targetMosaicId = targetMosaicId;
+        this.valueSizeDelta = valueSizeDelta;
+        this.value = value;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const targetAddress = UnresolvedAddressDto_1.UnresolvedAddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, targetAddress.getSize());
+        const scopedMetadataKey = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(byteArray));
+        byteArray.splice(0, 8);
+        const targetMosaicId = UnresolvedMosaicIdDto_1.UnresolvedMosaicIdDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, targetMosaicId.getSize());
+        const valueSizeDelta = GeneratorUtils_1.GeneratorUtils.bufferToUint16(Uint8Array.from(byteArray));
+        byteArray.splice(0, 2);
+        const valueSize = GeneratorUtils_1.GeneratorUtils.bufferToUint16(Uint8Array.from(byteArray));
+        byteArray.splice(0, 2);
+        const value = GeneratorUtils_1.GeneratorUtils.getBytes(Uint8Array.from(byteArray), valueSize);
+        byteArray.splice(0, valueSize);
+        return new MosaicMetadataTransactionBodyBuilder(targetAddress, scopedMetadataKey, targetMosaicId, valueSizeDelta, value);
+    }
+    static createMosaicMetadataTransactionBodyBuilder(targetAddress, scopedMetadataKey, targetMosaicId, valueSizeDelta, value) {
+        return new MosaicMetadataTransactionBodyBuilder(targetAddress, scopedMetadataKey, targetMosaicId, valueSizeDelta, value);
+    }
+    getTargetAddress() {
+        return this.targetAddress;
+    }
+    getScopedMetadataKey() {
+        return this.scopedMetadataKey;
+    }
+    getTargetMosaicId() {
+        return this.targetMosaicId;
+    }
+    getValueSizeDelta() {
+        return this.valueSizeDelta;
+    }
+    getValue() {
+        return this.value;
+    }
+    getSize() {
+        let size = 0;
+        size += this.targetAddress.getSize();
+        size += 8;
+        size += this.targetMosaicId.getSize();
+        size += 2;
+        size += 2;
+        size += this.value.length;
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const targetAddressBytes = this.targetAddress.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, targetAddressBytes);
+        const scopedMetadataKeyBytes = GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getScopedMetadataKey());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, scopedMetadataKeyBytes);
+        const targetMosaicIdBytes = this.targetMosaicId.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, targetMosaicIdBytes);
+        const valueSizeDeltaBytes = GeneratorUtils_1.GeneratorUtils.uint16ToBuffer(this.getValueSizeDelta());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, valueSizeDeltaBytes);
+        const valueSizeBytes = GeneratorUtils_1.GeneratorUtils.uint16ToBuffer(this.value.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, valueSizeBytes);
+        const valueBytes = this.value;
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, valueBytes);
+        return newArray;
+    }
+}
+exports.MosaicMetadataTransactionBodyBuilder = MosaicMetadataTransactionBodyBuilder;
+
+},{"./GeneratorUtils":348,"./UnresolvedAddressDto":443,"./UnresolvedMosaicIdDto":445}],389:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicMetadataTransactionBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicMetadataTransactionBodyBuilder_1 = require("./MosaicMetadataTransactionBodyBuilder");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+class MosaicMetadataTransactionBuilder extends TransactionBuilder_1.TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline, targetAddress, scopedMetadataKey, targetMosaicId, valueSizeDelta, value) {
+        super(signature, signerPublicKey, version, network, type, fee, deadline);
+        this.mosaicMetadataTransactionBody = new MosaicMetadataTransactionBodyBuilder_1.MosaicMetadataTransactionBodyBuilder(targetAddress, scopedMetadataKey, targetMosaicId, valueSizeDelta, value);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const mosaicMetadataTransactionBody = MosaicMetadataTransactionBodyBuilder_1.MosaicMetadataTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaicMetadataTransactionBody.getSize());
+        return new MosaicMetadataTransactionBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.fee, superObject.deadline, mosaicMetadataTransactionBody.targetAddress, mosaicMetadataTransactionBody.scopedMetadataKey, mosaicMetadataTransactionBody.targetMosaicId, mosaicMetadataTransactionBody.valueSizeDelta, mosaicMetadataTransactionBody.value);
+    }
+    static createMosaicMetadataTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, targetAddress, scopedMetadataKey, targetMosaicId, valueSizeDelta, value) {
+        return new MosaicMetadataTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, targetAddress, scopedMetadataKey, targetMosaicId, valueSizeDelta, value);
+    }
+    getTargetAddress() {
+        return this.mosaicMetadataTransactionBody.getTargetAddress();
+    }
+    getScopedMetadataKey() {
+        return this.mosaicMetadataTransactionBody.getScopedMetadataKey();
+    }
+    getTargetMosaicId() {
+        return this.mosaicMetadataTransactionBody.getTargetMosaicId();
+    }
+    getValueSizeDelta() {
+        return this.mosaicMetadataTransactionBody.getValueSizeDelta();
+    }
+    getValue() {
+        return this.mosaicMetadataTransactionBody.getValue();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.mosaicMetadataTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.mosaicMetadataTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const mosaicMetadataTransactionBodyBytes = this.mosaicMetadataTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicMetadataTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.MosaicMetadataTransactionBuilder = MosaicMetadataTransactionBuilder;
+
+},{"./GeneratorUtils":348,"./MosaicMetadataTransactionBodyBuilder":388,"./TransactionBuilder":439}],390:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicNonceDto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class MosaicNonceDto {
+    constructor(mosaicNonce) {
+        this.mosaicNonce = mosaicNonce;
+    }
+    static loadFromBinary(payload) {
+        const mosaicNonce = GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(payload));
+        return new MosaicNonceDto(mosaicNonce);
+    }
+    getMosaicNonce() {
+        return this.mosaicNonce;
+    }
+    getSize() {
+        return 4;
+    }
+    serialize() {
+        return GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(this.getMosaicNonce());
+    }
+}
+exports.MosaicNonceDto = MosaicNonceDto;
+
+},{"./GeneratorUtils":348}],391:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicPropertiesBuilder = void 0;
+const BlockDurationDto_1 = require("./BlockDurationDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicFlagsDto_1 = require("./MosaicFlagsDto");
+class MosaicPropertiesBuilder {
+    constructor(flags, divisibility, duration) {
+        GeneratorUtils_1.GeneratorUtils.notNull(flags, 'flags is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(divisibility, 'divisibility is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(duration, 'duration is null or undefined');
+        this.flags = flags;
+        this.divisibility = divisibility;
+        this.duration = duration;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const flags = GeneratorUtils_1.GeneratorUtils.toFlags(MosaicFlagsDto_1.MosaicFlagsDto, GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray)));
+        byteArray.splice(0, 1);
+        const divisibility = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const duration = BlockDurationDto_1.BlockDurationDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, duration.getSize());
+        return new MosaicPropertiesBuilder(flags, divisibility, duration);
+    }
+    static createMosaicPropertiesBuilder(flags, divisibility, duration) {
+        return new MosaicPropertiesBuilder(flags, divisibility, duration);
+    }
+    getFlags() {
+        return this.flags;
+    }
+    getDivisibility() {
+        return this.divisibility;
+    }
+    getDuration() {
+        return this.duration;
+    }
+    getSize() {
+        let size = 0;
+        size += 1;
+        size += 1;
+        size += this.duration.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const flagsBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(GeneratorUtils_1.GeneratorUtils.fromFlags(MosaicFlagsDto_1.MosaicFlagsDto, this.flags));
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, flagsBytes);
+        const divisibilityBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.getDivisibility());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, divisibilityBytes);
+        const durationBytes = this.duration.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, durationBytes);
+        return newArray;
+    }
+}
+exports.MosaicPropertiesBuilder = MosaicPropertiesBuilder;
+
+},{"./BlockDurationDto":313,"./GeneratorUtils":348,"./MosaicFlagsDto":383}],392:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicResolutionEntryBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicIdDto_1 = require("./MosaicIdDto");
+const ReceiptSourceBuilder_1 = require("./ReceiptSourceBuilder");
+class MosaicResolutionEntryBuilder {
+    constructor(source, resolved) {
+        GeneratorUtils_1.GeneratorUtils.notNull(source, 'source is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(resolved, 'resolved is null or undefined');
+        this.source = source;
+        this.resolved = resolved;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const source = ReceiptSourceBuilder_1.ReceiptSourceBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, source.getSize());
+        const resolved = MosaicIdDto_1.MosaicIdDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, resolved.getSize());
+        return new MosaicResolutionEntryBuilder(source, resolved);
+    }
+    static createMosaicResolutionEntryBuilder(source, resolved) {
+        return new MosaicResolutionEntryBuilder(source, resolved);
+    }
+    getSource() {
+        return this.source;
+    }
+    getResolved() {
+        return this.resolved;
+    }
+    getSize() {
+        let size = 0;
+        size += this.source.getSize();
+        size += this.resolved.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const sourceBytes = this.source.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, sourceBytes);
+        const resolvedBytes = this.resolved.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, resolvedBytes);
+        return newArray;
+    }
+}
+exports.MosaicResolutionEntryBuilder = MosaicResolutionEntryBuilder;
+
+},{"./GeneratorUtils":348,"./MosaicIdDto":387,"./ReceiptSourceBuilder":425}],393:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicResolutionStatementBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicResolutionEntryBuilder_1 = require("./MosaicResolutionEntryBuilder");
+const ReceiptBuilder_1 = require("./ReceiptBuilder");
+const UnresolvedMosaicIdDto_1 = require("./UnresolvedMosaicIdDto");
+class MosaicResolutionStatementBuilder extends ReceiptBuilder_1.ReceiptBuilder {
+    constructor(version, type, unresolved, resolutionEntries) {
+        super(version, type);
+        GeneratorUtils_1.GeneratorUtils.notNull(unresolved, 'unresolved is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(resolutionEntries, 'resolutionEntries is null or undefined');
+        this.unresolved = unresolved;
+        this.resolutionEntries = resolutionEntries;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = ReceiptBuilder_1.ReceiptBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const unresolved = UnresolvedMosaicIdDto_1.UnresolvedMosaicIdDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, unresolved.getSize());
+        const resolutionEntries = GeneratorUtils_1.GeneratorUtils.loadFromBinaryRemaining(MosaicResolutionEntryBuilder_1.MosaicResolutionEntryBuilder.loadFromBinary, Uint8Array.from(byteArray), byteArray.length, 0);
+        byteArray.splice(0, resolutionEntries.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0));
+        return new MosaicResolutionStatementBuilder(superObject.version, superObject.type, unresolved, resolutionEntries);
+    }
+    static createMosaicResolutionStatementBuilder(version, type, unresolved, resolutionEntries) {
+        return new MosaicResolutionStatementBuilder(version, type, unresolved, resolutionEntries);
+    }
+    getUnresolved() {
+        return this.unresolved;
+    }
+    getResolutionEntries() {
+        return this.resolutionEntries;
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.unresolved.getSize();
+        size += this.resolutionEntries.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0);
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const unresolvedBytes = this.unresolved.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, unresolvedBytes);
+        const resolutionEntriesBytes = GeneratorUtils_1.GeneratorUtils.writeList(this.resolutionEntries, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, resolutionEntriesBytes);
+        return newArray;
+    }
+}
+exports.MosaicResolutionStatementBuilder = MosaicResolutionStatementBuilder;
+
+},{"./GeneratorUtils":348,"./MosaicResolutionEntryBuilder":392,"./ReceiptBuilder":424,"./UnresolvedMosaicIdDto":445}],394:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicRestrictionEntryBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicAddressRestrictionEntryBuilder_1 = require("./MosaicAddressRestrictionEntryBuilder");
+const MosaicGlobalRestrictionEntryBuilder_1 = require("./MosaicGlobalRestrictionEntryBuilder");
+const MosaicRestrictionEntryTypeDto_1 = require("./MosaicRestrictionEntryTypeDto");
+const StateHeaderBuilder_1 = require("./StateHeaderBuilder");
+class MosaicRestrictionEntryBuilder extends StateHeaderBuilder_1.StateHeaderBuilder {
+    constructor(version, entryType, addressEntry, globalEntry) {
+        super(version);
+        GeneratorUtils_1.GeneratorUtils.notNull(entryType, 'entryType is null or undefined');
+        if (entryType === MosaicRestrictionEntryTypeDto_1.MosaicRestrictionEntryTypeDto.ADDRESS) {
+            GeneratorUtils_1.GeneratorUtils.notNull(addressEntry, 'addressEntry is null or undefined');
+        }
+        if (entryType === MosaicRestrictionEntryTypeDto_1.MosaicRestrictionEntryTypeDto.GLOBAL) {
+            GeneratorUtils_1.GeneratorUtils.notNull(globalEntry, 'globalEntry is null or undefined');
+        }
+        this.entryType = entryType;
+        this.addressEntry = addressEntry;
+        this.globalEntry = globalEntry;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = StateHeaderBuilder_1.StateHeaderBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const entryType = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        let addressEntry = undefined;
+        if (entryType === MosaicRestrictionEntryTypeDto_1.MosaicRestrictionEntryTypeDto.ADDRESS) {
+            addressEntry = MosaicAddressRestrictionEntryBuilder_1.MosaicAddressRestrictionEntryBuilder.loadFromBinary(Uint8Array.from(byteArray));
+            byteArray.splice(0, addressEntry.getSize());
+        }
+        let globalEntry = undefined;
+        if (entryType === MosaicRestrictionEntryTypeDto_1.MosaicRestrictionEntryTypeDto.GLOBAL) {
+            globalEntry = MosaicGlobalRestrictionEntryBuilder_1.MosaicGlobalRestrictionEntryBuilder.loadFromBinary(Uint8Array.from(byteArray));
+            byteArray.splice(0, globalEntry.getSize());
+        }
+        return new MosaicRestrictionEntryBuilder(superObject.version, entryType, addressEntry, globalEntry);
+    }
+    static createMosaicRestrictionEntryBuilderGlobal(version, globalEntry) {
+        const entryType = MosaicRestrictionEntryTypeDto_1.MosaicRestrictionEntryTypeDto.GLOBAL;
+        return new MosaicRestrictionEntryBuilder(version, entryType, undefined, globalEntry);
+    }
+    static createMosaicRestrictionEntryBuilderAddress(version, addressEntry) {
+        const entryType = MosaicRestrictionEntryTypeDto_1.MosaicRestrictionEntryTypeDto.ADDRESS;
+        return new MosaicRestrictionEntryBuilder(version, entryType, addressEntry, undefined);
+    }
+    getEntryType() {
+        return this.entryType;
+    }
+    getAddressEntry() {
+        if (!(this.entryType === MosaicRestrictionEntryTypeDto_1.MosaicRestrictionEntryTypeDto.ADDRESS && this.addressEntry)) {
+            throw new Error('entryType is not set to ADDRESS.');
+        }
+        return this.addressEntry;
+    }
+    getGlobalEntry() {
+        if (!(this.entryType === MosaicRestrictionEntryTypeDto_1.MosaicRestrictionEntryTypeDto.GLOBAL && this.globalEntry)) {
+            throw new Error('entryType is not set to GLOBAL.');
+        }
+        return this.globalEntry;
+    }
+    getSize() {
+        let size = super.getSize();
+        size += 1;
+        if (this.entryType === MosaicRestrictionEntryTypeDto_1.MosaicRestrictionEntryTypeDto.ADDRESS) {
+            size += this.addressEntry.getSize();
+        }
+        if (this.entryType === MosaicRestrictionEntryTypeDto_1.MosaicRestrictionEntryTypeDto.GLOBAL) {
+            size += this.globalEntry.getSize();
+        }
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const entryTypeBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.entryType);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, entryTypeBytes);
+        if (this.entryType === MosaicRestrictionEntryTypeDto_1.MosaicRestrictionEntryTypeDto.ADDRESS) {
+            const addressEntryBytes = this.addressEntry.serialize();
+            newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, addressEntryBytes);
+        }
+        if (this.entryType === MosaicRestrictionEntryTypeDto_1.MosaicRestrictionEntryTypeDto.GLOBAL) {
+            const globalEntryBytes = this.globalEntry.serialize();
+            newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, globalEntryBytes);
+        }
+        return newArray;
+    }
+}
+exports.MosaicRestrictionEntryBuilder = MosaicRestrictionEntryBuilder;
+
+},{"./GeneratorUtils":348,"./MosaicAddressRestrictionEntryBuilder":372,"./MosaicGlobalRestrictionEntryBuilder":384,"./MosaicRestrictionEntryTypeDto":395,"./StateHeaderBuilder":437}],395:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicRestrictionEntryTypeDto = void 0;
+var MosaicRestrictionEntryTypeDto;
+(function (MosaicRestrictionEntryTypeDto) {
+    MosaicRestrictionEntryTypeDto[MosaicRestrictionEntryTypeDto["ADDRESS"] = 0] = "ADDRESS";
+    MosaicRestrictionEntryTypeDto[MosaicRestrictionEntryTypeDto["GLOBAL"] = 1] = "GLOBAL";
+})(MosaicRestrictionEntryTypeDto = exports.MosaicRestrictionEntryTypeDto || (exports.MosaicRestrictionEntryTypeDto = {}));
+
+},{}],396:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicRestrictionKeyDto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class MosaicRestrictionKeyDto {
+    constructor(mosaicRestrictionKey) {
+        this.mosaicRestrictionKey = mosaicRestrictionKey;
+    }
+    static loadFromBinary(payload) {
+        const mosaicRestrictionKey = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(payload));
+        return new MosaicRestrictionKeyDto(mosaicRestrictionKey);
+    }
+    getMosaicRestrictionKey() {
+        return this.mosaicRestrictionKey;
+    }
+    getSize() {
+        return 8;
+    }
+    serialize() {
+        return GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getMosaicRestrictionKey());
+    }
+}
+exports.MosaicRestrictionKeyDto = MosaicRestrictionKeyDto;
+
+},{"./GeneratorUtils":348}],397:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicRestrictionTypeDto = void 0;
+var MosaicRestrictionTypeDto;
+(function (MosaicRestrictionTypeDto) {
+    MosaicRestrictionTypeDto[MosaicRestrictionTypeDto["NONE"] = 0] = "NONE";
+    MosaicRestrictionTypeDto[MosaicRestrictionTypeDto["EQ"] = 1] = "EQ";
+    MosaicRestrictionTypeDto[MosaicRestrictionTypeDto["NE"] = 2] = "NE";
+    MosaicRestrictionTypeDto[MosaicRestrictionTypeDto["LT"] = 3] = "LT";
+    MosaicRestrictionTypeDto[MosaicRestrictionTypeDto["LE"] = 4] = "LE";
+    MosaicRestrictionTypeDto[MosaicRestrictionTypeDto["GT"] = 5] = "GT";
+    MosaicRestrictionTypeDto[MosaicRestrictionTypeDto["GE"] = 6] = "GE";
+})(MosaicRestrictionTypeDto = exports.MosaicRestrictionTypeDto || (exports.MosaicRestrictionTypeDto = {}));
+
+},{}],398:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicSupplyChangeActionDto = void 0;
+var MosaicSupplyChangeActionDto;
+(function (MosaicSupplyChangeActionDto) {
+    MosaicSupplyChangeActionDto[MosaicSupplyChangeActionDto["DECREASE"] = 0] = "DECREASE";
+    MosaicSupplyChangeActionDto[MosaicSupplyChangeActionDto["INCREASE"] = 1] = "INCREASE";
+})(MosaicSupplyChangeActionDto = exports.MosaicSupplyChangeActionDto || (exports.MosaicSupplyChangeActionDto = {}));
+
+},{}],399:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicSupplyChangeTransactionBodyBuilder = void 0;
+const AmountDto_1 = require("./AmountDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const UnresolvedMosaicIdDto_1 = require("./UnresolvedMosaicIdDto");
+class MosaicSupplyChangeTransactionBodyBuilder {
+    constructor(mosaicId, delta, action) {
+        GeneratorUtils_1.GeneratorUtils.notNull(mosaicId, 'mosaicId is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(delta, 'delta is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(action, 'action is null or undefined');
+        this.mosaicId = mosaicId;
+        this.delta = delta;
+        this.action = action;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const mosaicId = UnresolvedMosaicIdDto_1.UnresolvedMosaicIdDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaicId.getSize());
+        const delta = AmountDto_1.AmountDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, delta.getSize());
+        const action = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        return new MosaicSupplyChangeTransactionBodyBuilder(mosaicId, delta, action);
+    }
+    static createMosaicSupplyChangeTransactionBodyBuilder(mosaicId, delta, action) {
+        return new MosaicSupplyChangeTransactionBodyBuilder(mosaicId, delta, action);
+    }
+    getMosaicId() {
+        return this.mosaicId;
+    }
+    getDelta() {
+        return this.delta;
+    }
+    getAction() {
+        return this.action;
+    }
+    getSize() {
+        let size = 0;
+        size += this.mosaicId.getSize();
+        size += this.delta.getSize();
+        size += 1;
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const mosaicIdBytes = this.mosaicId.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicIdBytes);
+        const deltaBytes = this.delta.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, deltaBytes);
+        const actionBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.action);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, actionBytes);
+        return newArray;
+    }
+}
+exports.MosaicSupplyChangeTransactionBodyBuilder = MosaicSupplyChangeTransactionBodyBuilder;
+
+},{"./AmountDto":310,"./GeneratorUtils":348,"./UnresolvedMosaicIdDto":445}],400:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MosaicSupplyChangeTransactionBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicSupplyChangeTransactionBodyBuilder_1 = require("./MosaicSupplyChangeTransactionBodyBuilder");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+class MosaicSupplyChangeTransactionBuilder extends TransactionBuilder_1.TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline, mosaicId, delta, action) {
+        super(signature, signerPublicKey, version, network, type, fee, deadline);
+        this.mosaicSupplyChangeTransactionBody = new MosaicSupplyChangeTransactionBodyBuilder_1.MosaicSupplyChangeTransactionBodyBuilder(mosaicId, delta, action);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const mosaicSupplyChangeTransactionBody = MosaicSupplyChangeTransactionBodyBuilder_1.MosaicSupplyChangeTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaicSupplyChangeTransactionBody.getSize());
+        return new MosaicSupplyChangeTransactionBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.fee, superObject.deadline, mosaicSupplyChangeTransactionBody.mosaicId, mosaicSupplyChangeTransactionBody.delta, mosaicSupplyChangeTransactionBody.action);
+    }
+    static createMosaicSupplyChangeTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, mosaicId, delta, action) {
+        return new MosaicSupplyChangeTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, mosaicId, delta, action);
+    }
+    getMosaicId() {
+        return this.mosaicSupplyChangeTransactionBody.getMosaicId();
+    }
+    getDelta() {
+        return this.mosaicSupplyChangeTransactionBody.getDelta();
+    }
+    getAction() {
+        return this.mosaicSupplyChangeTransactionBody.getAction();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.mosaicSupplyChangeTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.mosaicSupplyChangeTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const mosaicSupplyChangeTransactionBodyBytes = this.mosaicSupplyChangeTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicSupplyChangeTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.MosaicSupplyChangeTransactionBuilder = MosaicSupplyChangeTransactionBuilder;
+
+},{"./GeneratorUtils":348,"./MosaicSupplyChangeTransactionBodyBuilder":399,"./TransactionBuilder":439}],401:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MultisigAccountModificationTransactionBodyBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const UnresolvedAddressDto_1 = require("./UnresolvedAddressDto");
+class MultisigAccountModificationTransactionBodyBuilder {
+    constructor(minRemovalDelta, minApprovalDelta, addressAdditions, addressDeletions) {
+        GeneratorUtils_1.GeneratorUtils.notNull(minRemovalDelta, 'minRemovalDelta is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(minApprovalDelta, 'minApprovalDelta is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(addressAdditions, 'addressAdditions is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(addressDeletions, 'addressDeletions is null or undefined');
+        this.minRemovalDelta = minRemovalDelta;
+        this.minApprovalDelta = minApprovalDelta;
+        this.addressAdditions = addressAdditions;
+        this.addressDeletions = addressDeletions;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const minRemovalDelta = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const minApprovalDelta = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const addressAdditionsCount = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const addressDeletionsCount = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        const addressAdditions = GeneratorUtils_1.GeneratorUtils.loadFromBinary(UnresolvedAddressDto_1.UnresolvedAddressDto.loadFromBinary, Uint8Array.from(byteArray), addressAdditionsCount);
+        byteArray.splice(0, addressAdditions.reduce((sum, c) => sum + c.getSize(), 0));
+        const addressDeletions = GeneratorUtils_1.GeneratorUtils.loadFromBinary(UnresolvedAddressDto_1.UnresolvedAddressDto.loadFromBinary, Uint8Array.from(byteArray), addressDeletionsCount);
+        byteArray.splice(0, addressDeletions.reduce((sum, c) => sum + c.getSize(), 0));
+        return new MultisigAccountModificationTransactionBodyBuilder(minRemovalDelta, minApprovalDelta, addressAdditions, addressDeletions);
+    }
+    static createMultisigAccountModificationTransactionBodyBuilder(minRemovalDelta, minApprovalDelta, addressAdditions, addressDeletions) {
+        return new MultisigAccountModificationTransactionBodyBuilder(minRemovalDelta, minApprovalDelta, addressAdditions, addressDeletions);
+    }
+    getMinRemovalDelta() {
+        return this.minRemovalDelta;
+    }
+    getMinApprovalDelta() {
+        return this.minApprovalDelta;
+    }
+    getAddressAdditions() {
+        return this.addressAdditions;
+    }
+    getAddressDeletions() {
+        return this.addressDeletions;
+    }
+    getSize() {
+        let size = 0;
+        size += 1;
+        size += 1;
+        size += 1;
+        size += 1;
+        size += 4;
+        size += this.addressAdditions.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0);
+        size += this.addressDeletions.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0);
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const minRemovalDeltaBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.getMinRemovalDelta());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, minRemovalDeltaBytes);
+        const minApprovalDeltaBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.getMinApprovalDelta());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, minApprovalDeltaBytes);
+        const addressAdditionsCountBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.addressAdditions.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, addressAdditionsCountBytes);
+        const addressDeletionsCountBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.addressDeletions.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, addressDeletionsCountBytes);
+        const multisigAccountModificationTransactionBody_Reserved1Bytes = GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, multisigAccountModificationTransactionBody_Reserved1Bytes);
+        const addressAdditionsBytes = GeneratorUtils_1.GeneratorUtils.writeList(this.addressAdditions, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, addressAdditionsBytes);
+        const addressDeletionsBytes = GeneratorUtils_1.GeneratorUtils.writeList(this.addressDeletions, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, addressDeletionsBytes);
+        return newArray;
+    }
+}
+exports.MultisigAccountModificationTransactionBodyBuilder = MultisigAccountModificationTransactionBodyBuilder;
+
+},{"./GeneratorUtils":348,"./UnresolvedAddressDto":443}],402:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MultisigAccountModificationTransactionBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MultisigAccountModificationTransactionBodyBuilder_1 = require("./MultisigAccountModificationTransactionBodyBuilder");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+class MultisigAccountModificationTransactionBuilder extends TransactionBuilder_1.TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline, minRemovalDelta, minApprovalDelta, addressAdditions, addressDeletions) {
+        super(signature, signerPublicKey, version, network, type, fee, deadline);
+        this.multisigAccountModificationTransactionBody = new MultisigAccountModificationTransactionBodyBuilder_1.MultisigAccountModificationTransactionBodyBuilder(minRemovalDelta, minApprovalDelta, addressAdditions, addressDeletions);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const multisigAccountModificationTransactionBody = MultisigAccountModificationTransactionBodyBuilder_1.MultisigAccountModificationTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, multisigAccountModificationTransactionBody.getSize());
+        return new MultisigAccountModificationTransactionBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.fee, superObject.deadline, multisigAccountModificationTransactionBody.minRemovalDelta, multisigAccountModificationTransactionBody.minApprovalDelta, multisigAccountModificationTransactionBody.addressAdditions, multisigAccountModificationTransactionBody.addressDeletions);
+    }
+    static createMultisigAccountModificationTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, minRemovalDelta, minApprovalDelta, addressAdditions, addressDeletions) {
+        return new MultisigAccountModificationTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, minRemovalDelta, minApprovalDelta, addressAdditions, addressDeletions);
+    }
+    getMinRemovalDelta() {
+        return this.multisigAccountModificationTransactionBody.getMinRemovalDelta();
+    }
+    getMinApprovalDelta() {
+        return this.multisigAccountModificationTransactionBody.getMinApprovalDelta();
+    }
+    getAddressAdditions() {
+        return this.multisigAccountModificationTransactionBody.getAddressAdditions();
+    }
+    getAddressDeletions() {
+        return this.multisigAccountModificationTransactionBody.getAddressDeletions();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.multisigAccountModificationTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.multisigAccountModificationTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const multisigAccountModificationTransactionBodyBytes = this.multisigAccountModificationTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, multisigAccountModificationTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.MultisigAccountModificationTransactionBuilder = MultisigAccountModificationTransactionBuilder;
+
+},{"./GeneratorUtils":348,"./MultisigAccountModificationTransactionBodyBuilder":401,"./TransactionBuilder":439}],403:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MultisigEntryBuilder = void 0;
+const AddressDto_1 = require("./AddressDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const StateHeaderBuilder_1 = require("./StateHeaderBuilder");
+class MultisigEntryBuilder extends StateHeaderBuilder_1.StateHeaderBuilder {
+    constructor(version, minApproval, minRemoval, accountAddress, cosignatoryAddresses, multisigAddresses) {
+        super(version);
+        GeneratorUtils_1.GeneratorUtils.notNull(minApproval, 'minApproval is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(minRemoval, 'minRemoval is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(accountAddress, 'accountAddress is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(cosignatoryAddresses, 'cosignatoryAddresses is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(multisigAddresses, 'multisigAddresses is null or undefined');
+        this.minApproval = minApproval;
+        this.minRemoval = minRemoval;
+        this.accountAddress = accountAddress;
+        this.cosignatoryAddresses = cosignatoryAddresses;
+        this.multisigAddresses = multisigAddresses;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = StateHeaderBuilder_1.StateHeaderBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const minApproval = GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        const minRemoval = GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        const accountAddress = AddressDto_1.AddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, accountAddress.getSize());
+        const cosignatoryAddressesCount = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(byteArray));
+        byteArray.splice(0, 8);
+        const cosignatoryAddresses = GeneratorUtils_1.GeneratorUtils.loadFromBinary(AddressDto_1.AddressDto.loadFromBinary, Uint8Array.from(byteArray), cosignatoryAddressesCount);
+        byteArray.splice(0, cosignatoryAddresses.reduce((sum, c) => sum + c.getSize(), 0));
+        const multisigAddressesCount = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(byteArray));
+        byteArray.splice(0, 8);
+        const multisigAddresses = GeneratorUtils_1.GeneratorUtils.loadFromBinary(AddressDto_1.AddressDto.loadFromBinary, Uint8Array.from(byteArray), multisigAddressesCount);
+        byteArray.splice(0, multisigAddresses.reduce((sum, c) => sum + c.getSize(), 0));
+        return new MultisigEntryBuilder(superObject.version, minApproval, minRemoval, accountAddress, cosignatoryAddresses, multisigAddresses);
+    }
+    static createMultisigEntryBuilder(version, minApproval, minRemoval, accountAddress, cosignatoryAddresses, multisigAddresses) {
+        return new MultisigEntryBuilder(version, minApproval, minRemoval, accountAddress, cosignatoryAddresses, multisigAddresses);
+    }
+    getMinApproval() {
+        return this.minApproval;
+    }
+    getMinRemoval() {
+        return this.minRemoval;
+    }
+    getAccountAddress() {
+        return this.accountAddress;
+    }
+    getCosignatoryAddresses() {
+        return this.cosignatoryAddresses;
+    }
+    getMultisigAddresses() {
+        return this.multisigAddresses;
+    }
+    getSize() {
+        let size = super.getSize();
+        size += 4;
+        size += 4;
+        size += this.accountAddress.getSize();
+        size += 8;
+        size += this.cosignatoryAddresses.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0);
+        size += 8;
+        size += this.multisigAddresses.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0);
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const minApprovalBytes = GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(this.getMinApproval());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, minApprovalBytes);
+        const minRemovalBytes = GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(this.getMinRemoval());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, minRemovalBytes);
+        const accountAddressBytes = this.accountAddress.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, accountAddressBytes);
+        const cosignatoryAddressesCountBytes = GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.cosignatoryAddresses.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, cosignatoryAddressesCountBytes);
+        const cosignatoryAddressesBytes = GeneratorUtils_1.GeneratorUtils.writeList(this.cosignatoryAddresses, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, cosignatoryAddressesBytes);
+        const multisigAddressesCountBytes = GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.multisigAddresses.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, multisigAddressesCountBytes);
+        const multisigAddressesBytes = GeneratorUtils_1.GeneratorUtils.writeList(this.multisigAddresses, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, multisigAddressesBytes);
+        return newArray;
+    }
+}
+exports.MultisigEntryBuilder = MultisigEntryBuilder;
+
+},{"./AddressDto":301,"./GeneratorUtils":348,"./StateHeaderBuilder":437}],404:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.NamespaceAliasBuilder = void 0;
+const AddressDto_1 = require("./AddressDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicIdDto_1 = require("./MosaicIdDto");
+const NamespaceAliasTypeDto_1 = require("./NamespaceAliasTypeDto");
+class NamespaceAliasBuilder {
+    constructor(namespaceAliasType, mosaicAlias, addressAlias) {
+        GeneratorUtils_1.GeneratorUtils.notNull(namespaceAliasType, 'namespaceAliasType is null or undefined');
+        if (namespaceAliasType === NamespaceAliasTypeDto_1.NamespaceAliasTypeDto.MOSAIC_ID) {
+            GeneratorUtils_1.GeneratorUtils.notNull(mosaicAlias, 'mosaicAlias is null or undefined');
+        }
+        if (namespaceAliasType === NamespaceAliasTypeDto_1.NamespaceAliasTypeDto.ADDRESS) {
+            GeneratorUtils_1.GeneratorUtils.notNull(addressAlias, 'addressAlias is null or undefined');
+        }
+        this.namespaceAliasType = namespaceAliasType;
+        this.mosaicAlias = mosaicAlias;
+        this.addressAlias = addressAlias;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const namespaceAliasType = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        let mosaicAlias = undefined;
+        if (namespaceAliasType === NamespaceAliasTypeDto_1.NamespaceAliasTypeDto.MOSAIC_ID) {
+            mosaicAlias = MosaicIdDto_1.MosaicIdDto.loadFromBinary(Uint8Array.from(byteArray));
+            byteArray.splice(0, mosaicAlias.getSize());
+        }
+        let addressAlias = undefined;
+        if (namespaceAliasType === NamespaceAliasTypeDto_1.NamespaceAliasTypeDto.ADDRESS) {
+            addressAlias = AddressDto_1.AddressDto.loadFromBinary(Uint8Array.from(byteArray));
+            byteArray.splice(0, addressAlias.getSize());
+        }
+        return new NamespaceAliasBuilder(namespaceAliasType, mosaicAlias, addressAlias);
+    }
+    static createNamespaceAliasBuilderAddress(addressAlias) {
+        const namespaceAliasType = NamespaceAliasTypeDto_1.NamespaceAliasTypeDto.ADDRESS;
+        return new NamespaceAliasBuilder(namespaceAliasType, undefined, addressAlias);
+    }
+    static createNamespaceAliasBuilderMosaicId(mosaicAlias) {
+        const namespaceAliasType = NamespaceAliasTypeDto_1.NamespaceAliasTypeDto.MOSAIC_ID;
+        return new NamespaceAliasBuilder(namespaceAliasType, mosaicAlias, undefined);
+    }
+    static createNamespaceAliasBuilderNone() {
+        const namespaceAliasType = NamespaceAliasTypeDto_1.NamespaceAliasTypeDto.NONE;
+        return new NamespaceAliasBuilder(namespaceAliasType, undefined, undefined);
+    }
+    getNamespaceAliasType() {
+        return this.namespaceAliasType;
+    }
+    getMosaicAlias() {
+        if (!(this.namespaceAliasType === NamespaceAliasTypeDto_1.NamespaceAliasTypeDto.MOSAIC_ID && this.mosaicAlias)) {
+            throw new Error('namespaceAliasType is not set to MOSAIC_ID.');
+        }
+        return this.mosaicAlias;
+    }
+    getAddressAlias() {
+        if (!(this.namespaceAliasType === NamespaceAliasTypeDto_1.NamespaceAliasTypeDto.ADDRESS && this.addressAlias)) {
+            throw new Error('namespaceAliasType is not set to ADDRESS.');
+        }
+        return this.addressAlias;
+    }
+    getSize() {
+        let size = 0;
+        size += 1;
+        if (this.namespaceAliasType === NamespaceAliasTypeDto_1.NamespaceAliasTypeDto.MOSAIC_ID) {
+            size += this.mosaicAlias.getSize();
+        }
+        if (this.namespaceAliasType === NamespaceAliasTypeDto_1.NamespaceAliasTypeDto.ADDRESS) {
+            size += this.addressAlias.getSize();
+        }
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const namespaceAliasTypeBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.namespaceAliasType);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, namespaceAliasTypeBytes);
+        if (this.namespaceAliasType === NamespaceAliasTypeDto_1.NamespaceAliasTypeDto.MOSAIC_ID) {
+            const mosaicAliasBytes = this.mosaicAlias.serialize();
+            newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicAliasBytes);
+        }
+        if (this.namespaceAliasType === NamespaceAliasTypeDto_1.NamespaceAliasTypeDto.ADDRESS) {
+            const addressAliasBytes = this.addressAlias.serialize();
+            newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, addressAliasBytes);
+        }
+        return newArray;
+    }
+}
+exports.NamespaceAliasBuilder = NamespaceAliasBuilder;
+
+},{"./AddressDto":301,"./GeneratorUtils":348,"./MosaicIdDto":387,"./NamespaceAliasTypeDto":405}],405:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.NamespaceAliasTypeDto = void 0;
+var NamespaceAliasTypeDto;
+(function (NamespaceAliasTypeDto) {
+    NamespaceAliasTypeDto[NamespaceAliasTypeDto["NONE"] = 0] = "NONE";
+    NamespaceAliasTypeDto[NamespaceAliasTypeDto["MOSAIC_ID"] = 1] = "MOSAIC_ID";
+    NamespaceAliasTypeDto[NamespaceAliasTypeDto["ADDRESS"] = 2] = "ADDRESS";
+})(NamespaceAliasTypeDto = exports.NamespaceAliasTypeDto || (exports.NamespaceAliasTypeDto = {}));
+
+},{}],406:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.NamespaceExpiryReceiptBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const NamespaceIdDto_1 = require("./NamespaceIdDto");
+const ReceiptBuilder_1 = require("./ReceiptBuilder");
+class NamespaceExpiryReceiptBuilder extends ReceiptBuilder_1.ReceiptBuilder {
+    constructor(version, type, artifactId) {
+        super(version, type);
+        GeneratorUtils_1.GeneratorUtils.notNull(artifactId, 'artifactId is null or undefined');
+        this.artifactId = artifactId;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = ReceiptBuilder_1.ReceiptBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const artifactId = NamespaceIdDto_1.NamespaceIdDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, artifactId.getSize());
+        return new NamespaceExpiryReceiptBuilder(superObject.version, superObject.type, artifactId);
+    }
+    static createNamespaceExpiryReceiptBuilder(version, type, artifactId) {
+        return new NamespaceExpiryReceiptBuilder(version, type, artifactId);
+    }
+    getArtifactId() {
+        return this.artifactId;
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.artifactId.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const artifactIdBytes = this.artifactId.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, artifactIdBytes);
+        return newArray;
+    }
+}
+exports.NamespaceExpiryReceiptBuilder = NamespaceExpiryReceiptBuilder;
+
+},{"./GeneratorUtils":348,"./NamespaceIdDto":407,"./ReceiptBuilder":424}],407:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.NamespaceIdDto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class NamespaceIdDto {
+    constructor(namespaceId) {
+        this.namespaceId = namespaceId;
+    }
+    static loadFromBinary(payload) {
+        const namespaceId = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(payload));
+        return new NamespaceIdDto(namespaceId);
+    }
+    getNamespaceId() {
+        return this.namespaceId;
+    }
+    getSize() {
+        return 8;
+    }
+    serialize() {
+        return GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getNamespaceId());
+    }
+}
+exports.NamespaceIdDto = NamespaceIdDto;
+
+},{"./GeneratorUtils":348}],408:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.NamespaceLifetimeBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const HeightDto_1 = require("./HeightDto");
+class NamespaceLifetimeBuilder {
+    constructor(lifetimeStart, lifetimeEnd) {
+        GeneratorUtils_1.GeneratorUtils.notNull(lifetimeStart, 'lifetimeStart is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(lifetimeEnd, 'lifetimeEnd is null or undefined');
+        this.lifetimeStart = lifetimeStart;
+        this.lifetimeEnd = lifetimeEnd;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const lifetimeStart = HeightDto_1.HeightDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, lifetimeStart.getSize());
+        const lifetimeEnd = HeightDto_1.HeightDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, lifetimeEnd.getSize());
+        return new NamespaceLifetimeBuilder(lifetimeStart, lifetimeEnd);
+    }
+    static createNamespaceLifetimeBuilder(lifetimeStart, lifetimeEnd) {
+        return new NamespaceLifetimeBuilder(lifetimeStart, lifetimeEnd);
+    }
+    getLifetimeStart() {
+        return this.lifetimeStart;
+    }
+    getLifetimeEnd() {
+        return this.lifetimeEnd;
+    }
+    getSize() {
+        let size = 0;
+        size += this.lifetimeStart.getSize();
+        size += this.lifetimeEnd.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const lifetimeStartBytes = this.lifetimeStart.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, lifetimeStartBytes);
+        const lifetimeEndBytes = this.lifetimeEnd.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, lifetimeEndBytes);
+        return newArray;
+    }
+}
+exports.NamespaceLifetimeBuilder = NamespaceLifetimeBuilder;
+
+},{"./GeneratorUtils":348,"./HeightDto":358}],409:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.NamespaceMetadataTransactionBodyBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const NamespaceIdDto_1 = require("./NamespaceIdDto");
+const UnresolvedAddressDto_1 = require("./UnresolvedAddressDto");
+class NamespaceMetadataTransactionBodyBuilder {
+    constructor(targetAddress, scopedMetadataKey, targetNamespaceId, valueSizeDelta, value) {
+        GeneratorUtils_1.GeneratorUtils.notNull(targetAddress, 'targetAddress is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(scopedMetadataKey, 'scopedMetadataKey is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(targetNamespaceId, 'targetNamespaceId is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(valueSizeDelta, 'valueSizeDelta is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(value, 'value is null or undefined');
+        this.targetAddress = targetAddress;
+        this.scopedMetadataKey = scopedMetadataKey;
+        this.targetNamespaceId = targetNamespaceId;
+        this.valueSizeDelta = valueSizeDelta;
+        this.value = value;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const targetAddress = UnresolvedAddressDto_1.UnresolvedAddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, targetAddress.getSize());
+        const scopedMetadataKey = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(byteArray));
+        byteArray.splice(0, 8);
+        const targetNamespaceId = NamespaceIdDto_1.NamespaceIdDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, targetNamespaceId.getSize());
+        const valueSizeDelta = GeneratorUtils_1.GeneratorUtils.bufferToUint16(Uint8Array.from(byteArray));
+        byteArray.splice(0, 2);
+        const valueSize = GeneratorUtils_1.GeneratorUtils.bufferToUint16(Uint8Array.from(byteArray));
+        byteArray.splice(0, 2);
+        const value = GeneratorUtils_1.GeneratorUtils.getBytes(Uint8Array.from(byteArray), valueSize);
+        byteArray.splice(0, valueSize);
+        return new NamespaceMetadataTransactionBodyBuilder(targetAddress, scopedMetadataKey, targetNamespaceId, valueSizeDelta, value);
+    }
+    static createNamespaceMetadataTransactionBodyBuilder(targetAddress, scopedMetadataKey, targetNamespaceId, valueSizeDelta, value) {
+        return new NamespaceMetadataTransactionBodyBuilder(targetAddress, scopedMetadataKey, targetNamespaceId, valueSizeDelta, value);
+    }
+    getTargetAddress() {
+        return this.targetAddress;
+    }
+    getScopedMetadataKey() {
+        return this.scopedMetadataKey;
+    }
+    getTargetNamespaceId() {
+        return this.targetNamespaceId;
+    }
+    getValueSizeDelta() {
+        return this.valueSizeDelta;
+    }
+    getValue() {
+        return this.value;
+    }
+    getSize() {
+        let size = 0;
+        size += this.targetAddress.getSize();
+        size += 8;
+        size += this.targetNamespaceId.getSize();
+        size += 2;
+        size += 2;
+        size += this.value.length;
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const targetAddressBytes = this.targetAddress.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, targetAddressBytes);
+        const scopedMetadataKeyBytes = GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getScopedMetadataKey());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, scopedMetadataKeyBytes);
+        const targetNamespaceIdBytes = this.targetNamespaceId.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, targetNamespaceIdBytes);
+        const valueSizeDeltaBytes = GeneratorUtils_1.GeneratorUtils.uint16ToBuffer(this.getValueSizeDelta());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, valueSizeDeltaBytes);
+        const valueSizeBytes = GeneratorUtils_1.GeneratorUtils.uint16ToBuffer(this.value.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, valueSizeBytes);
+        const valueBytes = this.value;
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, valueBytes);
+        return newArray;
+    }
+}
+exports.NamespaceMetadataTransactionBodyBuilder = NamespaceMetadataTransactionBodyBuilder;
+
+},{"./GeneratorUtils":348,"./NamespaceIdDto":407,"./UnresolvedAddressDto":443}],410:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.NamespaceMetadataTransactionBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const NamespaceMetadataTransactionBodyBuilder_1 = require("./NamespaceMetadataTransactionBodyBuilder");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+class NamespaceMetadataTransactionBuilder extends TransactionBuilder_1.TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline, targetAddress, scopedMetadataKey, targetNamespaceId, valueSizeDelta, value) {
+        super(signature, signerPublicKey, version, network, type, fee, deadline);
+        this.namespaceMetadataTransactionBody = new NamespaceMetadataTransactionBodyBuilder_1.NamespaceMetadataTransactionBodyBuilder(targetAddress, scopedMetadataKey, targetNamespaceId, valueSizeDelta, value);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const namespaceMetadataTransactionBody = NamespaceMetadataTransactionBodyBuilder_1.NamespaceMetadataTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, namespaceMetadataTransactionBody.getSize());
+        return new NamespaceMetadataTransactionBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.fee, superObject.deadline, namespaceMetadataTransactionBody.targetAddress, namespaceMetadataTransactionBody.scopedMetadataKey, namespaceMetadataTransactionBody.targetNamespaceId, namespaceMetadataTransactionBody.valueSizeDelta, namespaceMetadataTransactionBody.value);
+    }
+    static createNamespaceMetadataTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, targetAddress, scopedMetadataKey, targetNamespaceId, valueSizeDelta, value) {
+        return new NamespaceMetadataTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, targetAddress, scopedMetadataKey, targetNamespaceId, valueSizeDelta, value);
+    }
+    getTargetAddress() {
+        return this.namespaceMetadataTransactionBody.getTargetAddress();
+    }
+    getScopedMetadataKey() {
+        return this.namespaceMetadataTransactionBody.getScopedMetadataKey();
+    }
+    getTargetNamespaceId() {
+        return this.namespaceMetadataTransactionBody.getTargetNamespaceId();
+    }
+    getValueSizeDelta() {
+        return this.namespaceMetadataTransactionBody.getValueSizeDelta();
+    }
+    getValue() {
+        return this.namespaceMetadataTransactionBody.getValue();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.namespaceMetadataTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.namespaceMetadataTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const namespaceMetadataTransactionBodyBytes = this.namespaceMetadataTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, namespaceMetadataTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.NamespaceMetadataTransactionBuilder = NamespaceMetadataTransactionBuilder;
+
+},{"./GeneratorUtils":348,"./NamespaceMetadataTransactionBodyBuilder":409,"./TransactionBuilder":439}],411:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.NamespacePathBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const NamespaceAliasBuilder_1 = require("./NamespaceAliasBuilder");
+const NamespaceIdDto_1 = require("./NamespaceIdDto");
+class NamespacePathBuilder {
+    constructor(path, alias) {
+        GeneratorUtils_1.GeneratorUtils.notNull(path, 'path is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(alias, 'alias is null or undefined');
+        this.path = path;
+        this.alias = alias;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const pathSize = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const path = GeneratorUtils_1.GeneratorUtils.loadFromBinary(NamespaceIdDto_1.NamespaceIdDto.loadFromBinary, Uint8Array.from(byteArray), pathSize);
+        byteArray.splice(0, path.reduce((sum, c) => sum + c.getSize(), 0));
+        const alias = NamespaceAliasBuilder_1.NamespaceAliasBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, alias.getSize());
+        return new NamespacePathBuilder(path, alias);
+    }
+    static createNamespacePathBuilder(path, alias) {
+        return new NamespacePathBuilder(path, alias);
+    }
+    getPath() {
+        return this.path;
+    }
+    getAlias() {
+        return this.alias;
+    }
+    getSize() {
+        let size = 0;
+        size += 1;
+        size += this.path.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0);
+        size += this.alias.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const pathSizeBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.path.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, pathSizeBytes);
+        const pathBytes = GeneratorUtils_1.GeneratorUtils.writeList(this.path, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, pathBytes);
+        const aliasBytes = this.alias.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, aliasBytes);
+        return newArray;
+    }
+}
+exports.NamespacePathBuilder = NamespacePathBuilder;
+
+},{"./GeneratorUtils":348,"./NamespaceAliasBuilder":404,"./NamespaceIdDto":407}],412:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.NamespaceRegistrationTransactionBodyBuilder = void 0;
+const BlockDurationDto_1 = require("./BlockDurationDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const NamespaceIdDto_1 = require("./NamespaceIdDto");
+const NamespaceRegistrationTypeDto_1 = require("./NamespaceRegistrationTypeDto");
+class NamespaceRegistrationTransactionBodyBuilder {
+    constructor(duration, parentId, id, registrationType, name) {
+        if (registrationType === NamespaceRegistrationTypeDto_1.NamespaceRegistrationTypeDto.ROOT) {
+            GeneratorUtils_1.GeneratorUtils.notNull(duration, 'duration is null or undefined');
+        }
+        if (registrationType === NamespaceRegistrationTypeDto_1.NamespaceRegistrationTypeDto.CHILD) {
+            GeneratorUtils_1.GeneratorUtils.notNull(parentId, 'parentId is null or undefined');
+        }
+        GeneratorUtils_1.GeneratorUtils.notNull(id, 'id is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(registrationType, 'registrationType is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(name, 'name is null or undefined');
+        this.duration = duration;
+        this.parentId = parentId;
+        this.id = id;
+        this.registrationType = registrationType;
+        this.name = name;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const registrationTypeCondition = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(byteArray));
+        byteArray.splice(0, 8);
+        const id = NamespaceIdDto_1.NamespaceIdDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, id.getSize());
+        const registrationType = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const nameSize = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const name = GeneratorUtils_1.GeneratorUtils.getBytes(Uint8Array.from(byteArray), nameSize);
+        byteArray.splice(0, nameSize);
+        let duration = undefined;
+        if (registrationType === NamespaceRegistrationTypeDto_1.NamespaceRegistrationTypeDto.ROOT) {
+            duration = new BlockDurationDto_1.BlockDurationDto(registrationTypeCondition);
+        }
+        let parentId = undefined;
+        if (registrationType === NamespaceRegistrationTypeDto_1.NamespaceRegistrationTypeDto.CHILD) {
+            parentId = new NamespaceIdDto_1.NamespaceIdDto(registrationTypeCondition);
+        }
+        return new NamespaceRegistrationTransactionBodyBuilder(duration, parentId, id, registrationType, name);
+    }
+    static createNamespaceRegistrationTransactionBodyBuilderChild(parentId, id, name) {
+        const registrationType = NamespaceRegistrationTypeDto_1.NamespaceRegistrationTypeDto.CHILD;
+        return new NamespaceRegistrationTransactionBodyBuilder(undefined, parentId, id, registrationType, name);
+    }
+    static createNamespaceRegistrationTransactionBodyBuilderRoot(duration, id, name) {
+        const registrationType = NamespaceRegistrationTypeDto_1.NamespaceRegistrationTypeDto.ROOT;
+        return new NamespaceRegistrationTransactionBodyBuilder(duration, undefined, id, registrationType, name);
+    }
+    getDuration() {
+        if (!(this.registrationType === NamespaceRegistrationTypeDto_1.NamespaceRegistrationTypeDto.ROOT && this.duration)) {
+            throw new Error('registrationType is not set to ROOT.');
+        }
+        return this.duration;
+    }
+    getParentId() {
+        if (!(this.registrationType === NamespaceRegistrationTypeDto_1.NamespaceRegistrationTypeDto.CHILD && this.parentId)) {
+            throw new Error('registrationType is not set to CHILD.');
+        }
+        return this.parentId;
+    }
+    getId() {
+        return this.id;
+    }
+    getRegistrationType() {
+        return this.registrationType;
+    }
+    getName() {
+        return this.name;
+    }
+    getSize() {
+        let size = 0;
+        if (this.registrationType === NamespaceRegistrationTypeDto_1.NamespaceRegistrationTypeDto.ROOT) {
+            size += this.duration.getSize();
+        }
+        if (this.registrationType === NamespaceRegistrationTypeDto_1.NamespaceRegistrationTypeDto.CHILD) {
+            size += this.parentId.getSize();
+        }
+        size += this.id.getSize();
+        size += 1;
+        size += 1;
+        size += this.name.length;
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        if (this.registrationType === NamespaceRegistrationTypeDto_1.NamespaceRegistrationTypeDto.ROOT) {
+            const durationBytes = this.duration.serialize();
+            newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, durationBytes);
+        }
+        if (this.registrationType === NamespaceRegistrationTypeDto_1.NamespaceRegistrationTypeDto.CHILD) {
+            const parentIdBytes = this.parentId.serialize();
+            newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, parentIdBytes);
+        }
+        const idBytes = this.id.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, idBytes);
+        const registrationTypeBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.registrationType);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, registrationTypeBytes);
+        const nameSizeBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.name.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, nameSizeBytes);
+        const nameBytes = this.name;
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, nameBytes);
+        return newArray;
+    }
+}
+exports.NamespaceRegistrationTransactionBodyBuilder = NamespaceRegistrationTransactionBodyBuilder;
+
+},{"./BlockDurationDto":313,"./GeneratorUtils":348,"./NamespaceIdDto":407,"./NamespaceRegistrationTypeDto":414}],413:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.NamespaceRegistrationTransactionBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const NamespaceRegistrationTransactionBodyBuilder_1 = require("./NamespaceRegistrationTransactionBodyBuilder");
+const NamespaceRegistrationTypeDto_1 = require("./NamespaceRegistrationTypeDto");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+class NamespaceRegistrationTransactionBuilder extends TransactionBuilder_1.TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline, duration, parentId, id, registrationType, name) {
+        super(signature, signerPublicKey, version, network, type, fee, deadline);
+        this.namespaceRegistrationTransactionBody = new NamespaceRegistrationTransactionBodyBuilder_1.NamespaceRegistrationTransactionBodyBuilder(duration, parentId, id, registrationType, name);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const namespaceRegistrationTransactionBody = NamespaceRegistrationTransactionBodyBuilder_1.NamespaceRegistrationTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, namespaceRegistrationTransactionBody.getSize());
+        return new NamespaceRegistrationTransactionBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.fee, superObject.deadline, namespaceRegistrationTransactionBody.duration, namespaceRegistrationTransactionBody.parentId, namespaceRegistrationTransactionBody.id, namespaceRegistrationTransactionBody.registrationType, namespaceRegistrationTransactionBody.name);
+    }
+    static createNamespaceRegistrationTransactionBuilderChild(signature, signerPublicKey, version, network, type, fee, deadline, parentId, id, name) {
+        const registrationType = NamespaceRegistrationTypeDto_1.NamespaceRegistrationTypeDto.CHILD;
+        return new NamespaceRegistrationTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, undefined, parentId, id, registrationType, name);
+    }
+    static createNamespaceRegistrationTransactionBuilderRoot(signature, signerPublicKey, version, network, type, fee, deadline, duration, id, name) {
+        const registrationType = NamespaceRegistrationTypeDto_1.NamespaceRegistrationTypeDto.ROOT;
+        return new NamespaceRegistrationTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, duration, undefined, id, registrationType, name);
+    }
+    getDuration() {
+        return this.namespaceRegistrationTransactionBody.getDuration();
+    }
+    getParentId() {
+        return this.namespaceRegistrationTransactionBody.getParentId();
+    }
+    getId() {
+        return this.namespaceRegistrationTransactionBody.getId();
+    }
+    getRegistrationType() {
+        return this.namespaceRegistrationTransactionBody.getRegistrationType();
+    }
+    getName() {
+        return this.namespaceRegistrationTransactionBody.getName();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.namespaceRegistrationTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.namespaceRegistrationTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const namespaceRegistrationTransactionBodyBytes = this.namespaceRegistrationTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, namespaceRegistrationTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.NamespaceRegistrationTransactionBuilder = NamespaceRegistrationTransactionBuilder;
+
+},{"./GeneratorUtils":348,"./NamespaceRegistrationTransactionBodyBuilder":412,"./NamespaceRegistrationTypeDto":414,"./TransactionBuilder":439}],414:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.NamespaceRegistrationTypeDto = void 0;
+var NamespaceRegistrationTypeDto;
+(function (NamespaceRegistrationTypeDto) {
+    NamespaceRegistrationTypeDto[NamespaceRegistrationTypeDto["ROOT"] = 0] = "ROOT";
+    NamespaceRegistrationTypeDto[NamespaceRegistrationTypeDto["CHILD"] = 1] = "CHILD";
+})(NamespaceRegistrationTypeDto = exports.NamespaceRegistrationTypeDto || (exports.NamespaceRegistrationTypeDto = {}));
+
+},{}],415:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.NemesisBlockHeaderBuilder = void 0;
+const BlockHeaderBuilder_1 = require("./BlockHeaderBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const ImportanceBlockFooterBuilder_1 = require("./ImportanceBlockFooterBuilder");
+class NemesisBlockHeaderBuilder extends BlockHeaderBuilder_1.BlockHeaderBuilder {
+    constructor(signature, signerPublicKey, version, network, type, height, timestamp, difficulty, generationHashProof, previousBlockHash, transactionsHash, receiptsHash, stateHash, beneficiaryAddress, feeMultiplier, votingEligibleAccountsCount, harvestingEligibleAccountsCount, totalVotingBalance, previousImportanceBlockHash) {
+        super(signature, signerPublicKey, version, network, type, height, timestamp, difficulty, generationHashProof, previousBlockHash, transactionsHash, receiptsHash, stateHash, beneficiaryAddress, feeMultiplier);
+        this.importanceBlockFooter = new ImportanceBlockFooterBuilder_1.ImportanceBlockFooterBuilder(votingEligibleAccountsCount, harvestingEligibleAccountsCount, totalVotingBalance, previousImportanceBlockHash);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = BlockHeaderBuilder_1.BlockHeaderBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const importanceBlockFooter = ImportanceBlockFooterBuilder_1.ImportanceBlockFooterBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, importanceBlockFooter.getSize());
+        return new NemesisBlockHeaderBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.height, superObject.timestamp, superObject.difficulty, superObject.generationHashProof, superObject.previousBlockHash, superObject.transactionsHash, superObject.receiptsHash, superObject.stateHash, superObject.beneficiaryAddress, superObject.feeMultiplier, importanceBlockFooter.votingEligibleAccountsCount, importanceBlockFooter.harvestingEligibleAccountsCount, importanceBlockFooter.totalVotingBalance, importanceBlockFooter.previousImportanceBlockHash);
+    }
+    static createNemesisBlockHeaderBuilder(signature, signerPublicKey, version, network, type, height, timestamp, difficulty, generationHashProof, previousBlockHash, transactionsHash, receiptsHash, stateHash, beneficiaryAddress, feeMultiplier, votingEligibleAccountsCount, harvestingEligibleAccountsCount, totalVotingBalance, previousImportanceBlockHash) {
+        return new NemesisBlockHeaderBuilder(signature, signerPublicKey, version, network, type, height, timestamp, difficulty, generationHashProof, previousBlockHash, transactionsHash, receiptsHash, stateHash, beneficiaryAddress, feeMultiplier, votingEligibleAccountsCount, harvestingEligibleAccountsCount, totalVotingBalance, previousImportanceBlockHash);
+    }
+    getVotingEligibleAccountsCount() {
+        return this.importanceBlockFooter.getVotingEligibleAccountsCount();
+    }
+    getHarvestingEligibleAccountsCount() {
+        return this.importanceBlockFooter.getHarvestingEligibleAccountsCount();
+    }
+    getTotalVotingBalance() {
+        return this.importanceBlockFooter.getTotalVotingBalance();
+    }
+    getPreviousImportanceBlockHash() {
+        return this.importanceBlockFooter.getPreviousImportanceBlockHash();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.importanceBlockFooter.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const importanceBlockFooterBytes = this.importanceBlockFooter.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, importanceBlockFooterBytes);
+        return newArray;
+    }
+}
+exports.NemesisBlockHeaderBuilder = NemesisBlockHeaderBuilder;
+
+},{"./BlockHeaderBuilder":315,"./GeneratorUtils":348,"./ImportanceBlockFooterBuilder":359}],416:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.NetworkTypeDto = void 0;
+var NetworkTypeDto;
+(function (NetworkTypeDto) {
+    NetworkTypeDto[NetworkTypeDto["MIJIN"] = 96] = "MIJIN";
+    NetworkTypeDto[NetworkTypeDto["PUBLIC"] = 104] = "PUBLIC";
+    NetworkTypeDto[NetworkTypeDto["PRIVATE"] = 120] = "PRIVATE";
+    NetworkTypeDto[NetworkTypeDto["MIJIN_TEST"] = 144] = "MIJIN_TEST";
+    NetworkTypeDto[NetworkTypeDto["PUBLIC_TEST"] = 152] = "PUBLIC_TEST";
+    NetworkTypeDto[NetworkTypeDto["PRIVATE_TEST"] = 168] = "PRIVATE_TEST";
+})(NetworkTypeDto = exports.NetworkTypeDto || (exports.NetworkTypeDto = {}));
+
+},{}],417:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.NodeKeyLinkTransactionBodyBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const KeyDto_1 = require("./KeyDto");
+class NodeKeyLinkTransactionBodyBuilder {
+    constructor(linkedPublicKey, linkAction) {
+        GeneratorUtils_1.GeneratorUtils.notNull(linkedPublicKey, 'linkedPublicKey is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(linkAction, 'linkAction is null or undefined');
+        this.linkedPublicKey = linkedPublicKey;
+        this.linkAction = linkAction;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const linkedPublicKey = KeyDto_1.KeyDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, linkedPublicKey.getSize());
+        const linkAction = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        return new NodeKeyLinkTransactionBodyBuilder(linkedPublicKey, linkAction);
+    }
+    static createNodeKeyLinkTransactionBodyBuilder(linkedPublicKey, linkAction) {
+        return new NodeKeyLinkTransactionBodyBuilder(linkedPublicKey, linkAction);
+    }
+    getLinkedPublicKey() {
+        return this.linkedPublicKey;
+    }
+    getLinkAction() {
+        return this.linkAction;
+    }
+    getSize() {
+        let size = 0;
+        size += this.linkedPublicKey.getSize();
+        size += 1;
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const linkedPublicKeyBytes = this.linkedPublicKey.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, linkedPublicKeyBytes);
+        const linkActionBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.linkAction);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, linkActionBytes);
+        return newArray;
+    }
+}
+exports.NodeKeyLinkTransactionBodyBuilder = NodeKeyLinkTransactionBodyBuilder;
+
+},{"./GeneratorUtils":348,"./KeyDto":365}],418:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.NodeKeyLinkTransactionBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const NodeKeyLinkTransactionBodyBuilder_1 = require("./NodeKeyLinkTransactionBodyBuilder");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+class NodeKeyLinkTransactionBuilder extends TransactionBuilder_1.TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline, linkedPublicKey, linkAction) {
+        super(signature, signerPublicKey, version, network, type, fee, deadline);
+        this.nodeKeyLinkTransactionBody = new NodeKeyLinkTransactionBodyBuilder_1.NodeKeyLinkTransactionBodyBuilder(linkedPublicKey, linkAction);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const nodeKeyLinkTransactionBody = NodeKeyLinkTransactionBodyBuilder_1.NodeKeyLinkTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, nodeKeyLinkTransactionBody.getSize());
+        return new NodeKeyLinkTransactionBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.fee, superObject.deadline, nodeKeyLinkTransactionBody.linkedPublicKey, nodeKeyLinkTransactionBody.linkAction);
+    }
+    static createNodeKeyLinkTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, linkedPublicKey, linkAction) {
+        return new NodeKeyLinkTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, linkedPublicKey, linkAction);
+    }
+    getLinkedPublicKey() {
+        return this.nodeKeyLinkTransactionBody.getLinkedPublicKey();
+    }
+    getLinkAction() {
+        return this.nodeKeyLinkTransactionBody.getLinkAction();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.nodeKeyLinkTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.nodeKeyLinkTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const nodeKeyLinkTransactionBodyBytes = this.nodeKeyLinkTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, nodeKeyLinkTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.NodeKeyLinkTransactionBuilder = NodeKeyLinkTransactionBuilder;
+
+},{"./GeneratorUtils":348,"./NodeKeyLinkTransactionBodyBuilder":417,"./TransactionBuilder":439}],419:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.NormalBlockHeaderBuilder = void 0;
+const BlockHeaderBuilder_1 = require("./BlockHeaderBuilder");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class NormalBlockHeaderBuilder extends BlockHeaderBuilder_1.BlockHeaderBuilder {
+    constructor(signature, signerPublicKey, version, network, type, height, timestamp, difficulty, generationHashProof, previousBlockHash, transactionsHash, receiptsHash, stateHash, beneficiaryAddress, feeMultiplier) {
+        super(signature, signerPublicKey, version, network, type, height, timestamp, difficulty, generationHashProof, previousBlockHash, transactionsHash, receiptsHash, stateHash, beneficiaryAddress, feeMultiplier);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = BlockHeaderBuilder_1.BlockHeaderBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        return new NormalBlockHeaderBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.height, superObject.timestamp, superObject.difficulty, superObject.generationHashProof, superObject.previousBlockHash, superObject.transactionsHash, superObject.receiptsHash, superObject.stateHash, superObject.beneficiaryAddress, superObject.feeMultiplier);
+    }
+    static createNormalBlockHeaderBuilder(signature, signerPublicKey, version, network, type, height, timestamp, difficulty, generationHashProof, previousBlockHash, transactionsHash, receiptsHash, stateHash, beneficiaryAddress, feeMultiplier) {
+        return new NormalBlockHeaderBuilder(signature, signerPublicKey, version, network, type, height, timestamp, difficulty, generationHashProof, previousBlockHash, transactionsHash, receiptsHash, stateHash, beneficiaryAddress, feeMultiplier);
+    }
+    getSize() {
+        let size = super.getSize();
+        size += 4;
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const blockHeader_Reserved1Bytes = GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, blockHeader_Reserved1Bytes);
+        return newArray;
+    }
+}
+exports.NormalBlockHeaderBuilder = NormalBlockHeaderBuilder;
+
+},{"./BlockHeaderBuilder":315,"./GeneratorUtils":348}],420:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.PinnedVotingKeyBuilder = void 0;
+const FinalizationEpochDto_1 = require("./FinalizationEpochDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const VotingKeyDto_1 = require("./VotingKeyDto");
+class PinnedVotingKeyBuilder {
+    constructor(votingKey, startEpoch, endEpoch) {
+        GeneratorUtils_1.GeneratorUtils.notNull(votingKey, 'votingKey is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(startEpoch, 'startEpoch is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(endEpoch, 'endEpoch is null or undefined');
+        this.votingKey = votingKey;
+        this.startEpoch = startEpoch;
+        this.endEpoch = endEpoch;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const votingKey = VotingKeyDto_1.VotingKeyDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, votingKey.getSize());
+        const startEpoch = FinalizationEpochDto_1.FinalizationEpochDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, startEpoch.getSize());
+        const endEpoch = FinalizationEpochDto_1.FinalizationEpochDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, endEpoch.getSize());
+        return new PinnedVotingKeyBuilder(votingKey, startEpoch, endEpoch);
+    }
+    static createPinnedVotingKeyBuilder(votingKey, startEpoch, endEpoch) {
+        return new PinnedVotingKeyBuilder(votingKey, startEpoch, endEpoch);
+    }
+    getVotingKey() {
+        return this.votingKey;
+    }
+    getStartEpoch() {
+        return this.startEpoch;
+    }
+    getEndEpoch() {
+        return this.endEpoch;
+    }
+    getSize() {
+        let size = 0;
+        size += this.votingKey.getSize();
+        size += this.startEpoch.getSize();
+        size += this.endEpoch.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const votingKeyBytes = this.votingKey.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, votingKeyBytes);
+        const startEpochBytes = this.startEpoch.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, startEpochBytes);
+        const endEpochBytes = this.endEpoch.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, endEpochBytes);
+        return newArray;
+    }
+}
+exports.PinnedVotingKeyBuilder = PinnedVotingKeyBuilder;
+
+},{"./FinalizationEpochDto":344,"./GeneratorUtils":348,"./VotingKeyDto":446}],421:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ProofGammaDto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class ProofGammaDto {
+    constructor(proofGamma) {
+        this.proofGamma = proofGamma;
+    }
+    static loadFromBinary(payload) {
+        const proofGamma = GeneratorUtils_1.GeneratorUtils.getBytes(Uint8Array.from(payload), 32);
+        return new ProofGammaDto(proofGamma);
+    }
+    getProofGamma() {
+        return this.proofGamma;
+    }
+    getSize() {
+        return 32;
+    }
+    serialize() {
+        return this.getProofGamma();
+    }
+}
+exports.ProofGammaDto = ProofGammaDto;
+
+},{"./GeneratorUtils":348}],422:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ProofScalarDto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class ProofScalarDto {
+    constructor(proofScalar) {
+        this.proofScalar = proofScalar;
+    }
+    static loadFromBinary(payload) {
+        const proofScalar = GeneratorUtils_1.GeneratorUtils.getBytes(Uint8Array.from(payload), 32);
+        return new ProofScalarDto(proofScalar);
+    }
+    getProofScalar() {
+        return this.proofScalar;
+    }
+    getSize() {
+        return 32;
+    }
+    serialize() {
+        return this.getProofScalar();
+    }
+}
+exports.ProofScalarDto = ProofScalarDto;
+
+},{"./GeneratorUtils":348}],423:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ProofVerificationHashDto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class ProofVerificationHashDto {
+    constructor(proofVerificationHash) {
+        this.proofVerificationHash = proofVerificationHash;
+    }
+    static loadFromBinary(payload) {
+        const proofVerificationHash = GeneratorUtils_1.GeneratorUtils.getBytes(Uint8Array.from(payload), 16);
+        return new ProofVerificationHashDto(proofVerificationHash);
+    }
+    getProofVerificationHash() {
+        return this.proofVerificationHash;
+    }
+    getSize() {
+        return 16;
+    }
+    serialize() {
+        return this.getProofVerificationHash();
+    }
+}
+exports.ProofVerificationHashDto = ProofVerificationHashDto;
+
+},{"./GeneratorUtils":348}],424:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ReceiptBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class ReceiptBuilder {
+    constructor(version, type) {
+        GeneratorUtils_1.GeneratorUtils.notNull(version, 'version is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(type, 'type is null or undefined');
+        this.version = version;
+        this.type = type;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const size = GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        const version = GeneratorUtils_1.GeneratorUtils.bufferToUint16(Uint8Array.from(byteArray));
+        byteArray.splice(0, 2);
+        const type = GeneratorUtils_1.GeneratorUtils.bufferToUint16(Uint8Array.from(byteArray));
+        byteArray.splice(0, 2);
+        return new ReceiptBuilder(version, type);
+    }
+    static createReceiptBuilder(version, type) {
+        return new ReceiptBuilder(version, type);
+    }
+    getVersion() {
+        return this.version;
+    }
+    getType() {
+        return this.type;
+    }
+    getSize() {
+        let size = 0;
+        size += 4;
+        size += 2;
+        size += 2;
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const sizeBytes = Uint8Array.from([]);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, sizeBytes);
+        const versionBytes = GeneratorUtils_1.GeneratorUtils.uint16ToBuffer(this.getVersion());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, versionBytes);
+        const typeBytes = GeneratorUtils_1.GeneratorUtils.uint16ToBuffer(this.type);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, typeBytes);
+        return newArray;
+    }
+}
+exports.ReceiptBuilder = ReceiptBuilder;
+
+},{"./GeneratorUtils":348}],425:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ReceiptSourceBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class ReceiptSourceBuilder {
+    constructor(primaryId, secondaryId) {
+        GeneratorUtils_1.GeneratorUtils.notNull(primaryId, 'primaryId is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(secondaryId, 'secondaryId is null or undefined');
+        this.primaryId = primaryId;
+        this.secondaryId = secondaryId;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const primaryId = GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        const secondaryId = GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        return new ReceiptSourceBuilder(primaryId, secondaryId);
+    }
+    static createReceiptSourceBuilder(primaryId, secondaryId) {
+        return new ReceiptSourceBuilder(primaryId, secondaryId);
+    }
+    getPrimaryId() {
+        return this.primaryId;
+    }
+    getSecondaryId() {
+        return this.secondaryId;
+    }
+    getSize() {
+        let size = 0;
+        size += 4;
+        size += 4;
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const primaryIdBytes = GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(this.getPrimaryId());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, primaryIdBytes);
+        const secondaryIdBytes = GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(this.getSecondaryId());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, secondaryIdBytes);
+        return newArray;
+    }
+}
+exports.ReceiptSourceBuilder = ReceiptSourceBuilder;
+
+},{"./GeneratorUtils":348}],426:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ReceiptTypeDto = void 0;
+var ReceiptTypeDto;
+(function (ReceiptTypeDto) {
+    ReceiptTypeDto[ReceiptTypeDto["RESERVED"] = 0] = "RESERVED";
+    ReceiptTypeDto[ReceiptTypeDto["MOSAIC_RENTAL_FEE"] = 4685] = "MOSAIC_RENTAL_FEE";
+    ReceiptTypeDto[ReceiptTypeDto["NAMESPACE_RENTAL_FEE"] = 4942] = "NAMESPACE_RENTAL_FEE";
+    ReceiptTypeDto[ReceiptTypeDto["HARVEST_FEE"] = 8515] = "HARVEST_FEE";
+    ReceiptTypeDto[ReceiptTypeDto["LOCK_HASH_COMPLETED"] = 8776] = "LOCK_HASH_COMPLETED";
+    ReceiptTypeDto[ReceiptTypeDto["LOCK_HASH_EXPIRED"] = 9032] = "LOCK_HASH_EXPIRED";
+    ReceiptTypeDto[ReceiptTypeDto["LOCK_SECRET_COMPLETED"] = 8786] = "LOCK_SECRET_COMPLETED";
+    ReceiptTypeDto[ReceiptTypeDto["LOCK_SECRET_EXPIRED"] = 9042] = "LOCK_SECRET_EXPIRED";
+    ReceiptTypeDto[ReceiptTypeDto["LOCK_HASH_CREATED"] = 12616] = "LOCK_HASH_CREATED";
+    ReceiptTypeDto[ReceiptTypeDto["LOCK_SECRET_CREATED"] = 12626] = "LOCK_SECRET_CREATED";
+    ReceiptTypeDto[ReceiptTypeDto["MOSAIC_EXPIRED"] = 16717] = "MOSAIC_EXPIRED";
+    ReceiptTypeDto[ReceiptTypeDto["NAMESPACE_EXPIRED"] = 16718] = "NAMESPACE_EXPIRED";
+    ReceiptTypeDto[ReceiptTypeDto["NAMESPACE_DELETED"] = 16974] = "NAMESPACE_DELETED";
+    ReceiptTypeDto[ReceiptTypeDto["INFLATION"] = 20803] = "INFLATION";
+    ReceiptTypeDto[ReceiptTypeDto["TRANSACTION_GROUP"] = 57667] = "TRANSACTION_GROUP";
+    ReceiptTypeDto[ReceiptTypeDto["ADDRESS_ALIAS_RESOLUTION"] = 61763] = "ADDRESS_ALIAS_RESOLUTION";
+    ReceiptTypeDto[ReceiptTypeDto["MOSAIC_ALIAS_RESOLUTION"] = 62019] = "MOSAIC_ALIAS_RESOLUTION";
+})(ReceiptTypeDto = exports.ReceiptTypeDto || (exports.ReceiptTypeDto = {}));
+
+},{}],427:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.RestrictionRuleBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const MosaicIdDto_1 = require("./MosaicIdDto");
+class RestrictionRuleBuilder {
+    constructor(referenceMosaicId, restrictionValue, restrictionType) {
+        GeneratorUtils_1.GeneratorUtils.notNull(referenceMosaicId, 'referenceMosaicId is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(restrictionValue, 'restrictionValue is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(restrictionType, 'restrictionType is null or undefined');
+        this.referenceMosaicId = referenceMosaicId;
+        this.restrictionValue = restrictionValue;
+        this.restrictionType = restrictionType;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const referenceMosaicId = MosaicIdDto_1.MosaicIdDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, referenceMosaicId.getSize());
+        const restrictionValue = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(byteArray));
+        byteArray.splice(0, 8);
+        const restrictionType = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        return new RestrictionRuleBuilder(referenceMosaicId, restrictionValue, restrictionType);
+    }
+    static createRestrictionRuleBuilder(referenceMosaicId, restrictionValue, restrictionType) {
+        return new RestrictionRuleBuilder(referenceMosaicId, restrictionValue, restrictionType);
+    }
+    getReferenceMosaicId() {
+        return this.referenceMosaicId;
+    }
+    getRestrictionValue() {
+        return this.restrictionValue;
+    }
+    getRestrictionType() {
+        return this.restrictionType;
+    }
+    getSize() {
+        let size = 0;
+        size += this.referenceMosaicId.getSize();
+        size += 8;
+        size += 1;
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const referenceMosaicIdBytes = this.referenceMosaicId.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, referenceMosaicIdBytes);
+        const restrictionValueBytes = GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getRestrictionValue());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionValueBytes);
+        const restrictionTypeBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.restrictionType);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, restrictionTypeBytes);
+        return newArray;
+    }
+}
+exports.RestrictionRuleBuilder = RestrictionRuleBuilder;
+
+},{"./GeneratorUtils":348,"./MosaicIdDto":387}],428:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.RootNamespaceHistoryBuilder = void 0;
+const AddressDto_1 = require("./AddressDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const NamespaceAliasBuilder_1 = require("./NamespaceAliasBuilder");
+const NamespaceIdDto_1 = require("./NamespaceIdDto");
+const NamespaceLifetimeBuilder_1 = require("./NamespaceLifetimeBuilder");
+const NamespacePathBuilder_1 = require("./NamespacePathBuilder");
+const StateHeaderBuilder_1 = require("./StateHeaderBuilder");
+class RootNamespaceHistoryBuilder extends StateHeaderBuilder_1.StateHeaderBuilder {
+    constructor(version, id, ownerAddress, lifetime, rootAlias, paths) {
+        super(version);
+        GeneratorUtils_1.GeneratorUtils.notNull(id, 'id is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(ownerAddress, 'ownerAddress is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(lifetime, 'lifetime is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(rootAlias, 'rootAlias is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(paths, 'paths is null or undefined');
+        this.id = id;
+        this.ownerAddress = ownerAddress;
+        this.lifetime = lifetime;
+        this.rootAlias = rootAlias;
+        this.paths = paths;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = StateHeaderBuilder_1.StateHeaderBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const id = NamespaceIdDto_1.NamespaceIdDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, id.getSize());
+        const ownerAddress = AddressDto_1.AddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, ownerAddress.getSize());
+        const lifetime = NamespaceLifetimeBuilder_1.NamespaceLifetimeBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, lifetime.getSize());
+        const rootAlias = NamespaceAliasBuilder_1.NamespaceAliasBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, rootAlias.getSize());
+        const childrenCount = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(byteArray));
+        byteArray.splice(0, 8);
+        const paths = GeneratorUtils_1.GeneratorUtils.loadFromBinary(NamespacePathBuilder_1.NamespacePathBuilder.loadFromBinary, Uint8Array.from(byteArray), childrenCount);
+        byteArray.splice(0, paths.reduce((sum, c) => sum + c.getSize(), 0));
+        return new RootNamespaceHistoryBuilder(superObject.version, id, ownerAddress, lifetime, rootAlias, paths);
+    }
+    static createRootNamespaceHistoryBuilder(version, id, ownerAddress, lifetime, rootAlias, paths) {
+        return new RootNamespaceHistoryBuilder(version, id, ownerAddress, lifetime, rootAlias, paths);
+    }
+    getId() {
+        return this.id;
+    }
+    getOwnerAddress() {
+        return this.ownerAddress;
+    }
+    getLifetime() {
+        return this.lifetime;
+    }
+    getRootAlias() {
+        return this.rootAlias;
+    }
+    getPaths() {
+        return this.paths;
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.id.getSize();
+        size += this.ownerAddress.getSize();
+        size += this.lifetime.getSize();
+        size += this.rootAlias.getSize();
+        size += 8;
+        size += this.paths.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0);
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const idBytes = this.id.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, idBytes);
+        const ownerAddressBytes = this.ownerAddress.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, ownerAddressBytes);
+        const lifetimeBytes = this.lifetime.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, lifetimeBytes);
+        const rootAliasBytes = this.rootAlias.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, rootAliasBytes);
+        const childrenCountBytes = GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.paths.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, childrenCountBytes);
+        const pathsBytes = GeneratorUtils_1.GeneratorUtils.writeList(this.paths, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, pathsBytes);
+        return newArray;
+    }
+}
+exports.RootNamespaceHistoryBuilder = RootNamespaceHistoryBuilder;
+
+},{"./AddressDto":301,"./GeneratorUtils":348,"./NamespaceAliasBuilder":404,"./NamespaceIdDto":407,"./NamespaceLifetimeBuilder":408,"./NamespacePathBuilder":411,"./StateHeaderBuilder":437}],429:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ScopedMetadataKeyDto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class ScopedMetadataKeyDto {
+    constructor(scopedMetadataKey) {
+        this.scopedMetadataKey = scopedMetadataKey;
+    }
+    static loadFromBinary(payload) {
+        const scopedMetadataKey = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(payload));
+        return new ScopedMetadataKeyDto(scopedMetadataKey);
+    }
+    getScopedMetadataKey() {
+        return this.scopedMetadataKey;
+    }
+    getSize() {
+        return 8;
+    }
+    serialize() {
+        return GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getScopedMetadataKey());
+    }
+}
+exports.ScopedMetadataKeyDto = ScopedMetadataKeyDto;
+
+},{"./GeneratorUtils":348}],430:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SecretLockInfoBuilder = void 0;
+const AddressDto_1 = require("./AddressDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const Hash256Dto_1 = require("./Hash256Dto");
+const HeightDto_1 = require("./HeightDto");
+const MosaicBuilder_1 = require("./MosaicBuilder");
+const StateHeaderBuilder_1 = require("./StateHeaderBuilder");
+class SecretLockInfoBuilder extends StateHeaderBuilder_1.StateHeaderBuilder {
+    constructor(version, ownerAddress, mosaic, endHeight, status, hashAlgorithm, secret, recipient) {
+        super(version);
+        GeneratorUtils_1.GeneratorUtils.notNull(ownerAddress, 'ownerAddress is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(mosaic, 'mosaic is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(endHeight, 'endHeight is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(status, 'status is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(hashAlgorithm, 'hashAlgorithm is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(secret, 'secret is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(recipient, 'recipient is null or undefined');
+        this.ownerAddress = ownerAddress;
+        this.mosaic = mosaic;
+        this.endHeight = endHeight;
+        this.status = status;
+        this.hashAlgorithm = hashAlgorithm;
+        this.secret = secret;
+        this.recipient = recipient;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = StateHeaderBuilder_1.StateHeaderBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const ownerAddress = AddressDto_1.AddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, ownerAddress.getSize());
+        const mosaic = MosaicBuilder_1.MosaicBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaic.getSize());
+        const endHeight = HeightDto_1.HeightDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, endHeight.getSize());
+        const status = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const hashAlgorithm = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const secret = Hash256Dto_1.Hash256Dto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, secret.getSize());
+        const recipient = AddressDto_1.AddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, recipient.getSize());
+        return new SecretLockInfoBuilder(superObject.version, ownerAddress, mosaic, endHeight, status, hashAlgorithm, secret, recipient);
+    }
+    static createSecretLockInfoBuilder(version, ownerAddress, mosaic, endHeight, status, hashAlgorithm, secret, recipient) {
+        return new SecretLockInfoBuilder(version, ownerAddress, mosaic, endHeight, status, hashAlgorithm, secret, recipient);
+    }
+    getOwnerAddress() {
+        return this.ownerAddress;
+    }
+    getMosaic() {
+        return this.mosaic;
+    }
+    getEndHeight() {
+        return this.endHeight;
+    }
+    getStatus() {
+        return this.status;
+    }
+    getHashAlgorithm() {
+        return this.hashAlgorithm;
+    }
+    getSecret() {
+        return this.secret;
+    }
+    getRecipient() {
+        return this.recipient;
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.ownerAddress.getSize();
+        size += this.mosaic.getSize();
+        size += this.endHeight.getSize();
+        size += 1;
+        size += 1;
+        size += this.secret.getSize();
+        size += this.recipient.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const ownerAddressBytes = this.ownerAddress.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, ownerAddressBytes);
+        const mosaicBytes = this.mosaic.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicBytes);
+        const endHeightBytes = this.endHeight.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, endHeightBytes);
+        const statusBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.status);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, statusBytes);
+        const hashAlgorithmBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.hashAlgorithm);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, hashAlgorithmBytes);
+        const secretBytes = this.secret.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, secretBytes);
+        const recipientBytes = this.recipient.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, recipientBytes);
+        return newArray;
+    }
+}
+exports.SecretLockInfoBuilder = SecretLockInfoBuilder;
+
+},{"./AddressDto":301,"./GeneratorUtils":348,"./Hash256Dto":351,"./HeightDto":358,"./MosaicBuilder":377,"./StateHeaderBuilder":437}],431:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SecretLockTransactionBodyBuilder = void 0;
+const BlockDurationDto_1 = require("./BlockDurationDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const Hash256Dto_1 = require("./Hash256Dto");
+const UnresolvedAddressDto_1 = require("./UnresolvedAddressDto");
+const UnresolvedMosaicBuilder_1 = require("./UnresolvedMosaicBuilder");
+class SecretLockTransactionBodyBuilder {
+    constructor(recipientAddress, secret, mosaic, duration, hashAlgorithm) {
+        GeneratorUtils_1.GeneratorUtils.notNull(recipientAddress, 'recipientAddress is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(secret, 'secret is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(mosaic, 'mosaic is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(duration, 'duration is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(hashAlgorithm, 'hashAlgorithm is null or undefined');
+        this.recipientAddress = recipientAddress;
+        this.secret = secret;
+        this.mosaic = mosaic;
+        this.duration = duration;
+        this.hashAlgorithm = hashAlgorithm;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const recipientAddress = UnresolvedAddressDto_1.UnresolvedAddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, recipientAddress.getSize());
+        const secret = Hash256Dto_1.Hash256Dto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, secret.getSize());
+        const mosaic = UnresolvedMosaicBuilder_1.UnresolvedMosaicBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaic.getSize());
+        const duration = BlockDurationDto_1.BlockDurationDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, duration.getSize());
+        const hashAlgorithm = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        return new SecretLockTransactionBodyBuilder(recipientAddress, secret, mosaic, duration, hashAlgorithm);
+    }
+    static createSecretLockTransactionBodyBuilder(recipientAddress, secret, mosaic, duration, hashAlgorithm) {
+        return new SecretLockTransactionBodyBuilder(recipientAddress, secret, mosaic, duration, hashAlgorithm);
+    }
+    getRecipientAddress() {
+        return this.recipientAddress;
+    }
+    getSecret() {
+        return this.secret;
+    }
+    getMosaic() {
+        return this.mosaic;
+    }
+    getDuration() {
+        return this.duration;
+    }
+    getHashAlgorithm() {
+        return this.hashAlgorithm;
+    }
+    getSize() {
+        let size = 0;
+        size += this.recipientAddress.getSize();
+        size += this.secret.getSize();
+        size += this.mosaic.getSize();
+        size += this.duration.getSize();
+        size += 1;
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const recipientAddressBytes = this.recipientAddress.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, recipientAddressBytes);
+        const secretBytes = this.secret.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, secretBytes);
+        const mosaicBytes = this.mosaic.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicBytes);
+        const durationBytes = this.duration.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, durationBytes);
+        const hashAlgorithmBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.hashAlgorithm);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, hashAlgorithmBytes);
+        return newArray;
+    }
+}
+exports.SecretLockTransactionBodyBuilder = SecretLockTransactionBodyBuilder;
+
+},{"./BlockDurationDto":313,"./GeneratorUtils":348,"./Hash256Dto":351,"./UnresolvedAddressDto":443,"./UnresolvedMosaicBuilder":444}],432:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SecretLockTransactionBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const SecretLockTransactionBodyBuilder_1 = require("./SecretLockTransactionBodyBuilder");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+class SecretLockTransactionBuilder extends TransactionBuilder_1.TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline, recipientAddress, secret, mosaic, duration, hashAlgorithm) {
+        super(signature, signerPublicKey, version, network, type, fee, deadline);
+        this.secretLockTransactionBody = new SecretLockTransactionBodyBuilder_1.SecretLockTransactionBodyBuilder(recipientAddress, secret, mosaic, duration, hashAlgorithm);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const secretLockTransactionBody = SecretLockTransactionBodyBuilder_1.SecretLockTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, secretLockTransactionBody.getSize());
+        return new SecretLockTransactionBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.fee, superObject.deadline, secretLockTransactionBody.recipientAddress, secretLockTransactionBody.secret, secretLockTransactionBody.mosaic, secretLockTransactionBody.duration, secretLockTransactionBody.hashAlgorithm);
+    }
+    static createSecretLockTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, recipientAddress, secret, mosaic, duration, hashAlgorithm) {
+        return new SecretLockTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, recipientAddress, secret, mosaic, duration, hashAlgorithm);
+    }
+    getRecipientAddress() {
+        return this.secretLockTransactionBody.getRecipientAddress();
+    }
+    getSecret() {
+        return this.secretLockTransactionBody.getSecret();
+    }
+    getMosaic() {
+        return this.secretLockTransactionBody.getMosaic();
+    }
+    getDuration() {
+        return this.secretLockTransactionBody.getDuration();
+    }
+    getHashAlgorithm() {
+        return this.secretLockTransactionBody.getHashAlgorithm();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.secretLockTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.secretLockTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const secretLockTransactionBodyBytes = this.secretLockTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, secretLockTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.SecretLockTransactionBuilder = SecretLockTransactionBuilder;
+
+},{"./GeneratorUtils":348,"./SecretLockTransactionBodyBuilder":431,"./TransactionBuilder":439}],433:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SecretProofTransactionBodyBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const Hash256Dto_1 = require("./Hash256Dto");
+const UnresolvedAddressDto_1 = require("./UnresolvedAddressDto");
+class SecretProofTransactionBodyBuilder {
+    constructor(recipientAddress, secret, hashAlgorithm, proof) {
+        GeneratorUtils_1.GeneratorUtils.notNull(recipientAddress, 'recipientAddress is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(secret, 'secret is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(hashAlgorithm, 'hashAlgorithm is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(proof, 'proof is null or undefined');
+        this.recipientAddress = recipientAddress;
+        this.secret = secret;
+        this.hashAlgorithm = hashAlgorithm;
+        this.proof = proof;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const recipientAddress = UnresolvedAddressDto_1.UnresolvedAddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, recipientAddress.getSize());
+        const secret = Hash256Dto_1.Hash256Dto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, secret.getSize());
+        const proofSize = GeneratorUtils_1.GeneratorUtils.bufferToUint16(Uint8Array.from(byteArray));
+        byteArray.splice(0, 2);
+        const hashAlgorithm = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const proof = GeneratorUtils_1.GeneratorUtils.getBytes(Uint8Array.from(byteArray), proofSize);
+        byteArray.splice(0, proofSize);
+        return new SecretProofTransactionBodyBuilder(recipientAddress, secret, hashAlgorithm, proof);
+    }
+    static createSecretProofTransactionBodyBuilder(recipientAddress, secret, hashAlgorithm, proof) {
+        return new SecretProofTransactionBodyBuilder(recipientAddress, secret, hashAlgorithm, proof);
+    }
+    getRecipientAddress() {
+        return this.recipientAddress;
+    }
+    getSecret() {
+        return this.secret;
+    }
+    getHashAlgorithm() {
+        return this.hashAlgorithm;
+    }
+    getProof() {
+        return this.proof;
+    }
+    getSize() {
+        let size = 0;
+        size += this.recipientAddress.getSize();
+        size += this.secret.getSize();
+        size += 2;
+        size += 1;
+        size += this.proof.length;
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const recipientAddressBytes = this.recipientAddress.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, recipientAddressBytes);
+        const secretBytes = this.secret.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, secretBytes);
+        const proofSizeBytes = GeneratorUtils_1.GeneratorUtils.uint16ToBuffer(this.proof.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, proofSizeBytes);
+        const hashAlgorithmBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.hashAlgorithm);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, hashAlgorithmBytes);
+        const proofBytes = this.proof;
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, proofBytes);
+        return newArray;
+    }
+}
+exports.SecretProofTransactionBodyBuilder = SecretProofTransactionBodyBuilder;
+
+},{"./GeneratorUtils":348,"./Hash256Dto":351,"./UnresolvedAddressDto":443}],434:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SecretProofTransactionBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const SecretProofTransactionBodyBuilder_1 = require("./SecretProofTransactionBodyBuilder");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+class SecretProofTransactionBuilder extends TransactionBuilder_1.TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline, recipientAddress, secret, hashAlgorithm, proof) {
+        super(signature, signerPublicKey, version, network, type, fee, deadline);
+        this.secretProofTransactionBody = new SecretProofTransactionBodyBuilder_1.SecretProofTransactionBodyBuilder(recipientAddress, secret, hashAlgorithm, proof);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const secretProofTransactionBody = SecretProofTransactionBodyBuilder_1.SecretProofTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, secretProofTransactionBody.getSize());
+        return new SecretProofTransactionBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.fee, superObject.deadline, secretProofTransactionBody.recipientAddress, secretProofTransactionBody.secret, secretProofTransactionBody.hashAlgorithm, secretProofTransactionBody.proof);
+    }
+    static createSecretProofTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, recipientAddress, secret, hashAlgorithm, proof) {
+        return new SecretProofTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, recipientAddress, secret, hashAlgorithm, proof);
+    }
+    getRecipientAddress() {
+        return this.secretProofTransactionBody.getRecipientAddress();
+    }
+    getSecret() {
+        return this.secretProofTransactionBody.getSecret();
+    }
+    getHashAlgorithm() {
+        return this.secretProofTransactionBody.getHashAlgorithm();
+    }
+    getProof() {
+        return this.secretProofTransactionBody.getProof();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.secretProofTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.secretProofTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const secretProofTransactionBodyBytes = this.secretProofTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, secretProofTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.SecretProofTransactionBuilder = SecretProofTransactionBuilder;
+
+},{"./GeneratorUtils":348,"./SecretProofTransactionBodyBuilder":433,"./TransactionBuilder":439}],435:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+
+},{}],436:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SignatureDto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class SignatureDto {
+    constructor(signature) {
+        this.signature = signature;
+    }
+    static loadFromBinary(payload) {
+        const signature = GeneratorUtils_1.GeneratorUtils.getBytes(Uint8Array.from(payload), 64);
+        return new SignatureDto(signature);
+    }
+    getSignature() {
+        return this.signature;
+    }
+    getSize() {
+        return 64;
+    }
+    serialize() {
+        return this.getSignature();
+    }
+}
+exports.SignatureDto = SignatureDto;
+
+},{"./GeneratorUtils":348}],437:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.StateHeaderBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class StateHeaderBuilder {
+    constructor(version) {
+        GeneratorUtils_1.GeneratorUtils.notNull(version, 'version is null or undefined');
+        this.version = version;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const version = GeneratorUtils_1.GeneratorUtils.bufferToUint16(Uint8Array.from(byteArray));
+        byteArray.splice(0, 2);
+        return new StateHeaderBuilder(version);
+    }
+    static createStateHeaderBuilder(version) {
+        return new StateHeaderBuilder(version);
+    }
+    getVersion() {
+        return this.version;
+    }
+    getSize() {
+        let size = 0;
+        size += 2;
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const versionBytes = GeneratorUtils_1.GeneratorUtils.uint16ToBuffer(this.getVersion());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, versionBytes);
+        return newArray;
+    }
+}
+exports.StateHeaderBuilder = StateHeaderBuilder;
+
+},{"./GeneratorUtils":348}],438:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.TimestampDto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class TimestampDto {
+    constructor(timestamp) {
+        this.timestamp = timestamp;
+    }
+    static loadFromBinary(payload) {
+        const timestamp = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(payload));
+        return new TimestampDto(timestamp);
+    }
+    getTimestamp() {
+        return this.timestamp;
+    }
+    getSize() {
+        return 8;
+    }
+    serialize() {
+        return GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getTimestamp());
+    }
+}
+exports.TimestampDto = TimestampDto;
+
+},{"./GeneratorUtils":348}],439:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.TransactionBuilder = void 0;
+const AmountDto_1 = require("./AmountDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const KeyDto_1 = require("./KeyDto");
+const SignatureDto_1 = require("./SignatureDto");
+const TimestampDto_1 = require("./TimestampDto");
+class TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline) {
+        GeneratorUtils_1.GeneratorUtils.notNull(signature, 'signature is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(signerPublicKey, 'signerPublicKey is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(version, 'version is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(network, 'network is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(type, 'type is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(fee, 'fee is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(deadline, 'deadline is null or undefined');
+        this.signature = signature;
+        this.signerPublicKey = signerPublicKey;
+        this.version = version;
+        this.network = network;
+        this.type = type;
+        this.fee = fee;
+        this.deadline = deadline;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const size = GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        const signature = SignatureDto_1.SignatureDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, signature.getSize());
+        const signerPublicKey = KeyDto_1.KeyDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, signerPublicKey.getSize());
+        GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        const version = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const network = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const type = GeneratorUtils_1.GeneratorUtils.bufferToUint16(Uint8Array.from(byteArray));
+        byteArray.splice(0, 2);
+        const fee = AmountDto_1.AmountDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, fee.getSize());
+        const deadline = TimestampDto_1.TimestampDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, deadline.getSize());
+        return new TransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline);
+    }
+    static createTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline) {
+        return new TransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline);
+    }
+    getSignature() {
+        return this.signature;
+    }
+    getSignerPublicKey() {
+        return this.signerPublicKey;
+    }
+    getVersion() {
+        return this.version;
+    }
+    getNetwork() {
+        return this.network;
+    }
+    getType() {
+        return this.type;
+    }
+    getFee() {
+        return this.fee;
+    }
+    getDeadline() {
+        return this.deadline;
+    }
+    getSize() {
+        let size = 0;
+        size += 4;
+        size += 4;
+        size += this.signature.getSize();
+        size += this.signerPublicKey.getSize();
+        size += 4;
+        size += 1;
+        size += 1;
+        size += 2;
+        size += this.fee.getSize();
+        size += this.deadline.getSize();
+        return size;
+    }
+    getBody() {
+        return undefined;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const sizeBytes = GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(this.getSize());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, sizeBytes);
+        const verifiableEntityHeader_Reserved1Bytes = GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, verifiableEntityHeader_Reserved1Bytes);
+        const signatureBytes = this.signature.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, signatureBytes);
+        const signerPublicKeyBytes = this.signerPublicKey.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, signerPublicKeyBytes);
+        const entityBody_Reserved1Bytes = GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, entityBody_Reserved1Bytes);
+        const versionBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.getVersion());
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, versionBytes);
+        const networkBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.network);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, networkBytes);
+        const typeBytes = GeneratorUtils_1.GeneratorUtils.uint16ToBuffer(this.type);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, typeBytes);
+        const feeBytes = this.fee.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, feeBytes);
+        const deadlineBytes = this.deadline.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, deadlineBytes);
+        return newArray;
+    }
+}
+exports.TransactionBuilder = TransactionBuilder;
+
+},{"./AmountDto":310,"./GeneratorUtils":348,"./KeyDto":365,"./SignatureDto":436,"./TimestampDto":438}],440:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.TransactionHelper = void 0;
+const AccountAddressRestrictionTransactionBuilder_1 = require("./AccountAddressRestrictionTransactionBuilder");
+const AccountKeyLinkTransactionBuilder_1 = require("./AccountKeyLinkTransactionBuilder");
+const AccountMetadataTransactionBuilder_1 = require("./AccountMetadataTransactionBuilder");
+const AccountMosaicRestrictionTransactionBuilder_1 = require("./AccountMosaicRestrictionTransactionBuilder");
+const AccountOperationRestrictionTransactionBuilder_1 = require("./AccountOperationRestrictionTransactionBuilder");
+const AddressAliasTransactionBuilder_1 = require("./AddressAliasTransactionBuilder");
+const AggregateBondedTransactionBuilder_1 = require("./AggregateBondedTransactionBuilder");
+const AggregateCompleteTransactionBuilder_1 = require("./AggregateCompleteTransactionBuilder");
+const HashLockTransactionBuilder_1 = require("./HashLockTransactionBuilder");
+const MosaicAddressRestrictionTransactionBuilder_1 = require("./MosaicAddressRestrictionTransactionBuilder");
+const MosaicAliasTransactionBuilder_1 = require("./MosaicAliasTransactionBuilder");
+const MosaicDefinitionTransactionBuilder_1 = require("./MosaicDefinitionTransactionBuilder");
+const MosaicGlobalRestrictionTransactionBuilder_1 = require("./MosaicGlobalRestrictionTransactionBuilder");
+const MosaicMetadataTransactionBuilder_1 = require("./MosaicMetadataTransactionBuilder");
+const MosaicSupplyChangeTransactionBuilder_1 = require("./MosaicSupplyChangeTransactionBuilder");
+const MultisigAccountModificationTransactionBuilder_1 = require("./MultisigAccountModificationTransactionBuilder");
+const NamespaceMetadataTransactionBuilder_1 = require("./NamespaceMetadataTransactionBuilder");
+const NamespaceRegistrationTransactionBuilder_1 = require("./NamespaceRegistrationTransactionBuilder");
+const NodeKeyLinkTransactionBuilder_1 = require("./NodeKeyLinkTransactionBuilder");
+const SecretLockTransactionBuilder_1 = require("./SecretLockTransactionBuilder");
+const SecretProofTransactionBuilder_1 = require("./SecretProofTransactionBuilder");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+const TransferTransactionBuilder_1 = require("./TransferTransactionBuilder");
+const VotingKeyLinkTransactionBuilder_1 = require("./VotingKeyLinkTransactionBuilder");
+const VrfKeyLinkTransactionBuilder_1 = require("./VrfKeyLinkTransactionBuilder");
+class TransactionHelper {
+    static loadFromBinary(payload) {
+        const header = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        if (header.type === 16716 && header.version === 1) {
+            return AccountKeyLinkTransactionBuilder_1.AccountKeyLinkTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16972 && header.version === 1) {
+            return NodeKeyLinkTransactionBuilder_1.NodeKeyLinkTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16705 && header.version === 1) {
+            return AggregateCompleteTransactionBuilder_1.AggregateCompleteTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16961 && header.version === 1) {
+            return AggregateBondedTransactionBuilder_1.AggregateBondedTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16707 && header.version === 1) {
+            return VotingKeyLinkTransactionBuilder_1.VotingKeyLinkTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16963 && header.version === 1) {
+            return VrfKeyLinkTransactionBuilder_1.VrfKeyLinkTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16712 && header.version === 1) {
+            return HashLockTransactionBuilder_1.HashLockTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16722 && header.version === 1) {
+            return SecretLockTransactionBuilder_1.SecretLockTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16978 && header.version === 1) {
+            return SecretProofTransactionBuilder_1.SecretProofTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16708 && header.version === 1) {
+            return AccountMetadataTransactionBuilder_1.AccountMetadataTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16964 && header.version === 1) {
+            return MosaicMetadataTransactionBuilder_1.MosaicMetadataTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 17220 && header.version === 1) {
+            return NamespaceMetadataTransactionBuilder_1.NamespaceMetadataTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16717 && header.version === 1) {
+            return MosaicDefinitionTransactionBuilder_1.MosaicDefinitionTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16973 && header.version === 1) {
+            return MosaicSupplyChangeTransactionBuilder_1.MosaicSupplyChangeTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16725 && header.version === 1) {
+            return MultisigAccountModificationTransactionBuilder_1.MultisigAccountModificationTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16974 && header.version === 1) {
+            return AddressAliasTransactionBuilder_1.AddressAliasTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 17230 && header.version === 1) {
+            return MosaicAliasTransactionBuilder_1.MosaicAliasTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16718 && header.version === 1) {
+            return NamespaceRegistrationTransactionBuilder_1.NamespaceRegistrationTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16720 && header.version === 1) {
+            return AccountAddressRestrictionTransactionBuilder_1.AccountAddressRestrictionTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16976 && header.version === 1) {
+            return AccountMosaicRestrictionTransactionBuilder_1.AccountMosaicRestrictionTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 17232 && header.version === 1) {
+            return AccountOperationRestrictionTransactionBuilder_1.AccountOperationRestrictionTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16977 && header.version === 1) {
+            return MosaicAddressRestrictionTransactionBuilder_1.MosaicAddressRestrictionTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16721 && header.version === 1) {
+            return MosaicGlobalRestrictionTransactionBuilder_1.MosaicGlobalRestrictionTransactionBuilder.loadFromBinary(payload);
+        }
+        if (header.type === 16724 && header.version === 1) {
+            return TransferTransactionBuilder_1.TransferTransactionBuilder.loadFromBinary(payload);
+        }
+        return header;
+    }
+}
+exports.TransactionHelper = TransactionHelper;
+
+},{"./AccountAddressRestrictionTransactionBuilder":280,"./AccountKeyLinkTransactionBuilder":282,"./AccountMetadataTransactionBuilder":285,"./AccountMosaicRestrictionTransactionBuilder":287,"./AccountOperationRestrictionTransactionBuilder":289,"./AddressAliasTransactionBuilder":300,"./AggregateBondedTransactionBuilder":306,"./AggregateCompleteTransactionBuilder":307,"./HashLockTransactionBuilder":355,"./MosaicAddressRestrictionTransactionBuilder":374,"./MosaicAliasTransactionBuilder":376,"./MosaicDefinitionTransactionBuilder":380,"./MosaicGlobalRestrictionTransactionBuilder":386,"./MosaicMetadataTransactionBuilder":389,"./MosaicSupplyChangeTransactionBuilder":400,"./MultisigAccountModificationTransactionBuilder":402,"./NamespaceMetadataTransactionBuilder":410,"./NamespaceRegistrationTransactionBuilder":413,"./NodeKeyLinkTransactionBuilder":418,"./SecretLockTransactionBuilder":432,"./SecretProofTransactionBuilder":434,"./TransactionBuilder":439,"./TransferTransactionBuilder":442,"./VotingKeyLinkTransactionBuilder":448,"./VrfKeyLinkTransactionBuilder":450}],441:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.TransferTransactionBodyBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const UnresolvedAddressDto_1 = require("./UnresolvedAddressDto");
+const UnresolvedMosaicBuilder_1 = require("./UnresolvedMosaicBuilder");
+class TransferTransactionBodyBuilder {
+    constructor(recipientAddress, mosaics, message) {
+        GeneratorUtils_1.GeneratorUtils.notNull(recipientAddress, 'recipientAddress is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(mosaics, 'mosaics is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(message, 'message is null or undefined');
+        this.recipientAddress = recipientAddress;
+        this.mosaics = mosaics;
+        this.message = message;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const recipientAddress = UnresolvedAddressDto_1.UnresolvedAddressDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, recipientAddress.getSize());
+        const messageSize = GeneratorUtils_1.GeneratorUtils.bufferToUint16(Uint8Array.from(byteArray));
+        byteArray.splice(0, 2);
+        const mosaicsCount = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        GeneratorUtils_1.GeneratorUtils.bufferToUint32(Uint8Array.from(byteArray));
+        byteArray.splice(0, 4);
+        GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        const mosaics = GeneratorUtils_1.GeneratorUtils.loadFromBinary(UnresolvedMosaicBuilder_1.UnresolvedMosaicBuilder.loadFromBinary, Uint8Array.from(byteArray), mosaicsCount);
+        byteArray.splice(0, mosaics.reduce((sum, c) => sum + c.getSize(), 0));
+        const message = GeneratorUtils_1.GeneratorUtils.getBytes(Uint8Array.from(byteArray), messageSize);
+        byteArray.splice(0, messageSize);
+        return new TransferTransactionBodyBuilder(recipientAddress, mosaics, message);
+    }
+    static createTransferTransactionBodyBuilder(recipientAddress, mosaics, message) {
+        return new TransferTransactionBodyBuilder(recipientAddress, mosaics, message);
+    }
+    getRecipientAddress() {
+        return this.recipientAddress;
+    }
+    getMosaics() {
+        return this.mosaics;
+    }
+    getMessage() {
+        return this.message;
+    }
+    getSize() {
+        let size = 0;
+        size += this.recipientAddress.getSize();
+        size += 2;
+        size += 1;
+        size += 4;
+        size += 1;
+        size += this.mosaics.reduce((sum, c) => sum + GeneratorUtils_1.GeneratorUtils.getSizeWithPadding(c.getSize(), 0), 0);
+        size += this.message.length;
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const recipientAddressBytes = this.recipientAddress.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, recipientAddressBytes);
+        const messageSizeBytes = GeneratorUtils_1.GeneratorUtils.uint16ToBuffer(this.message.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, messageSizeBytes);
+        const mosaicsCountBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.mosaics.length);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicsCountBytes);
+        const transferTransactionBody_Reserved1Bytes = GeneratorUtils_1.GeneratorUtils.uint32ToBuffer(0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, transferTransactionBody_Reserved1Bytes);
+        const transferTransactionBody_Reserved2Bytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, transferTransactionBody_Reserved2Bytes);
+        const mosaicsBytes = GeneratorUtils_1.GeneratorUtils.writeList(this.mosaics, 0);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicsBytes);
+        const messageBytes = this.message;
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, messageBytes);
+        return newArray;
+    }
+}
+exports.TransferTransactionBodyBuilder = TransferTransactionBodyBuilder;
+
+},{"./GeneratorUtils":348,"./UnresolvedAddressDto":443,"./UnresolvedMosaicBuilder":444}],442:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.TransferTransactionBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+const TransferTransactionBodyBuilder_1 = require("./TransferTransactionBodyBuilder");
+class TransferTransactionBuilder extends TransactionBuilder_1.TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline, recipientAddress, mosaics, message) {
+        super(signature, signerPublicKey, version, network, type, fee, deadline);
+        this.transferTransactionBody = new TransferTransactionBodyBuilder_1.TransferTransactionBodyBuilder(recipientAddress, mosaics, message);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const transferTransactionBody = TransferTransactionBodyBuilder_1.TransferTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, transferTransactionBody.getSize());
+        return new TransferTransactionBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.fee, superObject.deadline, transferTransactionBody.recipientAddress, transferTransactionBody.mosaics, transferTransactionBody.message);
+    }
+    static createTransferTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, recipientAddress, mosaics, message) {
+        return new TransferTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, recipientAddress, mosaics, message);
+    }
+    getRecipientAddress() {
+        return this.transferTransactionBody.getRecipientAddress();
+    }
+    getMosaics() {
+        return this.transferTransactionBody.getMosaics();
+    }
+    getMessage() {
+        return this.transferTransactionBody.getMessage();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.transferTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.transferTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const transferTransactionBodyBytes = this.transferTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, transferTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.TransferTransactionBuilder = TransferTransactionBuilder;
+
+},{"./GeneratorUtils":348,"./TransactionBuilder":439,"./TransferTransactionBodyBuilder":441}],443:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.UnresolvedAddressDto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class UnresolvedAddressDto {
+    constructor(unresolvedAddress) {
+        this.unresolvedAddress = unresolvedAddress;
+    }
+    static loadFromBinary(payload) {
+        const unresolvedAddress = GeneratorUtils_1.GeneratorUtils.getBytes(Uint8Array.from(payload), 24);
+        return new UnresolvedAddressDto(unresolvedAddress);
+    }
+    getUnresolvedAddress() {
+        return this.unresolvedAddress;
+    }
+    getSize() {
+        return 24;
+    }
+    serialize() {
+        return this.getUnresolvedAddress();
+    }
+}
+exports.UnresolvedAddressDto = UnresolvedAddressDto;
+
+},{"./GeneratorUtils":348}],444:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.UnresolvedMosaicBuilder = void 0;
+const AmountDto_1 = require("./AmountDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const UnresolvedMosaicIdDto_1 = require("./UnresolvedMosaicIdDto");
+class UnresolvedMosaicBuilder {
+    constructor(mosaicId, amount) {
+        GeneratorUtils_1.GeneratorUtils.notNull(mosaicId, 'mosaicId is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(amount, 'amount is null or undefined');
+        this.mosaicId = mosaicId;
+        this.amount = amount;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const mosaicId = UnresolvedMosaicIdDto_1.UnresolvedMosaicIdDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, mosaicId.getSize());
+        const amount = AmountDto_1.AmountDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, amount.getSize());
+        return new UnresolvedMosaicBuilder(mosaicId, amount);
+    }
+    static createUnresolvedMosaicBuilder(mosaicId, amount) {
+        return new UnresolvedMosaicBuilder(mosaicId, amount);
+    }
+    getMosaicId() {
+        return this.mosaicId;
+    }
+    getAmount() {
+        return this.amount;
+    }
+    getSize() {
+        let size = 0;
+        size += this.mosaicId.getSize();
+        size += this.amount.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const mosaicIdBytes = this.mosaicId.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, mosaicIdBytes);
+        const amountBytes = this.amount.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, amountBytes);
+        return newArray;
+    }
+}
+exports.UnresolvedMosaicBuilder = UnresolvedMosaicBuilder;
+
+},{"./AmountDto":310,"./GeneratorUtils":348,"./UnresolvedMosaicIdDto":445}],445:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.UnresolvedMosaicIdDto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class UnresolvedMosaicIdDto {
+    constructor(unresolvedMosaicId) {
+        this.unresolvedMosaicId = unresolvedMosaicId;
+    }
+    static loadFromBinary(payload) {
+        const unresolvedMosaicId = GeneratorUtils_1.GeneratorUtils.bufferToUint64(Uint8Array.from(payload));
+        return new UnresolvedMosaicIdDto(unresolvedMosaicId);
+    }
+    getUnresolvedMosaicId() {
+        return this.unresolvedMosaicId;
+    }
+    getSize() {
+        return 8;
+    }
+    serialize() {
+        return GeneratorUtils_1.GeneratorUtils.uint64ToBuffer(this.getUnresolvedMosaicId());
+    }
+}
+exports.UnresolvedMosaicIdDto = UnresolvedMosaicIdDto;
+
+},{"./GeneratorUtils":348}],446:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.VotingKeyDto = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+class VotingKeyDto {
+    constructor(votingKey) {
+        this.votingKey = votingKey;
+    }
+    static loadFromBinary(payload) {
+        const votingKey = GeneratorUtils_1.GeneratorUtils.getBytes(Uint8Array.from(payload), 32);
+        return new VotingKeyDto(votingKey);
+    }
+    getVotingKey() {
+        return this.votingKey;
+    }
+    getSize() {
+        return 32;
+    }
+    serialize() {
+        return this.getVotingKey();
+    }
+}
+exports.VotingKeyDto = VotingKeyDto;
+
+},{"./GeneratorUtils":348}],447:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.VotingKeyLinkTransactionBodyBuilder = void 0;
+const FinalizationEpochDto_1 = require("./FinalizationEpochDto");
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const VotingKeyDto_1 = require("./VotingKeyDto");
+class VotingKeyLinkTransactionBodyBuilder {
+    constructor(linkedPublicKey, startEpoch, endEpoch, linkAction) {
+        GeneratorUtils_1.GeneratorUtils.notNull(linkedPublicKey, 'linkedPublicKey is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(startEpoch, 'startEpoch is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(endEpoch, 'endEpoch is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(linkAction, 'linkAction is null or undefined');
+        this.linkedPublicKey = linkedPublicKey;
+        this.startEpoch = startEpoch;
+        this.endEpoch = endEpoch;
+        this.linkAction = linkAction;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const linkedPublicKey = VotingKeyDto_1.VotingKeyDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, linkedPublicKey.getSize());
+        const startEpoch = FinalizationEpochDto_1.FinalizationEpochDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, startEpoch.getSize());
+        const endEpoch = FinalizationEpochDto_1.FinalizationEpochDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, endEpoch.getSize());
+        const linkAction = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        return new VotingKeyLinkTransactionBodyBuilder(linkedPublicKey, startEpoch, endEpoch, linkAction);
+    }
+    static createVotingKeyLinkTransactionBodyBuilder(linkedPublicKey, startEpoch, endEpoch, linkAction) {
+        return new VotingKeyLinkTransactionBodyBuilder(linkedPublicKey, startEpoch, endEpoch, linkAction);
+    }
+    getLinkedPublicKey() {
+        return this.linkedPublicKey;
+    }
+    getStartEpoch() {
+        return this.startEpoch;
+    }
+    getEndEpoch() {
+        return this.endEpoch;
+    }
+    getLinkAction() {
+        return this.linkAction;
+    }
+    getSize() {
+        let size = 0;
+        size += this.linkedPublicKey.getSize();
+        size += this.startEpoch.getSize();
+        size += this.endEpoch.getSize();
+        size += 1;
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const linkedPublicKeyBytes = this.linkedPublicKey.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, linkedPublicKeyBytes);
+        const startEpochBytes = this.startEpoch.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, startEpochBytes);
+        const endEpochBytes = this.endEpoch.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, endEpochBytes);
+        const linkActionBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.linkAction);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, linkActionBytes);
+        return newArray;
+    }
+}
+exports.VotingKeyLinkTransactionBodyBuilder = VotingKeyLinkTransactionBodyBuilder;
+
+},{"./FinalizationEpochDto":344,"./GeneratorUtils":348,"./VotingKeyDto":446}],448:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.VotingKeyLinkTransactionBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+const VotingKeyLinkTransactionBodyBuilder_1 = require("./VotingKeyLinkTransactionBodyBuilder");
+class VotingKeyLinkTransactionBuilder extends TransactionBuilder_1.TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline, linkedPublicKey, startEpoch, endEpoch, linkAction) {
+        super(signature, signerPublicKey, version, network, type, fee, deadline);
+        this.votingKeyLinkTransactionBody = new VotingKeyLinkTransactionBodyBuilder_1.VotingKeyLinkTransactionBodyBuilder(linkedPublicKey, startEpoch, endEpoch, linkAction);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const votingKeyLinkTransactionBody = VotingKeyLinkTransactionBodyBuilder_1.VotingKeyLinkTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, votingKeyLinkTransactionBody.getSize());
+        return new VotingKeyLinkTransactionBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.fee, superObject.deadline, votingKeyLinkTransactionBody.linkedPublicKey, votingKeyLinkTransactionBody.startEpoch, votingKeyLinkTransactionBody.endEpoch, votingKeyLinkTransactionBody.linkAction);
+    }
+    static createVotingKeyLinkTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, linkedPublicKey, startEpoch, endEpoch, linkAction) {
+        return new VotingKeyLinkTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, linkedPublicKey, startEpoch, endEpoch, linkAction);
+    }
+    getLinkedPublicKey() {
+        return this.votingKeyLinkTransactionBody.getLinkedPublicKey();
+    }
+    getStartEpoch() {
+        return this.votingKeyLinkTransactionBody.getStartEpoch();
+    }
+    getEndEpoch() {
+        return this.votingKeyLinkTransactionBody.getEndEpoch();
+    }
+    getLinkAction() {
+        return this.votingKeyLinkTransactionBody.getLinkAction();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.votingKeyLinkTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.votingKeyLinkTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const votingKeyLinkTransactionBodyBytes = this.votingKeyLinkTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, votingKeyLinkTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.VotingKeyLinkTransactionBuilder = VotingKeyLinkTransactionBuilder;
+
+},{"./GeneratorUtils":348,"./TransactionBuilder":439,"./VotingKeyLinkTransactionBodyBuilder":447}],449:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.VrfKeyLinkTransactionBodyBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const KeyDto_1 = require("./KeyDto");
+class VrfKeyLinkTransactionBodyBuilder {
+    constructor(linkedPublicKey, linkAction) {
+        GeneratorUtils_1.GeneratorUtils.notNull(linkedPublicKey, 'linkedPublicKey is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(linkAction, 'linkAction is null or undefined');
+        this.linkedPublicKey = linkedPublicKey;
+        this.linkAction = linkAction;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const linkedPublicKey = KeyDto_1.KeyDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, linkedPublicKey.getSize());
+        const linkAction = GeneratorUtils_1.GeneratorUtils.bufferToUint8(Uint8Array.from(byteArray));
+        byteArray.splice(0, 1);
+        return new VrfKeyLinkTransactionBodyBuilder(linkedPublicKey, linkAction);
+    }
+    static createVrfKeyLinkTransactionBodyBuilder(linkedPublicKey, linkAction) {
+        return new VrfKeyLinkTransactionBodyBuilder(linkedPublicKey, linkAction);
+    }
+    getLinkedPublicKey() {
+        return this.linkedPublicKey;
+    }
+    getLinkAction() {
+        return this.linkAction;
+    }
+    getSize() {
+        let size = 0;
+        size += this.linkedPublicKey.getSize();
+        size += 1;
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const linkedPublicKeyBytes = this.linkedPublicKey.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, linkedPublicKeyBytes);
+        const linkActionBytes = GeneratorUtils_1.GeneratorUtils.uint8ToBuffer(this.linkAction);
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, linkActionBytes);
+        return newArray;
+    }
+}
+exports.VrfKeyLinkTransactionBodyBuilder = VrfKeyLinkTransactionBodyBuilder;
+
+},{"./GeneratorUtils":348,"./KeyDto":365}],450:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.VrfKeyLinkTransactionBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const TransactionBuilder_1 = require("./TransactionBuilder");
+const VrfKeyLinkTransactionBodyBuilder_1 = require("./VrfKeyLinkTransactionBodyBuilder");
+class VrfKeyLinkTransactionBuilder extends TransactionBuilder_1.TransactionBuilder {
+    constructor(signature, signerPublicKey, version, network, type, fee, deadline, linkedPublicKey, linkAction) {
+        super(signature, signerPublicKey, version, network, type, fee, deadline);
+        this.vrfKeyLinkTransactionBody = new VrfKeyLinkTransactionBodyBuilder_1.VrfKeyLinkTransactionBodyBuilder(linkedPublicKey, linkAction);
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const superObject = TransactionBuilder_1.TransactionBuilder.loadFromBinary(payload);
+        byteArray.splice(0, superObject.getSize());
+        const vrfKeyLinkTransactionBody = VrfKeyLinkTransactionBodyBuilder_1.VrfKeyLinkTransactionBodyBuilder.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, vrfKeyLinkTransactionBody.getSize());
+        return new VrfKeyLinkTransactionBuilder(superObject.signature, superObject.signerPublicKey, superObject.version, superObject.network, superObject.type, superObject.fee, superObject.deadline, vrfKeyLinkTransactionBody.linkedPublicKey, vrfKeyLinkTransactionBody.linkAction);
+    }
+    static createVrfKeyLinkTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, linkedPublicKey, linkAction) {
+        return new VrfKeyLinkTransactionBuilder(signature, signerPublicKey, version, network, type, fee, deadline, linkedPublicKey, linkAction);
+    }
+    getLinkedPublicKey() {
+        return this.vrfKeyLinkTransactionBody.getLinkedPublicKey();
+    }
+    getLinkAction() {
+        return this.vrfKeyLinkTransactionBody.getLinkAction();
+    }
+    getSize() {
+        let size = super.getSize();
+        size += this.vrfKeyLinkTransactionBody.getSize();
+        return size;
+    }
+    getBody() {
+        return this.vrfKeyLinkTransactionBody;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const superBytes = super.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, superBytes);
+        const vrfKeyLinkTransactionBodyBytes = this.vrfKeyLinkTransactionBody.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, vrfKeyLinkTransactionBodyBytes);
+        return newArray;
+    }
+}
+exports.VrfKeyLinkTransactionBuilder = VrfKeyLinkTransactionBuilder;
+
+},{"./GeneratorUtils":348,"./TransactionBuilder":439,"./VrfKeyLinkTransactionBodyBuilder":449}],451:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.VrfProofBuilder = void 0;
+const GeneratorUtils_1 = require("./GeneratorUtils");
+const ProofGammaDto_1 = require("./ProofGammaDto");
+const ProofScalarDto_1 = require("./ProofScalarDto");
+const ProofVerificationHashDto_1 = require("./ProofVerificationHashDto");
+class VrfProofBuilder {
+    constructor(gamma, verificationHash, scalar) {
+        GeneratorUtils_1.GeneratorUtils.notNull(gamma, 'gamma is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(verificationHash, 'verificationHash is null or undefined');
+        GeneratorUtils_1.GeneratorUtils.notNull(scalar, 'scalar is null or undefined');
+        this.gamma = gamma;
+        this.verificationHash = verificationHash;
+        this.scalar = scalar;
+    }
+    static loadFromBinary(payload) {
+        const byteArray = Array.from(payload);
+        const gamma = ProofGammaDto_1.ProofGammaDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, gamma.getSize());
+        const verificationHash = ProofVerificationHashDto_1.ProofVerificationHashDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, verificationHash.getSize());
+        const scalar = ProofScalarDto_1.ProofScalarDto.loadFromBinary(Uint8Array.from(byteArray));
+        byteArray.splice(0, scalar.getSize());
+        return new VrfProofBuilder(gamma, verificationHash, scalar);
+    }
+    static createVrfProofBuilder(gamma, verificationHash, scalar) {
+        return new VrfProofBuilder(gamma, verificationHash, scalar);
+    }
+    getGamma() {
+        return this.gamma;
+    }
+    getVerificationHash() {
+        return this.verificationHash;
+    }
+    getScalar() {
+        return this.scalar;
+    }
+    getSize() {
+        let size = 0;
+        size += this.gamma.getSize();
+        size += this.verificationHash.getSize();
+        size += this.scalar.getSize();
+        return size;
+    }
+    serialize() {
+        let newArray = Uint8Array.from([]);
+        const gammaBytes = this.gamma.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, gammaBytes);
+        const verificationHashBytes = this.verificationHash.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, verificationHashBytes);
+        const scalarBytes = this.scalar.serialize();
+        newArray = GeneratorUtils_1.GeneratorUtils.concatTypedArrays(newArray, scalarBytes);
+        return newArray;
+    }
+}
+exports.VrfProofBuilder = VrfProofBuilder;
+
+},{"./GeneratorUtils":348,"./ProofGammaDto":421,"./ProofScalarDto":422,"./ProofVerificationHashDto":423}],452:[function(require,module,exports){
 var assert = require('assert')
 var BigInteger = require('bigi')
 
@@ -49166,7 +58220,7 @@ Curve.prototype.validate = function (Q) {
 
 module.exports = Curve
 
-},{"./point":283,"assert":16,"bigi":203}],280:[function(require,module,exports){
+},{"./point":456,"assert":16,"bigi":203}],453:[function(require,module,exports){
 module.exports={
   "secp128r1": {
     "p": "fffffffdffffffffffffffffffffffff",
@@ -49233,7 +58287,7 @@ module.exports={
   }
 }
 
-},{}],281:[function(require,module,exports){
+},{}],454:[function(require,module,exports){
 var Point = require('./point')
 var Curve = require('./curve')
 
@@ -49245,7 +58299,7 @@ module.exports = {
   getCurveByName: getCurveByName
 }
 
-},{"./curve":279,"./names":282,"./point":283}],282:[function(require,module,exports){
+},{"./curve":452,"./names":455,"./point":456}],455:[function(require,module,exports){
 var BigInteger = require('bigi')
 
 var curves = require('./curves.json')
@@ -49268,7 +58322,7 @@ function getCurveByName (name) {
 
 module.exports = getCurveByName
 
-},{"./curve":279,"./curves.json":280,"bigi":203}],283:[function(require,module,exports){
+},{"./curve":452,"./curves.json":453,"bigi":203}],456:[function(require,module,exports){
 var assert = require('assert')
 var Buffer = require('safe-buffer').Buffer
 var BigInteger = require('bigi')
@@ -49514,37 +58568,37 @@ Point.prototype.toString = function () {
 
 module.exports = Point
 
-},{"assert":16,"bigi":203,"safe-buffer":338}],284:[function(require,module,exports){
+},{"assert":16,"bigi":203,"safe-buffer":509}],457:[function(require,module,exports){
 arguments[4][87][0].apply(exports,arguments)
-},{"../package.json":299,"./elliptic/curve":287,"./elliptic/curves":290,"./elliptic/ec":291,"./elliptic/eddsa":294,"./elliptic/utils":298,"brorand":276,"dup":87}],285:[function(require,module,exports){
+},{"../package.json":472,"./elliptic/curve":460,"./elliptic/curves":463,"./elliptic/ec":464,"./elliptic/eddsa":467,"./elliptic/utils":471,"brorand":276,"dup":87}],458:[function(require,module,exports){
 arguments[4][88][0].apply(exports,arguments)
-},{"../utils":298,"bn.js":275,"dup":88}],286:[function(require,module,exports){
+},{"../utils":471,"bn.js":275,"dup":88}],459:[function(require,module,exports){
 arguments[4][89][0].apply(exports,arguments)
-},{"../utils":298,"./base":285,"bn.js":275,"dup":89,"inherits":315}],287:[function(require,module,exports){
+},{"../utils":471,"./base":458,"bn.js":275,"dup":89,"inherits":488}],460:[function(require,module,exports){
 arguments[4][90][0].apply(exports,arguments)
-},{"./base":285,"./edwards":286,"./mont":288,"./short":289,"dup":90}],288:[function(require,module,exports){
+},{"./base":458,"./edwards":459,"./mont":461,"./short":462,"dup":90}],461:[function(require,module,exports){
 arguments[4][91][0].apply(exports,arguments)
-},{"../utils":298,"./base":285,"bn.js":275,"dup":91,"inherits":315}],289:[function(require,module,exports){
+},{"../utils":471,"./base":458,"bn.js":275,"dup":91,"inherits":488}],462:[function(require,module,exports){
 arguments[4][92][0].apply(exports,arguments)
-},{"../utils":298,"./base":285,"bn.js":275,"dup":92,"inherits":315}],290:[function(require,module,exports){
+},{"../utils":471,"./base":458,"bn.js":275,"dup":92,"inherits":488}],463:[function(require,module,exports){
 arguments[4][93][0].apply(exports,arguments)
-},{"./curve":287,"./precomputed/secp256k1":297,"./utils":298,"dup":93,"hash.js":301}],291:[function(require,module,exports){
+},{"./curve":460,"./precomputed/secp256k1":470,"./utils":471,"dup":93,"hash.js":474}],464:[function(require,module,exports){
 arguments[4][94][0].apply(exports,arguments)
-},{"../curves":290,"../utils":298,"./key":292,"./signature":293,"bn.js":275,"brorand":276,"dup":94,"hmac-drbg":313}],292:[function(require,module,exports){
+},{"../curves":463,"../utils":471,"./key":465,"./signature":466,"bn.js":275,"brorand":276,"dup":94,"hmac-drbg":486}],465:[function(require,module,exports){
 arguments[4][95][0].apply(exports,arguments)
-},{"../utils":298,"bn.js":275,"dup":95}],293:[function(require,module,exports){
+},{"../utils":471,"bn.js":275,"dup":95}],466:[function(require,module,exports){
 arguments[4][96][0].apply(exports,arguments)
-},{"../utils":298,"bn.js":275,"dup":96}],294:[function(require,module,exports){
+},{"../utils":471,"bn.js":275,"dup":96}],467:[function(require,module,exports){
 arguments[4][97][0].apply(exports,arguments)
-},{"../curves":290,"../utils":298,"./key":295,"./signature":296,"dup":97,"hash.js":301}],295:[function(require,module,exports){
+},{"../curves":463,"../utils":471,"./key":468,"./signature":469,"dup":97,"hash.js":474}],468:[function(require,module,exports){
 arguments[4][98][0].apply(exports,arguments)
-},{"../utils":298,"dup":98}],296:[function(require,module,exports){
+},{"../utils":471,"dup":98}],469:[function(require,module,exports){
 arguments[4][99][0].apply(exports,arguments)
-},{"../utils":298,"bn.js":275,"dup":99}],297:[function(require,module,exports){
+},{"../utils":471,"bn.js":275,"dup":99}],470:[function(require,module,exports){
 arguments[4][100][0].apply(exports,arguments)
-},{"dup":100}],298:[function(require,module,exports){
+},{"dup":100}],471:[function(require,module,exports){
 arguments[4][101][0].apply(exports,arguments)
-},{"bn.js":275,"dup":101,"minimalistic-assert":319,"minimalistic-crypto-utils":320}],299:[function(require,module,exports){
+},{"bn.js":275,"dup":101,"minimalistic-assert":490,"minimalistic-crypto-utils":491}],472:[function(require,module,exports){
 module.exports={
   "_from": "elliptic@^6.4.0",
   "_id": "elliptic@6.5.4",
@@ -49630,1221 +58684,39 @@ module.exports={
   "version": "6.5.4"
 }
 
-},{}],300:[function(require,module,exports){
+},{}],473:[function(require,module,exports){
 arguments[4][106][0].apply(exports,arguments)
-},{"dup":106,"inherits":315,"readable-stream":336,"safe-buffer":338}],301:[function(require,module,exports){
+},{"dup":106,"inherits":488,"readable-stream":507,"safe-buffer":509}],474:[function(require,module,exports){
 arguments[4][122][0].apply(exports,arguments)
-},{"./hash/common":302,"./hash/hmac":303,"./hash/ripemd":304,"./hash/sha":305,"./hash/utils":312,"dup":122}],302:[function(require,module,exports){
+},{"./hash/common":475,"./hash/hmac":476,"./hash/ripemd":477,"./hash/sha":478,"./hash/utils":485,"dup":122}],475:[function(require,module,exports){
 arguments[4][123][0].apply(exports,arguments)
-},{"./utils":312,"dup":123,"minimalistic-assert":319}],303:[function(require,module,exports){
+},{"./utils":485,"dup":123,"minimalistic-assert":490}],476:[function(require,module,exports){
 arguments[4][124][0].apply(exports,arguments)
-},{"./utils":312,"dup":124,"minimalistic-assert":319}],304:[function(require,module,exports){
+},{"./utils":485,"dup":124,"minimalistic-assert":490}],477:[function(require,module,exports){
 arguments[4][125][0].apply(exports,arguments)
-},{"./common":302,"./utils":312,"dup":125}],305:[function(require,module,exports){
+},{"./common":475,"./utils":485,"dup":125}],478:[function(require,module,exports){
 arguments[4][126][0].apply(exports,arguments)
-},{"./sha/1":306,"./sha/224":307,"./sha/256":308,"./sha/384":309,"./sha/512":310,"dup":126}],306:[function(require,module,exports){
+},{"./sha/1":479,"./sha/224":480,"./sha/256":481,"./sha/384":482,"./sha/512":483,"dup":126}],479:[function(require,module,exports){
 arguments[4][127][0].apply(exports,arguments)
-},{"../common":302,"../utils":312,"./common":311,"dup":127}],307:[function(require,module,exports){
+},{"../common":475,"../utils":485,"./common":484,"dup":127}],480:[function(require,module,exports){
 arguments[4][128][0].apply(exports,arguments)
-},{"../utils":312,"./256":308,"dup":128}],308:[function(require,module,exports){
+},{"../utils":485,"./256":481,"dup":128}],481:[function(require,module,exports){
 arguments[4][129][0].apply(exports,arguments)
-},{"../common":302,"../utils":312,"./common":311,"dup":129,"minimalistic-assert":319}],309:[function(require,module,exports){
+},{"../common":475,"../utils":485,"./common":484,"dup":129,"minimalistic-assert":490}],482:[function(require,module,exports){
 arguments[4][130][0].apply(exports,arguments)
-},{"../utils":312,"./512":310,"dup":130}],310:[function(require,module,exports){
+},{"../utils":485,"./512":483,"dup":130}],483:[function(require,module,exports){
 arguments[4][131][0].apply(exports,arguments)
-},{"../common":302,"../utils":312,"dup":131,"minimalistic-assert":319}],311:[function(require,module,exports){
+},{"../common":475,"../utils":485,"dup":131,"minimalistic-assert":490}],484:[function(require,module,exports){
 arguments[4][132][0].apply(exports,arguments)
-},{"../utils":312,"dup":132}],312:[function(require,module,exports){
+},{"../utils":485,"dup":132}],485:[function(require,module,exports){
 arguments[4][133][0].apply(exports,arguments)
-},{"dup":133,"inherits":315,"minimalistic-assert":319}],313:[function(require,module,exports){
+},{"dup":133,"inherits":488,"minimalistic-assert":490}],486:[function(require,module,exports){
 arguments[4][134][0].apply(exports,arguments)
-},{"dup":134,"hash.js":301,"minimalistic-assert":319,"minimalistic-crypto-utils":320}],314:[function(require,module,exports){
+},{"dup":134,"hash.js":474,"minimalistic-assert":490,"minimalistic-crypto-utils":491}],487:[function(require,module,exports){
 arguments[4][135][0].apply(exports,arguments)
-},{"dup":135}],315:[function(require,module,exports){
+},{"dup":135}],488:[function(require,module,exports){
 arguments[4][136][0].apply(exports,arguments)
-},{"dup":136}],316:[function(require,module,exports){
-(function (process,global){(function (){
-/**
- * [js-sha256]{@link https://github.com/emn178/js-sha256}
- *
- * @version 0.9.0
- * @author Chen, Yi-Cyuan [emn178@gmail.com]
- * @copyright Chen, Yi-Cyuan 2014-2017
- * @license MIT
- */
-/*jslint bitwise: true */
-(function () {
-  'use strict';
-
-  var ERROR = 'input is invalid type';
-  var WINDOW = typeof window === 'object';
-  var root = WINDOW ? window : {};
-  if (root.JS_SHA256_NO_WINDOW) {
-    WINDOW = false;
-  }
-  var WEB_WORKER = !WINDOW && typeof self === 'object';
-  var NODE_JS = !root.JS_SHA256_NO_NODE_JS && typeof process === 'object' && process.versions && process.versions.node;
-  if (NODE_JS) {
-    root = global;
-  } else if (WEB_WORKER) {
-    root = self;
-  }
-  var COMMON_JS = !root.JS_SHA256_NO_COMMON_JS && typeof module === 'object' && module.exports;
-  var AMD = typeof define === 'function' && define.amd;
-  var ARRAY_BUFFER = !root.JS_SHA256_NO_ARRAY_BUFFER && typeof ArrayBuffer !== 'undefined';
-  var HEX_CHARS = '0123456789abcdef'.split('');
-  var EXTRA = [-2147483648, 8388608, 32768, 128];
-  var SHIFT = [24, 16, 8, 0];
-  var K = [
-    0x428a2f98, 0x71374491, 0xb5c0fbcf, 0xe9b5dba5, 0x3956c25b, 0x59f111f1, 0x923f82a4, 0xab1c5ed5,
-    0xd807aa98, 0x12835b01, 0x243185be, 0x550c7dc3, 0x72be5d74, 0x80deb1fe, 0x9bdc06a7, 0xc19bf174,
-    0xe49b69c1, 0xefbe4786, 0x0fc19dc6, 0x240ca1cc, 0x2de92c6f, 0x4a7484aa, 0x5cb0a9dc, 0x76f988da,
-    0x983e5152, 0xa831c66d, 0xb00327c8, 0xbf597fc7, 0xc6e00bf3, 0xd5a79147, 0x06ca6351, 0x14292967,
-    0x27b70a85, 0x2e1b2138, 0x4d2c6dfc, 0x53380d13, 0x650a7354, 0x766a0abb, 0x81c2c92e, 0x92722c85,
-    0xa2bfe8a1, 0xa81a664b, 0xc24b8b70, 0xc76c51a3, 0xd192e819, 0xd6990624, 0xf40e3585, 0x106aa070,
-    0x19a4c116, 0x1e376c08, 0x2748774c, 0x34b0bcb5, 0x391c0cb3, 0x4ed8aa4a, 0x5b9cca4f, 0x682e6ff3,
-    0x748f82ee, 0x78a5636f, 0x84c87814, 0x8cc70208, 0x90befffa, 0xa4506ceb, 0xbef9a3f7, 0xc67178f2
-  ];
-  var OUTPUT_TYPES = ['hex', 'array', 'digest', 'arrayBuffer'];
-
-  var blocks = [];
-
-  if (root.JS_SHA256_NO_NODE_JS || !Array.isArray) {
-    Array.isArray = function (obj) {
-      return Object.prototype.toString.call(obj) === '[object Array]';
-    };
-  }
-
-  if (ARRAY_BUFFER && (root.JS_SHA256_NO_ARRAY_BUFFER_IS_VIEW || !ArrayBuffer.isView)) {
-    ArrayBuffer.isView = function (obj) {
-      return typeof obj === 'object' && obj.buffer && obj.buffer.constructor === ArrayBuffer;
-    };
-  }
-
-  var createOutputMethod = function (outputType, is224) {
-    return function (message) {
-      return new Sha256(is224, true).update(message)[outputType]();
-    };
-  };
-
-  var createMethod = function (is224) {
-    var method = createOutputMethod('hex', is224);
-    if (NODE_JS) {
-      method = nodeWrap(method, is224);
-    }
-    method.create = function () {
-      return new Sha256(is224);
-    };
-    method.update = function (message) {
-      return method.create().update(message);
-    };
-    for (var i = 0; i < OUTPUT_TYPES.length; ++i) {
-      var type = OUTPUT_TYPES[i];
-      method[type] = createOutputMethod(type, is224);
-    }
-    return method;
-  };
-
-  var nodeWrap = function (method, is224) {
-    var crypto = eval("require('crypto')");
-    var Buffer = eval("require('buffer').Buffer");
-    var algorithm = is224 ? 'sha224' : 'sha256';
-    var nodeMethod = function (message) {
-      if (typeof message === 'string') {
-        return crypto.createHash(algorithm).update(message, 'utf8').digest('hex');
-      } else {
-        if (message === null || message === undefined) {
-          throw new Error(ERROR);
-        } else if (message.constructor === ArrayBuffer) {
-          message = new Uint8Array(message);
-        }
-      }
-      if (Array.isArray(message) || ArrayBuffer.isView(message) ||
-        message.constructor === Buffer) {
-        return crypto.createHash(algorithm).update(new Buffer(message)).digest('hex');
-      } else {
-        return method(message);
-      }
-    };
-    return nodeMethod;
-  };
-
-  var createHmacOutputMethod = function (outputType, is224) {
-    return function (key, message) {
-      return new HmacSha256(key, is224, true).update(message)[outputType]();
-    };
-  };
-
-  var createHmacMethod = function (is224) {
-    var method = createHmacOutputMethod('hex', is224);
-    method.create = function (key) {
-      return new HmacSha256(key, is224);
-    };
-    method.update = function (key, message) {
-      return method.create(key).update(message);
-    };
-    for (var i = 0; i < OUTPUT_TYPES.length; ++i) {
-      var type = OUTPUT_TYPES[i];
-      method[type] = createHmacOutputMethod(type, is224);
-    }
-    return method;
-  };
-
-  function Sha256(is224, sharedMemory) {
-    if (sharedMemory) {
-      blocks[0] = blocks[16] = blocks[1] = blocks[2] = blocks[3] =
-        blocks[4] = blocks[5] = blocks[6] = blocks[7] =
-        blocks[8] = blocks[9] = blocks[10] = blocks[11] =
-        blocks[12] = blocks[13] = blocks[14] = blocks[15] = 0;
-      this.blocks = blocks;
-    } else {
-      this.blocks = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-    }
-
-    if (is224) {
-      this.h0 = 0xc1059ed8;
-      this.h1 = 0x367cd507;
-      this.h2 = 0x3070dd17;
-      this.h3 = 0xf70e5939;
-      this.h4 = 0xffc00b31;
-      this.h5 = 0x68581511;
-      this.h6 = 0x64f98fa7;
-      this.h7 = 0xbefa4fa4;
-    } else { // 256
-      this.h0 = 0x6a09e667;
-      this.h1 = 0xbb67ae85;
-      this.h2 = 0x3c6ef372;
-      this.h3 = 0xa54ff53a;
-      this.h4 = 0x510e527f;
-      this.h5 = 0x9b05688c;
-      this.h6 = 0x1f83d9ab;
-      this.h7 = 0x5be0cd19;
-    }
-
-    this.block = this.start = this.bytes = this.hBytes = 0;
-    this.finalized = this.hashed = false;
-    this.first = true;
-    this.is224 = is224;
-  }
-
-  Sha256.prototype.update = function (message) {
-    if (this.finalized) {
-      return;
-    }
-    var notString, type = typeof message;
-    if (type !== 'string') {
-      if (type === 'object') {
-        if (message === null) {
-          throw new Error(ERROR);
-        } else if (ARRAY_BUFFER && message.constructor === ArrayBuffer) {
-          message = new Uint8Array(message);
-        } else if (!Array.isArray(message)) {
-          if (!ARRAY_BUFFER || !ArrayBuffer.isView(message)) {
-            throw new Error(ERROR);
-          }
-        }
-      } else {
-        throw new Error(ERROR);
-      }
-      notString = true;
-    }
-    var code, index = 0, i, length = message.length, blocks = this.blocks;
-
-    while (index < length) {
-      if (this.hashed) {
-        this.hashed = false;
-        blocks[0] = this.block;
-        blocks[16] = blocks[1] = blocks[2] = blocks[3] =
-          blocks[4] = blocks[5] = blocks[6] = blocks[7] =
-          blocks[8] = blocks[9] = blocks[10] = blocks[11] =
-          blocks[12] = blocks[13] = blocks[14] = blocks[15] = 0;
-      }
-
-      if (notString) {
-        for (i = this.start; index < length && i < 64; ++index) {
-          blocks[i >> 2] |= message[index] << SHIFT[i++ & 3];
-        }
-      } else {
-        for (i = this.start; index < length && i < 64; ++index) {
-          code = message.charCodeAt(index);
-          if (code < 0x80) {
-            blocks[i >> 2] |= code << SHIFT[i++ & 3];
-          } else if (code < 0x800) {
-            blocks[i >> 2] |= (0xc0 | (code >> 6)) << SHIFT[i++ & 3];
-            blocks[i >> 2] |= (0x80 | (code & 0x3f)) << SHIFT[i++ & 3];
-          } else if (code < 0xd800 || code >= 0xe000) {
-            blocks[i >> 2] |= (0xe0 | (code >> 12)) << SHIFT[i++ & 3];
-            blocks[i >> 2] |= (0x80 | ((code >> 6) & 0x3f)) << SHIFT[i++ & 3];
-            blocks[i >> 2] |= (0x80 | (code & 0x3f)) << SHIFT[i++ & 3];
-          } else {
-            code = 0x10000 + (((code & 0x3ff) << 10) | (message.charCodeAt(++index) & 0x3ff));
-            blocks[i >> 2] |= (0xf0 | (code >> 18)) << SHIFT[i++ & 3];
-            blocks[i >> 2] |= (0x80 | ((code >> 12) & 0x3f)) << SHIFT[i++ & 3];
-            blocks[i >> 2] |= (0x80 | ((code >> 6) & 0x3f)) << SHIFT[i++ & 3];
-            blocks[i >> 2] |= (0x80 | (code & 0x3f)) << SHIFT[i++ & 3];
-          }
-        }
-      }
-
-      this.lastByteIndex = i;
-      this.bytes += i - this.start;
-      if (i >= 64) {
-        this.block = blocks[16];
-        this.start = i - 64;
-        this.hash();
-        this.hashed = true;
-      } else {
-        this.start = i;
-      }
-    }
-    if (this.bytes > 4294967295) {
-      this.hBytes += this.bytes / 4294967296 << 0;
-      this.bytes = this.bytes % 4294967296;
-    }
-    return this;
-  };
-
-  Sha256.prototype.finalize = function () {
-    if (this.finalized) {
-      return;
-    }
-    this.finalized = true;
-    var blocks = this.blocks, i = this.lastByteIndex;
-    blocks[16] = this.block;
-    blocks[i >> 2] |= EXTRA[i & 3];
-    this.block = blocks[16];
-    if (i >= 56) {
-      if (!this.hashed) {
-        this.hash();
-      }
-      blocks[0] = this.block;
-      blocks[16] = blocks[1] = blocks[2] = blocks[3] =
-        blocks[4] = blocks[5] = blocks[6] = blocks[7] =
-        blocks[8] = blocks[9] = blocks[10] = blocks[11] =
-        blocks[12] = blocks[13] = blocks[14] = blocks[15] = 0;
-    }
-    blocks[14] = this.hBytes << 3 | this.bytes >>> 29;
-    blocks[15] = this.bytes << 3;
-    this.hash();
-  };
-
-  Sha256.prototype.hash = function () {
-    var a = this.h0, b = this.h1, c = this.h2, d = this.h3, e = this.h4, f = this.h5, g = this.h6,
-      h = this.h7, blocks = this.blocks, j, s0, s1, maj, t1, t2, ch, ab, da, cd, bc;
-
-    for (j = 16; j < 64; ++j) {
-      // rightrotate
-      t1 = blocks[j - 15];
-      s0 = ((t1 >>> 7) | (t1 << 25)) ^ ((t1 >>> 18) | (t1 << 14)) ^ (t1 >>> 3);
-      t1 = blocks[j - 2];
-      s1 = ((t1 >>> 17) | (t1 << 15)) ^ ((t1 >>> 19) | (t1 << 13)) ^ (t1 >>> 10);
-      blocks[j] = blocks[j - 16] + s0 + blocks[j - 7] + s1 << 0;
-    }
-
-    bc = b & c;
-    for (j = 0; j < 64; j += 4) {
-      if (this.first) {
-        if (this.is224) {
-          ab = 300032;
-          t1 = blocks[0] - 1413257819;
-          h = t1 - 150054599 << 0;
-          d = t1 + 24177077 << 0;
-        } else {
-          ab = 704751109;
-          t1 = blocks[0] - 210244248;
-          h = t1 - 1521486534 << 0;
-          d = t1 + 143694565 << 0;
-        }
-        this.first = false;
-      } else {
-        s0 = ((a >>> 2) | (a << 30)) ^ ((a >>> 13) | (a << 19)) ^ ((a >>> 22) | (a << 10));
-        s1 = ((e >>> 6) | (e << 26)) ^ ((e >>> 11) | (e << 21)) ^ ((e >>> 25) | (e << 7));
-        ab = a & b;
-        maj = ab ^ (a & c) ^ bc;
-        ch = (e & f) ^ (~e & g);
-        t1 = h + s1 + ch + K[j] + blocks[j];
-        t2 = s0 + maj;
-        h = d + t1 << 0;
-        d = t1 + t2 << 0;
-      }
-      s0 = ((d >>> 2) | (d << 30)) ^ ((d >>> 13) | (d << 19)) ^ ((d >>> 22) | (d << 10));
-      s1 = ((h >>> 6) | (h << 26)) ^ ((h >>> 11) | (h << 21)) ^ ((h >>> 25) | (h << 7));
-      da = d & a;
-      maj = da ^ (d & b) ^ ab;
-      ch = (h & e) ^ (~h & f);
-      t1 = g + s1 + ch + K[j + 1] + blocks[j + 1];
-      t2 = s0 + maj;
-      g = c + t1 << 0;
-      c = t1 + t2 << 0;
-      s0 = ((c >>> 2) | (c << 30)) ^ ((c >>> 13) | (c << 19)) ^ ((c >>> 22) | (c << 10));
-      s1 = ((g >>> 6) | (g << 26)) ^ ((g >>> 11) | (g << 21)) ^ ((g >>> 25) | (g << 7));
-      cd = c & d;
-      maj = cd ^ (c & a) ^ da;
-      ch = (g & h) ^ (~g & e);
-      t1 = f + s1 + ch + K[j + 2] + blocks[j + 2];
-      t2 = s0 + maj;
-      f = b + t1 << 0;
-      b = t1 + t2 << 0;
-      s0 = ((b >>> 2) | (b << 30)) ^ ((b >>> 13) | (b << 19)) ^ ((b >>> 22) | (b << 10));
-      s1 = ((f >>> 6) | (f << 26)) ^ ((f >>> 11) | (f << 21)) ^ ((f >>> 25) | (f << 7));
-      bc = b & c;
-      maj = bc ^ (b & d) ^ cd;
-      ch = (f & g) ^ (~f & h);
-      t1 = e + s1 + ch + K[j + 3] + blocks[j + 3];
-      t2 = s0 + maj;
-      e = a + t1 << 0;
-      a = t1 + t2 << 0;
-    }
-
-    this.h0 = this.h0 + a << 0;
-    this.h1 = this.h1 + b << 0;
-    this.h2 = this.h2 + c << 0;
-    this.h3 = this.h3 + d << 0;
-    this.h4 = this.h4 + e << 0;
-    this.h5 = this.h5 + f << 0;
-    this.h6 = this.h6 + g << 0;
-    this.h7 = this.h7 + h << 0;
-  };
-
-  Sha256.prototype.hex = function () {
-    this.finalize();
-
-    var h0 = this.h0, h1 = this.h1, h2 = this.h2, h3 = this.h3, h4 = this.h4, h5 = this.h5,
-      h6 = this.h6, h7 = this.h7;
-
-    var hex = HEX_CHARS[(h0 >> 28) & 0x0F] + HEX_CHARS[(h0 >> 24) & 0x0F] +
-      HEX_CHARS[(h0 >> 20) & 0x0F] + HEX_CHARS[(h0 >> 16) & 0x0F] +
-      HEX_CHARS[(h0 >> 12) & 0x0F] + HEX_CHARS[(h0 >> 8) & 0x0F] +
-      HEX_CHARS[(h0 >> 4) & 0x0F] + HEX_CHARS[h0 & 0x0F] +
-      HEX_CHARS[(h1 >> 28) & 0x0F] + HEX_CHARS[(h1 >> 24) & 0x0F] +
-      HEX_CHARS[(h1 >> 20) & 0x0F] + HEX_CHARS[(h1 >> 16) & 0x0F] +
-      HEX_CHARS[(h1 >> 12) & 0x0F] + HEX_CHARS[(h1 >> 8) & 0x0F] +
-      HEX_CHARS[(h1 >> 4) & 0x0F] + HEX_CHARS[h1 & 0x0F] +
-      HEX_CHARS[(h2 >> 28) & 0x0F] + HEX_CHARS[(h2 >> 24) & 0x0F] +
-      HEX_CHARS[(h2 >> 20) & 0x0F] + HEX_CHARS[(h2 >> 16) & 0x0F] +
-      HEX_CHARS[(h2 >> 12) & 0x0F] + HEX_CHARS[(h2 >> 8) & 0x0F] +
-      HEX_CHARS[(h2 >> 4) & 0x0F] + HEX_CHARS[h2 & 0x0F] +
-      HEX_CHARS[(h3 >> 28) & 0x0F] + HEX_CHARS[(h3 >> 24) & 0x0F] +
-      HEX_CHARS[(h3 >> 20) & 0x0F] + HEX_CHARS[(h3 >> 16) & 0x0F] +
-      HEX_CHARS[(h3 >> 12) & 0x0F] + HEX_CHARS[(h3 >> 8) & 0x0F] +
-      HEX_CHARS[(h3 >> 4) & 0x0F] + HEX_CHARS[h3 & 0x0F] +
-      HEX_CHARS[(h4 >> 28) & 0x0F] + HEX_CHARS[(h4 >> 24) & 0x0F] +
-      HEX_CHARS[(h4 >> 20) & 0x0F] + HEX_CHARS[(h4 >> 16) & 0x0F] +
-      HEX_CHARS[(h4 >> 12) & 0x0F] + HEX_CHARS[(h4 >> 8) & 0x0F] +
-      HEX_CHARS[(h4 >> 4) & 0x0F] + HEX_CHARS[h4 & 0x0F] +
-      HEX_CHARS[(h5 >> 28) & 0x0F] + HEX_CHARS[(h5 >> 24) & 0x0F] +
-      HEX_CHARS[(h5 >> 20) & 0x0F] + HEX_CHARS[(h5 >> 16) & 0x0F] +
-      HEX_CHARS[(h5 >> 12) & 0x0F] + HEX_CHARS[(h5 >> 8) & 0x0F] +
-      HEX_CHARS[(h5 >> 4) & 0x0F] + HEX_CHARS[h5 & 0x0F] +
-      HEX_CHARS[(h6 >> 28) & 0x0F] + HEX_CHARS[(h6 >> 24) & 0x0F] +
-      HEX_CHARS[(h6 >> 20) & 0x0F] + HEX_CHARS[(h6 >> 16) & 0x0F] +
-      HEX_CHARS[(h6 >> 12) & 0x0F] + HEX_CHARS[(h6 >> 8) & 0x0F] +
-      HEX_CHARS[(h6 >> 4) & 0x0F] + HEX_CHARS[h6 & 0x0F];
-    if (!this.is224) {
-      hex += HEX_CHARS[(h7 >> 28) & 0x0F] + HEX_CHARS[(h7 >> 24) & 0x0F] +
-        HEX_CHARS[(h7 >> 20) & 0x0F] + HEX_CHARS[(h7 >> 16) & 0x0F] +
-        HEX_CHARS[(h7 >> 12) & 0x0F] + HEX_CHARS[(h7 >> 8) & 0x0F] +
-        HEX_CHARS[(h7 >> 4) & 0x0F] + HEX_CHARS[h7 & 0x0F];
-    }
-    return hex;
-  };
-
-  Sha256.prototype.toString = Sha256.prototype.hex;
-
-  Sha256.prototype.digest = function () {
-    this.finalize();
-
-    var h0 = this.h0, h1 = this.h1, h2 = this.h2, h3 = this.h3, h4 = this.h4, h5 = this.h5,
-      h6 = this.h6, h7 = this.h7;
-
-    var arr = [
-      (h0 >> 24) & 0xFF, (h0 >> 16) & 0xFF, (h0 >> 8) & 0xFF, h0 & 0xFF,
-      (h1 >> 24) & 0xFF, (h1 >> 16) & 0xFF, (h1 >> 8) & 0xFF, h1 & 0xFF,
-      (h2 >> 24) & 0xFF, (h2 >> 16) & 0xFF, (h2 >> 8) & 0xFF, h2 & 0xFF,
-      (h3 >> 24) & 0xFF, (h3 >> 16) & 0xFF, (h3 >> 8) & 0xFF, h3 & 0xFF,
-      (h4 >> 24) & 0xFF, (h4 >> 16) & 0xFF, (h4 >> 8) & 0xFF, h4 & 0xFF,
-      (h5 >> 24) & 0xFF, (h5 >> 16) & 0xFF, (h5 >> 8) & 0xFF, h5 & 0xFF,
-      (h6 >> 24) & 0xFF, (h6 >> 16) & 0xFF, (h6 >> 8) & 0xFF, h6 & 0xFF
-    ];
-    if (!this.is224) {
-      arr.push((h7 >> 24) & 0xFF, (h7 >> 16) & 0xFF, (h7 >> 8) & 0xFF, h7 & 0xFF);
-    }
-    return arr;
-  };
-
-  Sha256.prototype.array = Sha256.prototype.digest;
-
-  Sha256.prototype.arrayBuffer = function () {
-    this.finalize();
-
-    var buffer = new ArrayBuffer(this.is224 ? 28 : 32);
-    var dataView = new DataView(buffer);
-    dataView.setUint32(0, this.h0);
-    dataView.setUint32(4, this.h1);
-    dataView.setUint32(8, this.h2);
-    dataView.setUint32(12, this.h3);
-    dataView.setUint32(16, this.h4);
-    dataView.setUint32(20, this.h5);
-    dataView.setUint32(24, this.h6);
-    if (!this.is224) {
-      dataView.setUint32(28, this.h7);
-    }
-    return buffer;
-  };
-
-  function HmacSha256(key, is224, sharedMemory) {
-    var i, type = typeof key;
-    if (type === 'string') {
-      var bytes = [], length = key.length, index = 0, code;
-      for (i = 0; i < length; ++i) {
-        code = key.charCodeAt(i);
-        if (code < 0x80) {
-          bytes[index++] = code;
-        } else if (code < 0x800) {
-          bytes[index++] = (0xc0 | (code >> 6));
-          bytes[index++] = (0x80 | (code & 0x3f));
-        } else if (code < 0xd800 || code >= 0xe000) {
-          bytes[index++] = (0xe0 | (code >> 12));
-          bytes[index++] = (0x80 | ((code >> 6) & 0x3f));
-          bytes[index++] = (0x80 | (code & 0x3f));
-        } else {
-          code = 0x10000 + (((code & 0x3ff) << 10) | (key.charCodeAt(++i) & 0x3ff));
-          bytes[index++] = (0xf0 | (code >> 18));
-          bytes[index++] = (0x80 | ((code >> 12) & 0x3f));
-          bytes[index++] = (0x80 | ((code >> 6) & 0x3f));
-          bytes[index++] = (0x80 | (code & 0x3f));
-        }
-      }
-      key = bytes;
-    } else {
-      if (type === 'object') {
-        if (key === null) {
-          throw new Error(ERROR);
-        } else if (ARRAY_BUFFER && key.constructor === ArrayBuffer) {
-          key = new Uint8Array(key);
-        } else if (!Array.isArray(key)) {
-          if (!ARRAY_BUFFER || !ArrayBuffer.isView(key)) {
-            throw new Error(ERROR);
-          }
-        }
-      } else {
-        throw new Error(ERROR);
-      }
-    }
-
-    if (key.length > 64) {
-      key = (new Sha256(is224, true)).update(key).array();
-    }
-
-    var oKeyPad = [], iKeyPad = [];
-    for (i = 0; i < 64; ++i) {
-      var b = key[i] || 0;
-      oKeyPad[i] = 0x5c ^ b;
-      iKeyPad[i] = 0x36 ^ b;
-    }
-
-    Sha256.call(this, is224, sharedMemory);
-
-    this.update(iKeyPad);
-    this.oKeyPad = oKeyPad;
-    this.inner = true;
-    this.sharedMemory = sharedMemory;
-  }
-  HmacSha256.prototype = new Sha256();
-
-  HmacSha256.prototype.finalize = function () {
-    Sha256.prototype.finalize.call(this);
-    if (this.inner) {
-      this.inner = false;
-      var innerHash = this.array();
-      Sha256.call(this, this.is224, this.sharedMemory);
-      this.update(this.oKeyPad);
-      this.update(innerHash);
-      Sha256.prototype.finalize.call(this);
-    }
-  };
-
-  var exports = createMethod();
-  exports.sha256 = exports;
-  exports.sha224 = createMethod(true);
-  exports.sha256.hmac = createHmacMethod();
-  exports.sha224.hmac = createHmacMethod(true);
-
-  if (COMMON_JS) {
-    module.exports = exports;
-  } else {
-    root.sha256 = exports.sha256;
-    root.sha224 = exports.sha224;
-    if (AMD) {
-      define(function () {
-        return exports;
-      });
-    }
-  }
-})();
-
-}).call(this)}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"_process":154}],317:[function(require,module,exports){
-(function (process,global){(function (){
-/**
- * [js-sha3]{@link https://github.com/emn178/js-sha3}
- *
- * @version 0.8.0
- * @author Chen, Yi-Cyuan [emn178@gmail.com]
- * @copyright Chen, Yi-Cyuan 2015-2018
- * @license MIT
- */
-/*jslint bitwise: true */
-(function () {
-  'use strict';
-
-  var INPUT_ERROR = 'input is invalid type';
-  var FINALIZE_ERROR = 'finalize already called';
-  var WINDOW = typeof window === 'object';
-  var root = WINDOW ? window : {};
-  if (root.JS_SHA3_NO_WINDOW) {
-    WINDOW = false;
-  }
-  var WEB_WORKER = !WINDOW && typeof self === 'object';
-  var NODE_JS = !root.JS_SHA3_NO_NODE_JS && typeof process === 'object' && process.versions && process.versions.node;
-  if (NODE_JS) {
-    root = global;
-  } else if (WEB_WORKER) {
-    root = self;
-  }
-  var COMMON_JS = !root.JS_SHA3_NO_COMMON_JS && typeof module === 'object' && module.exports;
-  var AMD = typeof define === 'function' && define.amd;
-  var ARRAY_BUFFER = !root.JS_SHA3_NO_ARRAY_BUFFER && typeof ArrayBuffer !== 'undefined';
-  var HEX_CHARS = '0123456789abcdef'.split('');
-  var SHAKE_PADDING = [31, 7936, 2031616, 520093696];
-  var CSHAKE_PADDING = [4, 1024, 262144, 67108864];
-  var KECCAK_PADDING = [1, 256, 65536, 16777216];
-  var PADDING = [6, 1536, 393216, 100663296];
-  var SHIFT = [0, 8, 16, 24];
-  var RC = [1, 0, 32898, 0, 32906, 2147483648, 2147516416, 2147483648, 32907, 0, 2147483649,
-    0, 2147516545, 2147483648, 32777, 2147483648, 138, 0, 136, 0, 2147516425, 0,
-    2147483658, 0, 2147516555, 0, 139, 2147483648, 32905, 2147483648, 32771,
-    2147483648, 32770, 2147483648, 128, 2147483648, 32778, 0, 2147483658, 2147483648,
-    2147516545, 2147483648, 32896, 2147483648, 2147483649, 0, 2147516424, 2147483648];
-  var BITS = [224, 256, 384, 512];
-  var SHAKE_BITS = [128, 256];
-  var OUTPUT_TYPES = ['hex', 'buffer', 'arrayBuffer', 'array', 'digest'];
-  var CSHAKE_BYTEPAD = {
-    '128': 168,
-    '256': 136
-  };
-
-  if (root.JS_SHA3_NO_NODE_JS || !Array.isArray) {
-    Array.isArray = function (obj) {
-      return Object.prototype.toString.call(obj) === '[object Array]';
-    };
-  }
-
-  if (ARRAY_BUFFER && (root.JS_SHA3_NO_ARRAY_BUFFER_IS_VIEW || !ArrayBuffer.isView)) {
-    ArrayBuffer.isView = function (obj) {
-      return typeof obj === 'object' && obj.buffer && obj.buffer.constructor === ArrayBuffer;
-    };
-  }
-
-  var createOutputMethod = function (bits, padding, outputType) {
-    return function (message) {
-      return new Keccak(bits, padding, bits).update(message)[outputType]();
-    };
-  };
-
-  var createShakeOutputMethod = function (bits, padding, outputType) {
-    return function (message, outputBits) {
-      return new Keccak(bits, padding, outputBits).update(message)[outputType]();
-    };
-  };
-
-  var createCshakeOutputMethod = function (bits, padding, outputType) {
-    return function (message, outputBits, n, s) {
-      return methods['cshake' + bits].update(message, outputBits, n, s)[outputType]();
-    };
-  };
-
-  var createKmacOutputMethod = function (bits, padding, outputType) {
-    return function (key, message, outputBits, s) {
-      return methods['kmac' + bits].update(key, message, outputBits, s)[outputType]();
-    };
-  };
-
-  var createOutputMethods = function (method, createMethod, bits, padding) {
-    for (var i = 0; i < OUTPUT_TYPES.length; ++i) {
-      var type = OUTPUT_TYPES[i];
-      method[type] = createMethod(bits, padding, type);
-    }
-    return method;
-  };
-
-  var createMethod = function (bits, padding) {
-    var method = createOutputMethod(bits, padding, 'hex');
-    method.create = function () {
-      return new Keccak(bits, padding, bits);
-    };
-    method.update = function (message) {
-      return method.create().update(message);
-    };
-    return createOutputMethods(method, createOutputMethod, bits, padding);
-  };
-
-  var createShakeMethod = function (bits, padding) {
-    var method = createShakeOutputMethod(bits, padding, 'hex');
-    method.create = function (outputBits) {
-      return new Keccak(bits, padding, outputBits);
-    };
-    method.update = function (message, outputBits) {
-      return method.create(outputBits).update(message);
-    };
-    return createOutputMethods(method, createShakeOutputMethod, bits, padding);
-  };
-
-  var createCshakeMethod = function (bits, padding) {
-    var w = CSHAKE_BYTEPAD[bits];
-    var method = createCshakeOutputMethod(bits, padding, 'hex');
-    method.create = function (outputBits, n, s) {
-      if (!n && !s) {
-        return methods['shake' + bits].create(outputBits);
-      } else {
-        return new Keccak(bits, padding, outputBits).bytepad([n, s], w);
-      }
-    };
-    method.update = function (message, outputBits, n, s) {
-      return method.create(outputBits, n, s).update(message);
-    };
-    return createOutputMethods(method, createCshakeOutputMethod, bits, padding);
-  };
-
-  var createKmacMethod = function (bits, padding) {
-    var w = CSHAKE_BYTEPAD[bits];
-    var method = createKmacOutputMethod(bits, padding, 'hex');
-    method.create = function (key, outputBits, s) {
-      return new Kmac(bits, padding, outputBits).bytepad(['KMAC', s], w).bytepad([key], w);
-    };
-    method.update = function (key, message, outputBits, s) {
-      return method.create(key, outputBits, s).update(message);
-    };
-    return createOutputMethods(method, createKmacOutputMethod, bits, padding);
-  };
-
-  var algorithms = [
-    { name: 'keccak', padding: KECCAK_PADDING, bits: BITS, createMethod: createMethod },
-    { name: 'sha3', padding: PADDING, bits: BITS, createMethod: createMethod },
-    { name: 'shake', padding: SHAKE_PADDING, bits: SHAKE_BITS, createMethod: createShakeMethod },
-    { name: 'cshake', padding: CSHAKE_PADDING, bits: SHAKE_BITS, createMethod: createCshakeMethod },
-    { name: 'kmac', padding: CSHAKE_PADDING, bits: SHAKE_BITS, createMethod: createKmacMethod }
-  ];
-
-  var methods = {}, methodNames = [];
-
-  for (var i = 0; i < algorithms.length; ++i) {
-    var algorithm = algorithms[i];
-    var bits = algorithm.bits;
-    for (var j = 0; j < bits.length; ++j) {
-      var methodName = algorithm.name + '_' + bits[j];
-      methodNames.push(methodName);
-      methods[methodName] = algorithm.createMethod(bits[j], algorithm.padding);
-      if (algorithm.name !== 'sha3') {
-        var newMethodName = algorithm.name + bits[j];
-        methodNames.push(newMethodName);
-        methods[newMethodName] = methods[methodName];
-      }
-    }
-  }
-
-  function Keccak(bits, padding, outputBits) {
-    this.blocks = [];
-    this.s = [];
-    this.padding = padding;
-    this.outputBits = outputBits;
-    this.reset = true;
-    this.finalized = false;
-    this.block = 0;
-    this.start = 0;
-    this.blockCount = (1600 - (bits << 1)) >> 5;
-    this.byteCount = this.blockCount << 2;
-    this.outputBlocks = outputBits >> 5;
-    this.extraBytes = (outputBits & 31) >> 3;
-
-    for (var i = 0; i < 50; ++i) {
-      this.s[i] = 0;
-    }
-  }
-
-  Keccak.prototype.update = function (message) {
-    if (this.finalized) {
-      throw new Error(FINALIZE_ERROR);
-    }
-    var notString, type = typeof message;
-    if (type !== 'string') {
-      if (type === 'object') {
-        if (message === null) {
-          throw new Error(INPUT_ERROR);
-        } else if (ARRAY_BUFFER && message.constructor === ArrayBuffer) {
-          message = new Uint8Array(message);
-        } else if (!Array.isArray(message)) {
-          if (!ARRAY_BUFFER || !ArrayBuffer.isView(message)) {
-            throw new Error(INPUT_ERROR);
-          }
-        }
-      } else {
-        throw new Error(INPUT_ERROR);
-      }
-      notString = true;
-    }
-    var blocks = this.blocks, byteCount = this.byteCount, length = message.length,
-      blockCount = this.blockCount, index = 0, s = this.s, i, code;
-
-    while (index < length) {
-      if (this.reset) {
-        this.reset = false;
-        blocks[0] = this.block;
-        for (i = 1; i < blockCount + 1; ++i) {
-          blocks[i] = 0;
-        }
-      }
-      if (notString) {
-        for (i = this.start; index < length && i < byteCount; ++index) {
-          blocks[i >> 2] |= message[index] << SHIFT[i++ & 3];
-        }
-      } else {
-        for (i = this.start; index < length && i < byteCount; ++index) {
-          code = message.charCodeAt(index);
-          if (code < 0x80) {
-            blocks[i >> 2] |= code << SHIFT[i++ & 3];
-          } else if (code < 0x800) {
-            blocks[i >> 2] |= (0xc0 | (code >> 6)) << SHIFT[i++ & 3];
-            blocks[i >> 2] |= (0x80 | (code & 0x3f)) << SHIFT[i++ & 3];
-          } else if (code < 0xd800 || code >= 0xe000) {
-            blocks[i >> 2] |= (0xe0 | (code >> 12)) << SHIFT[i++ & 3];
-            blocks[i >> 2] |= (0x80 | ((code >> 6) & 0x3f)) << SHIFT[i++ & 3];
-            blocks[i >> 2] |= (0x80 | (code & 0x3f)) << SHIFT[i++ & 3];
-          } else {
-            code = 0x10000 + (((code & 0x3ff) << 10) | (message.charCodeAt(++index) & 0x3ff));
-            blocks[i >> 2] |= (0xf0 | (code >> 18)) << SHIFT[i++ & 3];
-            blocks[i >> 2] |= (0x80 | ((code >> 12) & 0x3f)) << SHIFT[i++ & 3];
-            blocks[i >> 2] |= (0x80 | ((code >> 6) & 0x3f)) << SHIFT[i++ & 3];
-            blocks[i >> 2] |= (0x80 | (code & 0x3f)) << SHIFT[i++ & 3];
-          }
-        }
-      }
-      this.lastByteIndex = i;
-      if (i >= byteCount) {
-        this.start = i - byteCount;
-        this.block = blocks[blockCount];
-        for (i = 0; i < blockCount; ++i) {
-          s[i] ^= blocks[i];
-        }
-        f(s);
-        this.reset = true;
-      } else {
-        this.start = i;
-      }
-    }
-    return this;
-  };
-
-  Keccak.prototype.encode = function (x, right) {
-    var o = x & 255, n = 1;
-    var bytes = [o];
-    x = x >> 8;
-    o = x & 255;
-    while (o > 0) {
-      bytes.unshift(o);
-      x = x >> 8;
-      o = x & 255;
-      ++n;
-    }
-    if (right) {
-      bytes.push(n);
-    } else {
-      bytes.unshift(n);
-    }
-    this.update(bytes);
-    return bytes.length;
-  };
-
-  Keccak.prototype.encodeString = function (str) {
-    var notString, type = typeof str;
-    if (type !== 'string') {
-      if (type === 'object') {
-        if (str === null) {
-          throw new Error(INPUT_ERROR);
-        } else if (ARRAY_BUFFER && str.constructor === ArrayBuffer) {
-          str = new Uint8Array(str);
-        } else if (!Array.isArray(str)) {
-          if (!ARRAY_BUFFER || !ArrayBuffer.isView(str)) {
-            throw new Error(INPUT_ERROR);
-          }
-        }
-      } else {
-        throw new Error(INPUT_ERROR);
-      }
-      notString = true;
-    }
-    var bytes = 0, length = str.length;
-    if (notString) {
-      bytes = length;
-    } else {
-      for (var i = 0; i < str.length; ++i) {
-        var code = str.charCodeAt(i);
-        if (code < 0x80) {
-          bytes += 1;
-        } else if (code < 0x800) {
-          bytes += 2;
-        } else if (code < 0xd800 || code >= 0xe000) {
-          bytes += 3;
-        } else {
-          code = 0x10000 + (((code & 0x3ff) << 10) | (str.charCodeAt(++i) & 0x3ff));
-          bytes += 4;
-        }
-      }
-    }
-    bytes += this.encode(bytes * 8);
-    this.update(str);
-    return bytes;
-  };
-
-  Keccak.prototype.bytepad = function (strs, w) {
-    var bytes = this.encode(w);
-    for (var i = 0; i < strs.length; ++i) {
-      bytes += this.encodeString(strs[i]);
-    }
-    var paddingBytes = w - bytes % w;
-    var zeros = [];
-    zeros.length = paddingBytes;
-    this.update(zeros);
-    return this;
-  };
-
-  Keccak.prototype.finalize = function () {
-    if (this.finalized) {
-      return;
-    }
-    this.finalized = true;
-    var blocks = this.blocks, i = this.lastByteIndex, blockCount = this.blockCount, s = this.s;
-    blocks[i >> 2] |= this.padding[i & 3];
-    if (this.lastByteIndex === this.byteCount) {
-      blocks[0] = blocks[blockCount];
-      for (i = 1; i < blockCount + 1; ++i) {
-        blocks[i] = 0;
-      }
-    }
-    blocks[blockCount - 1] |= 0x80000000;
-    for (i = 0; i < blockCount; ++i) {
-      s[i] ^= blocks[i];
-    }
-    f(s);
-  };
-
-  Keccak.prototype.toString = Keccak.prototype.hex = function () {
-    this.finalize();
-
-    var blockCount = this.blockCount, s = this.s, outputBlocks = this.outputBlocks,
-      extraBytes = this.extraBytes, i = 0, j = 0;
-    var hex = '', block;
-    while (j < outputBlocks) {
-      for (i = 0; i < blockCount && j < outputBlocks; ++i, ++j) {
-        block = s[i];
-        hex += HEX_CHARS[(block >> 4) & 0x0F] + HEX_CHARS[block & 0x0F] +
-          HEX_CHARS[(block >> 12) & 0x0F] + HEX_CHARS[(block >> 8) & 0x0F] +
-          HEX_CHARS[(block >> 20) & 0x0F] + HEX_CHARS[(block >> 16) & 0x0F] +
-          HEX_CHARS[(block >> 28) & 0x0F] + HEX_CHARS[(block >> 24) & 0x0F];
-      }
-      if (j % blockCount === 0) {
-        f(s);
-        i = 0;
-      }
-    }
-    if (extraBytes) {
-      block = s[i];
-      hex += HEX_CHARS[(block >> 4) & 0x0F] + HEX_CHARS[block & 0x0F];
-      if (extraBytes > 1) {
-        hex += HEX_CHARS[(block >> 12) & 0x0F] + HEX_CHARS[(block >> 8) & 0x0F];
-      }
-      if (extraBytes > 2) {
-        hex += HEX_CHARS[(block >> 20) & 0x0F] + HEX_CHARS[(block >> 16) & 0x0F];
-      }
-    }
-    return hex;
-  };
-
-  Keccak.prototype.arrayBuffer = function () {
-    this.finalize();
-
-    var blockCount = this.blockCount, s = this.s, outputBlocks = this.outputBlocks,
-      extraBytes = this.extraBytes, i = 0, j = 0;
-    var bytes = this.outputBits >> 3;
-    var buffer;
-    if (extraBytes) {
-      buffer = new ArrayBuffer((outputBlocks + 1) << 2);
-    } else {
-      buffer = new ArrayBuffer(bytes);
-    }
-    var array = new Uint32Array(buffer);
-    while (j < outputBlocks) {
-      for (i = 0; i < blockCount && j < outputBlocks; ++i, ++j) {
-        array[j] = s[i];
-      }
-      if (j % blockCount === 0) {
-        f(s);
-      }
-    }
-    if (extraBytes) {
-      array[i] = s[i];
-      buffer = buffer.slice(0, bytes);
-    }
-    return buffer;
-  };
-
-  Keccak.prototype.buffer = Keccak.prototype.arrayBuffer;
-
-  Keccak.prototype.digest = Keccak.prototype.array = function () {
-    this.finalize();
-
-    var blockCount = this.blockCount, s = this.s, outputBlocks = this.outputBlocks,
-      extraBytes = this.extraBytes, i = 0, j = 0;
-    var array = [], offset, block;
-    while (j < outputBlocks) {
-      for (i = 0; i < blockCount && j < outputBlocks; ++i, ++j) {
-        offset = j << 2;
-        block = s[i];
-        array[offset] = block & 0xFF;
-        array[offset + 1] = (block >> 8) & 0xFF;
-        array[offset + 2] = (block >> 16) & 0xFF;
-        array[offset + 3] = (block >> 24) & 0xFF;
-      }
-      if (j % blockCount === 0) {
-        f(s);
-      }
-    }
-    if (extraBytes) {
-      offset = j << 2;
-      block = s[i];
-      array[offset] = block & 0xFF;
-      if (extraBytes > 1) {
-        array[offset + 1] = (block >> 8) & 0xFF;
-      }
-      if (extraBytes > 2) {
-        array[offset + 2] = (block >> 16) & 0xFF;
-      }
-    }
-    return array;
-  };
-
-  function Kmac(bits, padding, outputBits) {
-    Keccak.call(this, bits, padding, outputBits);
-  }
-
-  Kmac.prototype = new Keccak();
-
-  Kmac.prototype.finalize = function () {
-    this.encode(this.outputBits, true);
-    return Keccak.prototype.finalize.call(this);
-  };
-
-  var f = function (s) {
-    var h, l, n, c0, c1, c2, c3, c4, c5, c6, c7, c8, c9,
-      b0, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17,
-      b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29, b30, b31, b32, b33,
-      b34, b35, b36, b37, b38, b39, b40, b41, b42, b43, b44, b45, b46, b47, b48, b49;
-    for (n = 0; n < 48; n += 2) {
-      c0 = s[0] ^ s[10] ^ s[20] ^ s[30] ^ s[40];
-      c1 = s[1] ^ s[11] ^ s[21] ^ s[31] ^ s[41];
-      c2 = s[2] ^ s[12] ^ s[22] ^ s[32] ^ s[42];
-      c3 = s[3] ^ s[13] ^ s[23] ^ s[33] ^ s[43];
-      c4 = s[4] ^ s[14] ^ s[24] ^ s[34] ^ s[44];
-      c5 = s[5] ^ s[15] ^ s[25] ^ s[35] ^ s[45];
-      c6 = s[6] ^ s[16] ^ s[26] ^ s[36] ^ s[46];
-      c7 = s[7] ^ s[17] ^ s[27] ^ s[37] ^ s[47];
-      c8 = s[8] ^ s[18] ^ s[28] ^ s[38] ^ s[48];
-      c9 = s[9] ^ s[19] ^ s[29] ^ s[39] ^ s[49];
-
-      h = c8 ^ ((c2 << 1) | (c3 >>> 31));
-      l = c9 ^ ((c3 << 1) | (c2 >>> 31));
-      s[0] ^= h;
-      s[1] ^= l;
-      s[10] ^= h;
-      s[11] ^= l;
-      s[20] ^= h;
-      s[21] ^= l;
-      s[30] ^= h;
-      s[31] ^= l;
-      s[40] ^= h;
-      s[41] ^= l;
-      h = c0 ^ ((c4 << 1) | (c5 >>> 31));
-      l = c1 ^ ((c5 << 1) | (c4 >>> 31));
-      s[2] ^= h;
-      s[3] ^= l;
-      s[12] ^= h;
-      s[13] ^= l;
-      s[22] ^= h;
-      s[23] ^= l;
-      s[32] ^= h;
-      s[33] ^= l;
-      s[42] ^= h;
-      s[43] ^= l;
-      h = c2 ^ ((c6 << 1) | (c7 >>> 31));
-      l = c3 ^ ((c7 << 1) | (c6 >>> 31));
-      s[4] ^= h;
-      s[5] ^= l;
-      s[14] ^= h;
-      s[15] ^= l;
-      s[24] ^= h;
-      s[25] ^= l;
-      s[34] ^= h;
-      s[35] ^= l;
-      s[44] ^= h;
-      s[45] ^= l;
-      h = c4 ^ ((c8 << 1) | (c9 >>> 31));
-      l = c5 ^ ((c9 << 1) | (c8 >>> 31));
-      s[6] ^= h;
-      s[7] ^= l;
-      s[16] ^= h;
-      s[17] ^= l;
-      s[26] ^= h;
-      s[27] ^= l;
-      s[36] ^= h;
-      s[37] ^= l;
-      s[46] ^= h;
-      s[47] ^= l;
-      h = c6 ^ ((c0 << 1) | (c1 >>> 31));
-      l = c7 ^ ((c1 << 1) | (c0 >>> 31));
-      s[8] ^= h;
-      s[9] ^= l;
-      s[18] ^= h;
-      s[19] ^= l;
-      s[28] ^= h;
-      s[29] ^= l;
-      s[38] ^= h;
-      s[39] ^= l;
-      s[48] ^= h;
-      s[49] ^= l;
-
-      b0 = s[0];
-      b1 = s[1];
-      b32 = (s[11] << 4) | (s[10] >>> 28);
-      b33 = (s[10] << 4) | (s[11] >>> 28);
-      b14 = (s[20] << 3) | (s[21] >>> 29);
-      b15 = (s[21] << 3) | (s[20] >>> 29);
-      b46 = (s[31] << 9) | (s[30] >>> 23);
-      b47 = (s[30] << 9) | (s[31] >>> 23);
-      b28 = (s[40] << 18) | (s[41] >>> 14);
-      b29 = (s[41] << 18) | (s[40] >>> 14);
-      b20 = (s[2] << 1) | (s[3] >>> 31);
-      b21 = (s[3] << 1) | (s[2] >>> 31);
-      b2 = (s[13] << 12) | (s[12] >>> 20);
-      b3 = (s[12] << 12) | (s[13] >>> 20);
-      b34 = (s[22] << 10) | (s[23] >>> 22);
-      b35 = (s[23] << 10) | (s[22] >>> 22);
-      b16 = (s[33] << 13) | (s[32] >>> 19);
-      b17 = (s[32] << 13) | (s[33] >>> 19);
-      b48 = (s[42] << 2) | (s[43] >>> 30);
-      b49 = (s[43] << 2) | (s[42] >>> 30);
-      b40 = (s[5] << 30) | (s[4] >>> 2);
-      b41 = (s[4] << 30) | (s[5] >>> 2);
-      b22 = (s[14] << 6) | (s[15] >>> 26);
-      b23 = (s[15] << 6) | (s[14] >>> 26);
-      b4 = (s[25] << 11) | (s[24] >>> 21);
-      b5 = (s[24] << 11) | (s[25] >>> 21);
-      b36 = (s[34] << 15) | (s[35] >>> 17);
-      b37 = (s[35] << 15) | (s[34] >>> 17);
-      b18 = (s[45] << 29) | (s[44] >>> 3);
-      b19 = (s[44] << 29) | (s[45] >>> 3);
-      b10 = (s[6] << 28) | (s[7] >>> 4);
-      b11 = (s[7] << 28) | (s[6] >>> 4);
-      b42 = (s[17] << 23) | (s[16] >>> 9);
-      b43 = (s[16] << 23) | (s[17] >>> 9);
-      b24 = (s[26] << 25) | (s[27] >>> 7);
-      b25 = (s[27] << 25) | (s[26] >>> 7);
-      b6 = (s[36] << 21) | (s[37] >>> 11);
-      b7 = (s[37] << 21) | (s[36] >>> 11);
-      b38 = (s[47] << 24) | (s[46] >>> 8);
-      b39 = (s[46] << 24) | (s[47] >>> 8);
-      b30 = (s[8] << 27) | (s[9] >>> 5);
-      b31 = (s[9] << 27) | (s[8] >>> 5);
-      b12 = (s[18] << 20) | (s[19] >>> 12);
-      b13 = (s[19] << 20) | (s[18] >>> 12);
-      b44 = (s[29] << 7) | (s[28] >>> 25);
-      b45 = (s[28] << 7) | (s[29] >>> 25);
-      b26 = (s[38] << 8) | (s[39] >>> 24);
-      b27 = (s[39] << 8) | (s[38] >>> 24);
-      b8 = (s[48] << 14) | (s[49] >>> 18);
-      b9 = (s[49] << 14) | (s[48] >>> 18);
-
-      s[0] = b0 ^ (~b2 & b4);
-      s[1] = b1 ^ (~b3 & b5);
-      s[10] = b10 ^ (~b12 & b14);
-      s[11] = b11 ^ (~b13 & b15);
-      s[20] = b20 ^ (~b22 & b24);
-      s[21] = b21 ^ (~b23 & b25);
-      s[30] = b30 ^ (~b32 & b34);
-      s[31] = b31 ^ (~b33 & b35);
-      s[40] = b40 ^ (~b42 & b44);
-      s[41] = b41 ^ (~b43 & b45);
-      s[2] = b2 ^ (~b4 & b6);
-      s[3] = b3 ^ (~b5 & b7);
-      s[12] = b12 ^ (~b14 & b16);
-      s[13] = b13 ^ (~b15 & b17);
-      s[22] = b22 ^ (~b24 & b26);
-      s[23] = b23 ^ (~b25 & b27);
-      s[32] = b32 ^ (~b34 & b36);
-      s[33] = b33 ^ (~b35 & b37);
-      s[42] = b42 ^ (~b44 & b46);
-      s[43] = b43 ^ (~b45 & b47);
-      s[4] = b4 ^ (~b6 & b8);
-      s[5] = b5 ^ (~b7 & b9);
-      s[14] = b14 ^ (~b16 & b18);
-      s[15] = b15 ^ (~b17 & b19);
-      s[24] = b24 ^ (~b26 & b28);
-      s[25] = b25 ^ (~b27 & b29);
-      s[34] = b34 ^ (~b36 & b38);
-      s[35] = b35 ^ (~b37 & b39);
-      s[44] = b44 ^ (~b46 & b48);
-      s[45] = b45 ^ (~b47 & b49);
-      s[6] = b6 ^ (~b8 & b0);
-      s[7] = b7 ^ (~b9 & b1);
-      s[16] = b16 ^ (~b18 & b10);
-      s[17] = b17 ^ (~b19 & b11);
-      s[26] = b26 ^ (~b28 & b20);
-      s[27] = b27 ^ (~b29 & b21);
-      s[36] = b36 ^ (~b38 & b30);
-      s[37] = b37 ^ (~b39 & b31);
-      s[46] = b46 ^ (~b48 & b40);
-      s[47] = b47 ^ (~b49 & b41);
-      s[8] = b8 ^ (~b0 & b2);
-      s[9] = b9 ^ (~b1 & b3);
-      s[18] = b18 ^ (~b10 & b12);
-      s[19] = b19 ^ (~b11 & b13);
-      s[28] = b28 ^ (~b20 & b22);
-      s[29] = b29 ^ (~b21 & b23);
-      s[38] = b38 ^ (~b30 & b32);
-      s[39] = b39 ^ (~b31 & b33);
-      s[48] = b48 ^ (~b40 & b42);
-      s[49] = b49 ^ (~b41 & b43);
-
-      s[0] ^= RC[n];
-      s[1] ^= RC[n + 1];
-    }
-  };
-
-  if (COMMON_JS) {
-    module.exports = methods;
-  } else {
-    for (i = 0; i < methodNames.length; ++i) {
-      root[methodNames[i]] = methods[methodNames[i]];
-    }
-    if (AMD) {
-      define(function () {
-        return methods;
-      });
-    }
-  }
-})();
-
-}).call(this)}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"_process":154}],318:[function(require,module,exports){
+},{"dup":136}],489:[function(require,module,exports){
 (function (global){(function (){
 /**
  * @license
@@ -68057,49 +75929,49 @@ arguments[4][136][0].apply(exports,arguments)
 }.call(this));
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],319:[function(require,module,exports){
+},{}],490:[function(require,module,exports){
 arguments[4][140][0].apply(exports,arguments)
-},{"dup":140}],320:[function(require,module,exports){
+},{"dup":140}],491:[function(require,module,exports){
 arguments[4][141][0].apply(exports,arguments)
-},{"dup":141}],321:[function(require,module,exports){
+},{"dup":141}],492:[function(require,module,exports){
 arguments[4][166][0].apply(exports,arguments)
-},{"_process":154,"dup":166,"safe-buffer":338}],322:[function(require,module,exports){
+},{"_process":154,"dup":166,"safe-buffer":509}],493:[function(require,module,exports){
 arguments[4][51][0].apply(exports,arguments)
-},{"dup":51}],323:[function(require,module,exports){
+},{"dup":51}],494:[function(require,module,exports){
 arguments[4][52][0].apply(exports,arguments)
-},{"./_stream_readable":325,"./_stream_writable":327,"_process":154,"dup":52,"inherits":315}],324:[function(require,module,exports){
+},{"./_stream_readable":496,"./_stream_writable":498,"_process":154,"dup":52,"inherits":488}],495:[function(require,module,exports){
 arguments[4][53][0].apply(exports,arguments)
-},{"./_stream_transform":326,"dup":53,"inherits":315}],325:[function(require,module,exports){
+},{"./_stream_transform":497,"dup":53,"inherits":488}],496:[function(require,module,exports){
 arguments[4][54][0].apply(exports,arguments)
-},{"../errors":322,"./_stream_duplex":323,"./internal/streams/async_iterator":328,"./internal/streams/buffer_list":329,"./internal/streams/destroy":330,"./internal/streams/from":332,"./internal/streams/state":334,"./internal/streams/stream":335,"_process":154,"buffer":67,"dup":54,"events":104,"inherits":315,"string_decoder/":339,"util":23}],326:[function(require,module,exports){
+},{"../errors":493,"./_stream_duplex":494,"./internal/streams/async_iterator":499,"./internal/streams/buffer_list":500,"./internal/streams/destroy":501,"./internal/streams/from":503,"./internal/streams/state":505,"./internal/streams/stream":506,"_process":154,"buffer":67,"dup":54,"events":104,"inherits":488,"string_decoder/":510,"util":23}],497:[function(require,module,exports){
 arguments[4][55][0].apply(exports,arguments)
-},{"../errors":322,"./_stream_duplex":323,"dup":55,"inherits":315}],327:[function(require,module,exports){
+},{"../errors":493,"./_stream_duplex":494,"dup":55,"inherits":488}],498:[function(require,module,exports){
 arguments[4][56][0].apply(exports,arguments)
-},{"../errors":322,"./_stream_duplex":323,"./internal/streams/destroy":330,"./internal/streams/state":334,"./internal/streams/stream":335,"_process":154,"buffer":67,"dup":56,"inherits":315,"util-deprecate":371}],328:[function(require,module,exports){
+},{"../errors":493,"./_stream_duplex":494,"./internal/streams/destroy":501,"./internal/streams/state":505,"./internal/streams/stream":506,"_process":154,"buffer":67,"dup":56,"inherits":488,"util-deprecate":542}],499:[function(require,module,exports){
 arguments[4][57][0].apply(exports,arguments)
-},{"./end-of-stream":331,"_process":154,"dup":57}],329:[function(require,module,exports){
+},{"./end-of-stream":502,"_process":154,"dup":57}],500:[function(require,module,exports){
 arguments[4][58][0].apply(exports,arguments)
-},{"buffer":67,"dup":58,"util":23}],330:[function(require,module,exports){
+},{"buffer":67,"dup":58,"util":23}],501:[function(require,module,exports){
 arguments[4][59][0].apply(exports,arguments)
-},{"_process":154,"dup":59}],331:[function(require,module,exports){
+},{"_process":154,"dup":59}],502:[function(require,module,exports){
 arguments[4][60][0].apply(exports,arguments)
-},{"../../../errors":322,"dup":60}],332:[function(require,module,exports){
+},{"../../../errors":493,"dup":60}],503:[function(require,module,exports){
 arguments[4][61][0].apply(exports,arguments)
-},{"dup":61}],333:[function(require,module,exports){
+},{"dup":61}],504:[function(require,module,exports){
 arguments[4][62][0].apply(exports,arguments)
-},{"../../../errors":322,"./end-of-stream":331,"dup":62}],334:[function(require,module,exports){
+},{"../../../errors":493,"./end-of-stream":502,"dup":62}],505:[function(require,module,exports){
 arguments[4][63][0].apply(exports,arguments)
-},{"../../../errors":322,"dup":63}],335:[function(require,module,exports){
+},{"../../../errors":493,"dup":63}],506:[function(require,module,exports){
 arguments[4][64][0].apply(exports,arguments)
-},{"dup":64,"events":104}],336:[function(require,module,exports){
+},{"dup":64,"events":104}],507:[function(require,module,exports){
 arguments[4][65][0].apply(exports,arguments)
-},{"./lib/_stream_duplex.js":323,"./lib/_stream_passthrough.js":324,"./lib/_stream_readable.js":325,"./lib/_stream_transform.js":326,"./lib/_stream_writable.js":327,"./lib/internal/streams/end-of-stream.js":331,"./lib/internal/streams/pipeline.js":333,"dup":65}],337:[function(require,module,exports){
+},{"./lib/_stream_duplex.js":494,"./lib/_stream_passthrough.js":495,"./lib/_stream_readable.js":496,"./lib/_stream_transform.js":497,"./lib/_stream_writable.js":498,"./lib/internal/streams/end-of-stream.js":502,"./lib/internal/streams/pipeline.js":504,"dup":65}],508:[function(require,module,exports){
 arguments[4][168][0].apply(exports,arguments)
-},{"buffer":67,"dup":168,"hash-base":300,"inherits":315}],338:[function(require,module,exports){
+},{"buffer":67,"dup":168,"hash-base":473,"inherits":488}],509:[function(require,module,exports){
 arguments[4][169][0].apply(exports,arguments)
-},{"buffer":67,"dup":169}],339:[function(require,module,exports){
+},{"buffer":67,"dup":169}],510:[function(require,module,exports){
 arguments[4][194][0].apply(exports,arguments)
-},{"dup":194,"safe-buffer":338}],340:[function(require,module,exports){
+},{"dup":194,"safe-buffer":509}],511:[function(require,module,exports){
 const bitmask = bitsNumber => -1 >>> (32 - bitsNumber);
 
 const check = (byteSize, value, isSigned) => {
@@ -68161,7 +76033,7 @@ class BaseValue {
 
 module.exports = { BaseValue };
 
-},{}],341:[function(require,module,exports){
+},{}],512:[function(require,module,exports){
 (function (Buffer){(function (){
 const { PrivateKey } = require('./CryptoTypes');
 const Mnemonic = require('bitcore-mnemonic');
@@ -68256,7 +76128,7 @@ class Bip32 {
 module.exports = { Bip32 };
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"./CryptoTypes":343,"bitcore-mnemonic":263,"buffer":67,"crypto":75}],342:[function(require,module,exports){
+},{"./CryptoTypes":514,"bitcore-mnemonic":263,"buffer":67,"crypto":75}],513:[function(require,module,exports){
 const converter = require('./utils/converter');
 
 /**
@@ -68290,7 +76162,7 @@ class ByteArray {
 
 module.exports = { ByteArray };
 
-},{"./utils/converter":368}],343:[function(require,module,exports){
+},{"./utils/converter":539}],514:[function(require,module,exports){
 const { ByteArray } = require('./ByteArray');
 const crypto = require('crypto');
 
@@ -68382,7 +76254,7 @@ module.exports = {
 	Hash256, PrivateKey, PublicKey, Signature
 };
 
-},{"./ByteArray":342,"crypto":75}],344:[function(require,module,exports){
+},{"./ByteArray":513,"crypto":75}],515:[function(require,module,exports){
 (function (Buffer){(function (){
 const Ripemd160 = require('ripemd160');
 
@@ -68495,7 +76367,7 @@ const NetworkLocator = {
 module.exports = { Network, NetworkLocator };
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"buffer":67,"ripemd160":337}],345:[function(require,module,exports){
+},{"buffer":67,"ripemd160":508}],516:[function(require,module,exports){
 /**
  * Represents a network timestamp.
  */
@@ -68595,7 +76467,7 @@ class NetworkTimestampDatetimeConverter {
 
 module.exports = { NetworkTimestamp, NetworkTimestampDatetimeConverter };
 
-},{}],346:[function(require,module,exports){
+},{}],517:[function(require,module,exports){
 const { BaseValue } = require('./BaseValue');
 const { ByteArray } = require('./ByteArray');
 const { TransactionDescriptorProcessor } = require('./TransactionDescriptorProcessor');
@@ -68793,7 +76665,7 @@ class RuleBasedTransactionFactory {
 
 module.exports = { RuleBasedTransactionFactory };
 
-},{"./BaseValue":340,"./ByteArray":342,"./TransactionDescriptorProcessor":347}],347:[function(require,module,exports){
+},{"./BaseValue":511,"./ByteArray":513,"./TransactionDescriptorProcessor":518}],518:[function(require,module,exports){
 /**
  * Processes and looks up transaction descriptor properties.
  */
@@ -68864,7 +76736,7 @@ class TransactionDescriptorProcessor {
 
 module.exports = { TransactionDescriptorProcessor };
 
-},{}],348:[function(require,module,exports){
+},{}],519:[function(require,module,exports){
 const { Hash256, PrivateKey } = require('../CryptoTypes');
 const { NetworkLocator } = require('../Network');
 const { KeyPair, Verifier } = require('../nem/KeyPair');
@@ -68945,7 +76817,7 @@ class NemFacade {
 
 module.exports = { NemFacade };
 
-},{"../CryptoTypes":343,"../Network":344,"../nem/KeyPair":350,"../nem/Network":351,"../nem/TransactionFactory":353,"js-sha3":317}],349:[function(require,module,exports){
+},{"../CryptoTypes":514,"../Network":515,"../nem/KeyPair":521,"../nem/Network":522,"../nem/TransactionFactory":524,"js-sha3":"/node_modules/js-sha3"}],520:[function(require,module,exports){
 const {
 	Hash256, PrivateKey, PublicKey, Signature
 } = require('../CryptoTypes');
@@ -69078,7 +76950,7 @@ class SymbolFacade {
 
 module.exports = { SymbolFacade };
 
-},{"../CryptoTypes":343,"../Network":344,"../symbol/KeyPair":356,"../symbol/MerkleHashBuilder":357,"../symbol/Network":358,"../symbol/TransactionFactory":360,"../symbol/models":362,"js-sha3":317}],350:[function(require,module,exports){
+},{"../CryptoTypes":514,"../Network":515,"../symbol/KeyPair":527,"../symbol/MerkleHashBuilder":528,"../symbol/Network":529,"../symbol/TransactionFactory":531,"../symbol/models":533,"js-sha3":"/node_modules/js-sha3"}],521:[function(require,module,exports){
 const tweetnacl = require('./external/tweetnacl-nacl-fast-keccak');
 const { PrivateKey, PublicKey, Signature } = require('../CryptoTypes');
 
@@ -69149,7 +77021,7 @@ class Verifier {
 
 module.exports = { KeyPair, Verifier };
 
-},{"../CryptoTypes":343,"./external/tweetnacl-nacl-fast-keccak":354}],351:[function(require,module,exports){
+},{"../CryptoTypes":514,"./external/tweetnacl-nacl-fast-keccak":525}],522:[function(require,module,exports){
 const { ByteArray } = require('../ByteArray');
 const BasicNetwork = require('../Network').Network;
 const base32 = require('../utils/base32');
@@ -69209,7 +77081,7 @@ Network.NETWORKS = [Network.MAINNET, Network.TESTNET];
 
 module.exports = { Address, Network };
 
-},{"../ByteArray":342,"../Network":344,"../utils/base32":366,"js-sha3":317}],352:[function(require,module,exports){
+},{"../ByteArray":513,"../Network":515,"../utils/base32":537,"js-sha3":"/node_modules/js-sha3"}],523:[function(require,module,exports){
 const BasicNetworkTimestamp = require('../NetworkTimestamp').NetworkTimestamp;
 const { NetworkTimestampDatetimeConverter } = require('../NetworkTimestamp');
 
@@ -69254,7 +77126,7 @@ class NetworkTimestamp extends BasicNetworkTimestamp {
 
 module.exports = { NetworkTimestamp };
 
-},{"../NetworkTimestamp":345}],353:[function(require,module,exports){
+},{"../NetworkTimestamp":516}],524:[function(require,module,exports){
 const { Address } = require('./Network');
 const nc = require('./models');
 const { Hash256, PublicKey } = require('../CryptoTypes');
@@ -69368,7 +77240,7 @@ class TransactionFactory {
 
 module.exports = { TransactionFactory };
 
-},{"../CryptoTypes":343,"../RuleBasedTransactionFactory":346,"../utils/converter":368,"./Network":351,"./models":355}],354:[function(require,module,exports){
+},{"../CryptoTypes":514,"../RuleBasedTransactionFactory":517,"../utils/converter":539,"./Network":522,"./models":526}],525:[function(require,module,exports){
 // this file is the same as tweetnacl/nacl-fast except that it implements a custom `crypto_hash` function
 // that uses keccak_512 instead of sha_512
 const { keccak_512 } = require('js-sha3');
@@ -71736,7 +79608,7 @@ nacl.setPRNG = function(fn) {
 
 })(typeof module !== 'undefined' && module.exports ? module.exports : (self.nacl = self.nacl || {}));
 
-},{"crypto":75,"js-sha3":317}],355:[function(require,module,exports){
+},{"crypto":75,"js-sha3":"/node_modules/js-sha3"}],526:[function(require,module,exports){
 /* eslint-disable max-len, object-property-newline, no-underscore-dangle, no-use-before-define */
 
 const { BaseValue } = require('../BaseValue');
@@ -77688,7 +85560,7 @@ module.exports = {
 	NonVerifiableTransactionFactory
 };
 
-},{"../BaseValue":340,"../ByteArray":342,"../utils/BufferView":363,"../utils/Writer":364,"../utils/arrayHelpers":365,"../utils/converter":368}],356:[function(require,module,exports){
+},{"../BaseValue":511,"../ByteArray":513,"../utils/BufferView":534,"../utils/Writer":535,"../utils/arrayHelpers":536,"../utils/converter":539}],527:[function(require,module,exports){
 const { PrivateKey, PublicKey, Signature } = require('../CryptoTypes');
 const tweetnacl = require('tweetnacl');
 
@@ -77756,7 +85628,7 @@ class Verifier {
 
 module.exports = { KeyPair, Verifier };
 
-},{"../CryptoTypes":343,"tweetnacl":369}],357:[function(require,module,exports){
+},{"../CryptoTypes":514,"tweetnacl":540}],528:[function(require,module,exports){
 const { Hash256 } = require('../CryptoTypes');
 const { sha3_256 } = require('js-sha3');
 
@@ -77815,7 +85687,7 @@ class MerkleHashBuilder {
 
 module.exports = { MerkleHashBuilder };
 
-},{"../CryptoTypes":343,"js-sha3":317}],358:[function(require,module,exports){
+},{"../CryptoTypes":514,"js-sha3":"/node_modules/js-sha3"}],529:[function(require,module,exports){
 const { ByteArray } = require('../ByteArray');
 const { Hash256 } = require('../CryptoTypes');
 const BasicNetwork = require('../Network').Network;
@@ -77878,7 +85750,7 @@ Network.NETWORKS = [Network.MAINNET, Network.TESTNET];
 
 module.exports = { Address, Network };
 
-},{"../ByteArray":342,"../CryptoTypes":343,"../Network":344,"../utils/base32":366,"js-sha3":317}],359:[function(require,module,exports){
+},{"../ByteArray":513,"../CryptoTypes":514,"../Network":515,"../utils/base32":537,"js-sha3":"/node_modules/js-sha3"}],530:[function(require,module,exports){
 const BasicNetworkTimestamp = require('../NetworkTimestamp').NetworkTimestamp;
 const { NetworkTimestampDatetimeConverter } = require('../NetworkTimestamp');
 
@@ -77932,7 +85804,7 @@ class NetworkTimestamp extends BasicNetworkTimestamp {
 
 module.exports = { NetworkTimestamp };
 
-},{"../NetworkTimestamp":345}],360:[function(require,module,exports){
+},{"../NetworkTimestamp":516}],531:[function(require,module,exports){
 const { Address } = require('./Network');
 const { generateNamespaceId, generateMosaicId } = require('./idGenerator');
 const sc = require('./models');
@@ -78045,7 +85917,7 @@ class TransactionFactory {
 
 module.exports = { TransactionFactory };
 
-},{"../CryptoTypes":343,"../RuleBasedTransactionFactory":346,"../utils/converter":368,"./Network":358,"./idGenerator":361,"./models":362}],361:[function(require,module,exports){
+},{"../CryptoTypes":514,"../RuleBasedTransactionFactory":517,"../utils/converter":539,"./Network":529,"./idGenerator":532,"./models":533}],532:[function(require,module,exports){
 const { sha3_256 } = require('js-sha3');
 
 const NAMESPACE_FLAG = 1n << 63n;
@@ -78153,7 +86025,7 @@ module.exports = {
 	generateMosaicId, generateNamespaceId, isValidNamespaceName, generateNamespacePath, generateMosaicAliasId
 };
 
-},{"js-sha3":317}],362:[function(require,module,exports){
+},{"js-sha3":"/node_modules/js-sha3"}],533:[function(require,module,exports){
 /* eslint-disable max-len, object-property-newline, no-underscore-dangle, no-use-before-define */
 
 const { BaseValue } = require('../BaseValue');
@@ -89715,7 +97587,7 @@ module.exports = {
 	TransactionFactory, EmbeddedTransactionFactory
 };
 
-},{"../BaseValue":340,"../ByteArray":342,"../utils/BufferView":363,"../utils/Writer":364,"../utils/arrayHelpers":365,"../utils/converter":368}],363:[function(require,module,exports){
+},{"../BaseValue":511,"../ByteArray":513,"../utils/BufferView":534,"../utils/Writer":535,"../utils/arrayHelpers":536,"../utils/converter":539}],534:[function(require,module,exports){
 /**
  * Buffer view.
  */
@@ -89759,7 +97631,7 @@ class BufferView {
 
 module.exports = { BufferView };
 
-},{}],364:[function(require,module,exports){
+},{}],535:[function(require,module,exports){
 /**
  * Position tracking writer.
  */
@@ -89785,7 +97657,7 @@ class Writer {
 
 module.exports = { Writer };
 
-},{}],365:[function(require,module,exports){
+},{}],536:[function(require,module,exports){
 const { BufferView } = require('./BufferView');
 
 const readArrayImpl = (bufferInput, FactoryClass, accessor, shouldContinue) => {
@@ -89944,7 +97816,7 @@ const arrayHelpers = {
 
 module.exports = arrayHelpers;
 
-},{"./BufferView":363}],366:[function(require,module,exports){
+},{"./BufferView":534}],537:[function(require,module,exports){
 const charMapping = require('./charMapping');
 
 const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ234567';
@@ -90033,7 +97905,7 @@ const base32 = {
 
 module.exports = base32;
 
-},{"./charMapping":367}],367:[function(require,module,exports){
+},{"./charMapping":538}],538:[function(require,module,exports){
 /**
  * Builder for building a character map.
  * @class CharacterMapBuilder
@@ -90072,7 +97944,7 @@ const charMapping = {
 
 module.exports = charMapping;
 
-},{}],368:[function(require,module,exports){
+},{}],539:[function(require,module,exports){
 const charMapping = require('./charMapping');
 
 const CHAR_TO_NIBBLE_MAP = (() => {
@@ -90258,7 +98130,7 @@ const converter = {
 
 module.exports = converter;
 
-},{"./charMapping":367}],369:[function(require,module,exports){
+},{"./charMapping":538}],540:[function(require,module,exports){
 (function(nacl) {
 'use strict';
 
@@ -92651,7 +100523,7 @@ nacl.setPRNG = function(fn) {
 
 })(typeof module !== 'undefined' && module.exports ? module.exports : (self.nacl = self.nacl || {}));
 
-},{"crypto":23}],370:[function(require,module,exports){
+},{"crypto":23}],541:[function(require,module,exports){
 (function (root) {
    "use strict";
 
@@ -93105,7 +100977,7 @@ UChar.udata={
    }
 }(this));
 
-},{}],371:[function(require,module,exports){
+},{}],542:[function(require,module,exports){
 arguments[4][197][0].apply(exports,arguments)
 },{"dup":197}],"/node_modules/buffer":[function(require,module,exports){
 (function (Buffer){(function (){
@@ -94928,7 +102800,1376 @@ var hexSliceLookupTable = (function () {
 })()
 
 }).call(this)}).call(this,require("buffer").Buffer)
-},{"base64-js":199,"buffer":67,"ieee754":314}],"/node_modules/symbol-sdk":[function(require,module,exports){
+},{"base64-js":199,"buffer":67,"ieee754":487}],"/node_modules/catbuffer-typescript":[function(require,module,exports){
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __exportStar = (this && this.__exportStar) || function(m, exports) {
+    for (var p in m) if (p !== "default" && !exports.hasOwnProperty(p)) __createBinding(exports, m, p);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+__exportStar(require("./AccountAddressRestrictionTransactionBodyBuilder"), exports);
+__exportStar(require("./AccountAddressRestrictionTransactionBuilder"), exports);
+__exportStar(require("./AccountKeyLinkTransactionBodyBuilder"), exports);
+__exportStar(require("./AccountKeyLinkTransactionBuilder"), exports);
+__exportStar(require("./AccountKeyTypeFlagsDto"), exports);
+__exportStar(require("./AccountMetadataTransactionBodyBuilder"), exports);
+__exportStar(require("./AccountMetadataTransactionBuilder"), exports);
+__exportStar(require("./AccountMosaicRestrictionTransactionBodyBuilder"), exports);
+__exportStar(require("./AccountMosaicRestrictionTransactionBuilder"), exports);
+__exportStar(require("./AccountOperationRestrictionTransactionBodyBuilder"), exports);
+__exportStar(require("./AccountOperationRestrictionTransactionBuilder"), exports);
+__exportStar(require("./AccountRestrictionAddressValueBuilder"), exports);
+__exportStar(require("./AccountRestrictionFlagsDto"), exports);
+__exportStar(require("./AccountRestrictionMosaicValueBuilder"), exports);
+__exportStar(require("./AccountRestrictionsBuilder"), exports);
+__exportStar(require("./AccountRestrictionsInfoBuilder"), exports);
+__exportStar(require("./AccountRestrictionTransactionTypeValueBuilder"), exports);
+__exportStar(require("./AccountStateBuilder"), exports);
+__exportStar(require("./AccountStateFormatDto"), exports);
+__exportStar(require("./AccountTypeDto"), exports);
+__exportStar(require("./AddressAliasTransactionBodyBuilder"), exports);
+__exportStar(require("./AddressAliasTransactionBuilder"), exports);
+__exportStar(require("./AddressDto"), exports);
+__exportStar(require("./AddressKeyValueBuilder"), exports);
+__exportStar(require("./AddressKeyValueSetBuilder"), exports);
+__exportStar(require("./AddressResolutionEntryBuilder"), exports);
+__exportStar(require("./AddressResolutionStatementBuilder"), exports);
+__exportStar(require("./AggregateBondedTransactionBuilder"), exports);
+__exportStar(require("./AggregateCompleteTransactionBuilder"), exports);
+__exportStar(require("./AggregateTransactionBodyBuilder"), exports);
+__exportStar(require("./AliasActionDto"), exports);
+__exportStar(require("./AmountDto"), exports);
+__exportStar(require("./BalanceChangeReceiptBuilder"), exports);
+__exportStar(require("./BalanceTransferReceiptBuilder"), exports);
+__exportStar(require("./BlockDurationDto"), exports);
+__exportStar(require("./BlockFeeMultiplierDto"), exports);
+__exportStar(require("./BlockHeaderBuilder"), exports);
+__exportStar(require("./CosignatureBuilder"), exports);
+__exportStar(require("./DetachedCosignatureBuilder"), exports);
+__exportStar(require("./DifficultyDto"), exports);
+__exportStar(require("./EmbeddedAccountAddressRestrictionTransactionBuilder"), exports);
+__exportStar(require("./EmbeddedAccountKeyLinkTransactionBuilder"), exports);
+__exportStar(require("./EmbeddedAccountMetadataTransactionBuilder"), exports);
+__exportStar(require("./EmbeddedAccountMosaicRestrictionTransactionBuilder"), exports);
+__exportStar(require("./EmbeddedAccountOperationRestrictionTransactionBuilder"), exports);
+__exportStar(require("./EmbeddedAddressAliasTransactionBuilder"), exports);
+__exportStar(require("./EmbeddedHashLockTransactionBuilder"), exports);
+__exportStar(require("./EmbeddedMosaicAddressRestrictionTransactionBuilder"), exports);
+__exportStar(require("./EmbeddedMosaicAliasTransactionBuilder"), exports);
+__exportStar(require("./EmbeddedMosaicDefinitionTransactionBuilder"), exports);
+__exportStar(require("./EmbeddedMosaicGlobalRestrictionTransactionBuilder"), exports);
+__exportStar(require("./EmbeddedMosaicMetadataTransactionBuilder"), exports);
+__exportStar(require("./EmbeddedMosaicSupplyChangeTransactionBuilder"), exports);
+__exportStar(require("./EmbeddedMultisigAccountModificationTransactionBuilder"), exports);
+__exportStar(require("./EmbeddedNamespaceMetadataTransactionBuilder"), exports);
+__exportStar(require("./EmbeddedNamespaceRegistrationTransactionBuilder"), exports);
+__exportStar(require("./EmbeddedNodeKeyLinkTransactionBuilder"), exports);
+__exportStar(require("./EmbeddedSecretLockTransactionBuilder"), exports);
+__exportStar(require("./EmbeddedSecretProofTransactionBuilder"), exports);
+__exportStar(require("./EmbeddedTransactionBuilder"), exports);
+__exportStar(require("./EmbeddedTransactionHelper"), exports);
+__exportStar(require("./EmbeddedTransferTransactionBuilder"), exports);
+__exportStar(require("./EmbeddedVotingKeyLinkTransactionBuilder"), exports);
+__exportStar(require("./EmbeddedVrfKeyLinkTransactionBuilder"), exports);
+__exportStar(require("./EntityTypeDto"), exports);
+__exportStar(require("./FinalizationEpochDto"), exports);
+__exportStar(require("./FinalizationPointDto"), exports);
+__exportStar(require("./FinalizationRoundBuilder"), exports);
+__exportStar(require("./FinalizedBlockHeaderBuilder"), exports);
+__exportStar(require("./GeneratorUtils"), exports);
+__exportStar(require("./GlobalKeyValueBuilder"), exports);
+__exportStar(require("./GlobalKeyValueSetBuilder"), exports);
+__exportStar(require("./Hash256Dto"), exports);
+__exportStar(require("./Hash512Dto"), exports);
+__exportStar(require("./HashLockInfoBuilder"), exports);
+__exportStar(require("./HashLockTransactionBodyBuilder"), exports);
+__exportStar(require("./HashLockTransactionBuilder"), exports);
+__exportStar(require("./HeightActivityBucketBuilder"), exports);
+__exportStar(require("./HeightActivityBucketsBuilder"), exports);
+__exportStar(require("./HeightDto"), exports);
+__exportStar(require("./ImportanceBlockFooterBuilder"), exports);
+__exportStar(require("./ImportanceBlockHeaderBuilder"), exports);
+__exportStar(require("./ImportanceDto"), exports);
+__exportStar(require("./ImportanceHeightDto"), exports);
+__exportStar(require("./ImportanceSnapshotBuilder"), exports);
+__exportStar(require("./InflationReceiptBuilder"), exports);
+__exportStar(require("./KeyDto"), exports);
+__exportStar(require("./LinkActionDto"), exports);
+__exportStar(require("./LockHashAlgorithmDto"), exports);
+__exportStar(require("./LockStatusDto"), exports);
+__exportStar(require("./MetadataEntryBuilder"), exports);
+__exportStar(require("./MetadataTypeDto"), exports);
+__exportStar(require("./MetadataValueBuilder"), exports);
+__exportStar(require("./MosaicAddressRestrictionEntryBuilder"), exports);
+__exportStar(require("./MosaicAddressRestrictionTransactionBodyBuilder"), exports);
+__exportStar(require("./MosaicAddressRestrictionTransactionBuilder"), exports);
+__exportStar(require("./MosaicAliasTransactionBodyBuilder"), exports);
+__exportStar(require("./MosaicAliasTransactionBuilder"), exports);
+__exportStar(require("./MosaicBuilder"), exports);
+__exportStar(require("./MosaicDefinitionBuilder"), exports);
+__exportStar(require("./MosaicDefinitionTransactionBodyBuilder"), exports);
+__exportStar(require("./MosaicDefinitionTransactionBuilder"), exports);
+__exportStar(require("./MosaicEntryBuilder"), exports);
+__exportStar(require("./MosaicExpiryReceiptBuilder"), exports);
+__exportStar(require("./MosaicFlagsDto"), exports);
+__exportStar(require("./MosaicGlobalRestrictionEntryBuilder"), exports);
+__exportStar(require("./MosaicGlobalRestrictionTransactionBodyBuilder"), exports);
+__exportStar(require("./MosaicGlobalRestrictionTransactionBuilder"), exports);
+__exportStar(require("./MosaicIdDto"), exports);
+__exportStar(require("./MosaicMetadataTransactionBodyBuilder"), exports);
+__exportStar(require("./MosaicMetadataTransactionBuilder"), exports);
+__exportStar(require("./MosaicNonceDto"), exports);
+__exportStar(require("./MosaicPropertiesBuilder"), exports);
+__exportStar(require("./MosaicResolutionEntryBuilder"), exports);
+__exportStar(require("./MosaicResolutionStatementBuilder"), exports);
+__exportStar(require("./MosaicRestrictionEntryBuilder"), exports);
+__exportStar(require("./MosaicRestrictionEntryTypeDto"), exports);
+__exportStar(require("./MosaicRestrictionKeyDto"), exports);
+__exportStar(require("./MosaicRestrictionTypeDto"), exports);
+__exportStar(require("./MosaicSupplyChangeActionDto"), exports);
+__exportStar(require("./MosaicSupplyChangeTransactionBodyBuilder"), exports);
+__exportStar(require("./MosaicSupplyChangeTransactionBuilder"), exports);
+__exportStar(require("./MultisigAccountModificationTransactionBodyBuilder"), exports);
+__exportStar(require("./MultisigAccountModificationTransactionBuilder"), exports);
+__exportStar(require("./MultisigEntryBuilder"), exports);
+__exportStar(require("./NamespaceAliasBuilder"), exports);
+__exportStar(require("./NamespaceAliasTypeDto"), exports);
+__exportStar(require("./NamespaceExpiryReceiptBuilder"), exports);
+__exportStar(require("./NamespaceIdDto"), exports);
+__exportStar(require("./NamespaceLifetimeBuilder"), exports);
+__exportStar(require("./NamespaceMetadataTransactionBodyBuilder"), exports);
+__exportStar(require("./NamespaceMetadataTransactionBuilder"), exports);
+__exportStar(require("./NamespacePathBuilder"), exports);
+__exportStar(require("./NamespaceRegistrationTransactionBodyBuilder"), exports);
+__exportStar(require("./NamespaceRegistrationTransactionBuilder"), exports);
+__exportStar(require("./NamespaceRegistrationTypeDto"), exports);
+__exportStar(require("./NemesisBlockHeaderBuilder"), exports);
+__exportStar(require("./NetworkTypeDto"), exports);
+__exportStar(require("./NodeKeyLinkTransactionBodyBuilder"), exports);
+__exportStar(require("./NodeKeyLinkTransactionBuilder"), exports);
+__exportStar(require("./NormalBlockHeaderBuilder"), exports);
+__exportStar(require("./PinnedVotingKeyBuilder"), exports);
+__exportStar(require("./ProofGammaDto"), exports);
+__exportStar(require("./ProofScalarDto"), exports);
+__exportStar(require("./ProofVerificationHashDto"), exports);
+__exportStar(require("./ReceiptBuilder"), exports);
+__exportStar(require("./ReceiptSourceBuilder"), exports);
+__exportStar(require("./ReceiptTypeDto"), exports);
+__exportStar(require("./RestrictionRuleBuilder"), exports);
+__exportStar(require("./RootNamespaceHistoryBuilder"), exports);
+__exportStar(require("./ScopedMetadataKeyDto"), exports);
+__exportStar(require("./SecretLockInfoBuilder"), exports);
+__exportStar(require("./SecretLockTransactionBodyBuilder"), exports);
+__exportStar(require("./SecretLockTransactionBuilder"), exports);
+__exportStar(require("./SecretProofTransactionBodyBuilder"), exports);
+__exportStar(require("./SecretProofTransactionBuilder"), exports);
+__exportStar(require("./Serializer"), exports);
+__exportStar(require("./SignatureDto"), exports);
+__exportStar(require("./StateHeaderBuilder"), exports);
+__exportStar(require("./TimestampDto"), exports);
+__exportStar(require("./TransactionBuilder"), exports);
+__exportStar(require("./TransactionHelper"), exports);
+__exportStar(require("./TransferTransactionBodyBuilder"), exports);
+__exportStar(require("./TransferTransactionBuilder"), exports);
+__exportStar(require("./UnresolvedAddressDto"), exports);
+__exportStar(require("./UnresolvedMosaicBuilder"), exports);
+__exportStar(require("./UnresolvedMosaicIdDto"), exports);
+__exportStar(require("./VotingKeyDto"), exports);
+__exportStar(require("./VotingKeyLinkTransactionBodyBuilder"), exports);
+__exportStar(require("./VotingKeyLinkTransactionBuilder"), exports);
+__exportStar(require("./VrfKeyLinkTransactionBodyBuilder"), exports);
+__exportStar(require("./VrfKeyLinkTransactionBuilder"), exports);
+__exportStar(require("./VrfProofBuilder"), exports);
+
+},{"./AccountAddressRestrictionTransactionBodyBuilder":279,"./AccountAddressRestrictionTransactionBuilder":280,"./AccountKeyLinkTransactionBodyBuilder":281,"./AccountKeyLinkTransactionBuilder":282,"./AccountKeyTypeFlagsDto":283,"./AccountMetadataTransactionBodyBuilder":284,"./AccountMetadataTransactionBuilder":285,"./AccountMosaicRestrictionTransactionBodyBuilder":286,"./AccountMosaicRestrictionTransactionBuilder":287,"./AccountOperationRestrictionTransactionBodyBuilder":288,"./AccountOperationRestrictionTransactionBuilder":289,"./AccountRestrictionAddressValueBuilder":290,"./AccountRestrictionFlagsDto":291,"./AccountRestrictionMosaicValueBuilder":292,"./AccountRestrictionTransactionTypeValueBuilder":293,"./AccountRestrictionsBuilder":294,"./AccountRestrictionsInfoBuilder":295,"./AccountStateBuilder":296,"./AccountStateFormatDto":297,"./AccountTypeDto":298,"./AddressAliasTransactionBodyBuilder":299,"./AddressAliasTransactionBuilder":300,"./AddressDto":301,"./AddressKeyValueBuilder":302,"./AddressKeyValueSetBuilder":303,"./AddressResolutionEntryBuilder":304,"./AddressResolutionStatementBuilder":305,"./AggregateBondedTransactionBuilder":306,"./AggregateCompleteTransactionBuilder":307,"./AggregateTransactionBodyBuilder":308,"./AliasActionDto":309,"./AmountDto":310,"./BalanceChangeReceiptBuilder":311,"./BalanceTransferReceiptBuilder":312,"./BlockDurationDto":313,"./BlockFeeMultiplierDto":314,"./BlockHeaderBuilder":315,"./CosignatureBuilder":316,"./DetachedCosignatureBuilder":317,"./DifficultyDto":318,"./EmbeddedAccountAddressRestrictionTransactionBuilder":319,"./EmbeddedAccountKeyLinkTransactionBuilder":320,"./EmbeddedAccountMetadataTransactionBuilder":321,"./EmbeddedAccountMosaicRestrictionTransactionBuilder":322,"./EmbeddedAccountOperationRestrictionTransactionBuilder":323,"./EmbeddedAddressAliasTransactionBuilder":324,"./EmbeddedHashLockTransactionBuilder":325,"./EmbeddedMosaicAddressRestrictionTransactionBuilder":326,"./EmbeddedMosaicAliasTransactionBuilder":327,"./EmbeddedMosaicDefinitionTransactionBuilder":328,"./EmbeddedMosaicGlobalRestrictionTransactionBuilder":329,"./EmbeddedMosaicMetadataTransactionBuilder":330,"./EmbeddedMosaicSupplyChangeTransactionBuilder":331,"./EmbeddedMultisigAccountModificationTransactionBuilder":332,"./EmbeddedNamespaceMetadataTransactionBuilder":333,"./EmbeddedNamespaceRegistrationTransactionBuilder":334,"./EmbeddedNodeKeyLinkTransactionBuilder":335,"./EmbeddedSecretLockTransactionBuilder":336,"./EmbeddedSecretProofTransactionBuilder":337,"./EmbeddedTransactionBuilder":338,"./EmbeddedTransactionHelper":339,"./EmbeddedTransferTransactionBuilder":340,"./EmbeddedVotingKeyLinkTransactionBuilder":341,"./EmbeddedVrfKeyLinkTransactionBuilder":342,"./EntityTypeDto":343,"./FinalizationEpochDto":344,"./FinalizationPointDto":345,"./FinalizationRoundBuilder":346,"./FinalizedBlockHeaderBuilder":347,"./GeneratorUtils":348,"./GlobalKeyValueBuilder":349,"./GlobalKeyValueSetBuilder":350,"./Hash256Dto":351,"./Hash512Dto":352,"./HashLockInfoBuilder":353,"./HashLockTransactionBodyBuilder":354,"./HashLockTransactionBuilder":355,"./HeightActivityBucketBuilder":356,"./HeightActivityBucketsBuilder":357,"./HeightDto":358,"./ImportanceBlockFooterBuilder":359,"./ImportanceBlockHeaderBuilder":360,"./ImportanceDto":361,"./ImportanceHeightDto":362,"./ImportanceSnapshotBuilder":363,"./InflationReceiptBuilder":364,"./KeyDto":365,"./LinkActionDto":366,"./LockHashAlgorithmDto":367,"./LockStatusDto":368,"./MetadataEntryBuilder":369,"./MetadataTypeDto":370,"./MetadataValueBuilder":371,"./MosaicAddressRestrictionEntryBuilder":372,"./MosaicAddressRestrictionTransactionBodyBuilder":373,"./MosaicAddressRestrictionTransactionBuilder":374,"./MosaicAliasTransactionBodyBuilder":375,"./MosaicAliasTransactionBuilder":376,"./MosaicBuilder":377,"./MosaicDefinitionBuilder":378,"./MosaicDefinitionTransactionBodyBuilder":379,"./MosaicDefinitionTransactionBuilder":380,"./MosaicEntryBuilder":381,"./MosaicExpiryReceiptBuilder":382,"./MosaicFlagsDto":383,"./MosaicGlobalRestrictionEntryBuilder":384,"./MosaicGlobalRestrictionTransactionBodyBuilder":385,"./MosaicGlobalRestrictionTransactionBuilder":386,"./MosaicIdDto":387,"./MosaicMetadataTransactionBodyBuilder":388,"./MosaicMetadataTransactionBuilder":389,"./MosaicNonceDto":390,"./MosaicPropertiesBuilder":391,"./MosaicResolutionEntryBuilder":392,"./MosaicResolutionStatementBuilder":393,"./MosaicRestrictionEntryBuilder":394,"./MosaicRestrictionEntryTypeDto":395,"./MosaicRestrictionKeyDto":396,"./MosaicRestrictionTypeDto":397,"./MosaicSupplyChangeActionDto":398,"./MosaicSupplyChangeTransactionBodyBuilder":399,"./MosaicSupplyChangeTransactionBuilder":400,"./MultisigAccountModificationTransactionBodyBuilder":401,"./MultisigAccountModificationTransactionBuilder":402,"./MultisigEntryBuilder":403,"./NamespaceAliasBuilder":404,"./NamespaceAliasTypeDto":405,"./NamespaceExpiryReceiptBuilder":406,"./NamespaceIdDto":407,"./NamespaceLifetimeBuilder":408,"./NamespaceMetadataTransactionBodyBuilder":409,"./NamespaceMetadataTransactionBuilder":410,"./NamespacePathBuilder":411,"./NamespaceRegistrationTransactionBodyBuilder":412,"./NamespaceRegistrationTransactionBuilder":413,"./NamespaceRegistrationTypeDto":414,"./NemesisBlockHeaderBuilder":415,"./NetworkTypeDto":416,"./NodeKeyLinkTransactionBodyBuilder":417,"./NodeKeyLinkTransactionBuilder":418,"./NormalBlockHeaderBuilder":419,"./PinnedVotingKeyBuilder":420,"./ProofGammaDto":421,"./ProofScalarDto":422,"./ProofVerificationHashDto":423,"./ReceiptBuilder":424,"./ReceiptSourceBuilder":425,"./ReceiptTypeDto":426,"./RestrictionRuleBuilder":427,"./RootNamespaceHistoryBuilder":428,"./ScopedMetadataKeyDto":429,"./SecretLockInfoBuilder":430,"./SecretLockTransactionBodyBuilder":431,"./SecretLockTransactionBuilder":432,"./SecretProofTransactionBodyBuilder":433,"./SecretProofTransactionBuilder":434,"./Serializer":435,"./SignatureDto":436,"./StateHeaderBuilder":437,"./TimestampDto":438,"./TransactionBuilder":439,"./TransactionHelper":440,"./TransferTransactionBodyBuilder":441,"./TransferTransactionBuilder":442,"./UnresolvedAddressDto":443,"./UnresolvedMosaicBuilder":444,"./UnresolvedMosaicIdDto":445,"./VotingKeyDto":446,"./VotingKeyLinkTransactionBodyBuilder":447,"./VotingKeyLinkTransactionBuilder":448,"./VrfKeyLinkTransactionBodyBuilder":449,"./VrfKeyLinkTransactionBuilder":450,"./VrfProofBuilder":451}],"/node_modules/js-sha256":[function(require,module,exports){
+(function (process,global){(function (){
+/**
+ * [js-sha256]{@link https://github.com/emn178/js-sha256}
+ *
+ * @version 0.9.0
+ * @author Chen, Yi-Cyuan [emn178@gmail.com]
+ * @copyright Chen, Yi-Cyuan 2014-2017
+ * @license MIT
+ */
+/*jslint bitwise: true */
+(function () {
+  'use strict';
+
+  var ERROR = 'input is invalid type';
+  var WINDOW = typeof window === 'object';
+  var root = WINDOW ? window : {};
+  if (root.JS_SHA256_NO_WINDOW) {
+    WINDOW = false;
+  }
+  var WEB_WORKER = !WINDOW && typeof self === 'object';
+  var NODE_JS = !root.JS_SHA256_NO_NODE_JS && typeof process === 'object' && process.versions && process.versions.node;
+  if (NODE_JS) {
+    root = global;
+  } else if (WEB_WORKER) {
+    root = self;
+  }
+  var COMMON_JS = !root.JS_SHA256_NO_COMMON_JS && typeof module === 'object' && module.exports;
+  var AMD = typeof define === 'function' && define.amd;
+  var ARRAY_BUFFER = !root.JS_SHA256_NO_ARRAY_BUFFER && typeof ArrayBuffer !== 'undefined';
+  var HEX_CHARS = '0123456789abcdef'.split('');
+  var EXTRA = [-2147483648, 8388608, 32768, 128];
+  var SHIFT = [24, 16, 8, 0];
+  var K = [
+    0x428a2f98, 0x71374491, 0xb5c0fbcf, 0xe9b5dba5, 0x3956c25b, 0x59f111f1, 0x923f82a4, 0xab1c5ed5,
+    0xd807aa98, 0x12835b01, 0x243185be, 0x550c7dc3, 0x72be5d74, 0x80deb1fe, 0x9bdc06a7, 0xc19bf174,
+    0xe49b69c1, 0xefbe4786, 0x0fc19dc6, 0x240ca1cc, 0x2de92c6f, 0x4a7484aa, 0x5cb0a9dc, 0x76f988da,
+    0x983e5152, 0xa831c66d, 0xb00327c8, 0xbf597fc7, 0xc6e00bf3, 0xd5a79147, 0x06ca6351, 0x14292967,
+    0x27b70a85, 0x2e1b2138, 0x4d2c6dfc, 0x53380d13, 0x650a7354, 0x766a0abb, 0x81c2c92e, 0x92722c85,
+    0xa2bfe8a1, 0xa81a664b, 0xc24b8b70, 0xc76c51a3, 0xd192e819, 0xd6990624, 0xf40e3585, 0x106aa070,
+    0x19a4c116, 0x1e376c08, 0x2748774c, 0x34b0bcb5, 0x391c0cb3, 0x4ed8aa4a, 0x5b9cca4f, 0x682e6ff3,
+    0x748f82ee, 0x78a5636f, 0x84c87814, 0x8cc70208, 0x90befffa, 0xa4506ceb, 0xbef9a3f7, 0xc67178f2
+  ];
+  var OUTPUT_TYPES = ['hex', 'array', 'digest', 'arrayBuffer'];
+
+  var blocks = [];
+
+  if (root.JS_SHA256_NO_NODE_JS || !Array.isArray) {
+    Array.isArray = function (obj) {
+      return Object.prototype.toString.call(obj) === '[object Array]';
+    };
+  }
+
+  if (ARRAY_BUFFER && (root.JS_SHA256_NO_ARRAY_BUFFER_IS_VIEW || !ArrayBuffer.isView)) {
+    ArrayBuffer.isView = function (obj) {
+      return typeof obj === 'object' && obj.buffer && obj.buffer.constructor === ArrayBuffer;
+    };
+  }
+
+  var createOutputMethod = function (outputType, is224) {
+    return function (message) {
+      return new Sha256(is224, true).update(message)[outputType]();
+    };
+  };
+
+  var createMethod = function (is224) {
+    var method = createOutputMethod('hex', is224);
+    if (NODE_JS) {
+      method = nodeWrap(method, is224);
+    }
+    method.create = function () {
+      return new Sha256(is224);
+    };
+    method.update = function (message) {
+      return method.create().update(message);
+    };
+    for (var i = 0; i < OUTPUT_TYPES.length; ++i) {
+      var type = OUTPUT_TYPES[i];
+      method[type] = createOutputMethod(type, is224);
+    }
+    return method;
+  };
+
+  var nodeWrap = function (method, is224) {
+    var crypto = eval("require('crypto')");
+    var Buffer = eval("require('buffer').Buffer");
+    var algorithm = is224 ? 'sha224' : 'sha256';
+    var nodeMethod = function (message) {
+      if (typeof message === 'string') {
+        return crypto.createHash(algorithm).update(message, 'utf8').digest('hex');
+      } else {
+        if (message === null || message === undefined) {
+          throw new Error(ERROR);
+        } else if (message.constructor === ArrayBuffer) {
+          message = new Uint8Array(message);
+        }
+      }
+      if (Array.isArray(message) || ArrayBuffer.isView(message) ||
+        message.constructor === Buffer) {
+        return crypto.createHash(algorithm).update(new Buffer(message)).digest('hex');
+      } else {
+        return method(message);
+      }
+    };
+    return nodeMethod;
+  };
+
+  var createHmacOutputMethod = function (outputType, is224) {
+    return function (key, message) {
+      return new HmacSha256(key, is224, true).update(message)[outputType]();
+    };
+  };
+
+  var createHmacMethod = function (is224) {
+    var method = createHmacOutputMethod('hex', is224);
+    method.create = function (key) {
+      return new HmacSha256(key, is224);
+    };
+    method.update = function (key, message) {
+      return method.create(key).update(message);
+    };
+    for (var i = 0; i < OUTPUT_TYPES.length; ++i) {
+      var type = OUTPUT_TYPES[i];
+      method[type] = createHmacOutputMethod(type, is224);
+    }
+    return method;
+  };
+
+  function Sha256(is224, sharedMemory) {
+    if (sharedMemory) {
+      blocks[0] = blocks[16] = blocks[1] = blocks[2] = blocks[3] =
+        blocks[4] = blocks[5] = blocks[6] = blocks[7] =
+        blocks[8] = blocks[9] = blocks[10] = blocks[11] =
+        blocks[12] = blocks[13] = blocks[14] = blocks[15] = 0;
+      this.blocks = blocks;
+    } else {
+      this.blocks = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    }
+
+    if (is224) {
+      this.h0 = 0xc1059ed8;
+      this.h1 = 0x367cd507;
+      this.h2 = 0x3070dd17;
+      this.h3 = 0xf70e5939;
+      this.h4 = 0xffc00b31;
+      this.h5 = 0x68581511;
+      this.h6 = 0x64f98fa7;
+      this.h7 = 0xbefa4fa4;
+    } else { // 256
+      this.h0 = 0x6a09e667;
+      this.h1 = 0xbb67ae85;
+      this.h2 = 0x3c6ef372;
+      this.h3 = 0xa54ff53a;
+      this.h4 = 0x510e527f;
+      this.h5 = 0x9b05688c;
+      this.h6 = 0x1f83d9ab;
+      this.h7 = 0x5be0cd19;
+    }
+
+    this.block = this.start = this.bytes = this.hBytes = 0;
+    this.finalized = this.hashed = false;
+    this.first = true;
+    this.is224 = is224;
+  }
+
+  Sha256.prototype.update = function (message) {
+    if (this.finalized) {
+      return;
+    }
+    var notString, type = typeof message;
+    if (type !== 'string') {
+      if (type === 'object') {
+        if (message === null) {
+          throw new Error(ERROR);
+        } else if (ARRAY_BUFFER && message.constructor === ArrayBuffer) {
+          message = new Uint8Array(message);
+        } else if (!Array.isArray(message)) {
+          if (!ARRAY_BUFFER || !ArrayBuffer.isView(message)) {
+            throw new Error(ERROR);
+          }
+        }
+      } else {
+        throw new Error(ERROR);
+      }
+      notString = true;
+    }
+    var code, index = 0, i, length = message.length, blocks = this.blocks;
+
+    while (index < length) {
+      if (this.hashed) {
+        this.hashed = false;
+        blocks[0] = this.block;
+        blocks[16] = blocks[1] = blocks[2] = blocks[3] =
+          blocks[4] = blocks[5] = blocks[6] = blocks[7] =
+          blocks[8] = blocks[9] = blocks[10] = blocks[11] =
+          blocks[12] = blocks[13] = blocks[14] = blocks[15] = 0;
+      }
+
+      if (notString) {
+        for (i = this.start; index < length && i < 64; ++index) {
+          blocks[i >> 2] |= message[index] << SHIFT[i++ & 3];
+        }
+      } else {
+        for (i = this.start; index < length && i < 64; ++index) {
+          code = message.charCodeAt(index);
+          if (code < 0x80) {
+            blocks[i >> 2] |= code << SHIFT[i++ & 3];
+          } else if (code < 0x800) {
+            blocks[i >> 2] |= (0xc0 | (code >> 6)) << SHIFT[i++ & 3];
+            blocks[i >> 2] |= (0x80 | (code & 0x3f)) << SHIFT[i++ & 3];
+          } else if (code < 0xd800 || code >= 0xe000) {
+            blocks[i >> 2] |= (0xe0 | (code >> 12)) << SHIFT[i++ & 3];
+            blocks[i >> 2] |= (0x80 | ((code >> 6) & 0x3f)) << SHIFT[i++ & 3];
+            blocks[i >> 2] |= (0x80 | (code & 0x3f)) << SHIFT[i++ & 3];
+          } else {
+            code = 0x10000 + (((code & 0x3ff) << 10) | (message.charCodeAt(++index) & 0x3ff));
+            blocks[i >> 2] |= (0xf0 | (code >> 18)) << SHIFT[i++ & 3];
+            blocks[i >> 2] |= (0x80 | ((code >> 12) & 0x3f)) << SHIFT[i++ & 3];
+            blocks[i >> 2] |= (0x80 | ((code >> 6) & 0x3f)) << SHIFT[i++ & 3];
+            blocks[i >> 2] |= (0x80 | (code & 0x3f)) << SHIFT[i++ & 3];
+          }
+        }
+      }
+
+      this.lastByteIndex = i;
+      this.bytes += i - this.start;
+      if (i >= 64) {
+        this.block = blocks[16];
+        this.start = i - 64;
+        this.hash();
+        this.hashed = true;
+      } else {
+        this.start = i;
+      }
+    }
+    if (this.bytes > 4294967295) {
+      this.hBytes += this.bytes / 4294967296 << 0;
+      this.bytes = this.bytes % 4294967296;
+    }
+    return this;
+  };
+
+  Sha256.prototype.finalize = function () {
+    if (this.finalized) {
+      return;
+    }
+    this.finalized = true;
+    var blocks = this.blocks, i = this.lastByteIndex;
+    blocks[16] = this.block;
+    blocks[i >> 2] |= EXTRA[i & 3];
+    this.block = blocks[16];
+    if (i >= 56) {
+      if (!this.hashed) {
+        this.hash();
+      }
+      blocks[0] = this.block;
+      blocks[16] = blocks[1] = blocks[2] = blocks[3] =
+        blocks[4] = blocks[5] = blocks[6] = blocks[7] =
+        blocks[8] = blocks[9] = blocks[10] = blocks[11] =
+        blocks[12] = blocks[13] = blocks[14] = blocks[15] = 0;
+    }
+    blocks[14] = this.hBytes << 3 | this.bytes >>> 29;
+    blocks[15] = this.bytes << 3;
+    this.hash();
+  };
+
+  Sha256.prototype.hash = function () {
+    var a = this.h0, b = this.h1, c = this.h2, d = this.h3, e = this.h4, f = this.h5, g = this.h6,
+      h = this.h7, blocks = this.blocks, j, s0, s1, maj, t1, t2, ch, ab, da, cd, bc;
+
+    for (j = 16; j < 64; ++j) {
+      // rightrotate
+      t1 = blocks[j - 15];
+      s0 = ((t1 >>> 7) | (t1 << 25)) ^ ((t1 >>> 18) | (t1 << 14)) ^ (t1 >>> 3);
+      t1 = blocks[j - 2];
+      s1 = ((t1 >>> 17) | (t1 << 15)) ^ ((t1 >>> 19) | (t1 << 13)) ^ (t1 >>> 10);
+      blocks[j] = blocks[j - 16] + s0 + blocks[j - 7] + s1 << 0;
+    }
+
+    bc = b & c;
+    for (j = 0; j < 64; j += 4) {
+      if (this.first) {
+        if (this.is224) {
+          ab = 300032;
+          t1 = blocks[0] - 1413257819;
+          h = t1 - 150054599 << 0;
+          d = t1 + 24177077 << 0;
+        } else {
+          ab = 704751109;
+          t1 = blocks[0] - 210244248;
+          h = t1 - 1521486534 << 0;
+          d = t1 + 143694565 << 0;
+        }
+        this.first = false;
+      } else {
+        s0 = ((a >>> 2) | (a << 30)) ^ ((a >>> 13) | (a << 19)) ^ ((a >>> 22) | (a << 10));
+        s1 = ((e >>> 6) | (e << 26)) ^ ((e >>> 11) | (e << 21)) ^ ((e >>> 25) | (e << 7));
+        ab = a & b;
+        maj = ab ^ (a & c) ^ bc;
+        ch = (e & f) ^ (~e & g);
+        t1 = h + s1 + ch + K[j] + blocks[j];
+        t2 = s0 + maj;
+        h = d + t1 << 0;
+        d = t1 + t2 << 0;
+      }
+      s0 = ((d >>> 2) | (d << 30)) ^ ((d >>> 13) | (d << 19)) ^ ((d >>> 22) | (d << 10));
+      s1 = ((h >>> 6) | (h << 26)) ^ ((h >>> 11) | (h << 21)) ^ ((h >>> 25) | (h << 7));
+      da = d & a;
+      maj = da ^ (d & b) ^ ab;
+      ch = (h & e) ^ (~h & f);
+      t1 = g + s1 + ch + K[j + 1] + blocks[j + 1];
+      t2 = s0 + maj;
+      g = c + t1 << 0;
+      c = t1 + t2 << 0;
+      s0 = ((c >>> 2) | (c << 30)) ^ ((c >>> 13) | (c << 19)) ^ ((c >>> 22) | (c << 10));
+      s1 = ((g >>> 6) | (g << 26)) ^ ((g >>> 11) | (g << 21)) ^ ((g >>> 25) | (g << 7));
+      cd = c & d;
+      maj = cd ^ (c & a) ^ da;
+      ch = (g & h) ^ (~g & e);
+      t1 = f + s1 + ch + K[j + 2] + blocks[j + 2];
+      t2 = s0 + maj;
+      f = b + t1 << 0;
+      b = t1 + t2 << 0;
+      s0 = ((b >>> 2) | (b << 30)) ^ ((b >>> 13) | (b << 19)) ^ ((b >>> 22) | (b << 10));
+      s1 = ((f >>> 6) | (f << 26)) ^ ((f >>> 11) | (f << 21)) ^ ((f >>> 25) | (f << 7));
+      bc = b & c;
+      maj = bc ^ (b & d) ^ cd;
+      ch = (f & g) ^ (~f & h);
+      t1 = e + s1 + ch + K[j + 3] + blocks[j + 3];
+      t2 = s0 + maj;
+      e = a + t1 << 0;
+      a = t1 + t2 << 0;
+    }
+
+    this.h0 = this.h0 + a << 0;
+    this.h1 = this.h1 + b << 0;
+    this.h2 = this.h2 + c << 0;
+    this.h3 = this.h3 + d << 0;
+    this.h4 = this.h4 + e << 0;
+    this.h5 = this.h5 + f << 0;
+    this.h6 = this.h6 + g << 0;
+    this.h7 = this.h7 + h << 0;
+  };
+
+  Sha256.prototype.hex = function () {
+    this.finalize();
+
+    var h0 = this.h0, h1 = this.h1, h2 = this.h2, h3 = this.h3, h4 = this.h4, h5 = this.h5,
+      h6 = this.h6, h7 = this.h7;
+
+    var hex = HEX_CHARS[(h0 >> 28) & 0x0F] + HEX_CHARS[(h0 >> 24) & 0x0F] +
+      HEX_CHARS[(h0 >> 20) & 0x0F] + HEX_CHARS[(h0 >> 16) & 0x0F] +
+      HEX_CHARS[(h0 >> 12) & 0x0F] + HEX_CHARS[(h0 >> 8) & 0x0F] +
+      HEX_CHARS[(h0 >> 4) & 0x0F] + HEX_CHARS[h0 & 0x0F] +
+      HEX_CHARS[(h1 >> 28) & 0x0F] + HEX_CHARS[(h1 >> 24) & 0x0F] +
+      HEX_CHARS[(h1 >> 20) & 0x0F] + HEX_CHARS[(h1 >> 16) & 0x0F] +
+      HEX_CHARS[(h1 >> 12) & 0x0F] + HEX_CHARS[(h1 >> 8) & 0x0F] +
+      HEX_CHARS[(h1 >> 4) & 0x0F] + HEX_CHARS[h1 & 0x0F] +
+      HEX_CHARS[(h2 >> 28) & 0x0F] + HEX_CHARS[(h2 >> 24) & 0x0F] +
+      HEX_CHARS[(h2 >> 20) & 0x0F] + HEX_CHARS[(h2 >> 16) & 0x0F] +
+      HEX_CHARS[(h2 >> 12) & 0x0F] + HEX_CHARS[(h2 >> 8) & 0x0F] +
+      HEX_CHARS[(h2 >> 4) & 0x0F] + HEX_CHARS[h2 & 0x0F] +
+      HEX_CHARS[(h3 >> 28) & 0x0F] + HEX_CHARS[(h3 >> 24) & 0x0F] +
+      HEX_CHARS[(h3 >> 20) & 0x0F] + HEX_CHARS[(h3 >> 16) & 0x0F] +
+      HEX_CHARS[(h3 >> 12) & 0x0F] + HEX_CHARS[(h3 >> 8) & 0x0F] +
+      HEX_CHARS[(h3 >> 4) & 0x0F] + HEX_CHARS[h3 & 0x0F] +
+      HEX_CHARS[(h4 >> 28) & 0x0F] + HEX_CHARS[(h4 >> 24) & 0x0F] +
+      HEX_CHARS[(h4 >> 20) & 0x0F] + HEX_CHARS[(h4 >> 16) & 0x0F] +
+      HEX_CHARS[(h4 >> 12) & 0x0F] + HEX_CHARS[(h4 >> 8) & 0x0F] +
+      HEX_CHARS[(h4 >> 4) & 0x0F] + HEX_CHARS[h4 & 0x0F] +
+      HEX_CHARS[(h5 >> 28) & 0x0F] + HEX_CHARS[(h5 >> 24) & 0x0F] +
+      HEX_CHARS[(h5 >> 20) & 0x0F] + HEX_CHARS[(h5 >> 16) & 0x0F] +
+      HEX_CHARS[(h5 >> 12) & 0x0F] + HEX_CHARS[(h5 >> 8) & 0x0F] +
+      HEX_CHARS[(h5 >> 4) & 0x0F] + HEX_CHARS[h5 & 0x0F] +
+      HEX_CHARS[(h6 >> 28) & 0x0F] + HEX_CHARS[(h6 >> 24) & 0x0F] +
+      HEX_CHARS[(h6 >> 20) & 0x0F] + HEX_CHARS[(h6 >> 16) & 0x0F] +
+      HEX_CHARS[(h6 >> 12) & 0x0F] + HEX_CHARS[(h6 >> 8) & 0x0F] +
+      HEX_CHARS[(h6 >> 4) & 0x0F] + HEX_CHARS[h6 & 0x0F];
+    if (!this.is224) {
+      hex += HEX_CHARS[(h7 >> 28) & 0x0F] + HEX_CHARS[(h7 >> 24) & 0x0F] +
+        HEX_CHARS[(h7 >> 20) & 0x0F] + HEX_CHARS[(h7 >> 16) & 0x0F] +
+        HEX_CHARS[(h7 >> 12) & 0x0F] + HEX_CHARS[(h7 >> 8) & 0x0F] +
+        HEX_CHARS[(h7 >> 4) & 0x0F] + HEX_CHARS[h7 & 0x0F];
+    }
+    return hex;
+  };
+
+  Sha256.prototype.toString = Sha256.prototype.hex;
+
+  Sha256.prototype.digest = function () {
+    this.finalize();
+
+    var h0 = this.h0, h1 = this.h1, h2 = this.h2, h3 = this.h3, h4 = this.h4, h5 = this.h5,
+      h6 = this.h6, h7 = this.h7;
+
+    var arr = [
+      (h0 >> 24) & 0xFF, (h0 >> 16) & 0xFF, (h0 >> 8) & 0xFF, h0 & 0xFF,
+      (h1 >> 24) & 0xFF, (h1 >> 16) & 0xFF, (h1 >> 8) & 0xFF, h1 & 0xFF,
+      (h2 >> 24) & 0xFF, (h2 >> 16) & 0xFF, (h2 >> 8) & 0xFF, h2 & 0xFF,
+      (h3 >> 24) & 0xFF, (h3 >> 16) & 0xFF, (h3 >> 8) & 0xFF, h3 & 0xFF,
+      (h4 >> 24) & 0xFF, (h4 >> 16) & 0xFF, (h4 >> 8) & 0xFF, h4 & 0xFF,
+      (h5 >> 24) & 0xFF, (h5 >> 16) & 0xFF, (h5 >> 8) & 0xFF, h5 & 0xFF,
+      (h6 >> 24) & 0xFF, (h6 >> 16) & 0xFF, (h6 >> 8) & 0xFF, h6 & 0xFF
+    ];
+    if (!this.is224) {
+      arr.push((h7 >> 24) & 0xFF, (h7 >> 16) & 0xFF, (h7 >> 8) & 0xFF, h7 & 0xFF);
+    }
+    return arr;
+  };
+
+  Sha256.prototype.array = Sha256.prototype.digest;
+
+  Sha256.prototype.arrayBuffer = function () {
+    this.finalize();
+
+    var buffer = new ArrayBuffer(this.is224 ? 28 : 32);
+    var dataView = new DataView(buffer);
+    dataView.setUint32(0, this.h0);
+    dataView.setUint32(4, this.h1);
+    dataView.setUint32(8, this.h2);
+    dataView.setUint32(12, this.h3);
+    dataView.setUint32(16, this.h4);
+    dataView.setUint32(20, this.h5);
+    dataView.setUint32(24, this.h6);
+    if (!this.is224) {
+      dataView.setUint32(28, this.h7);
+    }
+    return buffer;
+  };
+
+  function HmacSha256(key, is224, sharedMemory) {
+    var i, type = typeof key;
+    if (type === 'string') {
+      var bytes = [], length = key.length, index = 0, code;
+      for (i = 0; i < length; ++i) {
+        code = key.charCodeAt(i);
+        if (code < 0x80) {
+          bytes[index++] = code;
+        } else if (code < 0x800) {
+          bytes[index++] = (0xc0 | (code >> 6));
+          bytes[index++] = (0x80 | (code & 0x3f));
+        } else if (code < 0xd800 || code >= 0xe000) {
+          bytes[index++] = (0xe0 | (code >> 12));
+          bytes[index++] = (0x80 | ((code >> 6) & 0x3f));
+          bytes[index++] = (0x80 | (code & 0x3f));
+        } else {
+          code = 0x10000 + (((code & 0x3ff) << 10) | (key.charCodeAt(++i) & 0x3ff));
+          bytes[index++] = (0xf0 | (code >> 18));
+          bytes[index++] = (0x80 | ((code >> 12) & 0x3f));
+          bytes[index++] = (0x80 | ((code >> 6) & 0x3f));
+          bytes[index++] = (0x80 | (code & 0x3f));
+        }
+      }
+      key = bytes;
+    } else {
+      if (type === 'object') {
+        if (key === null) {
+          throw new Error(ERROR);
+        } else if (ARRAY_BUFFER && key.constructor === ArrayBuffer) {
+          key = new Uint8Array(key);
+        } else if (!Array.isArray(key)) {
+          if (!ARRAY_BUFFER || !ArrayBuffer.isView(key)) {
+            throw new Error(ERROR);
+          }
+        }
+      } else {
+        throw new Error(ERROR);
+      }
+    }
+
+    if (key.length > 64) {
+      key = (new Sha256(is224, true)).update(key).array();
+    }
+
+    var oKeyPad = [], iKeyPad = [];
+    for (i = 0; i < 64; ++i) {
+      var b = key[i] || 0;
+      oKeyPad[i] = 0x5c ^ b;
+      iKeyPad[i] = 0x36 ^ b;
+    }
+
+    Sha256.call(this, is224, sharedMemory);
+
+    this.update(iKeyPad);
+    this.oKeyPad = oKeyPad;
+    this.inner = true;
+    this.sharedMemory = sharedMemory;
+  }
+  HmacSha256.prototype = new Sha256();
+
+  HmacSha256.prototype.finalize = function () {
+    Sha256.prototype.finalize.call(this);
+    if (this.inner) {
+      this.inner = false;
+      var innerHash = this.array();
+      Sha256.call(this, this.is224, this.sharedMemory);
+      this.update(this.oKeyPad);
+      this.update(innerHash);
+      Sha256.prototype.finalize.call(this);
+    }
+  };
+
+  var exports = createMethod();
+  exports.sha256 = exports;
+  exports.sha224 = createMethod(true);
+  exports.sha256.hmac = createHmacMethod();
+  exports.sha224.hmac = createHmacMethod(true);
+
+  if (COMMON_JS) {
+    module.exports = exports;
+  } else {
+    root.sha256 = exports.sha256;
+    root.sha224 = exports.sha224;
+    if (AMD) {
+      define(function () {
+        return exports;
+      });
+    }
+  }
+})();
+
+}).call(this)}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+},{"_process":154}],"/node_modules/js-sha3":[function(require,module,exports){
+(function (process,global){(function (){
+/**
+ * [js-sha3]{@link https://github.com/emn178/js-sha3}
+ *
+ * @version 0.8.0
+ * @author Chen, Yi-Cyuan [emn178@gmail.com]
+ * @copyright Chen, Yi-Cyuan 2015-2018
+ * @license MIT
+ */
+/*jslint bitwise: true */
+(function () {
+  'use strict';
+
+  var INPUT_ERROR = 'input is invalid type';
+  var FINALIZE_ERROR = 'finalize already called';
+  var WINDOW = typeof window === 'object';
+  var root = WINDOW ? window : {};
+  if (root.JS_SHA3_NO_WINDOW) {
+    WINDOW = false;
+  }
+  var WEB_WORKER = !WINDOW && typeof self === 'object';
+  var NODE_JS = !root.JS_SHA3_NO_NODE_JS && typeof process === 'object' && process.versions && process.versions.node;
+  if (NODE_JS) {
+    root = global;
+  } else if (WEB_WORKER) {
+    root = self;
+  }
+  var COMMON_JS = !root.JS_SHA3_NO_COMMON_JS && typeof module === 'object' && module.exports;
+  var AMD = typeof define === 'function' && define.amd;
+  var ARRAY_BUFFER = !root.JS_SHA3_NO_ARRAY_BUFFER && typeof ArrayBuffer !== 'undefined';
+  var HEX_CHARS = '0123456789abcdef'.split('');
+  var SHAKE_PADDING = [31, 7936, 2031616, 520093696];
+  var CSHAKE_PADDING = [4, 1024, 262144, 67108864];
+  var KECCAK_PADDING = [1, 256, 65536, 16777216];
+  var PADDING = [6, 1536, 393216, 100663296];
+  var SHIFT = [0, 8, 16, 24];
+  var RC = [1, 0, 32898, 0, 32906, 2147483648, 2147516416, 2147483648, 32907, 0, 2147483649,
+    0, 2147516545, 2147483648, 32777, 2147483648, 138, 0, 136, 0, 2147516425, 0,
+    2147483658, 0, 2147516555, 0, 139, 2147483648, 32905, 2147483648, 32771,
+    2147483648, 32770, 2147483648, 128, 2147483648, 32778, 0, 2147483658, 2147483648,
+    2147516545, 2147483648, 32896, 2147483648, 2147483649, 0, 2147516424, 2147483648];
+  var BITS = [224, 256, 384, 512];
+  var SHAKE_BITS = [128, 256];
+  var OUTPUT_TYPES = ['hex', 'buffer', 'arrayBuffer', 'array', 'digest'];
+  var CSHAKE_BYTEPAD = {
+    '128': 168,
+    '256': 136
+  };
+
+  if (root.JS_SHA3_NO_NODE_JS || !Array.isArray) {
+    Array.isArray = function (obj) {
+      return Object.prototype.toString.call(obj) === '[object Array]';
+    };
+  }
+
+  if (ARRAY_BUFFER && (root.JS_SHA3_NO_ARRAY_BUFFER_IS_VIEW || !ArrayBuffer.isView)) {
+    ArrayBuffer.isView = function (obj) {
+      return typeof obj === 'object' && obj.buffer && obj.buffer.constructor === ArrayBuffer;
+    };
+  }
+
+  var createOutputMethod = function (bits, padding, outputType) {
+    return function (message) {
+      return new Keccak(bits, padding, bits).update(message)[outputType]();
+    };
+  };
+
+  var createShakeOutputMethod = function (bits, padding, outputType) {
+    return function (message, outputBits) {
+      return new Keccak(bits, padding, outputBits).update(message)[outputType]();
+    };
+  };
+
+  var createCshakeOutputMethod = function (bits, padding, outputType) {
+    return function (message, outputBits, n, s) {
+      return methods['cshake' + bits].update(message, outputBits, n, s)[outputType]();
+    };
+  };
+
+  var createKmacOutputMethod = function (bits, padding, outputType) {
+    return function (key, message, outputBits, s) {
+      return methods['kmac' + bits].update(key, message, outputBits, s)[outputType]();
+    };
+  };
+
+  var createOutputMethods = function (method, createMethod, bits, padding) {
+    for (var i = 0; i < OUTPUT_TYPES.length; ++i) {
+      var type = OUTPUT_TYPES[i];
+      method[type] = createMethod(bits, padding, type);
+    }
+    return method;
+  };
+
+  var createMethod = function (bits, padding) {
+    var method = createOutputMethod(bits, padding, 'hex');
+    method.create = function () {
+      return new Keccak(bits, padding, bits);
+    };
+    method.update = function (message) {
+      return method.create().update(message);
+    };
+    return createOutputMethods(method, createOutputMethod, bits, padding);
+  };
+
+  var createShakeMethod = function (bits, padding) {
+    var method = createShakeOutputMethod(bits, padding, 'hex');
+    method.create = function (outputBits) {
+      return new Keccak(bits, padding, outputBits);
+    };
+    method.update = function (message, outputBits) {
+      return method.create(outputBits).update(message);
+    };
+    return createOutputMethods(method, createShakeOutputMethod, bits, padding);
+  };
+
+  var createCshakeMethod = function (bits, padding) {
+    var w = CSHAKE_BYTEPAD[bits];
+    var method = createCshakeOutputMethod(bits, padding, 'hex');
+    method.create = function (outputBits, n, s) {
+      if (!n && !s) {
+        return methods['shake' + bits].create(outputBits);
+      } else {
+        return new Keccak(bits, padding, outputBits).bytepad([n, s], w);
+      }
+    };
+    method.update = function (message, outputBits, n, s) {
+      return method.create(outputBits, n, s).update(message);
+    };
+    return createOutputMethods(method, createCshakeOutputMethod, bits, padding);
+  };
+
+  var createKmacMethod = function (bits, padding) {
+    var w = CSHAKE_BYTEPAD[bits];
+    var method = createKmacOutputMethod(bits, padding, 'hex');
+    method.create = function (key, outputBits, s) {
+      return new Kmac(bits, padding, outputBits).bytepad(['KMAC', s], w).bytepad([key], w);
+    };
+    method.update = function (key, message, outputBits, s) {
+      return method.create(key, outputBits, s).update(message);
+    };
+    return createOutputMethods(method, createKmacOutputMethod, bits, padding);
+  };
+
+  var algorithms = [
+    { name: 'keccak', padding: KECCAK_PADDING, bits: BITS, createMethod: createMethod },
+    { name: 'sha3', padding: PADDING, bits: BITS, createMethod: createMethod },
+    { name: 'shake', padding: SHAKE_PADDING, bits: SHAKE_BITS, createMethod: createShakeMethod },
+    { name: 'cshake', padding: CSHAKE_PADDING, bits: SHAKE_BITS, createMethod: createCshakeMethod },
+    { name: 'kmac', padding: CSHAKE_PADDING, bits: SHAKE_BITS, createMethod: createKmacMethod }
+  ];
+
+  var methods = {}, methodNames = [];
+
+  for (var i = 0; i < algorithms.length; ++i) {
+    var algorithm = algorithms[i];
+    var bits = algorithm.bits;
+    for (var j = 0; j < bits.length; ++j) {
+      var methodName = algorithm.name + '_' + bits[j];
+      methodNames.push(methodName);
+      methods[methodName] = algorithm.createMethod(bits[j], algorithm.padding);
+      if (algorithm.name !== 'sha3') {
+        var newMethodName = algorithm.name + bits[j];
+        methodNames.push(newMethodName);
+        methods[newMethodName] = methods[methodName];
+      }
+    }
+  }
+
+  function Keccak(bits, padding, outputBits) {
+    this.blocks = [];
+    this.s = [];
+    this.padding = padding;
+    this.outputBits = outputBits;
+    this.reset = true;
+    this.finalized = false;
+    this.block = 0;
+    this.start = 0;
+    this.blockCount = (1600 - (bits << 1)) >> 5;
+    this.byteCount = this.blockCount << 2;
+    this.outputBlocks = outputBits >> 5;
+    this.extraBytes = (outputBits & 31) >> 3;
+
+    for (var i = 0; i < 50; ++i) {
+      this.s[i] = 0;
+    }
+  }
+
+  Keccak.prototype.update = function (message) {
+    if (this.finalized) {
+      throw new Error(FINALIZE_ERROR);
+    }
+    var notString, type = typeof message;
+    if (type !== 'string') {
+      if (type === 'object') {
+        if (message === null) {
+          throw new Error(INPUT_ERROR);
+        } else if (ARRAY_BUFFER && message.constructor === ArrayBuffer) {
+          message = new Uint8Array(message);
+        } else if (!Array.isArray(message)) {
+          if (!ARRAY_BUFFER || !ArrayBuffer.isView(message)) {
+            throw new Error(INPUT_ERROR);
+          }
+        }
+      } else {
+        throw new Error(INPUT_ERROR);
+      }
+      notString = true;
+    }
+    var blocks = this.blocks, byteCount = this.byteCount, length = message.length,
+      blockCount = this.blockCount, index = 0, s = this.s, i, code;
+
+    while (index < length) {
+      if (this.reset) {
+        this.reset = false;
+        blocks[0] = this.block;
+        for (i = 1; i < blockCount + 1; ++i) {
+          blocks[i] = 0;
+        }
+      }
+      if (notString) {
+        for (i = this.start; index < length && i < byteCount; ++index) {
+          blocks[i >> 2] |= message[index] << SHIFT[i++ & 3];
+        }
+      } else {
+        for (i = this.start; index < length && i < byteCount; ++index) {
+          code = message.charCodeAt(index);
+          if (code < 0x80) {
+            blocks[i >> 2] |= code << SHIFT[i++ & 3];
+          } else if (code < 0x800) {
+            blocks[i >> 2] |= (0xc0 | (code >> 6)) << SHIFT[i++ & 3];
+            blocks[i >> 2] |= (0x80 | (code & 0x3f)) << SHIFT[i++ & 3];
+          } else if (code < 0xd800 || code >= 0xe000) {
+            blocks[i >> 2] |= (0xe0 | (code >> 12)) << SHIFT[i++ & 3];
+            blocks[i >> 2] |= (0x80 | ((code >> 6) & 0x3f)) << SHIFT[i++ & 3];
+            blocks[i >> 2] |= (0x80 | (code & 0x3f)) << SHIFT[i++ & 3];
+          } else {
+            code = 0x10000 + (((code & 0x3ff) << 10) | (message.charCodeAt(++index) & 0x3ff));
+            blocks[i >> 2] |= (0xf0 | (code >> 18)) << SHIFT[i++ & 3];
+            blocks[i >> 2] |= (0x80 | ((code >> 12) & 0x3f)) << SHIFT[i++ & 3];
+            blocks[i >> 2] |= (0x80 | ((code >> 6) & 0x3f)) << SHIFT[i++ & 3];
+            blocks[i >> 2] |= (0x80 | (code & 0x3f)) << SHIFT[i++ & 3];
+          }
+        }
+      }
+      this.lastByteIndex = i;
+      if (i >= byteCount) {
+        this.start = i - byteCount;
+        this.block = blocks[blockCount];
+        for (i = 0; i < blockCount; ++i) {
+          s[i] ^= blocks[i];
+        }
+        f(s);
+        this.reset = true;
+      } else {
+        this.start = i;
+      }
+    }
+    return this;
+  };
+
+  Keccak.prototype.encode = function (x, right) {
+    var o = x & 255, n = 1;
+    var bytes = [o];
+    x = x >> 8;
+    o = x & 255;
+    while (o > 0) {
+      bytes.unshift(o);
+      x = x >> 8;
+      o = x & 255;
+      ++n;
+    }
+    if (right) {
+      bytes.push(n);
+    } else {
+      bytes.unshift(n);
+    }
+    this.update(bytes);
+    return bytes.length;
+  };
+
+  Keccak.prototype.encodeString = function (str) {
+    var notString, type = typeof str;
+    if (type !== 'string') {
+      if (type === 'object') {
+        if (str === null) {
+          throw new Error(INPUT_ERROR);
+        } else if (ARRAY_BUFFER && str.constructor === ArrayBuffer) {
+          str = new Uint8Array(str);
+        } else if (!Array.isArray(str)) {
+          if (!ARRAY_BUFFER || !ArrayBuffer.isView(str)) {
+            throw new Error(INPUT_ERROR);
+          }
+        }
+      } else {
+        throw new Error(INPUT_ERROR);
+      }
+      notString = true;
+    }
+    var bytes = 0, length = str.length;
+    if (notString) {
+      bytes = length;
+    } else {
+      for (var i = 0; i < str.length; ++i) {
+        var code = str.charCodeAt(i);
+        if (code < 0x80) {
+          bytes += 1;
+        } else if (code < 0x800) {
+          bytes += 2;
+        } else if (code < 0xd800 || code >= 0xe000) {
+          bytes += 3;
+        } else {
+          code = 0x10000 + (((code & 0x3ff) << 10) | (str.charCodeAt(++i) & 0x3ff));
+          bytes += 4;
+        }
+      }
+    }
+    bytes += this.encode(bytes * 8);
+    this.update(str);
+    return bytes;
+  };
+
+  Keccak.prototype.bytepad = function (strs, w) {
+    var bytes = this.encode(w);
+    for (var i = 0; i < strs.length; ++i) {
+      bytes += this.encodeString(strs[i]);
+    }
+    var paddingBytes = w - bytes % w;
+    var zeros = [];
+    zeros.length = paddingBytes;
+    this.update(zeros);
+    return this;
+  };
+
+  Keccak.prototype.finalize = function () {
+    if (this.finalized) {
+      return;
+    }
+    this.finalized = true;
+    var blocks = this.blocks, i = this.lastByteIndex, blockCount = this.blockCount, s = this.s;
+    blocks[i >> 2] |= this.padding[i & 3];
+    if (this.lastByteIndex === this.byteCount) {
+      blocks[0] = blocks[blockCount];
+      for (i = 1; i < blockCount + 1; ++i) {
+        blocks[i] = 0;
+      }
+    }
+    blocks[blockCount - 1] |= 0x80000000;
+    for (i = 0; i < blockCount; ++i) {
+      s[i] ^= blocks[i];
+    }
+    f(s);
+  };
+
+  Keccak.prototype.toString = Keccak.prototype.hex = function () {
+    this.finalize();
+
+    var blockCount = this.blockCount, s = this.s, outputBlocks = this.outputBlocks,
+      extraBytes = this.extraBytes, i = 0, j = 0;
+    var hex = '', block;
+    while (j < outputBlocks) {
+      for (i = 0; i < blockCount && j < outputBlocks; ++i, ++j) {
+        block = s[i];
+        hex += HEX_CHARS[(block >> 4) & 0x0F] + HEX_CHARS[block & 0x0F] +
+          HEX_CHARS[(block >> 12) & 0x0F] + HEX_CHARS[(block >> 8) & 0x0F] +
+          HEX_CHARS[(block >> 20) & 0x0F] + HEX_CHARS[(block >> 16) & 0x0F] +
+          HEX_CHARS[(block >> 28) & 0x0F] + HEX_CHARS[(block >> 24) & 0x0F];
+      }
+      if (j % blockCount === 0) {
+        f(s);
+        i = 0;
+      }
+    }
+    if (extraBytes) {
+      block = s[i];
+      hex += HEX_CHARS[(block >> 4) & 0x0F] + HEX_CHARS[block & 0x0F];
+      if (extraBytes > 1) {
+        hex += HEX_CHARS[(block >> 12) & 0x0F] + HEX_CHARS[(block >> 8) & 0x0F];
+      }
+      if (extraBytes > 2) {
+        hex += HEX_CHARS[(block >> 20) & 0x0F] + HEX_CHARS[(block >> 16) & 0x0F];
+      }
+    }
+    return hex;
+  };
+
+  Keccak.prototype.arrayBuffer = function () {
+    this.finalize();
+
+    var blockCount = this.blockCount, s = this.s, outputBlocks = this.outputBlocks,
+      extraBytes = this.extraBytes, i = 0, j = 0;
+    var bytes = this.outputBits >> 3;
+    var buffer;
+    if (extraBytes) {
+      buffer = new ArrayBuffer((outputBlocks + 1) << 2);
+    } else {
+      buffer = new ArrayBuffer(bytes);
+    }
+    var array = new Uint32Array(buffer);
+    while (j < outputBlocks) {
+      for (i = 0; i < blockCount && j < outputBlocks; ++i, ++j) {
+        array[j] = s[i];
+      }
+      if (j % blockCount === 0) {
+        f(s);
+      }
+    }
+    if (extraBytes) {
+      array[i] = s[i];
+      buffer = buffer.slice(0, bytes);
+    }
+    return buffer;
+  };
+
+  Keccak.prototype.buffer = Keccak.prototype.arrayBuffer;
+
+  Keccak.prototype.digest = Keccak.prototype.array = function () {
+    this.finalize();
+
+    var blockCount = this.blockCount, s = this.s, outputBlocks = this.outputBlocks,
+      extraBytes = this.extraBytes, i = 0, j = 0;
+    var array = [], offset, block;
+    while (j < outputBlocks) {
+      for (i = 0; i < blockCount && j < outputBlocks; ++i, ++j) {
+        offset = j << 2;
+        block = s[i];
+        array[offset] = block & 0xFF;
+        array[offset + 1] = (block >> 8) & 0xFF;
+        array[offset + 2] = (block >> 16) & 0xFF;
+        array[offset + 3] = (block >> 24) & 0xFF;
+      }
+      if (j % blockCount === 0) {
+        f(s);
+      }
+    }
+    if (extraBytes) {
+      offset = j << 2;
+      block = s[i];
+      array[offset] = block & 0xFF;
+      if (extraBytes > 1) {
+        array[offset + 1] = (block >> 8) & 0xFF;
+      }
+      if (extraBytes > 2) {
+        array[offset + 2] = (block >> 16) & 0xFF;
+      }
+    }
+    return array;
+  };
+
+  function Kmac(bits, padding, outputBits) {
+    Keccak.call(this, bits, padding, outputBits);
+  }
+
+  Kmac.prototype = new Keccak();
+
+  Kmac.prototype.finalize = function () {
+    this.encode(this.outputBits, true);
+    return Keccak.prototype.finalize.call(this);
+  };
+
+  var f = function (s) {
+    var h, l, n, c0, c1, c2, c3, c4, c5, c6, c7, c8, c9,
+      b0, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17,
+      b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29, b30, b31, b32, b33,
+      b34, b35, b36, b37, b38, b39, b40, b41, b42, b43, b44, b45, b46, b47, b48, b49;
+    for (n = 0; n < 48; n += 2) {
+      c0 = s[0] ^ s[10] ^ s[20] ^ s[30] ^ s[40];
+      c1 = s[1] ^ s[11] ^ s[21] ^ s[31] ^ s[41];
+      c2 = s[2] ^ s[12] ^ s[22] ^ s[32] ^ s[42];
+      c3 = s[3] ^ s[13] ^ s[23] ^ s[33] ^ s[43];
+      c4 = s[4] ^ s[14] ^ s[24] ^ s[34] ^ s[44];
+      c5 = s[5] ^ s[15] ^ s[25] ^ s[35] ^ s[45];
+      c6 = s[6] ^ s[16] ^ s[26] ^ s[36] ^ s[46];
+      c7 = s[7] ^ s[17] ^ s[27] ^ s[37] ^ s[47];
+      c8 = s[8] ^ s[18] ^ s[28] ^ s[38] ^ s[48];
+      c9 = s[9] ^ s[19] ^ s[29] ^ s[39] ^ s[49];
+
+      h = c8 ^ ((c2 << 1) | (c3 >>> 31));
+      l = c9 ^ ((c3 << 1) | (c2 >>> 31));
+      s[0] ^= h;
+      s[1] ^= l;
+      s[10] ^= h;
+      s[11] ^= l;
+      s[20] ^= h;
+      s[21] ^= l;
+      s[30] ^= h;
+      s[31] ^= l;
+      s[40] ^= h;
+      s[41] ^= l;
+      h = c0 ^ ((c4 << 1) | (c5 >>> 31));
+      l = c1 ^ ((c5 << 1) | (c4 >>> 31));
+      s[2] ^= h;
+      s[3] ^= l;
+      s[12] ^= h;
+      s[13] ^= l;
+      s[22] ^= h;
+      s[23] ^= l;
+      s[32] ^= h;
+      s[33] ^= l;
+      s[42] ^= h;
+      s[43] ^= l;
+      h = c2 ^ ((c6 << 1) | (c7 >>> 31));
+      l = c3 ^ ((c7 << 1) | (c6 >>> 31));
+      s[4] ^= h;
+      s[5] ^= l;
+      s[14] ^= h;
+      s[15] ^= l;
+      s[24] ^= h;
+      s[25] ^= l;
+      s[34] ^= h;
+      s[35] ^= l;
+      s[44] ^= h;
+      s[45] ^= l;
+      h = c4 ^ ((c8 << 1) | (c9 >>> 31));
+      l = c5 ^ ((c9 << 1) | (c8 >>> 31));
+      s[6] ^= h;
+      s[7] ^= l;
+      s[16] ^= h;
+      s[17] ^= l;
+      s[26] ^= h;
+      s[27] ^= l;
+      s[36] ^= h;
+      s[37] ^= l;
+      s[46] ^= h;
+      s[47] ^= l;
+      h = c6 ^ ((c0 << 1) | (c1 >>> 31));
+      l = c7 ^ ((c1 << 1) | (c0 >>> 31));
+      s[8] ^= h;
+      s[9] ^= l;
+      s[18] ^= h;
+      s[19] ^= l;
+      s[28] ^= h;
+      s[29] ^= l;
+      s[38] ^= h;
+      s[39] ^= l;
+      s[48] ^= h;
+      s[49] ^= l;
+
+      b0 = s[0];
+      b1 = s[1];
+      b32 = (s[11] << 4) | (s[10] >>> 28);
+      b33 = (s[10] << 4) | (s[11] >>> 28);
+      b14 = (s[20] << 3) | (s[21] >>> 29);
+      b15 = (s[21] << 3) | (s[20] >>> 29);
+      b46 = (s[31] << 9) | (s[30] >>> 23);
+      b47 = (s[30] << 9) | (s[31] >>> 23);
+      b28 = (s[40] << 18) | (s[41] >>> 14);
+      b29 = (s[41] << 18) | (s[40] >>> 14);
+      b20 = (s[2] << 1) | (s[3] >>> 31);
+      b21 = (s[3] << 1) | (s[2] >>> 31);
+      b2 = (s[13] << 12) | (s[12] >>> 20);
+      b3 = (s[12] << 12) | (s[13] >>> 20);
+      b34 = (s[22] << 10) | (s[23] >>> 22);
+      b35 = (s[23] << 10) | (s[22] >>> 22);
+      b16 = (s[33] << 13) | (s[32] >>> 19);
+      b17 = (s[32] << 13) | (s[33] >>> 19);
+      b48 = (s[42] << 2) | (s[43] >>> 30);
+      b49 = (s[43] << 2) | (s[42] >>> 30);
+      b40 = (s[5] << 30) | (s[4] >>> 2);
+      b41 = (s[4] << 30) | (s[5] >>> 2);
+      b22 = (s[14] << 6) | (s[15] >>> 26);
+      b23 = (s[15] << 6) | (s[14] >>> 26);
+      b4 = (s[25] << 11) | (s[24] >>> 21);
+      b5 = (s[24] << 11) | (s[25] >>> 21);
+      b36 = (s[34] << 15) | (s[35] >>> 17);
+      b37 = (s[35] << 15) | (s[34] >>> 17);
+      b18 = (s[45] << 29) | (s[44] >>> 3);
+      b19 = (s[44] << 29) | (s[45] >>> 3);
+      b10 = (s[6] << 28) | (s[7] >>> 4);
+      b11 = (s[7] << 28) | (s[6] >>> 4);
+      b42 = (s[17] << 23) | (s[16] >>> 9);
+      b43 = (s[16] << 23) | (s[17] >>> 9);
+      b24 = (s[26] << 25) | (s[27] >>> 7);
+      b25 = (s[27] << 25) | (s[26] >>> 7);
+      b6 = (s[36] << 21) | (s[37] >>> 11);
+      b7 = (s[37] << 21) | (s[36] >>> 11);
+      b38 = (s[47] << 24) | (s[46] >>> 8);
+      b39 = (s[46] << 24) | (s[47] >>> 8);
+      b30 = (s[8] << 27) | (s[9] >>> 5);
+      b31 = (s[9] << 27) | (s[8] >>> 5);
+      b12 = (s[18] << 20) | (s[19] >>> 12);
+      b13 = (s[19] << 20) | (s[18] >>> 12);
+      b44 = (s[29] << 7) | (s[28] >>> 25);
+      b45 = (s[28] << 7) | (s[29] >>> 25);
+      b26 = (s[38] << 8) | (s[39] >>> 24);
+      b27 = (s[39] << 8) | (s[38] >>> 24);
+      b8 = (s[48] << 14) | (s[49] >>> 18);
+      b9 = (s[49] << 14) | (s[48] >>> 18);
+
+      s[0] = b0 ^ (~b2 & b4);
+      s[1] = b1 ^ (~b3 & b5);
+      s[10] = b10 ^ (~b12 & b14);
+      s[11] = b11 ^ (~b13 & b15);
+      s[20] = b20 ^ (~b22 & b24);
+      s[21] = b21 ^ (~b23 & b25);
+      s[30] = b30 ^ (~b32 & b34);
+      s[31] = b31 ^ (~b33 & b35);
+      s[40] = b40 ^ (~b42 & b44);
+      s[41] = b41 ^ (~b43 & b45);
+      s[2] = b2 ^ (~b4 & b6);
+      s[3] = b3 ^ (~b5 & b7);
+      s[12] = b12 ^ (~b14 & b16);
+      s[13] = b13 ^ (~b15 & b17);
+      s[22] = b22 ^ (~b24 & b26);
+      s[23] = b23 ^ (~b25 & b27);
+      s[32] = b32 ^ (~b34 & b36);
+      s[33] = b33 ^ (~b35 & b37);
+      s[42] = b42 ^ (~b44 & b46);
+      s[43] = b43 ^ (~b45 & b47);
+      s[4] = b4 ^ (~b6 & b8);
+      s[5] = b5 ^ (~b7 & b9);
+      s[14] = b14 ^ (~b16 & b18);
+      s[15] = b15 ^ (~b17 & b19);
+      s[24] = b24 ^ (~b26 & b28);
+      s[25] = b25 ^ (~b27 & b29);
+      s[34] = b34 ^ (~b36 & b38);
+      s[35] = b35 ^ (~b37 & b39);
+      s[44] = b44 ^ (~b46 & b48);
+      s[45] = b45 ^ (~b47 & b49);
+      s[6] = b6 ^ (~b8 & b0);
+      s[7] = b7 ^ (~b9 & b1);
+      s[16] = b16 ^ (~b18 & b10);
+      s[17] = b17 ^ (~b19 & b11);
+      s[26] = b26 ^ (~b28 & b20);
+      s[27] = b27 ^ (~b29 & b21);
+      s[36] = b36 ^ (~b38 & b30);
+      s[37] = b37 ^ (~b39 & b31);
+      s[46] = b46 ^ (~b48 & b40);
+      s[47] = b47 ^ (~b49 & b41);
+      s[8] = b8 ^ (~b0 & b2);
+      s[9] = b9 ^ (~b1 & b3);
+      s[18] = b18 ^ (~b10 & b12);
+      s[19] = b19 ^ (~b11 & b13);
+      s[28] = b28 ^ (~b20 & b22);
+      s[29] = b29 ^ (~b21 & b23);
+      s[38] = b38 ^ (~b30 & b32);
+      s[39] = b39 ^ (~b31 & b33);
+      s[48] = b48 ^ (~b40 & b42);
+      s[49] = b49 ^ (~b41 & b43);
+
+      s[0] ^= RC[n];
+      s[1] ^= RC[n + 1];
+    }
+  };
+
+  if (COMMON_JS) {
+    module.exports = methods;
+  } else {
+    for (i = 0; i < methodNames.length; ++i) {
+      root[methodNames[i]] = methods[methodNames[i]];
+    }
+    if (AMD) {
+      define(function () {
+        return methods;
+      });
+    }
+  }
+})();
+
+}).call(this)}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+},{"_process":154}],"/node_modules/symbol-sdk":[function(require,module,exports){
 const { BaseValue } = require('./BaseValue');
 const { Bip32 } = require('./Bip32');
 const { ByteArray } = require('./ByteArray');
@@ -94980,4 +104221,4 @@ module.exports = {
 	}
 };
 
-},{"./BaseValue":340,"./Bip32":341,"./ByteArray":342,"./CryptoTypes":343,"./Network":344,"./facade/NemFacade":348,"./facade/SymbolFacade":349,"./nem/KeyPair":350,"./nem/Network":351,"./nem/NetworkTimestamp":352,"./nem/TransactionFactory":353,"./nem/models":355,"./symbol/KeyPair":356,"./symbol/MerkleHashBuilder":357,"./symbol/Network":358,"./symbol/NetworkTimestamp":359,"./symbol/TransactionFactory":360,"./symbol/idGenerator":361,"./symbol/models":362}]},{},[]);
+},{"./BaseValue":511,"./Bip32":512,"./ByteArray":513,"./CryptoTypes":514,"./Network":515,"./facade/NemFacade":519,"./facade/SymbolFacade":520,"./nem/KeyPair":521,"./nem/Network":522,"./nem/NetworkTimestamp":523,"./nem/TransactionFactory":524,"./nem/models":526,"./symbol/KeyPair":527,"./symbol/MerkleHashBuilder":528,"./symbol/Network":529,"./symbol/NetworkTimestamp":530,"./symbol/TransactionFactory":531,"./symbol/idGenerator":532,"./symbol/models":533}]},{},[]);
