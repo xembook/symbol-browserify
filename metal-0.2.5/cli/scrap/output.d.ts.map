@@ -1,0 +1,1 @@
+{"version":3,"file":"output.d.ts","sourceRoot":"","sources":["../../../src/cli/scrap/output.ts"],"names":[],"mappings":"AACA,OAAO,EAAC,kBAAkB,EAAC,MAAM,iBAAiB,CAAC;AAKnD,yBAAiB,WAAW,CAAC;IAEzB,UAAiB,iBAAkB,SAAQ,kBAAkB;QACzD,MAAM,EAAE,UAAU,GAAG,WAAW,CAAC;KACpC;IAEM,MAAM,kBAAkB,WAAY,iBAAiB,SAkB3D,CAAC;CAEL"}

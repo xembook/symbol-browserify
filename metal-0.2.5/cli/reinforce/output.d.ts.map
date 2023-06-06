@@ -1,0 +1,1 @@
+{"version":3,"file":"output.d.ts","sourceRoot":"","sources":["../../../src/cli/reinforce/output.ts"],"names":[],"mappings":"AACA,OAAO,EAAC,kBAAkB,EAAC,MAAM,iBAAiB,CAAC;AAMnD,yBAAiB,eAAe,CAAC;IAE7B,UAAiB,iBAAkB,SAAQ,kBAAkB;QACzD,MAAM,EAAE,YAAY,GAAG,WAAW,CAAC;QACnC,OAAO,EAAE,UAAU,CAAC;KACvB;IAEM,MAAM,kBAAkB,WAAY,iBAAiB,SAqB3D,CAAC;CAEL"}
